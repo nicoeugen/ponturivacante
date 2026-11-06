@@ -109,7 +109,7 @@ const { deal } = Astro.props;
             <span class="truncate">{deal.transportType === 'car' ? deal.flight.airline : `${deal.flight.airline} (dus-întors)`}</span>
           </span>
           <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">
-            {deal.flight.price === 0 ? 'Transport propriu' : `${deal.flight.price}\u00A0€`}
+            {deal.flight.price === 0 ? 'Transport propriu' : `${deal.flight.price}\u00A0€`} {deal.flight.price > 0 && <span class="text-[10px] text-slate-400 font-normal">/pers</span>}
           </span>
         </div>
 

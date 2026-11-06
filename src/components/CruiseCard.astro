@@ -97,11 +97,11 @@ const { cruise } = Astro.props;
       <div class="space-y-1.5 text-xs text-slate-600 border-t border-slate-100 pt-3">
         <div class="flex items-center justify-between gap-2">
           <span class="truncate">✈️ Zbor dus-întors ({cruise.flight.airline}):</span>
-          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">{cruise.flightPrice}&nbsp;€</span>
+          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">{cruise.flightPrice}&nbsp;€ <span class="text-[10px] text-slate-400 font-normal">/pers</span></span>
         </div>
         <div class="flex items-center justify-between gap-2">
           <span class="truncate">🚢 Cazare {cruise.nights} nopți + Mese gourmet:</span>
-          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">{cruise.cruisePrice}&nbsp;€</span>
+          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">{cruise.cruisePrice}&nbsp;€ <span class="text-[10px] text-slate-400 font-normal">/pers</span></span>
         </div>
       </div>
     </div>

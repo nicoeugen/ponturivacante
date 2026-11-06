@@ -217,7 +217,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
             <div class="text-xs text-slate-500 mb-0.5">{deal.transportType === 'car' ? '1. Transport' : '1. Bilet Avion Dus-Întors'}</div>
 
-            <div class="text-lg font-black text-slate-900">{deal.flight.price === 0 ? 'Transport Propriu' : `${deal.flight.price} €`}</div>
+            <div class="text-lg font-black text-slate-900">{deal.flight.price === 0 ? 'Transport Propriu' : `${deal.flight.price} €`} {deal.flight.price > 0 && <span class="text-xs font-normal text-slate-500">/pers</span>}</div>
 
             <div class="text-[11px] text-slate-500 font-semibold">{deal.transportType === 'car' ? 'Mașină personală / Fără avion' : deal.flight.airline}</div>
 
@@ -352,7 +352,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
               <h3 class="text-lg sm:text-xl font-bold text-slate-900">
 
-                Rezervă Zborul ({deal.flight.price} € dus-întors)
+                Rezervă Zborul ({deal.flight.price} € dus-întors / pers)
 
               </h3>
 
@@ -433,7 +433,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
             rel="noopener noreferrer"
             class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-rose-600/30 text-center"
           >
-            <span>✈️ {deal.flight.isConnecting ? `Rezervă Zbor (${deal.flight.airline} · ${deal.flight.price} €)` : `Site Oficial ${deal.flight.airline} (${deal.flight.price} €)`}</span>
+            <span>✈️ {deal.flight.isConnecting ? `Rezervă Zbor (${deal.flight.airline} · ${deal.flight.price} € / pers)` : `Site Oficial ${deal.flight.airline} (${deal.flight.price} € / pers)`}</span>
             <span>&rarr;</span>
           </a>
 

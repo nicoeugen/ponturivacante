@@ -86,7 +86,7 @@ const { cruise } = Astro.props;
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
           <div class="bg-white rounded-xl p-3 border border-slate-200/80 shadow-sm">
             <div class="text-xs text-slate-500 mb-0.5">1. Bilet Avion din România</div>
-            <div class="text-lg font-black text-slate-900">{cruise.flightPrice} €</div>
+            <div class="text-lg font-black text-slate-900">{cruise.flightPrice} € <span class="text-xs font-normal text-slate-500">/pers</span></div>
             <div class="text-[11px] text-slate-500">{cruise.flight.airline} dus-întors</div>
           </div>
           <div class="bg-white rounded-xl p-3 border border-slate-200/80 shadow-sm">
@@ -130,7 +130,7 @@ const { cruise } = Astro.props;
           <div class="flex items-center justify-between mb-3">
             <div class="flex items-center gap-3">
               <span class="w-8 h-8 rounded-full bg-rose-600 text-white font-black text-sm flex items-center justify-center">1</span>
-              <h4 class="font-bold text-base sm:text-lg text-slate-900">Rezervă Zborul spre Port ({cruise.flightPrice} €)</h4>
+              <h4 class="font-bold text-base sm:text-lg text-slate-900">Rezervă Zborul spre Port ({cruise.flightPrice} € / pers)</h4>
             </div>
             <span class="px-2.5 py-0.5 rounded bg-slate-100 font-bold text-xs">{cruise.flight.airline}</span>
           </div>
@@ -143,7 +143,7 @@ const { cruise } = Astro.props;
             rel="noopener noreferrer"
             class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shadow-sm"
           >
-            <span>✈️ Rezervă Zborul pe {cruise.flight.airline} ({cruise.flightPrice} €)</span>
+            <span>✈️ Rezervă Zborul pe {cruise.flight.airline} ({cruise.flightPrice} € / pers)</span>
             <span>&rarr;</span>
           </a>
         </div>

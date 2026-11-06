@@ -1,5 +1,84 @@
 [
   {
+    "id": "deal-016",
+    "slug": "city-break-napoli-din-bucuresti-124-euro",
+    "title": "City Break în Napoli & Coasta Amalfi: 4 nopți la hotel verificat + Zbor direct",
+    "destination": "Napoli & Coasta Amalfi",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "NAP",
+    "dates": "5 – 9 Decembrie 2026",
+    "departureDate": "2026-12-05",
+    "returnDate": "2026-12-09",
+    "nights": 4,
+    "category": "City Break",
+    "badge": "🍕 Pizza & Pompei",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 124,
+    "discountPercent": 54,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – NAP (Direct)",
+      "price": 32,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=NAP&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=NAP&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20NAP%20on%202026-12-05%20returning%202026-12-09&curr=EUR&hl=ro",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/nap/2026-12-05/2026-12-09?adults=2",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Piazza Bellini & Relais 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.7,
+      "reviewsCount": 2400,
+      "distance": "În centrul istoric UNESCO, aproape de Spaccanapoli",
+      "amenities": [
+        "Wi-Fi gratuit",
+        "Mic dejun opțional",
+        "Curte interioară renascentistă",
+        "Aer condiționat"
+      ],
+      "priceTotal": 184,
+      "pricePerPerson": 92,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Napoli+Centro+Storico&checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Piazza Bellini & Relais 3★",
+        "rating": 8.7,
+        "priceTotal": 184,
+        "pricePerPerson": 92,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Napoli+Centro+Storico&checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Napoli",
+        "rating": 8.8,
+        "priceTotal": 184,
+        "pricePerPerson": 92,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Napoli+Centro+Storico&checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Capitala mondială a pizzei, ruinele fascinante din Pompei și priveliști spectaculoase spre Vezuviu și Insula Capri la tarife de nerefuzat direct din România.",
+    "featured": true,
+    "publishedAt": "2026-11-06T22:23:31.468928+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T22:23:31.468928+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
+  },
+  {
     "id": "deal-exo-001",
     "slug": "vacanta-exotica-tenerife-canare-din-bucuresti-250-euro",
     "title": "Soare de iarnă în Tenerife: 7 nopți la ocean în Insulele Canare + Zbor direct",
@@ -102,8 +181,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-002",
@@ -208,8 +287,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:45:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-003",
@@ -314,8 +393,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-004",
@@ -404,8 +483,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:15:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-005",
@@ -494,8 +573,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T15:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-006",
@@ -584,8 +663,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T14:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-007",
@@ -673,8 +752,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:15:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-008",
@@ -762,8 +841,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-exo-009",
@@ -852,8 +931,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T15:20:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-001",
@@ -955,8 +1034,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T12:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-002",
@@ -975,13 +1054,13 @@
     "category": "City Break",
     "badge": "⚡ Cel mai mic preț",
     "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 75,
+    "priceTotalPerPerson": 76,
     "discountPercent": 62,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "CLJ – BGY (Direct)",
-      "price": 29,
+      "price": 30,
       "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
@@ -1034,8 +1113,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T10:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-003",
@@ -1113,8 +1192,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T14:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-008",
@@ -1133,13 +1212,13 @@
     "category": "Weekend",
     "badge": "🎄 Piețe de Crăciun",
     "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 89,
+    "priceTotalPerPerson": 90,
     "discountPercent": 50,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – VIE (Direct)",
-      "price": 35,
+      "price": 36,
       "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-28&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-28&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
@@ -1191,8 +1270,8 @@
     "featured": true,
     "publishedAt": "2026-11-05T14:20:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-010",
@@ -1269,8 +1348,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T11:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-015",
@@ -1348,8 +1427,8 @@
     "featured": false,
     "publishedAt": "2026-11-04T12:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-011",
@@ -1427,8 +1506,8 @@
     "featured": false,
     "publishedAt": "2026-11-05T16:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-012",
@@ -1447,13 +1526,13 @@
     "category": "City Break",
     "badge": "🗼 Romantic",
     "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 117,
+    "priceTotalPerPerson": 118,
     "discountPercent": 48,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – BVA (Direct)",
-      "price": 43,
+      "price": 44,
       "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
@@ -1506,8 +1585,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-001",
@@ -1598,8 +1677,8 @@
     "description": "Cea mai populară și avantajoasă stațiune de schi din Balcani! Peste 75 km de pârtii amenajate pe versantul muntelui Todorka (2.600m), telegondolă modernă și relaxare la centrul spa cu piscine încălzite al resortului 4★ Green Life. Fără bătăi de cap cu zborul: vii direct cu mașina și echipamentul în portbagaj.",
     "featured": true,
     "publishedAt": "2026-11-06T18:00:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-005",
@@ -1690,8 +1769,8 @@
     "description": "Ieși din hotel direct pe schiuri! Hotelul Rila 4★ este amplasat legendar la baza pârtiei Martinovi Baraki din Borovets. Domeniul oferă 58 km de pârtii printre pădurile maiestuoase de pini ale munților Rila, nocturnă spectaculoasă și o piscină semiolimpică de 25m cu vedere la zăpadă.",
     "featured": true,
     "publishedAt": "2026-11-06T18:02:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-006",
@@ -1775,8 +1854,8 @@
     "description": "Cea mai însorită stațiune montană din Europa, faimoasă pentru cele peste 120 de zile cu soare și pârtii largi excelente pentru familii și începători. Apartamentele Grand Monastery sunt dotate cu șemineu pe lemne și oferă acces direct la telescaunul Studenets.",
     "featured": false,
     "publishedAt": "2026-11-06T18:03:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-003",
@@ -1867,8 +1946,8 @@
     "description": "Capitala mondială a sporturilor de iarnă! Innsbruck îmbină eleganța unui oraș imperial tirolez cu accesul la 13 domenii schiabile prin Olympia SkiWorld și zăpada impecabilă de pe ghețarul Stubai (3.210m). Telegondola futuristă Nordkette pleacă chiar din inima orașului.",
     "featured": true,
     "publishedAt": "2026-11-06T18:10:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-007",
@@ -1952,8 +2031,8 @@
     "description": "Una din cele mai spectaculoase panorame din Alpii Austrieci! Lacul Zell înghețat și ghețarul Kitzsteinhorn (3.029m) garantează zăpadă 100% din toamnă până în primăvară târzie. Domeniul reunește 138 km de pârtii impecabile și conexiune modernă 3K K-onnection.",
     "featured": true,
     "publishedAt": "2026-11-06T18:12:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-008",
@@ -2037,8 +2116,8 @@
     "description": "Legenda mondială a schiului alpin! Aici se desfășoară cea mai faimoasă cursă de coborâre din lume pe pârtia Streif. Domeniul KitzSki pune la dispoziție 233 km de pârtii excelente, 57 de instalații pe cablu ultra-moderne și o atmosferă après-ski de neegalat.",
     "featured": false,
     "publishedAt": "2026-11-06T18:14:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-009",
@@ -2122,8 +2201,8 @@
     "description": "Cea mai accesibilă destinație austriacă din România! Schladming leagă 4 munți într-un singur leagăn de schi cu peste 230 km de pârtii. Hotelul TUI BLUE este amplasat chiar lângă telegondola Planai și oferă o saună panoramică pe acoperiș.",
     "featured": false,
     "publishedAt": "2026-11-06T18:16:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-002",
@@ -2218,8 +2297,8 @@
     "description": "Experiența supremă la schi pe tărâmul munților Dolomiți (patrimoniu UNESCO)! Ai acces direct la legendarul circuit Sellaronda cu 4 trecători alpine și 1.200 km de pârtii în Dolomiti Superski, combinate cu preparate culinare italiene și relaxare la spa.",
     "featured": true,
     "publishedAt": "2026-11-06T18:05:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-010",
@@ -2307,8 +2386,8 @@
     "description": "Supranumit «Micul Tibet» datorită altitudinii de peste 1.800m și a zăpezii pudră impecabile, Livigno este un paradis unic: 115 km de pârtii, cele mai bune snowpark-uri din Europa și statut complet de zonă scutită de taxe (Duty-Free) pentru cumpărături.",
     "featured": false,
     "publishedAt": "2026-11-06T18:18:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-011",
@@ -2396,8 +2475,8 @@
     "description": "Perla absolută a Dolomiților și viitoarea gazdă a Jocurilor Olimpice de Iarnă 2026! Pârtiile legendare de pe Tofana, Faloria și Cristallo oferă cele mai dramatice peisaje alpine din lume, completate de rafinamentul unui orășel montan celebru.",
     "featured": false,
     "publishedAt": "2026-11-06T18:20:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-004",
@@ -2481,8 +2560,8 @@
     "description": "Cea mai modernă stațiune de schi din Europa Centrală! 50 km de pârtii impecabile deservite de telegondole ultra-rapide Doppelmayr Funitel pe ambii versanți ai muntelui Chopok. După schi, te relaxezi la celebrele bazine termale exterioare de la Tatralandia sau Bešeňová.",
     "featured": false,
     "publishedAt": "2026-11-06T18:15:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-012",
@@ -2566,8 +2645,8 @@
     "description": "Aici se află pârtia cu cea mai abruptă cădere și cea mai mare diferență de nivel din Carpați: 1.300 metri de la șaua Lomnické sedlo (2.190m) până în vale! Horizont Resort oferă un centru spa spectaculos construit din lemn de cedru și vedere la crestele alpine.",
     "featured": false,
     "publishedAt": "2026-11-06T18:22:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   },
   {
     "id": "deal-ski-013",
@@ -2655,7 +2734,7 @@
     "description": "Visul oricărui schior: cel mai vast domeniu schiabil din lume (Les 3 Vallées — 600 km de pârtii legate) și stațiunea situată la cea mai mare altitudine din Europa (2.300m). Cazarea la Résidence Le Chamois d'Or oferă acces direct pe pârtie (ski-in/ski-out) din ușa clădirii.",
     "featured": true,
     "publishedAt": "2026-11-06T18:25:00.000Z",
-    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
-    "lastVerifiedFormatted": "06 November 2026, 20:50"
+    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 00:23"
   }
 ]

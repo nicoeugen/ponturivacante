@@ -29,10 +29,10 @@ jobs:
         run: |
           git config --local user.email "bot@ponturivacante.ro"
           git config --local user.name "Ponturi Vacanțe Bot"
-          git add data/deals.json
+          git add data/deals.json data/romania_deals.json data/cruises.json
           if git diff --staged --quiet; then
             echo "Nicio modificare de preț sau status detectată."
           else
-            git commit -m "[auto] Verificare tarife & actualizare automată oferte ($(date +'%Y-%m-%d %H:%M'))"
+            git commit -m "[auto] Verificare tarife & publicare oferte noi ($(date +'%Y-%m-%d %H:%M'))"
             git push
           fi

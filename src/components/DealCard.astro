@@ -103,19 +103,23 @@ const { deal } = Astro.props;
 
       <!-- Cost Breakdown List with Airline & Accommodation Multi-Platform Badges -->
       <div class="bg-slate-50 rounded-2xl p-3 border border-slate-100 space-y-2 mb-4 text-xs sm:text-sm">
-        <div class="flex items-center justify-between text-slate-700">
-          <span class="flex items-center gap-1.5 font-medium">
-            <span>{deal.transportType === 'car' ? '🚗' : '✈️'}</span> 
-            <span>{deal.transportType === 'car' ? deal.flight.airline : `${deal.flight.airline} (${deal.flight.baggageInfo ? deal.flight.baggageInfo.split('(')[0] : 'dus-întors'})`}</span>
+        <div class="flex items-center justify-between text-slate-700 gap-2">
+          <span class="flex items-center gap-1.5 font-medium min-w-0 truncate">
+            <span class="flex-shrink-0">{deal.transportType === 'car' ? '🚗' : '✈️'}</span> 
+            <span class="truncate">{deal.transportType === 'car' ? deal.flight.airline : `${deal.flight.airline} (dus-întors)`}</span>
           </span>
-          <span class="font-bold text-slate-900">{deal.flight.price === 0 ? 'Transport propriu' : `${deal.flight.price} €`}</span>
+          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">
+            {deal.flight.price === 0 ? 'Transport propriu' : `${deal.flight.price}\u00A0€`}
+          </span>
         </div>
 
-        <div class="flex items-center justify-between text-slate-700">
-          <span class="flex items-center gap-1.5 font-medium">
-            <span>🏨</span> Cazare {deal.nights} nopți (Booking/Agoda):
+        <div class="flex items-center justify-between text-slate-700 gap-2">
+          <span class="flex items-center gap-1.5 font-medium min-w-0 truncate">
+            <span class="flex-shrink-0">🏨</span> <span class="truncate">Cazare {deal.nights} nopți (Booking/Agoda):</span>
           </span>
-          <span class="font-bold text-slate-900">{deal.hotel.pricePerPerson} € <span class="text-[10px] text-slate-400 font-normal">/pers</span></span>
+          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">
+            {deal.hotel.pricePerPerson}&nbsp;€ <span class="text-[10px] text-slate-400 font-normal">/pers</span>
+          </span>
         </div>
       </div>
     </div>
@@ -129,8 +133,8 @@ const { deal } = Astro.props;
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
           <span>Total verificat:</span>
         </div>
-        <div class="text-2xl font-black text-rose-600 leading-none">
-          {deal.priceTotalPerPerson} €
+        <div class="text-2xl font-black text-rose-600 leading-none whitespace-nowrap">
+          {deal.priceTotalPerPerson}&nbsp;€
           <span class="text-xs font-medium text-slate-500">/ pers</span>
         </div>
       </div>

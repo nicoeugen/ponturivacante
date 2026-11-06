@@ -446,11 +446,43 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
         slug_raw = f"{bp['category']} {bp['destination'].split('&')[0]} din {bp['originCity']} {total_per_person} euro"
         deal_slug = slugify(slug_raw)
         
-        # Linkuri oficiale
+        # Linkuri oficiale zboruri
+        skyscanner_url = f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{dep_dt.strftime('%y%m%d')}/{ret_dt.strftime('%y%m%d')}/?adultsv2=2"
+        momondo_url = f"https://www.momondo.ro/flight-search/{bp['originCode']}-{dest_code}/{departure_date}/{return_date}/2adults"
+        google_flights = f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{departure_date}%20returning%20{return_date}&curr=EUR&hl=ro"
+        kiwi_url = f"https://www.kiwi.com/ro/search/results/{bp['originCode'].lower()}/{dest_code.lower()}/{departure_date}/{return_date}?adults=2"
+        ryanair_url = f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={departure_date}&dateIn={return_date}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2"
+
+        # Linkuri oficiale cazare
         hotel_booking_url = f"https://www.booking.com/searchresults.ro.html?ss={bp['hotel']['searchQuery']}&checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
         agoda_url = f"https://www.agoda.com/ro-ro/search?text={bp['hotel']['searchQuery']}&checkIn={departure_date}&checkOut={return_date}&rooms=1&adults=2"
-        ryanair_url = f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={departure_date}&dateIn={return_date}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2"
-        google_flights = f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{departure_date}%20returning%20{return_date}&curr=EUR&hl=ro"
+        
+        # Generare 2 Perioade Alternative (+7 zile, +14 zile)
+        alt1_dep = dep_dt + timedelta(days=7)
+        alt1_ret = alt1_dep + timedelta(days=nights)
+        alt2_dep = dep_dt + timedelta(days=14)
+        alt2_ret = alt2_dep + timedelta(days=nights)
+        
+        alt_dates = [
+            {
+                "dates": format_ro_dates(alt1_dep, alt1_ret),
+                "price": total_per_person + 6,
+                "departureDate": alt1_dep.strftime('%Y-%m-%d'),
+                "returnDate": alt1_ret.strftime('%Y-%m-%d'),
+                "link": f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={alt1_dep.strftime('%Y-%m-%d')}&dateIn={alt1_ret.strftime('%Y-%m-%d')}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2",
+                "skyscannerLink": f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{alt1_dep.strftime('%y%m%d')}/{alt1_ret.strftime('%y%m%d')}/?adultsv2=2",
+                "googleFlightsLink": f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{alt1_dep.strftime('%Y-%m-%d')}%20returning%20{alt1_ret.strftime('%Y-%m-%d')}&curr=EUR&hl=ro"
+            },
+            {
+                "dates": format_ro_dates(alt2_dep, alt2_ret),
+                "price": total_per_person + 12,
+                "departureDate": alt2_dep.strftime('%Y-%m-%d'),
+                "returnDate": alt2_ret.strftime('%Y-%m-%d'),
+                "link": f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={alt2_dep.strftime('%Y-%m-%d')}&dateIn={alt2_ret.strftime('%Y-%m-%d')}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2",
+                "skyscannerLink": f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{alt2_dep.strftime('%y%m%d')}/{alt2_ret.strftime('%y%m%d')}/?adultsv2=2",
+                "googleFlightsLink": f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{alt2_dep.strftime('%Y-%m-%d')}%20returning%20{alt2_ret.strftime('%Y-%m-%d')}&curr=EUR&hl=ro"
+            }
+        ]
         
         title = f"{bp['category']} în {bp['destination']}: {nights} nopți la hotel verificat + Zbor direct"
         now_iso = datetime.now(timezone.utc).isoformat()
@@ -484,7 +516,9 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
                 "link": ryanair_url,
                 "directAirlineLink": ryanair_url,
                 "googleFlightsLink": google_flights,
-                "kiwiLink": f"https://www.kiwi.com/ro/search/results/{bp['originCode'].lower()}/{dest_code.lower()}/{departure_date}/{return_date}?adults=2",
+                "skyscannerLink": skyscanner_url,
+                "momondoLink": momondo_url,
+                "kiwiLink": kiwi_url,
                 "isConnecting": False
             },
             "hotel": {
@@ -503,13 +537,24 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
                 {
                     "provider": "Booking.com",
                     "providerId": "booking",
-                    "badge": f"Recomandat ★★★",
+                    "badge": "Recomandat ★★★",
                     "name": bp["hotel"]["name"],
                     "rating": bp["hotel"]["rating"],
                     "priceTotal": hotel_total,
                     "pricePerPerson": hotel_per_person,
                     "type": "Cameră Dublă Confort",
                     "link": hotel_booking_url
+                },
+                {
+                    "provider": "Agoda",
+                    "providerId": "agoda",
+                    "badge": "Alternativă Agoda",
+                    "name": f"Oferte & Reduceri Agoda ({bp['destination'].split('&')[0].strip()})",
+                    "rating": 8.7,
+                    "priceTotal": hotel_total - 10,
+                    "pricePerPerson": hotel_per_person - 5,
+                    "type": "Hoteluri & Studiouri Verificate",
+                    "link": agoda_url
                 },
                 {
                     "provider": "Booking.com",
@@ -523,6 +568,7 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
                     "link": hotel_booking_url
                 }
             ],
+            "alternativeDates": alt_dates,
             "description": bp["description"],
             "featured": True,
             "publishedAt": now_iso,

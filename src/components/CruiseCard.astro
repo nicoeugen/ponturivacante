@@ -95,13 +95,13 @@ const { cruise } = Astro.props;
 
       <!-- Breakdown: Zbor + Croazieră -->
       <div class="space-y-1.5 text-xs text-slate-600 border-t border-slate-100 pt-3">
-        <div class="flex items-center justify-between">
-          <span>✈️ Zbor dus-întors ({cruise.flight.airline}):</span>
-          <span class="font-bold text-slate-900">{cruise.flightPrice} €</span>
+        <div class="flex items-center justify-between gap-2">
+          <span class="truncate">✈️ Zbor dus-întors ({cruise.flight.airline}):</span>
+          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">{cruise.flightPrice}&nbsp;€</span>
         </div>
-        <div class="flex items-center justify-between">
-          <span>🚢 Cazare {cruise.nights} nopți + Mese gourmet:</span>
-          <span class="font-bold text-slate-900">{cruise.cruisePrice} €</span>
+        <div class="flex items-center justify-between gap-2">
+          <span class="truncate">🚢 Cazare {cruise.nights} nopți + Mese gourmet:</span>
+          <span class="font-bold text-slate-900 whitespace-nowrap flex-shrink-0 ml-2">{cruise.cruisePrice}&nbsp;€</span>
         </div>
       </div>
     </div>
@@ -112,8 +112,8 @@ const { cruise } = Astro.props;
     <div class="pt-4 flex items-center justify-between gap-3">
       <div>
         <div class="text-[10px] font-semibold uppercase tracking-wider text-slate-400">Pachet complet:</div>
-        <div class="text-2xl font-black text-indigo-600 leading-none">
-          {cruise.priceTotalPerPerson} €
+        <div class="text-2xl font-black text-indigo-600 leading-none whitespace-nowrap">
+          {cruise.priceTotalPerPerson}&nbsp;€
           <span class="text-xs font-medium text-slate-500">/ pers</span>
         </div>
       </div>

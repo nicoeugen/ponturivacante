@@ -183,5 +183,99 @@
     "publishedAt": "2026-11-06T15:00:00Z",
     "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
     "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "cruise-005",
+    "slug": "croaziera-caraibe-bahamas-msc-seascape-din-miami-749-euro",
+    "title": "Croazieră de Vis în Caraibe & Bahamas: 7 nopți pe MSC Seascape (Ocean Cay & Jamaica) + Zbor",
+    "destination": "Caraibe & Bahamas",
+    "cruiseLine": "MSC Cruises",
+    "shipName": "MSC Seascape ★★★★★",
+    "boardingPort": "Miami (Florida, SUA)",
+    "originCity": "București",
+    "originCode": "OTP",
+    "dates": "6 – 13 Februarie 2027",
+    "departureDate": "2027-02-06",
+    "returnDate": "2027-02-13",
+    "nights": 7,
+    "itinerary": [
+      "Miami (Florida, SUA) - Îmbarcare",
+      "Ocean Cay MSC Marine Reserve (Insulă privată Bahamas)",
+      "Nassau (Bahamas)",
+      "Navigare pe apele turcoaz din Marea Caraibilor",
+      "San Juan (Puerto Rico)",
+      "Puerto Plata (Republica Dominicană)",
+      "Navigare pe Ocean",
+      "Miami (Florida, SUA) - Debarcare"
+    ],
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 749,
+    "flightPrice": 340,
+    "cruisePrice": 409,
+    "flight": {
+      "airline": "Lufthansa / United",
+      "route": "OTP – MIA (1 escală optimă)",
+      "price": 340,
+      "link": "https://www.kiwi.com/ro/search/results/bucuresti-romania/miami-statele-unite-ale-americii/2027-02-05/2027-02-14"
+    },
+    "cruiseDetails": {
+      "cabinType": "Cabină dublă exterioară / vedere ocean",
+      "mealPlan": "Pensiune Completă Gourmet (restaurante internaționale, snack bar 20h/zi)",
+      "entertainment": "Robotron (rollercoaster pe mare), spectacole de Broadway, Infinity pools",
+      "link": "https://www.logitravel.com/croaziere/msc-cruises-msc-seascape"
+    },
+    "badge": "🌴 Caraibe & Bahamas",
+    "description": "Fugi la soare tropical în plină iarnă! Nava ultramodernă MSC Seascape te poartă pe apele de safir ale Caraibilor, cu zi relaxantă pe insula privată Ocean Cay din Bahamas și zbor dus-întors inclus.",
+    "featured": true,
+    "publishedAt": "2026-11-06T22:30:00Z",
+    "lastVerifiedAt": "2026-11-06T22:30:00.000000+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 22:30"
+  },
+  {
+    "id": "cruise-006",
+    "slug": "croaziera-insulele-canare-madeira-costa-diadema-din-barcelona-469-euro",
+    "title": "Croazieră Insulele Canare & Madeira: 7 nopți de primăvară pe Costa Diadema (Tenerife & Funchal) + Zbor",
+    "destination": "Insulele Canare & Madeira",
+    "cruiseLine": "Costa Cruises",
+    "shipName": "Costa Diadema",
+    "boardingPort": "Barcelona, Spania",
+    "originCity": "București",
+    "originCode": "OTP",
+    "dates": "20 – 27 Martie 2027",
+    "departureDate": "2027-03-20",
+    "returnDate": "2027-03-27",
+    "nights": 7,
+    "itinerary": [
+      "Barcelona (Spania) - Îmbarcare",
+      "Cadiz / Sevilla (Spania)",
+      "Funchal (Insula Madeira, Portugalia)",
+      "Santa Cruz de Tenerife (Insulele Canare)",
+      "Las Palmas (Gran Canaria)",
+      "Arrecife (Lanzarote)",
+      "Navigare pe Oceanul Atlantic",
+      "Barcelona (Spania) - Debarcare"
+    ],
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 469,
+    "flightPrice": 65,
+    "cruisePrice": 404,
+    "flight": {
+      "airline": "Wizz Air",
+      "route": "OTP – BCN (Direct)",
+      "price": 65,
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/BCN/2027-03-19/2027-03-28/2/0/0/null"
+    },
+    "cruiseDetails": {
+      "cabinType": "Cabină interioară elegantă Classic",
+      "mealPlan": "Pensiune Completă Italiană (gastronomie mediteraneană, bufet)",
+      "entertainment": "Cinema 4D, Teatru pe 3 nivele, Samsara Spa & promenadă panoramică",
+      "link": "https://www.logitravel.com/croaziere/costa-cruises-costa-diadema"
+    },
+    "badge": "🌸 Canare & Madeira",
+    "description": "Primăvara eternă pe ocean! O rută spectaculoasă ce leagă grădinile exotice din Madeira cu plajele vulcanice din Tenerife și Gran Canaria, cu zbor direct la Barcelona și masă inclusă pe navă.",
+    "featured": true,
+    "publishedAt": "2026-11-06T22:35:00Z",
+    "lastVerifiedAt": "2026-11-06T22:35:00.000000+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 22:35"
   }
 ]

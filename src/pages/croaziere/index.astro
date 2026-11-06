@@ -11,49 +11,174 @@ import cruises from '../../../data/cruises.json';
   description="Pachete complete de croazieră DIY: zboruri ieftine din București/Cluj către porturile de îmbarcare + 7 nopți pe vas cu pensiune completă inclusă."
 >
   <!-- Hero Section -->
-  <section class="gradient-hero text-white py-16 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto text-center">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/20 backdrop-blur border border-indigo-400/30 text-xs sm:text-sm font-bold text-indigo-200 mb-6 shadow-md">
-        <span>🚢 EXPERIENȚE PE MARE & OCEAN</span>
+  <section class="gradient-hero text-white pt-5 sm:pt-8 pb-8 sm:pb-12 px-3 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <!-- Announcement Badges (Compacte pe mobil) -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-3">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cyan-400/20 backdrop-blur border border-cyan-300/40 text-xs sm:text-sm font-bold text-cyan-200 shadow-md">
+          <span>🚢 EXPERIENȚE PE MARE & OCEAN</span>
+        </div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-indigo-400/20 backdrop-blur border border-indigo-300/40 text-xs sm:text-sm font-bold text-indigo-200 shadow-md">
+          <span>🍽️ Pensiune Completă Gourmet Inclusă</span>
+        </div>
       </div>
 
-      <h1 class="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight mb-4">
-        Croaziere de Lux la <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-indigo-300">prețuri pe cont propriu</span>
+      <h1 class="text-xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-2 sm:mb-2.5">
+        Croaziere de Lux la <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-300 to-indigo-300">jumătate de preț</span>
       </h1>
 
-      <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-        Nu plăti mii de euro la agenții! Combinăm zborurile low-cost din România direct spre porturile de îmbarcare (Barcelona, Civitavecchia, Pireu, Dubai) cu tarifele oficiale de croazieră cu pensiune completă.
+      <p class="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mb-4 sm:mb-5 leading-relaxed px-2">
+        Nu plăti mii de euro la agenții! Combinăm zborurile low-cost din România direct spre porturile de îmbarcare cu tarifele oficiale de croazieră și mese gourmet incluse.
       </p>
 
-      <div class="flex flex-wrap items-center justify-center gap-3 text-xs font-semibold text-slate-300">
-        <span class="px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur border border-white/10">✓ Pensiune Completă (Gourmet)</span>
-        <span class="px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur border border-white/10">✓ 4-5 țări într-o săptămână</span>
-        <span class="px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur border border-white/10">✓ Spectacole Broadway incluse</span>
+      <!-- Interactive Filter & Search Box -->
+      <div id="filtre-croaziere" class="bg-white/95 backdrop-blur p-3.5 sm:p-5 rounded-2xl shadow-2xl border border-white/30 text-slate-800 text-left max-w-4xl mx-auto space-y-3">
+        <!-- Quick Region Tabs -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
+          <div class="text-[11px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
+            <span>Destinație rapidă:</span>
+          </div>
+          <div class="grid grid-cols-3 sm:inline-flex p-1 bg-slate-100 rounded-xl gap-1 text-xs font-semibold text-slate-600 w-full sm:w-auto">
+            <button 
+              type="button" 
+              data-tab="all" 
+              class="cruise-tab active px-2 sm:px-3.5 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer font-bold text-center truncate"
+            >
+              <span>🌟</span> <span class="hidden sm:inline">Toate Rutele</span><span class="sm:hidden">Toate</span>
+            </button>
+            <button 
+              type="button" 
+              data-tab="mediterana" 
+              class="cruise-tab px-2 sm:px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all cursor-pointer font-medium text-center truncate"
+            >
+              <span>🌊</span> <span class="hidden sm:inline">Mediterana & Grecia</span><span class="sm:hidden">Mediterana</span>
+            </button>
+            <button 
+              type="button" 
+              data-tab="exotic" 
+              class="cruise-tab px-2 sm:px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all cursor-pointer font-medium text-center truncate"
+            >
+              <span>🌴</span> <span class="hidden sm:inline">Caraibe & Dubai</span><span class="sm:hidden">Exotice</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Search Input -->
+        <div class="relative">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400 text-base">
+            🔍
+          </span>
+          <input 
+            type="text" 
+            id="filter-cruise-search" 
+            placeholder="Caută destinație, navă sau port (ex: Mediterana, Caraibe, Atena, MSC, Costa, Barcelona, Dubai...)" 
+            class="w-full bg-slate-100 border border-slate-200 rounded-xl pl-10 pr-4 py-2.5 text-xs sm:text-sm font-medium text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+          />
+        </div>
+
+        <!-- Dropdown Selectors Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">
+          <!-- Filter 1: Destinație -->
+          <div>
+            <label class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+              🗺️ Regiune / Itinerar
+            </label>
+            <select 
+              id="filter-cruise-dest" 
+              class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all cursor-pointer"
+            >
+              <option value="all">Toate destinațiile</option>
+              <option value="Mediterana de Vest">🌊 Mediterana de Vest</option>
+              <option value="Insulele Grecești">🇬🇷 Insulele Grecești & Egee</option>
+              <option value="Caraibe & Bahamas">🌴 Caraibe & Bahamas</option>
+              <option value="Emiratele Arabe & Golful Persic">☀️ Golful Persic & Dubai</option>
+              <option value="Insulele Canare & Madeira">🌸 Canare & Madeira</option>
+              <option value="Fiordurile Norvegiene">🏔️ Fiordurile Norvegiene</option>
+            </select>
+          </div>
+
+          <!-- Filter 2: Companie -->
+          <div>
+            <label class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+              🚢 Companie de Croazieră
+            </label>
+            <select 
+              id="filter-cruise-line" 
+              class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all cursor-pointer"
+            >
+              <option value="all">Toate companiile</option>
+              <option value="MSC Cruises">MSC Cruises</option>
+              <option value="Costa Cruises">Costa Cruises</option>
+            </select>
+          </div>
+
+          <!-- Filter 3: Buget -->
+          <div>
+            <label class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+              💰 Buget Maxim / Persoană
+            </label>
+            <select 
+              id="filter-cruise-budget" 
+              class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all cursor-pointer"
+            >
+              <option value="all">Oricare buget</option>
+              <option value="450">Sub 450 € (Super Ofertă)</option>
+              <option value="550">Sub 550 € / pers</option>
+              <option value="650">Sub 650 € / pers</option>
+              <option value="800">Sub 800 € / pers</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Cruises Grid Section -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-    <div class="flex items-center justify-between mb-8">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-16 relative z-20">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
       <div>
-        <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-          Pachete de Croazieră Verificate ({cruises.length})
+        <h2 class="text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+          <span>Pachete de Croazieră Verificate</span>
+          <span id="cruises-count-badge" class="text-xs font-bold px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700">
+            {cruises.length} oferte active
+          </span>
         </h2>
         <p class="text-xs sm:text-sm text-slate-500">
-          Prețuri totale calculate per persoană: bilet avion dus-întors din România + cabină dublă pe navă.
+          Prețuri totale calculate per persoană: bilet avion dus-întors din România + cabină pe navă cu pensiune completă.
         </p>
       </div>
 
-      <span class="px-3 py-1 rounded-full bg-indigo-100 text-indigo-900 text-xs font-bold">
-        Oferte Active
-      </span>
+      <button 
+        id="btn-reset-cruise-filters" 
+        class="hidden text-xs font-bold text-indigo-600 hover:text-indigo-800 underline cursor-pointer text-left sm:text-right"
+      >
+        Resetează toate filtrele
+      </button>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Cruises Grid -->
+    <div id="cruises-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
       {cruises.map(cruise => (
         <CruiseCard cruise={cruise} />
       ))}
+    </div>
+
+    <!-- No Cruises Found State -->
+    <div id="no-cruises-state" class="hidden text-center py-16 px-4 bg-white rounded-3xl border border-slate-200 shadow-sm mt-4">
+      <div class="text-4xl mb-3">🚢</div>
+      <h3 class="text-lg font-bold text-slate-900 mb-1">Nicio croazieră nu corespunde filtrelor selectate</h3>
+      <p class="text-xs sm:text-sm text-slate-500 max-w-md mx-auto mb-5">
+        Încearcă să crești bugetul sau să selectezi „Toate destinațiile” pentru a vedea toate ofertele active.
+      </p>
+      <button 
+        id="btn-clear-empty-filters" 
+        class="inline-flex items-center px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-sm transition-colors cursor-pointer"
+      >
+        Arată toate croazierele
+      </button>
     </div>
   </section>
 
@@ -61,3 +186,137 @@ import cruises from '../../../data/cruises.json';
   <CommunityBanner />
   <Newsletter />
 </Layout>
+
+<script is:inline>
+  (function() {
+    const searchInput = document.getElementById('filter-cruise-search');
+    const destSelect = document.getElementById('filter-cruise-dest');
+    const lineSelect = document.getElementById('filter-cruise-line');
+    const budgetSelect = document.getElementById('filter-cruise-budget');
+    const tabButtons = document.querySelectorAll('.cruise-tab');
+    const resetBtn = document.getElementById('btn-reset-cruise-filters');
+    const emptyClearBtn = document.getElementById('btn-clear-empty-filters');
+    const countBadge = document.getElementById('cruises-count-badge');
+    const noResults = document.getElementById('no-cruises-state');
+    const cruiseCards = document.querySelectorAll('.cruise-card');
+
+    let activeTab = 'all';
+
+    function applyFilters() {
+      const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+      const selectedDest = destSelect ? destSelect.value : 'all';
+      const selectedLine = lineSelect ? lineSelect.value : 'all';
+      const maxBudget = budgetSelect && budgetSelect.value !== 'all' ? parseFloat(budgetSelect.value) : Infinity;
+
+      let visibleCount = 0;
+
+      cruiseCards.forEach(card => {
+        const destination = card.getAttribute('data-destination') || '';
+        const cruiseline = card.getAttribute('data-cruiseline') || '';
+        const price = parseFloat(card.getAttribute('data-price') || '0');
+        const title = card.getAttribute('data-title') || '';
+        const ship = card.getAttribute('data-ship') || '';
+        const port = card.getAttribute('data-port') || '';
+
+        // Search match
+        const matchesSearch = !query || 
+          title.includes(query) || 
+          ship.includes(query) || 
+          port.includes(query) || 
+          destination.toLowerCase().includes(query) || 
+          cruiseline.toLowerCase().includes(query);
+
+        // Destination match
+        const matchesDest = selectedDest === 'all' || destination === selectedDest;
+
+        // Cruise Line match
+        const matchesLine = selectedLine === 'all' || cruiseline === selectedLine;
+
+        // Budget match
+        const matchesBudget = price <= maxBudget;
+
+        // Quick Tab match
+        let matchesTab = true;
+        if (activeTab === 'mediterana') {
+          matchesTab = destination.includes('Mediterana') || destination.includes('Grecești');
+        } else if (activeTab === 'exotic') {
+          matchesTab = destination.includes('Caraibe') || destination.includes('Golful Persic') || destination.includes('Dubai');
+        }
+
+        const isVisible = matchesSearch && matchesDest && matchesLine && matchesBudget && matchesTab;
+
+        if (isVisible) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      // Update count badge
+      if (countBadge) {
+        countBadge.textContent = visibleCount + (visibleCount === 1 ? ' ofertă găsită' : ' oferte active');
+      }
+
+      // Show/Hide Empty State
+      if (noResults) {
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      }
+
+      // Reset button visibility
+      const hasActiveFilters = query || selectedDest !== 'all' || selectedLine !== 'all' || (budgetSelect && budgetSelect.value !== 'all') || activeTab !== 'all';
+      if (resetBtn) {
+        if (hasActiveFilters) {
+          resetBtn.classList.remove('hidden');
+        } else {
+          resetBtn.classList.add('hidden');
+        }
+      }
+    }
+
+    // Tab buttons event
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabButtons.forEach(b => {
+          b.classList.remove('active', 'bg-white', 'text-slate-900', 'shadow-sm', 'font-bold');
+          b.classList.add('text-slate-600', 'font-medium');
+        });
+        btn.classList.add('active', 'bg-white', 'text-slate-900', 'shadow-sm', 'font-bold');
+        btn.classList.remove('text-slate-600', 'font-medium');
+        activeTab = btn.getAttribute('data-tab') || 'all';
+        applyFilters();
+      });
+    });
+
+    // Inputs event listeners
+    if (searchInput) searchInput.addEventListener('input', applyFilters);
+    if (destSelect) destSelect.addEventListener('change', applyFilters);
+    if (lineSelect) lineSelect.addEventListener('change', applyFilters);
+    if (budgetSelect) budgetSelect.addEventListener('change', applyFilters);
+
+    function resetAllFilters() {
+      if (searchInput) searchInput.value = '';
+      if (destSelect) destSelect.value = 'all';
+      if (lineSelect) lineSelect.value = 'all';
+      if (budgetSelect) budgetSelect.value = 'all';
+      activeTab = 'all';
+      tabButtons.forEach(b => {
+        if (b.getAttribute('data-tab') === 'all') {
+          b.classList.add('active', 'bg-white', 'text-slate-900', 'shadow-sm', 'font-bold');
+          b.classList.remove('text-slate-600', 'font-medium');
+        } else {
+          b.classList.remove('active', 'bg-white', 'text-slate-900', 'shadow-sm', 'font-bold');
+          b.classList.add('text-slate-600', 'font-medium');
+        }
+      });
+      applyFilters();
+    }
+
+    if (resetBtn) resetBtn.addEventListener('click', resetAllFilters);
+    if (emptyClearBtn) emptyClearBtn.addEventListener('click', resetAllFilters);
+  })();
+</script>

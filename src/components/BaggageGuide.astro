@@ -1,0 +1,42 @@
+---
+import airlines from '../../data/airlines.json';
+---
+
+<div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm my-8">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="text-xl">🧳</span>
+    <h3 class="text-lg font-bold text-slate-900">
+      Ghidul Dimensiunilor de Bagaj pe Companii
+    </h3>
+  </div>
+  <p class="text-xs text-slate-500 mb-6">
+    Fiecare companie are reguli stricte pentru bagajul mic gratuit care intră sub scaunul din față. Iată dimensiunile maxime admise:
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+    {airlines.map(airline => (
+      <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 hover:border-slate-300 transition-all">
+        <div class="flex items-center justify-between mb-2">
+          <span class="font-extrabold text-sm text-slate-900 flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full" style={`background-color: ${airline.color}`}></span>
+            {airline.name}
+          </span>
+          <span class={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${airline.badgeBg}`}>
+            {airline.type}
+          </span>
+        </div>
+
+        <div class="text-xs font-bold text-rose-600 mb-1">
+          ✓ Gratuit: {airline.baggage.dimensions}
+        </div>
+        <p class="text-[11px] text-slate-600 leading-tight mb-2">
+          {airline.baggage.free}
+        </p>
+
+        <div class="text-[10px] text-slate-400 border-t border-slate-200/60 pt-2 flex items-center justify-between">
+          <span>Check-in: {airline.baggage.checkIn}</span>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>

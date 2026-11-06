@@ -1,0 +1,199 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import DealCard from '../components/DealCard.astro';
+import CommunityBanner from '../components/CommunityBanner.astro';
+import Newsletter from '../components/Newsletter.astro';
+import deals from '../../data/deals.json';
+
+// Sort deals with newest first
+const sortedDeals = [...deals].sort((a, b) => 
+  new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+);
+---
+
+<Layout title="Ponturi Vacanțe Ieftine din România — Zbor + Cazare">
+  <!-- Hero Section with Filter Controls -->
+  <Hero />
+
+  <!-- Deals Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-20">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
+      <div>
+        <h2 class="text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+          <span>Cele mai noi oferte verificate</span>
+          <span id="active-deals-badge" class="text-xs font-bold px-2 py-0.5 rounded-full bg-rose-100 text-rose-700">
+            {deals.length} oferte active
+          </span>
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500">
+          Prețuri calculate per persoană: bilet avion dus-întors (sau transport propriu cu mașina) + cazare verificată.
+        </p>
+      </div>
+
+      <!-- Reset Filter Button (Hidden by default) -->
+      <button 
+        id="btn-reset-filters" 
+        class="hidden text-xs font-bold text-rose-600 hover:text-rose-800 underline cursor-pointer text-left sm:text-right"
+      >
+        Resetează toate filtrele
+      </button>
+    </div>
+
+    <!-- Deals Grid -->
+    <div id="deals-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      {sortedDeals.map(deal => (
+        <DealCard deal={deal} />
+      ))}
+    </div>
+
+    <!-- No Deals Found State (Hidden by default) -->
+    <div id="no-deals-state" class="hidden text-center py-16 bg-white rounded-3xl border border-slate-200 p-8">
+      <div class="text-5xl mb-3">🔍</div>
+      <h3 class="text-lg font-bold text-slate-800 mb-1">Nu am găsit oferte pentru această combinație</h3>
+      <p class="text-sm text-slate-500 mb-4">Încearcă să alegi alt oraș de plecare sau să mărești bugetul.</p>
+      <button 
+        id="btn-reset-state" 
+        class="px-5 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-rose-600 transition-colors"
+      >
+        Afișează toate ofertele
+      </button>
+    </div>
+  </section>
+
+  <!-- Community Callout: Telegram + WhatsApp -->
+  <CommunityBanner />
+
+  <!-- Email Newsletter Subscription -->
+  <Newsletter />
+
+  <!-- Client-side filter script -->
+  <script is:inline>
+    const filterSearch = document.getElementById('filter-search');
+    const filterOrigin = document.getElementById('filter-origin');
+    const filterBudget = document.getElementById('filter-budget');
+    const filterCategory = document.getElementById('filter-category');
+    const btnReset = document.getElementById('btn-reset-filters');
+    const btnResetState = document.getElementById('btn-reset-state');
+    const cards = document.querySelectorAll('.deal-card');
+    const noDealsState = document.getElementById('no-deals-state');
+    const badge = document.getElementById('active-deals-badge');
+    const transportTabs = document.querySelectorAll('.transport-tab');
+
+    let currentTransport = 'all';
+
+    function updateOriginOptions(transportMode) {
+      if (!filterOrigin) return;
+      const originLabel = document.getElementById('filter-origin-label');
+      const isCar = (transportMode === 'car');
+      
+      if (originLabel) {
+        originLabel.innerHTML = isCar ? '🚗 Oraș de plecare' : '🛫 Oraș de plecare';
+      }
+
+      const options = filterOrigin.querySelectorAll('option');
+      options.forEach(opt => {
+        if (opt.value === 'all') {
+          opt.textContent = 'Toate orașele din România';
+          return;
+        }
+        const city = opt.dataset.city || opt.value;
+        const code = opt.dataset.code;
+        if (isCar || !code) {
+          opt.textContent = city;
+        } else {
+          opt.textContent = `${city} (${code})`;
+        }
+      });
+    }
+
+    function setTransport(val) {
+      currentTransport = val;
+      transportTabs.forEach(tab => {
+        const isMatch = (tab.dataset.transport === val);
+        if (isMatch) {
+          tab.classList.add('active', 'bg-white', 'text-slate-900', 'shadow-sm', 'font-bold');
+          tab.classList.remove('text-slate-600', 'font-medium', 'hover:bg-white/60');
+        } else {
+          tab.classList.remove('active', 'bg-white', 'text-slate-900', 'shadow-sm', 'font-bold');
+          tab.classList.add('text-slate-600', 'font-medium', 'hover:bg-white/60');
+        }
+      });
+      updateOriginOptions(val);
+      applyFilters();
+    }
+
+    transportTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        setTransport(tab.dataset.transport || 'all');
+      });
+    });
+
+    function applyFilters() {
+      const query = (filterSearch?.value || '').trim().toLowerCase();
+      const selectedOrigin = filterOrigin?.value || 'all';
+      const selectedBudget = filterBudget?.value || 'all';
+      const selectedCategory = filterCategory?.value || 'all';
+
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const origin = card.dataset.origin;
+        const category = card.dataset.category;
+        const price = parseFloat(card.dataset.price);
+        const cardTransport = card.dataset.transport || 'flight';
+        const cardText = card.innerText.toLowerCase();
+
+        const matchSearch = (!query || cardText.includes(query));
+        const matchOrigin = (selectedOrigin === 'all' || origin === selectedOrigin);
+        const matchCategory = (selectedCategory === 'all' || (category && category.toLowerCase().includes(selectedCategory.toLowerCase())));
+        const matchBudget = (selectedBudget === 'all' || price <= parseFloat(selectedBudget));
+        const matchTransport = (currentTransport === 'all' || cardTransport === currentTransport);
+
+        if (matchSearch && matchOrigin && matchCategory && matchBudget && matchTransport) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      // Update badge count
+      if (badge) {
+        badge.innerText = `${visibleCount} oferte afișate`;
+      }
+
+      // Show / hide empty state
+      if (visibleCount === 0) {
+        if (noDealsState) noDealsState.classList.remove('hidden');
+      } else {
+        if (noDealsState) noDealsState.classList.add('hidden');
+      }
+
+      // Show reset button if any filter is active
+      const isFiltered = (query !== '' || selectedOrigin !== 'all' || selectedBudget !== 'all' || selectedCategory !== 'all' || currentTransport !== 'all');
+      if (btnReset) {
+        if (isFiltered) {
+          btnReset.classList.remove('hidden');
+        } else {
+          btnReset.classList.add('hidden');
+        }
+      }
+    }
+
+    function resetFilters() {
+      if (filterSearch) filterSearch.value = '';
+      if (filterOrigin) filterOrigin.value = 'all';
+      if (filterBudget) filterBudget.value = 'all';
+      if (filterCategory) filterCategory.value = 'all';
+      setTransport('all');
+    }
+
+    if (filterSearch) filterSearch.addEventListener('input', applyFilters);
+    if (filterOrigin) filterOrigin.addEventListener('change', applyFilters);
+    if (filterBudget) filterBudget.addEventListener('change', applyFilters);
+    if (filterCategory) filterCategory.addEventListener('change', applyFilters);
+    if (btnReset) btnReset.addEventListener('click', resetFilters);
+    if (btnResetState) btnResetState.addEventListener('click', resetFilters);
+  </script>
+</Layout>

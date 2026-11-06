@@ -1,0 +1,10 @@
+[
+  { "code": "OTP", "city": "București", "name": "Henri Coandă", "country": "România" },
+  { "code": "CLJ", "city": "Cluj-Napoca", "name": "Avram Iancu", "country": "România" },
+  { "code": "TSR", "city": "Timișoara", "name": "Traian Vuia", "country": "România" },
+  { "code": "IAS", "city": "Iași", "name": "Aeroportul Iași", "country": "România" },
+  { "code": "SBZ", "city": "Sibiu", "name": "Aeroportul Sibiu", "country": "România" },
+  { "code": "CRA", "city": "Craiova", "name": "Aeroportul Craiova", "country": "România" },
+  { "code": "SCV", "city": "Suceava", "name": "Ștefan cel Mare", "country": "România" },
+  { "code": "CND", "city": "Constanța", "name": "Mihail Kogălniceanu", "country": "România" }
+]

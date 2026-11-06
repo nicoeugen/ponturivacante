@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Politica de Confidențialitate & GDPR"
+  description="Cum protejăm și gestionăm datele tale pe platforma PonturiVacanțe."
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12 text-slate-700 leading-relaxed text-sm sm:text-base">
+    <h1 class="text-3xl font-black text-slate-900 mb-6">
+      Politica de Confidențialitate (GDPR)
+    </h1>
+    <p class="text-xs text-slate-400 mb-8">Ultima actualizare: {new Date().toLocaleDateString('ro-RO')}</p>
+
+    <div class="space-y-6">
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">1. Ce date colectăm?</h2>
+        <p>
+          Respectăm principiul minimizării datelor conform Regulamentului General privind Protecția Datelor (GDPR UE 2016/679):
+        </p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li><strong>Abonare Newsletter:</strong> Dacă alegeți să vă abonați, colectăm adresa de email exclusiv pentru trimiterea alertelor săptămânale de vacanță.</li>
+          <li><strong>Date tehnice de navigare:</strong> Cookie-uri anonime pentru reținerea preferințelor de filtrare și statistici generale de trafic.</li>
+          <li><strong>Date bancare:</strong> Nu colectăm NICIODATĂ date de card sau plăți, deoarece toate plățile se fac pe platformele securizate ale companiilor aeriene sau pe Booking.com.</li>
+        </ul>
+      </section>
+
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">2. Drepturile Dumneavoastră</h2>
+        <p>Conform GDPR, beneficiați de:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>Dreptul de a vă dezabona de la newsletter în orice moment;</li>
+          <li>Dreptul de acces, rectificare sau ștergere definitivă a adresei de email stocate;</li>
+          <li>Dreptul de a refuza modulele cookie non-esențiale.</li>
+        </ul>
+      </section>
+
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">3. Contact DPO / Responsabil Date</h2>
+        <p>
+          Pentru orice solicitare legată de datele dumneavoastră personale, ne puteți contacta la: <strong class="text-slate-900">contact@ponturivacante.ro</strong>.
+        </p>
+      </section>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="/" class="text-sm font-bold text-rose-600 hover:underline">&larr; Înapoi la prima pagină</a>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,111 @@
+---
+interface Props {
+  deal: {
+    id: string;
+    slug: string;
+    title: string;
+    destination: string;
+    county: string;
+    region: string;
+    category: string;
+    badge: string;
+    image: string;
+    priceTotalPerPerson: number;
+    priceRoomTotal: number;
+    minNights: number;
+    capacity: string;
+    voucherAccepted: boolean;
+    amenities: string[];
+  };
+}
+
+const { deal } = Astro.props;
+---
+
+<article 
+  class="romania-card group bg-white rounded-3xl overflow-hidden border border-slate-200 card-shadow hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between"
+  data-category={deal.category}
+  data-voucher={deal.voucherAccepted ? "true" : "false"}
+  data-region={deal.region}
+>
+  <div>
+    <!-- Cover Image with Badges -->
+    <div class="relative h-56 sm:h-60 overflow-hidden">
+      <img 
+        src={deal.image} 
+        alt={deal.title}
+        loading="lazy"
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent"></div>
+
+      <!-- Top Badges -->
+      <div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+        <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black shadow-md">
+          {deal.badge}
+        </span>
+        <span class="px-2.5 py-1 rounded-full bg-slate-900/80 backdrop-blur text-white text-xs font-semibold">
+          {deal.region}
+        </span>
+      </div>
+
+      {deal.voucherAccepted && (
+        <div class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-amber-400 text-slate-950 text-xs font-black shadow flex items-center gap-1">
+          <span>💳</span> Vouchere Vacanță
+        </div>
+      )}
+
+      <!-- Bottom overlay -->
+      <div class="absolute bottom-3 left-3 right-3 text-white">
+        <div class="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
+          <span>📍 {deal.destination} (jud. {deal.county})</span>
+          <span>&bull;</span>
+          <span>{deal.capacity}</span>
+        </div>
+        <h3 class="text-lg sm:text-xl font-bold tracking-tight text-white leading-tight">
+          {deal.title}
+        </h3>
+      </div>
+    </div>
+
+    <!-- Content & Amenities Preview -->
+    <div class="p-5">
+      <!-- Facilități cheie -->
+      <div class="flex flex-wrap gap-1.5 mb-4">
+        {deal.amenities.slice(0, 3).map(item => (
+          <span class="text-[11px] font-medium px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 border border-slate-200/60">
+            ✓ {item}
+          </span>
+        ))}
+      </div>
+
+      <div class="bg-slate-50 rounded-2xl p-3 border border-slate-100 text-xs text-slate-600 flex items-center justify-between">
+        <span>Sejur minim: <strong>{deal.minNights} nopți</strong></span>
+        <span>Cost total cameră: <strong>{deal.priceRoomTotal} lei/€</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom CTA & Price -->
+  <div class="px-5 pb-5 pt-0 border-t border-slate-100 mt-auto">
+    <div class="pt-4 flex items-center justify-between gap-3">
+      <div>
+        <div class="text-[10px] font-semibold uppercase tracking-wider text-slate-400 flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
+          <span>Tarif verificat:</span>
+        </div>
+        <div class="text-2xl font-black text-emerald-600 leading-none">
+          {deal.priceTotalPerPerson} €
+          <span class="text-xs font-medium text-slate-500">/ noapte / pers</span>
+        </div>
+      </div>
+
+      <a 
+        href={`/romania/${deal.slug}`}
+        class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-emerald-600 text-white font-bold text-xs transition-colors shadow-sm"
+      >
+        Vezi Cazarea &rarr;
+      </a>
+    </div>
+  </div>
+</article>

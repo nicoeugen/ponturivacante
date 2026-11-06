@@ -1,0 +1,86 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Întrebări Frecvente (FAQ) — Cum funcționează ofertele"
+  description="Tot ce trebuie să știi despre rezervarea vacanțelor DIY: bilete de avion, bagaje, cazare pe Booking și fluctuația tarifelor."
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-12">
+      <span class="text-rose-500 font-extrabold text-xs uppercase tracking-wider">Ghidul Călătorului Isteț</span>
+      <h1 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">
+        Întrebări Frecvente (FAQ)
+      </h1>
+      <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+        Ai neclarități legate de cum funcționează vacanțele pe cont propriu? Iată răspunsurile la cele mai comune întrebări.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <!-- Q1 -->
+      <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden" open>
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-base sm:text-lg">
+          <span>De ce sunt prețurile atât de mici comparativ cu o agenție?</span>
+          <span class="text-rose-500 transition group-open:rotate-180">▼</span>
+        </summary>
+        <p class="mt-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+          Agențiile de turism adaugă comisioane de intermediere, costuri operaționale și adesea închiriază curse charter scumpe. În modelul <strong>DIY (Do It Yourself)</strong>, tu cumperi biletul direct de la compania aeriană low-cost (Wizz Air, Ryanair) la prețul lor de bază și rezervi camera de hotel direct pe Booking.com. Nu plătești niciun intermediar.
+        </p>
+      </details>
+
+      <!-- Q2 -->
+      <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-base sm:text-lg">
+          <span>Ce fac dacă prețul zborului s-a modificat când dau click?</span>
+          <span class="text-rose-500 transition group-open:rotate-180">▼</span>
+        </summary>
+        <p class="mt-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+          Companiile aeriene își actualizează tarifele în timp real în funcție de numărul de locuri rămase în avion. Dacă o ofertă devine populară, primele 2-4 locuri ieftine se vând rapid, iar compania aeriană crește prețul automat. De aceea este esențial să fii pe canalul nostru de <strong>Telegram</strong> sau <strong>WhatsApp</strong> pentru a vedea ofertele chiar la publicare.
+        </p>
+      </details>
+
+      <!-- Q3 -->
+      <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-base sm:text-lg">
+          <span>Ce bagaj este inclus în prețul afișat?</span>
+          <span class="text-rose-500 transition group-open:rotate-180">▼</span>
+        </summary>
+        <p class="mt-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+          Prețul de bază include întotdeauna <strong>bagajul mic de mână gratuit</strong> (un rucsac de 40x30x20 cm sau 40x25x20 cm) care intră sub scaunul din fața ta. Pentru un City Break de 2-4 zile, un rucsac este mai mult decât suficient pentru haine, cosmetice și încărcătoare. Dacă dorești troller de cabină de 10 kg sau bagaj de cală, îl poți adăuga opțional la check-out pe site-ul companiei aeriene.
+        </p>
+      </details>
+
+      <!-- Q4 -->
+      <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-base sm:text-lg">
+          <span>Cum procedez cu rezervarea cazării?</span>
+          <span class="text-rose-500 transition group-open:rotate-180">▼</span>
+        </summary>
+        <p class="mt-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+          În fiecare articol îți recomandăm o cazare atent selectată (notă minim 8.0 pe Booking, baie privată, locație sigură). Apeși butonul <em>„Rezervă Cazarea”</em>, ești direcționat pe Booking.com, verifici datele și finalizezi rezervarea în siguranță cu contul tău. Multe opțiuni oferă <strong>anulare gratuită</strong> sau plată direct la proprietate.
+        </p>
+      </details>
+
+      <!-- Q5 -->
+      <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden">
+        <summary class="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-base sm:text-lg">
+          <span>Pot călători singur sau cu copiii?</span>
+          <span class="text-rose-500 transition group-open:rotate-180">▼</span>
+        </summary>
+        <p class="mt-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+          Da! În pagina fiecărei oferte avem butonul comutator <strong>„Duo vs Solo”</strong> care îți calculează exact prețul pentru camera single dacă mergi singur. Dacă călătorești cu familia, la pasul de cazare pe Booking poți selecta cameră triplă sau suită de familie.
+        </p>
+      </details>
+    </div>
+
+    <div class="mt-12 text-center">
+      <a 
+        href="/" 
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-slate-900 hover:bg-rose-600 text-white font-bold text-sm transition-colors shadow-md"
+      >
+        <span>&larr; Înapoi la Ofertele Active</span>
+      </a>
+    </div>
+  </div>
+</Layout>

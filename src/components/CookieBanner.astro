@@ -1,0 +1,48 @@
+---
+---
+
+<div 
+  id="cookie-banner" 
+  class="hidden fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md bg-slate-900/95 backdrop-blur text-white p-5 rounded-2xl shadow-2xl border border-slate-800 z-50 text-xs sm:text-sm animate-fade-in"
+>
+  <div class="flex items-start gap-3 mb-3">
+    <span class="text-2xl flex-shrink-0">🍪</span>
+    <div>
+      <h4 class="font-bold text-white mb-1">Confidențialitatea ta contează</h4>
+      <p class="text-slate-300 text-xs leading-relaxed">
+        Folosim cookie-uri esențiale pentru a-ți oferi cea mai bună experiență de navigare și pentru a reține preferințele tale de căutare. Nu vindem datele tale.
+      </p>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-end gap-2 pt-1 border-t border-slate-800">
+    <a 
+      href="/politica-confidentialitate" 
+      class="text-xs text-slate-400 hover:text-white underline mr-auto"
+    >
+      Află mai multe
+    </a>
+    <button 
+      id="btn-accept-cookies" 
+      class="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs transition-colors shadow-sm cursor-pointer"
+    >
+      Accept toate
+    </button>
+  </div>
+</div>
+
+<script is:inline>
+  const banner = document.getElementById('cookie-banner');
+  const btnAccept = document.getElementById('btn-accept-cookies');
+
+  if (!localStorage.getItem('cookie_consent')) {
+    setTimeout(() => {
+      banner?.classList.remove('hidden');
+    }, 1200);
+  }
+
+  btnAccept?.addEventListener('click', () => {
+    localStorage.setItem('cookie_consent', 'accepted');
+    banner?.classList.add('hidden');
+  });
+</script>

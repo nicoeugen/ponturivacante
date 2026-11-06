@@ -1,0 +1,42 @@
+[
+  {
+    "id": "booking",
+    "name": "Booking.com",
+    "badge": "🏨 Recomandat 3-4★",
+    "type": "Hoteluri & Pensiuni",
+    "description": "Cea mai mare selecție de hoteluri verificate, recenzii autentice și opțiuni cu anulare gratuită.",
+    "color": "#003580",
+    "badgeClass": "bg-blue-100 text-blue-950 border-blue-200",
+    "targetAudience": "Cupluri, familii, călători care vor confort sigur"
+  },
+  {
+    "id": "agoda",
+    "name": "Agoda",
+    "badge": "⚡ Cele mai bune tarife",
+    "type": "Apartamente & Boutique",
+    "description": "Prețuri promoționale speciale pentru membri și selecție excelentă de apartamente de vacanță.",
+    "color": "#0e7490",
+    "badgeClass": "bg-cyan-100 text-cyan-900 border-cyan-200",
+    "targetAudience": "Cei care caută cel mai mic preț și apartamente moderne"
+  },
+  {
+    "id": "hostelworld",
+    "name": "Hostelworld",
+    "badge": "🎒 Ultra-Buget / Solo",
+    "type": "Hosteluri & Cazare Socială",
+    "description": "Paturi în dormitoare comune sau camere private în hosteluri vibrante, ideale pentru socializare.",
+    "color": "#f97316",
+    "badgeClass": "bg-orange-100 text-orange-950 border-orange-200",
+    "targetAudience": "Călători solo, tineri, backpackeri, bugete mici"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "badge": "🏡 Casă întreagă",
+    "type": "Apartamente cu Bucătărie",
+    "description": "Spațiu complet pentru grupuri și familii, bucătărie utilată și experiență de localnic.",
+    "color": "#e11d48",
+    "badgeClass": "bg-rose-100 text-rose-950 border-rose-200",
+    "targetAudience": "Grupuri de 3-6 persoane, familii, sejururi mai lungi"
+  }
+]

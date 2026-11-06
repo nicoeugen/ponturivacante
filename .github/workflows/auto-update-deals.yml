@@ -1,0 +1,38 @@
+name: Actualizare Automată Oferte & Tarife Live
+
+on:
+  schedule:
+    # Rulează automat de două ori pe zi: la 06:00 și 18:00 UTC (08:00 și 20:00 ora României)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch: # Permite rularea manuală oricând din panoul GitHub Actions
+
+jobs:
+  update-deals:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Clonare Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurare Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🔄 Rulare Motor Verificare Oferte & Tarife Live
+        run: |
+          python scripts/deal_updater.py
+
+      - name: 💾 Commit & Push Modificări
+        run: |
+          git config --local user.email "bot@ponturivacante.ro"
+          git config --local user.name "Ponturi Vacanțe Bot"
+          git add data/deals.json
+          if git diff --staged --quiet; then
+            echo "Nicio modificare de preț sau status detectată."
+          else
+            git commit -m "[auto] Verificare tarife & actualizare automată oferte ($(date +'%Y-%m-%d %H:%M'))"
+            git push
+          fi

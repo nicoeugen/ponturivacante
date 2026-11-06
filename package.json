@@ -1,0 +1,30 @@
+{
+  "name": "website-turism",
+  "version": "1.0.0",
+  "description": "Platformă de oferte de călătorie DIY (zbor + cazare) în stil Aventurescu",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview",
+    "update-deals": "python scripts/deal_updater.py",
+    "sync-and-build": "python scripts/deal_updater.py && astro build"
+  },
+  "keywords": [
+    "travel",
+    "deals",
+    "vacante",
+    "zboruri-ieftine",
+    "city-break",
+    "aventurescu"
+  ],
+  "author": "DeskLark Travel",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "@tailwindcss/vite": "^4.3.4",
+    "astro": "^7.4.7",
+    "tailwindcss": "^4.3.4"
+  }
+}

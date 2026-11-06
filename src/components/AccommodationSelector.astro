@@ -1,0 +1,87 @@
+---
+interface AccommodationOption {
+  provider: string;
+  providerId: string;
+  badge: string;
+  name: string;
+  rating: number;
+  priceTotal: number;
+  pricePerPerson: number;
+  type: string;
+  link: string;
+}
+
+interface Props {
+  options: AccommodationOption[];
+  dealId: string;
+  nights: number;
+}
+
+const { options, dealId, nights } = Astro.props;
+---
+
+<div class="space-y-4">
+  <div class="flex items-center justify-between">
+    <h3 class="text-xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+      <span>🏨 Opțiuni de cazare verificate</span>
+      <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800">
+        Disponibilitate confirmată
+      </span>
+    </h3>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {options.map((opt, idx) => {
+      const isBooking = opt.providerId === 'booking';
+      const isAgoda = opt.providerId === 'agoda';
+      const isHostel = opt.providerId === 'hostelworld';
+
+      return (
+        <div class={`rounded-3xl p-5 border-2 flex flex-col justify-between transition-all duration-300 ${isBooking ? 'bg-blue-50/50 border-blue-400/80 shadow-md ring-2 ring-blue-400/20' : 'bg-white border-slate-200 hover:border-slate-300 shadow-sm'}`}>
+          <div>
+            <!-- Badge & Platform -->
+            <div class="flex items-center justify-between mb-3">
+              <span class={`text-[11px] font-black px-2.5 py-1 rounded-full ${isBooking ? 'bg-blue-600 text-white' : isAgoda ? 'bg-cyan-600 text-white' : 'bg-orange-500 text-white'}`}>
+                {opt.badge}
+              </span>
+              <span class="text-xs font-bold text-slate-500">
+                pe {opt.provider}
+              </span>
+            </div>
+
+            <!-- Hotel Name & Rating -->
+            <h4 class="font-bold text-base text-slate-900 leading-snug mb-1">
+              {opt.name}
+            </h4>
+            <div class="flex items-center gap-1.5 text-xs text-slate-600 mb-3">
+              <span class="font-extrabold text-amber-500">★ {opt.rating}</span>
+              <span>&bull;</span>
+              <span class="text-slate-500">{opt.type}</span>
+            </div>
+          </div>
+
+          <!-- Price & CTA -->
+          <div class="pt-4 border-t border-slate-100">
+            <div class="flex items-baseline justify-between mb-3">
+              <span class="text-xs text-slate-400">{nights} nopți:</span>
+              <div class="text-right">
+                <span class="text-xl font-black text-slate-900">{opt.pricePerPerson} €</span>
+                <span class="text-[11px] text-slate-500 block -mt-1">/ persoană</span>
+              </div>
+            </div>
+
+            <a 
+              href={`/go/hotel/?url=${encodeURIComponent(opt.link)}&deal=${dealId}&provider=${opt.providerId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class={`w-full py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-all shadow-sm ${isBooking ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/20' : isAgoda ? 'bg-cyan-700 hover:bg-cyan-800 text-white' : 'bg-orange-600 hover:bg-orange-700 text-white'}`}
+            >
+              <span>Rezervă pe {opt.provider}</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</div>

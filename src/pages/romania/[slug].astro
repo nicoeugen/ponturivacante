@@ -1,0 +1,136 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CommunityBanner from '../../components/CommunityBanner.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import romaniaDeals from '../../../data/romania_deals.json';
+
+export async function getStaticPaths() {
+  return romaniaDeals.map(deal => ({
+    params: { slug: deal.slug },
+    props: { deal }
+  }));
+}
+
+const { deal } = Astro.props;
+---
+
+<Layout 
+  title={`${deal.title} — Cazare în România`}
+  description={deal.description}
+  image={deal.image}
+>
+  <article class="pb-16">
+    <!-- Breadcrumb -->
+    <div class="bg-slate-100 border-b border-slate-200 py-3">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-xs text-slate-500 flex items-center gap-2">
+        <a href="/" class="hover:text-rose-600 transition-colors">Acasă</a>
+        <span>/</span>
+        <a href="/romania" class="hover:text-emerald-600 transition-colors">Vacanțe în România</a>
+        <span>/</span>
+        <span class="text-slate-800 font-semibold truncate">{deal.destination}</span>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 pt-8">
+      <!-- Title & Badges -->
+      <div class="mb-6">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black shadow-sm">
+            {deal.badge}
+          </span>
+          <span class="px-2.5 py-1 rounded-full bg-slate-900 text-white text-xs font-semibold">
+            {deal.region}
+          </span>
+          {deal.voucherAccepted && (
+            <span class="px-2.5 py-1 rounded-full bg-amber-400 text-slate-950 text-xs font-black shadow-sm flex items-center gap-1">
+              <span>💳</span> Acceptă Vouchere de Vacanță
+            </span>
+          )}
+        </div>
+
+        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-3">
+          {deal.title}
+        </h1>
+
+        <div class="flex flex-wrap items-center gap-y-2 gap-x-4 text-xs sm:text-sm text-slate-600">
+          <span class="font-bold text-slate-900 flex items-center gap-1">
+            📍 {deal.destination} (județul {deal.county})
+          </span>
+          <span>&bull;</span>
+          <span>👥 Capacitate: {deal.capacity}</span>
+          <span>&bull;</span>
+          <span>⏱️ Sejur minim: {deal.minNights} nopți</span>
+        </div>
+      </div>
+
+      <!-- Featured Image -->
+      <div class="rounded-3xl overflow-hidden mb-8 shadow-xl max-h-[460px] relative">
+        <img 
+          src={deal.image} 
+          alt={deal.title} 
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute bottom-4 right-4 bg-slate-900/90 backdrop-blur text-white px-4 py-2 rounded-2xl shadow-lg flex items-center gap-3">
+          <span class="text-xs text-slate-300">De la:</span>
+          <span class="text-2xl font-black text-amber-400">{deal.priceTotalPerPerson} €</span>
+          <span class="text-xs text-slate-300">/ persoană / noapte</span>
+        </div>
+      </div>
+
+      <!-- Quick Summary Box -->
+      <div class="bg-gradient-to-r from-emerald-50 via-teal-50 to-amber-50 rounded-3xl p-6 sm:p-8 border border-emerald-200/80 mb-10">
+        <h2 class="text-lg font-black text-slate-900 mb-2 flex items-center gap-2">
+          <span>🌿 Despre această experiență:</span>
+        </h2>
+        <p class="text-sm text-slate-700 leading-relaxed mb-6">
+          {deal.description}
+        </p>
+
+        <!-- Facilități Complete -->
+        <h3 class="text-xs font-extrabold uppercase tracking-wider text-emerald-800 mb-3">
+          Facilități & Dotări Incluse:
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-6">
+          {deal.amenities.map(item => (
+            <div class="flex items-center gap-2 text-xs sm:text-sm text-slate-700 bg-white/80 p-2.5 rounded-xl border border-emerald-100">
+              <span class="text-emerald-600 font-bold">✓</span>
+              <span>{item}</span>
+            </div>
+          ))}
+        </div>
+
+        <!-- Preț & Buton Rezervare Directă -->
+        <div class="pt-6 border-t border-emerald-200/60 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <div class="text-xs text-slate-500">Tarif estimativ cameră / cabană:</div>
+            <div class="text-2xl font-black text-slate-900">
+              {deal.priceRoomTotal} € <span class="text-xs font-normal text-slate-500">(cca. {deal.priceRoomTotal * 5} lei) / noapte</span>
+            </div>
+          </div>
+
+          <a 
+            href={`/go/hotel/?url=${encodeURIComponent(deal.bookingUrl)}&deal=${deal.id}&provider=booking`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shadow-lg hover:shadow-emerald-600/30 transition-all cursor-pointer"
+          >
+            <span>Verifică Disponibilitatea & Rezervă</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sfaturi Transport & Accesibilitate -->
+      <div class="bg-slate-100 rounded-3xl p-6 text-xs sm:text-sm text-slate-600 space-y-2 mb-10">
+        <h4 class="font-bold text-slate-800 text-base mb-1">🚗 Sfaturi utile pentru drum:</h4>
+        <p>• <strong>Transport:</strong> Majoritatea locațiilor din natură și cabanelor sunt cel mai ușor accesibile cu mașina personală. Iarna recomandăm anvelope de iarnă în stare foarte bună și lanțuri pentru zonele montane înalte.</p>
+        <p>• <strong>Plata cu Card de Vacanță:</strong> Dacă dorești să plătești cu cardul Edenred, Sodexo sau Pluxee, selectează proprietatea pe platformă și alege opțiunea de plată la proprietate sau introdu datele cardului de vacanță direct în formular.</p>
+      </div>
+    </div>
+
+    <!-- Community & Newsletter -->
+    <CommunityBanner />
+    <Newsletter />
+  </article>
+</Layout>

@@ -1,0 +1,799 @@
+---
+
+import Layout from '../../layouts/Layout.astro';
+
+import CommunityBanner from '../../components/CommunityBanner.astro';
+
+import AccommodationSelector from '../../components/AccommodationSelector.astro';
+
+import BaggageGuide from '../../components/BaggageGuide.astro';
+
+import deals from '../../../data/deals.json';
+
+import airlines from '../../../data/airlines.json';
+
+export async function getStaticPaths() {
+
+  return deals.map(deal => ({
+
+    params: { slug: deal.slug },
+
+    props: { deal }
+
+  }));
+
+}
+
+const { deal } = Astro.props;
+
+const soloPrice = deal.flight.price + deal.hotel.priceTotal;
+
+const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.airline.toLowerCase()) || {
+
+  name: deal.flight.airline,
+
+  badgeBg: 'bg-slate-100 text-slate-800 border-slate-200',
+
+  baggage: {
+
+    free: deal.flight.baggageInfo || 'Rucsac mic inclus sub scaun',
+
+    dimensions: 'Standard low-cost'
+
+  }
+
+};
+
+---
+
+<Layout 
+
+  title={`${deal.title} — ${deal.priceTotalPerPerson}€`}
+
+  description={deal.description}
+
+  image={deal.image}
+
+>
+
+  <article class="pb-16">
+
+    <!-- Breadcrumb & Top Bar -->
+
+    <div class="bg-slate-100 border-b border-slate-200 py-3">
+
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-xs text-slate-500 flex items-center gap-2">
+
+        <a href="/" class="hover:text-rose-600 transition-colors">Acasă</a>
+
+        <span>/</span>
+
+        <a href={`/plecari/${deal.originCity.toLowerCase().replace(/\s+/g, '-')}/`} class="hover:text-rose-600 transition-colors">Oferte {deal.originCity}</a>
+
+        <span>/</span>
+
+        <span class="text-slate-800 font-semibold truncate">{deal.destination}</span>
+
+      </div>
+
+    </div>
+
+    <!-- Main Container -->
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 pt-8">
+
+      <!-- Title & Badges -->
+
+      <div class="mb-6">
+
+        <div class="flex items-center gap-2 mb-3">
+
+          <span class="px-2.5 py-1 rounded-full bg-rose-600 text-white text-xs font-black shadow-sm">
+
+            {deal.badge}
+
+          </span>
+
+          <span class="px-2.5 py-1 rounded-full bg-slate-900 text-white text-xs font-semibold">
+
+            {deal.category}
+
+          </span>
+
+          <span class={`px-2.5 py-1 rounded-full text-xs font-bold border ${currentAirline.badgeBg}`}>
+
+            ✈️ {deal.flight.airline}
+
+          </span>
+
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-bold text-emerald-800 ml-auto shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>Verificat: {deal.lastVerifiedFormatted ? deal.lastVerifiedFormatted.split(',')[0] : "Recent"}</span>
+          </span>
+
+        </div>
+
+        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-3">
+
+          {deal.title} {deal.flag}
+
+        </h1>
+
+        <div class="flex flex-wrap items-center gap-y-2 gap-x-4 text-xs sm:text-sm text-slate-600">
+
+          <span class="flex items-center gap-1 font-semibold text-slate-900">
+
+            🛫 Plecare din {deal.originCity} ({deal.originCode})
+
+          </span>
+
+          <span>&bull;</span>
+
+          <span class="flex items-center gap-1">
+
+            📅 {deal.dates} ({deal.nights} nopți)
+
+          </span>
+
+          <span>&bull;</span>
+
+          <span class="flex items-center gap-1 text-emerald-700 font-semibold">
+
+            🧳 {deal.flight.baggageInfo || currentAirline.baggage.dimensions}
+
+          </span>
+
+        </div>
+
+      </div>
+
+      <!-- Featured Image -->
+
+      <div class="rounded-3xl overflow-hidden mb-8 shadow-xl max-h-[460px] relative">
+
+        <img 
+
+          src={deal.image} 
+
+          alt={deal.destination} 
+
+          class="w-full h-full object-cover"
+
+        />
+
+        <div class="absolute bottom-4 right-4 bg-slate-900/90 backdrop-blur text-white px-4 py-2 rounded-2xl shadow-lg flex items-center gap-3">
+
+          <span class="text-xs text-slate-300">Total vacanță:</span>
+
+          <span id="badge-total-price" class="text-2xl font-black text-amber-400">{deal.priceTotalPerPerson} €</span>
+
+          <span id="badge-total-label" class="text-xs text-slate-300">/ persoană</span>
+
+        </div>
+
+      </div>
+
+      <!-- Interactive Traveler Toggle: Duo vs Solo -->
+
+      <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-sm mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+
+        <div>
+
+          <span class="font-bold text-sm text-slate-800">Câți călători sunteți?</span>
+
+          <p class="text-xs text-slate-500">Prețul camerei se împarte la 2 când călătoriți în cuplu sau cu un prieten.</p>
+
+        </div>
+
+        <div class="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-bold">
+
+          <button 
+
+            id="toggle-duo"
+
+            class="px-4 py-2 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer"
+
+          >
+
+            👥 Călătorim în 2 ({deal.priceTotalPerPerson} €/pers)
+
+          </button>
+
+          <button 
+
+            id="toggle-solo"
+
+            class="px-4 py-2 rounded-lg text-slate-600 hover:text-slate-900 transition-all cursor-pointer"
+
+          >
+
+            👤 Călătoresc singur ({soloPrice} €)
+
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Quick Summary Box -->
+
+      <div class="bg-gradient-to-r from-rose-50 via-amber-50 to-orange-50 rounded-3xl p-6 border border-rose-200/60 mb-10">
+
+        <h2 class="text-lg font-black text-slate-900 mb-3 flex items-center gap-2">
+
+          <span>💡 Cum funcționează această ofertă DIY?</span>
+
+        </h2>
+
+        <p class="text-sm text-slate-700 leading-relaxed mb-4">
+
+          {deal.description}
+
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
+
+          <div class="bg-white rounded-xl p-3 border border-slate-200/80 shadow-sm">
+
+            <div class="text-xs text-slate-500 mb-0.5">{deal.transportType === 'car' ? '1. Transport' : '1. Bilet Avion Dus-Întors'}</div>
+
+            <div class="text-lg font-black text-slate-900">{deal.flight.price === 0 ? 'Transport Propriu' : `${deal.flight.price} €`}</div>
+
+            <div class="text-[11px] text-slate-500 font-semibold">{deal.transportType === 'car' ? 'Mașină personală / Fără avion' : deal.flight.airline}</div>
+
+          </div>
+
+          <div class="bg-white rounded-xl p-3 border border-slate-200/80 shadow-sm">
+
+            <div class="text-xs text-slate-500 mb-0.5">2. Cazare ({deal.nights} nopți)</div>
+
+            <div id="summary-hotel-price" class="text-lg font-black text-slate-900">{deal.hotel.pricePerPerson} € <span class="text-xs font-normal">/pers</span></div>
+
+            <div class="text-[11px] text-slate-500">Notă {deal.hotel.rating} ⭐</div>
+
+          </div>
+
+          <div class="bg-rose-600 text-white rounded-xl p-3 shadow-md">
+
+            <div class="text-xs text-rose-100 mb-0.5">Total Vacanță</div>
+
+            <div id="summary-total-price" class="text-xl font-black">{deal.priceTotalPerPerson} €</div>
+
+            <div id="summary-total-sub" class="text-[11px] text-rose-100">{deal.transportType === 'car' ? 'cazare de top / pers' : 'zbor + cazare / pers'}</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+            <!-- PASUL 1: Detalii Zbor sau Terestru -->
+
+      {deal.transportType === 'car' && (
+
+        <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-emerald-300 shadow-md mb-10">
+
+          <div class="flex items-center justify-between mb-4">
+
+            <div class="flex items-center gap-3">
+
+              <span class="w-9 h-9 rounded-full bg-emerald-600 text-white font-black flex items-center justify-center text-sm shadow">
+
+                1
+
+              </span>
+
+              <div>
+
+                <h3 class="text-lg sm:text-xl font-bold text-slate-900">
+
+                  Transport Terestru / Cu Mașina Proprie
+
+                </h3>
+
+                <p class="text-xs text-slate-500">{deal.flight.airline}</p>
+
+              </div>
+
+            </div>
+
+            <span class="px-3 py-1 rounded-xl text-xs font-black bg-emerald-100 text-emerald-800 border border-emerald-200">
+
+              🚗 Fără bilet avion
+
+            </span>
+
+          </div>
+
+          <div class="bg-emerald-50/60 rounded-2xl p-4 text-sm text-slate-700 mb-4 space-y-2 border border-emerald-100">
+
+            <div><strong>Rută & Durată:</strong> {deal.flight.route}</div>
+
+            <div><strong>Perioadă recomandată:</strong> {deal.dates}</div>
+
+            <div><strong>Bagaj & Echipamente Schi:</strong> {deal.flight.baggageInfo}</div>
+
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+
+            <a 
+
+              href={deal.flight.link}
+
+              target="_blank"
+
+              rel="noopener noreferrer"
+
+              class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-emerald-600/30"
+
+            >
+
+              <span>🗺️ Deschide Traseul & Navigația pe Google Maps</span>
+
+              <span>&rarr;</span>
+
+            </a>
+
+          </div>
+
+          <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+
+            <span class="flex items-center gap-1.5 font-medium text-emerald-700">
+
+              <span class="font-bold">✓</span> Fără taxe suplimentare pentru echipamentul de schi (schiuri, bețe, clăpari în portbagaj)
+
+            </span>
+
+            <span class="text-slate-500">Vinietă online obligatorie la trecerea graniței</span>
+
+          </div>
+
+        </div>
+
+      )}
+
+      {deal.transportType !== 'car' && (
+
+<div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-md mb-10">
+
+        <div class="flex items-center justify-between mb-4">
+
+          <div class="flex items-center gap-3">
+
+            <span class="w-9 h-9 rounded-full bg-rose-600 text-white font-black flex items-center justify-center text-sm shadow">
+
+              1
+
+            </span>
+
+            <div>
+
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900">
+
+                Rezervă Zborul ({deal.flight.price} € dus-întors)
+
+              </h3>
+
+              <p class="text-xs text-slate-500">Operat de {deal.flight.airline}</p>
+
+            </div>
+
+          </div>
+
+          <span class={`px-3 py-1 rounded-xl text-xs font-black border ${currentAirline.badgeBg}`}>
+
+            {deal.flight.airline}
+
+          </span>
+
+        </div>
+
+        <div class="bg-slate-50 rounded-2xl p-4 text-sm text-slate-700 mb-4 space-y-2 border border-slate-100">
+
+          <div class="flex items-center justify-between">
+
+            <span><strong>Rută:</strong> {deal.originCity} ({deal.originCode}) &rarr; {deal.destination} &rarr; {deal.originCity}</span>
+
+            {deal.flight.isConnecting ? (
+
+              <span class="text-xs font-bold text-amber-800 bg-amber-100 px-2 py-0.5 rounded">Zbor cu Escală</span>
+
+            ) : (
+
+              <span class="text-xs font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">Zbor Direct</span>
+
+            )}
+
+          </div>
+
+          <div><strong>Date:</strong> {deal.dates}</div>
+
+          <div><strong>Bagaj gratuit:</strong> {deal.flight.baggageInfo || currentAirline.baggage.free}</div>
+
+        </div>
+
+        
+
+        {deal.alternativeAirlines && deal.alternativeAirlines.length > 0 && (
+
+          <div class="mb-5 bg-amber-50/70 border border-amber-200 rounded-2xl p-3.5 text-xs text-slate-700">
+
+            <div class="font-bold text-amber-950 mb-1.5 flex items-center gap-1.5">
+
+              <span>✈️</span> Opțiuni alternative de zbor pe această rută:
+
+            </div>
+
+            <div class="space-y-1">
+
+              {deal.alternativeAirlines.map(alt => (
+
+                <div class="flex items-center justify-between">
+
+                  <span>&bull; {alt.name} ({alt.route})</span>
+
+                  <span class="font-extrabold text-slate-900">{alt.price} € dus-întors</span>
+
+                </div>
+
+              ))}
+
+            </div>
+
+          </div>
+
+        )}
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+          <a 
+            href={`/go/flight/?url=${encodeURIComponent(deal.flight.link)}&deal=${deal.id}&airline=${deal.flight.airline.toLowerCase()}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-rose-600/30 text-center"
+          >
+            <span>✈️ {deal.flight.isConnecting ? `Rezervă Zbor (${deal.flight.airline} · ${deal.flight.price} €)` : `Site Oficial ${deal.flight.airline} (${deal.flight.price} €)`}</span>
+            <span>&rarr;</span>
+          </a>
+
+          {deal.flight.skyscannerLink && (
+            <a 
+              href={`/go/flight/?url=${encodeURIComponent(deal.flight.skyscannerLink)}&deal=${deal.id}&provider=skyscanner`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-sky-600 hover:bg-sky-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-sky-600/30 text-center"
+            >
+              <span>🔍 Compară & Rezervă pe Skyscanner</span>
+              <span>&rarr;</span>
+            </a>
+          )}
+        </div>
+
+        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+          <span class="flex items-center gap-1.5 font-medium text-emerald-700">
+            <span class="font-bold">✓</span> {deal.flight.isConnecting ? "Cel mai mic tarif verificat pe zboruri cu escală" : "Preț oficial direct la compania aeriană (fără adaos)"}
+          </span>
+
+          <div class="flex items-center gap-2">
+            <span class="text-slate-400">Alte opțiuni:</span>
+            {deal.flight.momondoLink && (
+              <a 
+                href={`/go/flight/?url=${encodeURIComponent(deal.flight.momondoLink)}&deal=${deal.id}&provider=momondo`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-2.5 py-1 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-800 font-bold border border-amber-200 transition-colors"
+              >
+                Momondo
+              </a>
+            )}
+            {deal.flight.googleFlightsLink && (
+              <a 
+                href={`/go/flight/?url=${encodeURIComponent(deal.flight.googleFlightsLink)}&deal=${deal.id}&provider=google`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold border border-slate-200 transition-colors"
+              >
+                Google Flights
+              </a>
+            )}
+            {deal.flight.kiwiLink && (
+              <a 
+                href={`/go/flight/?url=${encodeURIComponent(deal.flight.kiwiLink)}&deal=${deal.id}&provider=kiwi`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-2.5 py-1 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-bold border border-emerald-200 transition-colors"
+              >
+                Kiwi
+              </a>
+            )}
+          </div>
+        </div>
+
+      </div>
+
+      )}
+
+      <!-- PASUL 2: Selector Multi-Cazare (Booking, Agoda, Hostelworld) -->
+
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-md mb-10">
+
+        <div class="flex items-center gap-3 mb-6">
+
+          <span class="w-9 h-9 rounded-full bg-sky-600 text-white font-black flex items-center justify-center text-sm shadow">
+
+            2
+
+          </span>
+
+          <div>
+
+            <h3 class="text-lg sm:text-xl font-bold text-slate-900">
+
+              Alege și Rezervă Cazarea
+
+            </h3>
+
+            <p class="text-xs text-slate-500">Am selectat 3 variante verificate: hotel clasic, apartament și hostel</p>
+
+          </div>
+
+        </div>
+
+        {deal.accommodationOptions ? (
+
+          <AccommodationSelector 
+
+            options={deal.accommodationOptions} 
+
+            dealId={deal.id} 
+
+            nights={deal.nights} 
+
+          />
+
+        ) : (
+
+          <div class="bg-slate-50 rounded-2xl p-4 text-sm">
+
+            <div class="font-bold">{deal.hotel.name}</div>
+
+            <p class="text-xs text-slate-500 mt-1">{deal.hotel.distance} &bull; Notă {deal.hotel.rating}</p>
+
+            <a 
+
+              href={`/go/hotel/?url=${encodeURIComponent(deal.hotel.link)}&deal=${deal.id}`}
+
+              class="inline-block mt-3 px-5 py-2.5 bg-blue-600 text-white font-bold text-xs rounded-xl"
+
+            >
+
+              Rezervă pe Booking.com ({deal.hotel.pricePerPerson} €/pers)
+
+            </a>
+
+          </div>
+
+        )}
+
+      </div>
+
+      <!-- Extra Travel Services Cards (Asigurare Medicală & Închiriere Mașină) -->
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+
+        <!-- Card Asigurare -->
+
+        <div class="bg-emerald-50/80 rounded-3xl p-5 border border-emerald-200 flex flex-col justify-between">
+
+          <div>
+
+            <div class="text-[11px] font-extrabold text-emerald-800 uppercase tracking-wider mb-1">🛡️ Asigurare Medicală</div>
+
+            <h4 class="font-bold text-slate-900 text-base mb-1">Călătorește fără griji</h4>
+
+            <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+
+              Protecție pentru urgențe medicale, bagaje pierdute sau zboruri întârziate de la 15 lei/zi.
+
+            </p>
+
+          </div>
+
+          <a 
+
+            href={`/go/flight/?url=${encodeURIComponent('https://www.allianz-tiriac.ro')}&deal=${deal.id}`}
+
+            target="_blank" 
+
+            rel="noopener noreferrer"
+
+            class="text-xs font-bold text-emerald-800 hover:text-emerald-950 underline"
+
+          >
+
+            Calculează costul asigurării &rarr;
+
+          </a>
+
+        </div>
+
+        <!-- Card Închiriere Mașină -->
+
+        <div class="bg-amber-50/80 rounded-3xl p-5 border border-amber-200 flex flex-col justify-between">
+
+          <div>
+
+            <div class="text-[11px] font-extrabold text-amber-800 uppercase tracking-wider mb-1">🚗 Închirieri Auto</div>
+
+            <h4 class="font-bold text-slate-900 text-base mb-1">Vrei să explorezi {deal.destination}?</h4>
+
+            <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+
+              Compară prețurile la zeci de companii de rent-a-car direct din aeroport de la 12 €/zi.
+
+            </p>
+
+          </div>
+
+          <a 
+
+            href={`/go/hotel/?url=${encodeURIComponent('https://www.rentalcars.com')}&deal=${deal.id}`}
+
+            target="_blank" 
+
+            rel="noopener noreferrer"
+
+            class="text-xs font-bold text-amber-900 hover:text-amber-950 underline"
+
+          >
+
+            Vezi mașinile disponibile &rarr;
+
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- Ghidul Dimensiunilor de Bagaje pe Companii (doar pentru zbor) -->
+
+      {deal.transportType !== 'car' && <BaggageGuide />}
+
+      <!-- Alternative Dates Table -->
+
+      {deal.alternativeDates && deal.alternativeDates.length > 0 && (
+
+        <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm mb-10">
+
+          <h3 class="text-lg font-bold text-slate-900 mb-2">
+
+            📅 Date alternative la prețuri similare
+
+          </h3>
+
+          <p class="text-xs text-slate-500 mb-4">
+
+            Dacă datele principale nu ți se potrivesc, verifică și aceste opțiuni:
+
+          </p>
+
+          <div class="divide-y divide-slate-100">
+
+            {deal.alternativeDates.map(alt => (
+
+              <div class="py-3 flex items-center justify-between text-sm">
+
+                <span class="font-medium text-slate-700">{alt.dates}</span>
+
+                <div class="flex items-center gap-3">
+
+                  <span class="font-black text-rose-600">{alt.price} € <span class="text-xs font-normal text-slate-500">/pers</span></span>
+
+                  <a 
+
+                    href={`/go/flight/?url=${encodeURIComponent(alt.link || deal.flight.link)}&deal=${deal.id}&airline=${deal.flight.airline.toLowerCase()}`}
+
+                    target="_blank" 
+
+                    rel="noopener noreferrer"
+
+                    class="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white transition-colors"
+
+                  >
+
+                    Vezi zbor ({deal.flight.airline}) &rarr;
+
+                  </a>
+
+                </div>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      )}
+
+      <!-- Sfaturi Utile DIY -->
+
+      <div class="bg-slate-100 rounded-3xl p-6 text-xs sm:text-sm text-slate-600 space-y-2 mb-10">
+
+        <h4 class="font-bold text-slate-800 text-base mb-1">📌 Sfaturi importante înainte de rezervare:</h4>
+
+        <p>• <strong>Rezervă mai întâi zborul</strong> pentru a fi sigur de tarif și orar, apoi confirmă cazarea.</p>
+
+        <p>• <strong>Check-in online gratuit:</strong> Fă check-in-ul din aplicația companiei aeriene cu 24h înainte de zbor pentru a nu plăti taxe suplimentare la aeroport.</p>
+
+        <p>• <strong>Politica de anulare cazare:</strong> Multe opțiuni de pe Booking și Agoda oferă anulare gratuită până cu câteva zile înainte de călătorie.</p>
+
+      </div>
+
+    </div>
+
+    <!-- Community Banner -->
+
+    <CommunityBanner />
+
+  </article>
+
+  <!-- Client-side script for Duo vs Solo toggle -->
+
+  <script is:inline define:vars={{ duoPrice: deal.priceTotalPerPerson, soloPrice, duoHotel: deal.hotel.pricePerPerson, soloHotel: deal.hotel.priceTotal }}>
+
+    const btnDuo = document.getElementById('toggle-duo');
+
+    const btnSolo = document.getElementById('toggle-solo');
+
+    const badgePrice = document.getElementById('badge-total-price');
+
+    const badgeLabel = document.getElementById('badge-total-label');
+
+    const summaryHotel = document.getElementById('summary-hotel-price');
+
+    const summaryTotal = document.getElementById('summary-total-price');
+
+    const summarySub = document.getElementById('summary-total-sub');
+
+    btnDuo?.addEventListener('click', () => {
+
+      btnDuo.className = 'px-4 py-2 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer';
+
+      btnSolo.className = 'px-4 py-2 rounded-lg text-slate-600 hover:text-slate-900 transition-all cursor-pointer';
+
+      badgePrice.innerText = `${duoPrice} €`;
+
+      badgeLabel.innerText = '/ persoană';
+
+      summaryHotel.innerHTML = `${duoHotel} € <span class="text-xs font-normal">/pers</span>`;
+
+      summaryTotal.innerText = `${duoPrice} €`;
+
+      summarySub.innerText = 'zbor + cazare / pers';
+
+    });
+
+    btnSolo?.addEventListener('click', () => {
+
+      btnSolo.className = 'px-4 py-2 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer';
+
+      btnDuo.className = 'px-4 py-2 rounded-lg text-slate-600 hover:text-slate-900 transition-all cursor-pointer';
+
+      badgePrice.innerText = `${soloPrice} €`;
+
+      badgeLabel.innerText = 'total (solo)';
+
+      summaryHotel.innerHTML = `${soloHotel} € <span class="text-xs font-normal">cameră</span>`;
+
+      summaryTotal.innerText = `${soloPrice} €`;
+
+      summarySub.innerText = 'zbor + cameră single';
+
+    });
+
+  </script>
+
+</Layout>
+

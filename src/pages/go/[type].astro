@@ -1,0 +1,79 @@
+---
+export function getStaticPaths() {
+  return [
+    { params: { type: 'flight' } },
+    { params: { type: 'hotel' } },
+  ];
+}
+---
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Redirecționare securizată către partener...</title>
+  <script is:inline>
+    const params = new URLSearchParams(window.location.search);
+    const targetUrl = params.get('url');
+    const provider = params.get('provider') || 'booking';
+    const isFlight = window.location.pathname.includes('/flight');
+    
+    // Identificatori de partener & afiliere (se completează când sunt disponibile)
+    const CONFIG = {
+      TRAVELPAYOUTS_MARKER: '',
+      BOOKING_AID: '',
+      AGODA_CID: '',
+      HOSTELWORLD_AID: ''
+    };
+
+    if (targetUrl) {
+      try {
+        const u = new URL(targetUrl);
+
+        if (isFlight) {
+          if (CONFIG.TRAVELPAYOUTS_MARKER) u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+          u.searchParams.set('utm_source', 'ponturivacante');
+          u.searchParams.set('utm_medium', 'affiliate');
+        } else {
+          if (provider === 'agoda') {
+            if (CONFIG.AGODA_CID) u.searchParams.set('cid', CONFIG.AGODA_CID);
+            if (CONFIG.TRAVELPAYOUTS_MARKER) u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+          } else if (provider === 'hostelworld') {
+            if (CONFIG.HOSTELWORLD_AID) u.searchParams.set('affiliate', CONFIG.HOSTELWORLD_AID);
+          } else {
+            // Default: Booking.com (setat doar dacă există un ID real de partener)
+            if (CONFIG.BOOKING_AID) u.searchParams.set('aid', CONFIG.BOOKING_AID);
+          }
+          u.searchParams.set('utm_source', 'ponturivacante');
+        }
+
+        window.location.replace(u.toString());
+      } catch(e) {
+        window.location.replace(targetUrl);
+      }
+    } else {
+      window.location.replace('/');
+    }
+  </script>
+</head>
+<body style="font-family: system-ui, -apple-system, sans-serif; background: #0f172a; color: #f8fafc; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; text-align: center;">
+  <div style="background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); padding: 32px 40px; border-radius: 24px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); max-width: 420px;">
+    <div style="font-size: 48px; margin-bottom: 16px; animation: bounce 1s infinite;">✈️</div>
+    <h2 style="margin: 0 0 8px; font-size: 22px; font-weight: 800;">Te redirecționăm către partener...</h2>
+    <p style="margin: 0 0 16px; font-size: 13px; color: #94a3b8; line-height: 1.5;">
+      Verificăm disponibilitatea tarifelor oficiale în timp real. Vei ajunge direct pe pagina de rezervare securizată.
+    </p>
+    <div style="font-size: 11px; color: #64748b;">
+      Dacă nu ești redirecționat automat în 2 secunde, <a id="fallback-link" style="color: #38bdf8; text-decoration: underline;" href="#">apasă aici</a>.
+    </div>
+  </div>
+  <script is:inline>
+    const fallbackUrl = new URLSearchParams(window.location.search).get('url');
+    if (fallbackUrl) {
+      document.getElementById('fallback-link').setAttribute('href', fallbackUrl);
+    }
+  </script>
+</body>
+</html>

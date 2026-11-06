@@ -1,0 +1,146 @@
+---
+interface Props {
+  deal: {
+    id: string;
+    slug: string;
+    title: string;
+    destination: string;
+    country: string;
+    flag: string;
+    originCity: string;
+    originCode: string;
+    dates: string;
+    nights: number;
+    category: string;
+    badge: string;
+    image: string;
+    priceTotalPerPerson: number;
+    discountPercent?: number;
+    transportType?: 'flight' | 'car';
+    lastVerifiedFormatted?: string;
+    flight: {
+      airline: string;
+      price: number;
+      baggageInfo?: string;
+    };
+    hotel: {
+      name: string;
+      rating: number;
+      pricePerPerson: number;
+    };
+    accommodationOptions?: Array<{
+      provider: string;
+      pricePerPerson: number;
+    }>;
+  };
+}
+
+const { deal } = Astro.props;
+---
+
+<article 
+  class="deal-card group bg-white rounded-3xl overflow-hidden border border-slate-200/80 card-shadow hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between"
+  data-origin={deal.originCity}
+  data-category={deal.category}
+  data-price={deal.priceTotalPerPerson}
+  data-transport={deal.transportType || 'flight'}
+>
+  <div>
+    <!-- Cover Image with Badges -->
+    <div class="relative h-52 sm:h-56 overflow-hidden">
+      <img 
+        src={deal.image} 
+        alt={deal.destination}
+        loading="lazy"
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+
+      <!-- Top Badges -->
+      <div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+        {deal.transportType === 'car' ? (
+          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1">
+            <span>🚗</span> Cu Mașina
+          </span>
+        ) : (
+          <span class="px-2.5 py-1 rounded-full bg-sky-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1">
+            <span>✈️</span> Cu Avion
+          </span>
+        )}
+        <span class="px-2.5 py-1 rounded-full bg-rose-600 text-white text-xs font-black tracking-wide shadow-md">
+          {deal.badge}
+        </span>
+        <span class="px-2.5 py-1 rounded-full bg-slate-900/80 backdrop-blur text-white text-xs font-semibold">
+          {deal.category}
+        </span>
+      </div>
+
+      {deal.discountPercent && (
+        <div class="absolute top-3 right-3 px-2 py-0.5 rounded-md bg-amber-400 text-slate-950 text-xs font-black shadow">
+          -{deal.discountPercent}%
+        </div>
+      )}
+
+      <!-- Bottom Overlay: Origin and Destination -->
+      <div class="absolute bottom-3 left-3 right-3 text-white">
+        <div class="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
+          <span>{deal.transportType === 'car' ? `🚗 Transport Propriu (${deal.originCity})` : `Din ${deal.originCity} (${deal.originCode})`}</span>
+          <span>&bull;</span>
+          <span>{deal.dates}</span>
+        </div>
+        <h3 class="text-xl font-bold tracking-tight text-white flex items-center gap-2 drop-shadow-sm">
+          <span>{deal.destination}</span>
+          <span class="text-lg">{deal.flag}</span>
+        </h3>
+      </div>
+    </div>
+
+    <!-- Content & Cost Breakdown -->
+    <div class="p-5">
+      <p class="text-xs font-medium text-slate-500 line-clamp-2 mb-4 leading-relaxed">
+        {deal.title}
+      </p>
+
+      <!-- Cost Breakdown List with Airline & Accommodation Multi-Platform Badges -->
+      <div class="bg-slate-50 rounded-2xl p-3 border border-slate-100 space-y-2 mb-4 text-xs sm:text-sm">
+        <div class="flex items-center justify-between text-slate-700">
+          <span class="flex items-center gap-1.5 font-medium">
+            <span>{deal.transportType === 'car' ? '🚗' : '✈️'}</span> 
+            <span>{deal.transportType === 'car' ? deal.flight.airline : `${deal.flight.airline} (${deal.flight.baggageInfo ? deal.flight.baggageInfo.split('(')[0] : 'dus-întors'})`}</span>
+          </span>
+          <span class="font-bold text-slate-900">{deal.flight.price === 0 ? 'Transport propriu' : `${deal.flight.price} €`}</span>
+        </div>
+
+        <div class="flex items-center justify-between text-slate-700">
+          <span class="flex items-center gap-1.5 font-medium">
+            <span>🏨</span> Cazare {deal.nights} nopți (Booking/Agoda):
+          </span>
+          <span class="font-bold text-slate-900">{deal.hotel.pricePerPerson} € <span class="text-[10px] text-slate-400 font-normal">/pers</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Action & Total Price -->
+  <div class="px-5 pb-5 pt-0 border-t border-slate-100 mt-auto">
+    <div class="pt-4 flex items-center justify-between gap-3">
+      <div>
+        <div class="text-[10px] font-semibold uppercase tracking-wider text-slate-400 flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
+          <span>Total verificat:</span>
+        </div>
+        <div class="text-2xl font-black text-rose-600 leading-none">
+          {deal.priceTotalPerPerson} €
+          <span class="text-xs font-medium text-slate-500">/ pers</span>
+        </div>
+      </div>
+
+      <a 
+        href={`/oferta/${deal.slug}`}
+        class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-rose-600 text-white font-bold text-xs transition-colors shadow-sm"
+      >
+        Vezi Oferta &rarr;
+      </a>
+    </div>
+  </div>
+</article>

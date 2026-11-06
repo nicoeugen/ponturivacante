@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Termeni și Condiții de Utilizare"
+  description="Termenii și condițiile de utilizare a platformei independente PonturiVacanțe."
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12 text-slate-700 leading-relaxed text-sm sm:text-base">
+    <h1 class="text-3xl font-black text-slate-900 mb-6">
+      Termeni și Condiții de Utilizare
+    </h1>
+    <p class="text-xs text-slate-400 mb-8">Ultima actualizare: {new Date().toLocaleDateString('ro-RO')}</p>
+
+    <div class="space-y-6">
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">1. Statutul Juridic al Platformei</h2>
+        <p>
+          Platforma <strong>PonturiVacanțe</strong> (accesibilă la adresa <em>ponturivacante.ro</em>) funcționează exclusiv ca un motor de căutare, agregator de oferte și portal de informare turistică pe cont propriu (Do It Yourself).
+        </p>
+        <p class="mt-2 font-semibold text-rose-600">
+          PonturiVacanțe NU este agenție de turism, tur-operator, companie aeriană sau unitate de cazare.
+        </p>
+        <p class="mt-2">
+          Noi nu vindem, nu emitem bilete de avion, nu încasăm plăți pentru pachete turistice și nu facem rezervări în numele utilizatorilor. Toate tranzacțiile financiare și rezervările se realizează independent de către utilizator, direct pe site-urile companiilor partenere (Wizz Air, Ryanair, Booking.com, Agoda etc.).
+        </p>
+      </section>
+
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">2. Fluctuația Tarifelor & Disponibilitate</h2>
+        <p>
+          Prețurile afișate pe site reflectă tarifele existente în sistemele companiilor aeriene și hoteliere la momentul publicării ofertei. Companiile low-cost practică politici de preț dinamice (yield management), tarifele crescând automat pe măsură ce locurile din avion se ocupă.
+        </p>
+        <p class="mt-2">
+          PonturiVacanțe nu poate garanta menținerea unui anumit tarif pentru o perioadă determinată de timp.
+        </p>
+      </section>
+
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">3. Exonerare de Răspundere</h2>
+        <p>
+          PonturiVacanțe nu este răspunzătoare pentru:
+        </p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+          <li>Întârzieri, reprogramări sau anulări de zboruri operate de companiile aeriene;</li>
+          <li>Neînțelegeri sau litigii apărute între călător și unitatea de cazare;</li>
+          <li>Condițiile de intrare, vizele sau documentele de călătorie necesare în țara de destinație.</li>
+        </ul>
+      </section>
+
+      <section class="bg-white rounded-2xl p-6 border border-slate-200">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">4. Politica de Afiliere & Transparență</h2>
+        <p>
+          Unele linkuri de pe site sunt linkuri afiliate (prin rețele precum Travelpayouts sau Booking Affiliate). Aceasta înseamnă că, dacă rezervați un zbor sau o noapte de cazare prin linkurile noastre, putem primi un comision fără niciun cost suplimentar pentru dumneavoastră. Acest mecanism ne permite să menținem platforma gratuită.
+        </p>
+      </section>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="/" class="text-sm font-bold text-rose-600 hover:underline">&larr; Înapoi la prima pagină</a>
+    </div>
+  </div>
+</Layout>

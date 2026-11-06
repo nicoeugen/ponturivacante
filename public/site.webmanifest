@@ -1,0 +1,15 @@
+{
+  "name": "PonturiVacanțe — Zboruri Ieftine & Vacanțe pe Cont Propriu",
+  "short_name": "PonturiVacanțe",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#e11d48",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

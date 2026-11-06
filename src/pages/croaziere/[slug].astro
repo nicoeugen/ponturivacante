@@ -1,0 +1,189 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CommunityBanner from '../../components/CommunityBanner.astro';
+import cruises from '../../../data/cruises.json';
+
+export async function getStaticPaths() {
+  return cruises.map(cruise => ({
+    params: { slug: cruise.slug },
+    props: { cruise }
+  }));
+}
+
+const { cruise } = Astro.props;
+---
+
+<Layout 
+  title={`${cruise.title} — ${cruise.priceTotalPerPerson}€`}
+  description={cruise.description}
+  image={cruise.image}
+>
+  <article class="pb-16">
+    <!-- Breadcrumb -->
+    <div class="bg-slate-100 border-b border-slate-200 py-3">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-xs text-slate-500 flex items-center gap-2">
+        <a href="/" class="hover:text-rose-600 transition-colors">Acasă</a>
+        <span>/</span>
+        <a href="/croaziere" class="hover:text-indigo-600 transition-colors">Croaziere</a>
+        <span>/</span>
+        <span class="text-slate-800 font-semibold truncate">{cruise.destination}</span>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 pt-8">
+      <!-- Title & Badges -->
+      <div class="mb-6">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="px-2.5 py-1 rounded-full bg-indigo-600 text-white text-xs font-black shadow-sm">
+            {cruise.badge}
+          </span>
+          <span class="px-2.5 py-1 rounded-full bg-slate-900 text-white text-xs font-semibold">
+            {cruise.cruiseLine}
+          </span>
+          <span class="px-2.5 py-1 rounded-full bg-amber-400 text-slate-950 text-xs font-bold">
+            Pensiune Completă Inclusă
+          </span>
+        </div>
+
+        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-3">
+          {cruise.title}
+        </h1>
+
+        <div class="flex flex-wrap items-center gap-y-2 gap-x-4 text-xs sm:text-sm text-slate-600">
+          <span class="font-bold text-slate-900 flex items-center gap-1">
+            🚢 Nava: {cruise.shipName}
+          </span>
+          <span>&bull;</span>
+          <span>⚓ Port Îmbarcare: {cruise.boardingPort}</span>
+          <span>&bull;</span>
+          <span>📅 {cruise.dates} ({cruise.nights} nopți)</span>
+        </div>
+      </div>
+
+      <!-- Featured Image -->
+      <div class="rounded-3xl overflow-hidden mb-8 shadow-xl max-h-[460px] relative">
+        <img 
+          src={cruise.image} 
+          alt={cruise.title} 
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute bottom-4 right-4 bg-slate-900/90 backdrop-blur text-white px-4 py-2 rounded-2xl shadow-lg flex items-center gap-3">
+          <span class="text-xs text-slate-300">Pachet complet:</span>
+          <span class="text-2xl font-black text-amber-400">{cruise.priceTotalPerPerson} €</span>
+          <span class="text-xs text-slate-300">/ persoană</span>
+        </div>
+      </div>
+
+      <!-- Quick Summary Box -->
+      <div class="bg-gradient-to-r from-indigo-50 via-sky-50 to-blue-50 rounded-3xl p-6 border border-indigo-200/60 mb-10">
+        <h2 class="text-lg font-black text-slate-900 mb-2 flex items-center gap-2">
+          <span>💡 Cum funcționează pachetul de croazieră DIY?</span>
+        </h2>
+        <p class="text-sm text-slate-700 leading-relaxed mb-4">
+          {cruise.description}
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
+          <div class="bg-white rounded-xl p-3 border border-slate-200/80 shadow-sm">
+            <div class="text-xs text-slate-500 mb-0.5">1. Bilet Avion din România</div>
+            <div class="text-lg font-black text-slate-900">{cruise.flightPrice} €</div>
+            <div class="text-[11px] text-slate-500">{cruise.flight.airline} dus-întors</div>
+          </div>
+          <div class="bg-white rounded-xl p-3 border border-slate-200/80 shadow-sm">
+            <div class="text-xs text-slate-500 mb-0.5">2. Croazieră ({cruise.nights} nopți)</div>
+            <div class="text-lg font-black text-slate-900">{cruise.cruisePrice} € <span class="text-xs font-normal">/pers</span></div>
+            <div class="text-[11px] text-slate-500">Mese gourmet & spectacole</div>
+          </div>
+          <div class="bg-indigo-600 text-white rounded-xl p-3 shadow-md">
+            <div class="text-xs text-indigo-100 mb-0.5">Total Pachet</div>
+            <div class="text-xl font-black">{cruise.priceTotalPerPerson} €</div>
+            <div class="text-[11px] text-indigo-100">zbor + croazieră / pers</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Itinerary Port by Port -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-md mb-10">
+        <h3 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+          <span>🗺️ Itinerar Detaliat Port cu Port</span>
+        </h3>
+        <div class="space-y-3">
+          {cruise.itinerary.map((stop, idx) => (
+            <div class="flex items-center gap-3 p-3 rounded-2xl bg-slate-50 border border-slate-100 text-sm">
+              <span class="w-7 h-7 rounded-full bg-indigo-600 text-white font-black text-xs flex items-center justify-center flex-shrink-0">
+                {idx + 1}
+              </span>
+              <span class="font-bold text-slate-800">{stop}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Step-by-Step Booking Guide -->
+      <div class="space-y-6 mb-10">
+        <h3 class="text-2xl font-black text-slate-900">
+          Rezervă în 2 pași simpli:
+        </h3>
+
+        <!-- PASUL 1: Zborul -->
+        <div class="bg-white rounded-3xl p-6 border-2 border-slate-200 shadow-sm">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-rose-600 text-white font-black text-sm flex items-center justify-center">1</span>
+              <h4 class="font-bold text-base sm:text-lg text-slate-900">Rezervă Zborul spre Port ({cruise.flightPrice} €)</h4>
+            </div>
+            <span class="px-2.5 py-0.5 rounded bg-slate-100 font-bold text-xs">{cruise.flight.airline}</span>
+          </div>
+          <p class="text-xs text-slate-600 mb-4">
+            Rută directă: {cruise.flight.route}. Recomandăm sosirea cu câteva ore înainte de îmbarcare pentru un transfer relaxat spre terminalul de croazieră.
+          </p>
+          <a 
+            href={`/go/flight/?url=${encodeURIComponent(cruise.flight.link)}&deal=${cruise.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shadow-sm"
+          >
+            <span>✈️ Rezervă Zborul pe {cruise.flight.airline} ({cruise.flightPrice} €)</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- PASUL 2: Croaziera -->
+        <div class="bg-white rounded-3xl p-6 border-2 border-slate-200 shadow-sm">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-3">
+              <span class="w-8 h-8 rounded-full bg-indigo-600 text-white font-black text-sm flex items-center justify-center">2</span>
+              <h4 class="font-bold text-base sm:text-lg text-slate-900">Rezervă Cabina pe {cruise.shipName} ({cruise.cruisePrice} €)</h4>
+            </div>
+            <span class="px-2.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold text-xs">Pensiune Completă</span>
+          </div>
+          <div class="bg-slate-50 p-4 rounded-2xl border border-slate-100 text-xs text-slate-600 mb-4 space-y-1">
+            <div><strong>Tip cabină:</strong> {cruise.cruiseDetails.cabinType}</div>
+            <div><strong>Plan mese:</strong> {cruise.cruiseDetails.mealPlan}</div>
+            <div><strong>Divertisment:</strong> {cruise.cruiseDetails.entertainment}</div>
+          </div>
+          <a 
+            href={`/go/hotel/?url=${encodeURIComponent(cruise.cruiseDetails.link)}&deal=${cruise.id}&provider=cruise`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm shadow-md"
+          >
+            <span>🚢 Rezervă Croaziera cu Pensiune Completă ({cruise.cruisePrice} €/pers)</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sfaturi Utile Croazieră -->
+      <div class="bg-slate-100 rounded-3xl p-6 text-xs sm:text-sm text-slate-600 space-y-2 mb-10">
+        <h4 class="font-bold text-slate-800 text-base mb-1">📌 Informații utile despre croaziere:</h4>
+        <p>• <strong>Documente:</strong> Pentru croazierele din Mediterana ai nevoie doar de cartea de identitate (buletin). Pentru Dubai / Oman ai nevoie de pașaport valabil minim 6 luni.</p>
+        <p>• <strong>Băuturi:</strong> Apa, cafeaua simplă și ceaiul sunt gratuite la dozatoarele din zona de bufet pe tot parcursul zilei.</p>
+        <p>• <strong>Bacșiș la bord:</strong> Se adaugă automat taxa de serviciu a echipajului (cca. 11–12 €/zi de adult).</p>
+      </div>
+    </div>
+
+    <!-- Community Banner -->
+    <CommunityBanner />
+  </article>
+</Layout>

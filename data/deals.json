@@ -1,0 +1,2661 @@
+[
+  {
+    "id": "deal-exo-001",
+    "slug": "vacanta-exotica-tenerife-canare-din-bucuresti-250-euro",
+    "title": "Soare de iarnă în Tenerife: 7 nopți la ocean în Insulele Canare + Zbor direct",
+    "destination": "Tenerife (Insulele Canare)",
+    "country": "Spania",
+    "flag": "🇪🇸",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "TFS",
+    "dates": "15 – 22 Ianuarie 2027",
+    "departureDate": "2027-01-15",
+    "returnDate": "2027-01-22",
+    "nights": 7,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🌴 Canare 24°C",
+    "image": "https://images.unsplash.com/photo-1544085311-11a028465b03?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 250,
+    "discountPercent": 56,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "OTP – TFS (Direct)",
+      "price": 110,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/TFS/2027-01-15/2027-01-22/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/TFS/2027-01-15/2027-01-22/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Tenerife+15+–+22+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/tfs/270115/270122/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/tfs/2027-01-15/2027-01-22?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-TFS/2027-01-15/2027-01-22/2adults"
+    },
+    "alternativeAirlines": [
+      {
+        "name": "Ryanair",
+        "price": 125,
+        "route": "OTP – TFS (via Bergamo/Madrid)"
+      }
+    ],
+    "hotel": {
+      "name": "Apartamentos Los Cardones Costa Adeje 3★",
+      "provider": "Booking.com",
+      "rating": 8.5,
+      "reviewsCount": 2100,
+      "distance": "La 300m de plajă în Playa de las Américas",
+      "amenities": [
+        "Piscină exterioară",
+        "Grădină tropicală",
+        "Bucătărie utilată"
+      ],
+      "priceTotal": 280,
+      "pricePerPerson": 140,
+      "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Apartamentos Los Cardones Costa Adeje 3★",
+        "rating": 8.5,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Tenerife",
+        "rating": 8.8,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Tenerife&checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "22 – 29 Ianuarie 2027",
+        "price": 259,
+        "departureDate": "2027-01-22",
+        "returnDate": "2027-01-29",
+        "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/TFS/2027-01-22/2027-01-29/2/0/0/null",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-TFS/2027-01-22/2027-01-29/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20TFS%20on%202027-01-22%20returning%202027-01-29&curr=EUR&hl=ro"
+      },
+      {
+        "dates": "5 – 12 Februarie 2027",
+        "price": 265,
+        "departureDate": "2027-02-05",
+        "returnDate": "2027-02-12",
+        "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/TFS/2027-02-05/2027-02-12/2/0/0/null",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-TFS/2027-02-05/2027-02-12/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20TFS%20on%202027-02-05%20returning%202027-02-12&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Fugi de frigul iernii la 24°C în Tenerife! Zbor direct din București și o săptămână întreagă de relaxare la ocean, palmieri și vulcanul El Teide.",
+    "featured": true,
+    "publishedAt": "2026-11-06T16:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-002",
+    "slug": "vacanta-exotica-abu-dhabi-dubai-din-bucuresti-208-euro",
+    "title": "Soare și zgârie-nori în Emirate: 5 nopți în Abu Dhabi & Dubai + Zbor direct",
+    "destination": "Abu Dhabi & Dubai",
+    "country": "Emiratele Arabe Unite",
+    "flag": "🇦🇪",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "AUH",
+    "dates": "10 – 15 Decembrie 2026",
+    "departureDate": "2026-12-10",
+    "returnDate": "2026-12-15",
+    "nights": 5,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "☀️ 28°C în Decembrie",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 208,
+    "discountPercent": 52,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "OTP – AUH (Direct)",
+      "price": 98,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/AUH/2026-12-10/2026-12-15/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/AUH/2026-12-10/2026-12-15/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Abu+Dhabi+&+Dubai+10+–+15+Decembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/auh/261210/261215/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/auh/2026-12-10/2026-12-15?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-AUH/2026-12-10/2026-12-15/2adults"
+    },
+    "alternativeAirlines": [
+      {
+        "name": "HiSky",
+        "price": 140,
+        "route": "OTP – DXB (Dubai Direct)"
+      }
+    ],
+    "hotel": {
+      "name": "Premier Inn Abu Dhabi Capital Centre 3★",
+      "provider": "Booking.com",
+      "rating": 8.6,
+      "reviewsCount": 4500,
+      "distance": "Lângă faleza Corniche",
+      "amenities": [
+        "Piscină acoperiș",
+        "Sală fitness",
+        "Baie privată"
+      ],
+      "priceTotal": 220,
+      "pricePerPerson": 110,
+      "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Premier Inn Abu Dhabi Capital Centre 3★",
+        "rating": 8.6,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Abu Dhabi & Dubai",
+        "rating": 8.8,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Abu+Dhabi+&+Dubai&checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "14 – 19 Ianuarie 2027",
+        "price": 215,
+        "departureDate": "2027-01-14",
+        "returnDate": "2027-01-19",
+        "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/AUH/2027-01-14/2027-01-19/2/0/0/null",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-AUH/2027-01-14/2027-01-19/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AUH%20on%202027-01-14%20returning%202027-01-19&curr=EUR&hl=ro"
+      },
+      {
+        "dates": "4 – 9 Februarie 2027",
+        "price": 220,
+        "departureDate": "2027-02-04",
+        "returnDate": "2027-02-09",
+        "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/AUH/2027-02-04/2027-02-09/2/0/0/null",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-AUH/2027-02-04/2027-02-09/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AUH%20on%202027-02-04%20returning%202027-02-09&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Vreme perfectă de plajă la 27-28°C în mijlocul iernii! Zbor direct din București spre Abu Dhabi. Vizitează Moscheea Sheikh Zayed, Louvre Abu Dhabi și Burj Khalifa din Dubai.",
+    "featured": true,
+    "publishedAt": "2026-11-06T15:45:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-003",
+    "slug": "vacanta-exotica-iordania-aqaba-petra-din-bucuresti-129-euro",
+    "title": "Aventură în Iordania: 4 nopți la Marea Roșie (Aqaba) & Petra + Zbor direct",
+    "destination": "Aqaba & Petra",
+    "country": "Iordania",
+    "flag": "🇯🇴",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "AQJ",
+    "dates": "18 – 22 Ianuarie 2027",
+    "departureDate": "2027-01-18",
+    "returnDate": "2027-01-22",
+    "nights": 4,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🐪 Marea Roșie & Petra",
+    "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 129,
+    "discountPercent": 60,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – AQJ (Direct)",
+      "price": 54,
+      "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-18&dateIn=2027-01-22&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AQJ&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-18&dateIn=2027-01-22&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AQJ&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Aqaba+&+Petra+18+–+22+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/aqj/270118/270122/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/aqj/2027-01-18/2027-01-22?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-AQJ/2027-01-18/2027-01-22/2adults"
+    },
+    "alternativeAirlines": [
+      {
+        "name": "Wizz Air",
+        "price": 59,
+        "route": "OTP – AQJ (Direct)"
+      }
+    ],
+    "hotel": {
+      "name": "My Hotel Aqaba 3★",
+      "provider": "Booking.com",
+      "rating": 8.6,
+      "reviewsCount": 1890,
+      "distance": "În centrul orașului Aqaba lângă plajă",
+      "amenities": [
+        "Piscină pe acoperiș",
+        "Mic dejun inclus",
+        "Baie privată"
+      ],
+      "priceTotal": 150,
+      "pricePerPerson": 75,
+      "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "My Hotel Aqaba 3★",
+        "rating": 8.6,
+        "priceTotal": 150,
+        "pricePerPerson": 75,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Aqaba & Petra",
+        "rating": 8.8,
+        "priceTotal": 150,
+        "pricePerPerson": 75,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Aqaba+&+Petra&checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "25 – 29 Ianuarie 2027",
+        "price": 135,
+        "departureDate": "2027-01-25",
+        "returnDate": "2027-01-29",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-25&dateIn=2027-01-29&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AQJ&tpAdults=2",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-AQJ/2027-01-25/2027-01-29/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AQJ%20on%202027-01-25%20returning%202027-01-29&curr=EUR&hl=ro"
+      },
+      {
+        "dates": "1 – 5 Februarie 2027",
+        "price": 139,
+        "departureDate": "2027-02-01",
+        "returnDate": "2027-02-05",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-01&dateIn=2027-02-05&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AQJ&tpAdults=2",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-AQJ/2027-02-01/2027-02-05/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AQJ%20on%202027-02-01%20returning%202027-02-05&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Una dintre cele mai spectaculoase oferte posibile: zbor direct la Marea Roșie! Snorkeling printre corali la 24°C, noapte în deșertul roșu Wadi Rum și minunea antică Petra.",
+    "featured": true,
+    "publishedAt": "2026-11-06T15:30:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-004",
+    "slug": "sejur-all-inclusive-hurghada-egipt-din-bucuresti-255-euro",
+    "title": "Sejur All Inclusive în Hurghada la Marea Roșie: 6 nopți la Resort 4★ + Zbor",
+    "destination": "Hurghada (Marea Roșie)",
+    "country": "Egipt",
+    "flag": "🇪🇬",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "HRG",
+    "dates": "12 – 18 Februarie 2027",
+    "departureDate": "2027-02-12",
+    "returnDate": "2027-02-18",
+    "nights": 6,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🍹 All Inclusive 25°C",
+    "image": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 339,
+    "discountPercent": 50,
+    "flight": {
+      "airline": "Pegasus Airlines / HiSky",
+      "airlineCode": "PC",
+      "route": "OTP – SAW – HRG (Zbor cu escală)",
+      "price": 199,
+      "baggageInfo": "Geantă mică 40×30×15 cm inclusă",
+      "link": "https://www.momondo.ro/flight-search/OTP-HRG/2027-02-12/2027-02-18/2adults",
+      "directAirlineLink": "https://web.flypgs.com/booking?from=OTP&to=HRG&date=2027-02-12&returnDate=2027-02-18&adult=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Hurghada+12+–+18+Februarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/hrg/270212/270218/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/hrg/2027-02-12/2027-02-18?adults=2",
+      "isConnecting": true,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-HRG/2027-02-12/2027-02-18/2adults"
+    },
+    "hotel": {
+      "name": "Seagull Beach Resort 4★ All Inclusive",
+      "provider": "Booking.com",
+      "rating": 8.4,
+      "reviewsCount": 3800,
+      "distance": "Pe plaja privată la Marea Roșie",
+      "amenities": [
+        "All Inclusive complet",
+        "Aqua park propriu",
+        "Plajă privată"
+      ],
+      "priceTotal": 280,
+      "pricePerPerson": 140,
+      "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Seagull Beach Resort 4★ All Inclusive",
+        "rating": 8.4,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Hurghada",
+        "rating": 8.8,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Hurghada&checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "19 – 25 Februarie 2027",
+        "price": 349,
+        "departureDate": "2027-02-19",
+        "returnDate": "2027-02-25",
+        "link": "https://www.momondo.ro/flight-search/OTP-HRG/2027-02-19/2027-02-25/2adults",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-HRG/2027-02-19/2027-02-25/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20HRG%20on%202027-02-19%20returning%202027-02-25&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "6 nopți întregi de răsfăț All Inclusive la Marea Roșie! Mâncare și băuturi nelimitate, plajă privată cu șezlonguri, palmieri și soare cald în plină iarnă.",
+    "featured": true,
+    "publishedAt": "2026-11-06T15:15:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-005",
+    "slug": "city-break-marrakech-maroc-din-bucuresti-133-euro",
+    "title": "Aromele Orientului în Marrakech: 4 nopți în Riad Tradițional + Zbor",
+    "destination": "Marrakech",
+    "country": "Maroc",
+    "flag": "🇲🇦",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "RAK",
+    "dates": "14 – 18 Ianuarie 2027",
+    "departureDate": "2027-01-14",
+    "returnDate": "2027-01-18",
+    "nights": 4,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🕌 Riad Tradițional",
+    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 133,
+    "discountPercent": 54,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – RAK (Zbor combinat)",
+      "price": 78,
+      "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-14&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=RAK&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-14&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=RAK&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Marrakech+14+–+18+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/rak/270114/270118/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/rak/2027-01-14/2027-01-18?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-RAK/2027-01-14/2027-01-18/2adults"
+    },
+    "hotel": {
+      "name": "Riad Dar Fangor Marrakech",
+      "provider": "Booking.com",
+      "rating": 8.9,
+      "reviewsCount": 650,
+      "distance": "În Medina istorică lângă Piața Jemaa el-Fna",
+      "amenities": [
+        "Curte interioară cu fântână",
+        "Mic dejun marocan inclus",
+        "Terasă pe acoperiș"
+      ],
+      "priceTotal": 110,
+      "pricePerPerson": 55,
+      "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Riad Dar Fangor Marrakech",
+        "rating": 8.9,
+        "priceTotal": 110,
+        "pricePerPerson": 55,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Marrakech",
+        "rating": 8.8,
+        "priceTotal": 110,
+        "pricePerPerson": 55,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Marrakech&checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "21 – 25 Ianuarie 2027",
+        "price": 139,
+        "departureDate": "2027-01-21",
+        "returnDate": "2027-01-25",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=RAK&tpAdults=2",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-RAK/2027-01-21/2027-01-25/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20RAK%20on%202027-01-21%20returning%202027-01-25&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Descoperă misterul Pieței Jemaa el-Fna, Grădinile Majorelle ale lui Yves Saint Laurent și palatele orientale din Marrakech la 21°C în miezul iernii.",
+    "featured": false,
+    "publishedAt": "2026-11-06T15:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-006",
+    "slug": "vacanta-exotica-madeira-portugalia-din-bucuresti-219-euro",
+    "title": "Primăvară eternă în Madeira: 5 nopți la Funchal + Zbor dus-întors",
+    "destination": "Madeira (Funchal)",
+    "country": "Portugalia",
+    "flag": "🇵🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "FNC",
+    "dates": "19 – 24 Ianuarie 2027",
+    "departureDate": "2027-01-19",
+    "returnDate": "2027-01-24",
+    "nights": 5,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🌺 Insula Florilor",
+    "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 289,
+    "discountPercent": 48,
+    "flight": {
+      "airline": "Wizz Air + TAP / EasyJet",
+      "airlineCode": "W6",
+      "route": "OTP – LIS / BCN – FNC (Zbor cu escală)",
+      "price": 189,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.momondo.ro/flight-search/OTP-FNC/2027-01-19/2027-01-24/2adults",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FNC/2027-01-19/2027-01-24/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Madeira+19+–+24+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/fnc/270119/270124/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/fnc/2027-01-19/2027-01-24?adults=2",
+      "isConnecting": true,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-FNC/2027-01-19/2027-01-24/2adults"
+    },
+    "hotel": {
+      "name": "Hotel Orquidea Funchal 3★",
+      "provider": "Booking.com",
+      "rating": 8.5,
+      "reviewsCount": 2400,
+      "distance": "În centrul orașului Funchal",
+      "amenities": [
+        "Terasă panoramică cu vedere la ocean",
+        "Mic dejun inclus",
+        "Baie privată"
+      ],
+      "priceTotal": 200,
+      "pricePerPerson": 100,
+      "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Orquidea Funchal 3★",
+        "rating": 8.5,
+        "priceTotal": 200,
+        "pricePerPerson": 100,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Madeira",
+        "rating": 8.8,
+        "priceTotal": 200,
+        "pricePerPerson": 100,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Madeira&checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "26 – 31 Ianuarie 2027",
+        "price": 299,
+        "departureDate": "2027-01-26",
+        "returnDate": "2027-01-31",
+        "link": "https://www.momondo.ro/flight-search/OTP-FNC/2027-01-26/2027-01-31/2adults",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-FNC/2027-01-26/2027-01-31/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20FNC%20on%202027-01-26%20returning%202027-01-31&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Vegetație subtropicală luxuriantă, drumeții de neuitat pe 'levadas' și stânci spectaculoase în Oceanul Atlantic la 21°C tot timpul anului.",
+    "featured": false,
+    "publishedAt": "2026-11-06T14:30:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-007",
+    "slug": "vacanta-exotica-maldive-diy-din-bucuresti-435-euro",
+    "title": "Paradisul din Maldive pe cont propriu: 7 nopți pe insulă de corali + Zbor dus-întors",
+    "destination": "Maldive (Maafushi)",
+    "country": "Maldive",
+    "flag": "🇲🇻",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "MLE",
+    "dates": "22 – 30 Ianuarie 2027",
+    "departureDate": "2027-01-22",
+    "returnDate": "2027-01-30",
+    "nights": 7,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🏝️ Maldive DIY 30°C",
+    "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 829,
+    "discountPercent": 70,
+    "flight": {
+      "airline": "FlyDubai / Qatar Airways",
+      "airlineCode": "FZ",
+      "route": "OTP – DXB / DOH – MLE (Zbor cu escală)",
+      "price": 689,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.momondo.ro/flight-search/OTP-MLE/2027-01-22/2027-01-30/2adults",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Maldive+22+–+30+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mle/270122/270130/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/mle/2027-01-22/2027-01-30?adults=2",
+      "isConnecting": true,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MLE/2027-01-22/2027-01-30/2adults"
+    },
+    "hotel": {
+      "name": "Arena Beach Hotel Maafushi 4★",
+      "provider": "Booking.com",
+      "rating": 8.7,
+      "reviewsCount": 3200,
+      "distance": "Chiar pe plaja Bikini Beach",
+      "amenities": [
+        "Plajă privată cu nisip alb",
+        "Mic dejun inclus",
+        "Excursii cu rechini balenă"
+      ],
+      "priceTotal": 280,
+      "pricePerPerson": 140,
+      "link": "https://www.booking.com/hotel/mv/arena-beach.ro.html?checkin=2027-01-22&checkout=2027-01-30&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Arena Beach Hotel Maafushi 4★",
+        "rating": 8.7,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/mv/arena-beach.ro.html?checkin=2027-01-22&checkout=2027-01-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Maldive",
+        "rating": 8.8,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Maldive&checkin=2027-01-22&checkout=2027-01-30&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "5 – 13 Februarie 2027",
+        "price": 849,
+        "departureDate": "2027-02-05",
+        "returnDate": "2027-02-13",
+        "link": "https://www.momondo.ro/flight-search/OTP-MLE/2027-02-05/2027-02-13/2adults",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-MLE/2027-02-05/2027-02-13/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MLE%20on%202027-02-05%20returning%202027-02-13&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Secretul vacanței în Maldive fără să plătești 2.000€ la agenție! Zbor combinat low-cost și cazare la un hotel superb pe plaja cu nisip alb de pe insula locală Maafushi. Apă turcoaz de 29°C și recife de corali.",
+    "featured": true,
+    "publishedAt": "2026-11-06T16:15:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-008",
+    "slug": "vacanta-exotica-zanzibar-tanzania-din-bucuresti-570-euro",
+    "title": "Exotic în Zanzibar: 8 nopți pe plajă în Nungwi + Zbor dus-întors cu escală",
+    "destination": "Zanzibar (Tanzania)",
+    "country": "Tanzania",
+    "flag": "🇹🇿",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "ZNZ",
+    "dates": "3 – 11 Februarie 2027",
+    "departureDate": "2027-02-03",
+    "returnDate": "2027-02-11",
+    "nights": 8,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🌊 Oceanul Indian 31°C",
+    "image": "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 749,
+    "discountPercent": 65,
+    "flight": {
+      "airline": "FlyDubai",
+      "airlineCode": "FZ",
+      "route": "OTP – DXB – ZNZ (Zbor cu escală în Dubai)",
+      "price": 599,
+      "baggageInfo": "Bagaj de cală 20 kg + cabină inclus",
+      "link": "https://www.momondo.ro/flight-search/OTP-ZNZ/2027-02-03/2027-02-11/2adults",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Zanzibar+3+–+11+Februarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/znz/270203/270211/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/znz/2027-02-03/2027-02-11?adults=2",
+      "isConnecting": true,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-ZNZ/2027-02-03/2027-02-11/2adults"
+    },
+    "hotel": {
+      "name": "Amaan Beach Bungalows Nungwi 3★",
+      "provider": "Booking.com",
+      "rating": 8.6,
+      "reviewsCount": 2100,
+      "distance": "Pe cea mai frumoasă plajă din Nungwi",
+      "amenities": [
+        "Piscină pe stânci",
+        "Mic dejun tropical inclus",
+        "Plajă fără reflux"
+      ],
+      "priceTotal": 300,
+      "pricePerPerson": 150,
+      "link": "https://www.booking.com/hotel/tz/amaan-bungalows.ro.html?checkin=2027-02-03&checkout=2027-02-11&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Amaan Beach Bungalows Nungwi 3★",
+        "rating": 8.6,
+        "priceTotal": 300,
+        "pricePerPerson": 150,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/tz/amaan-bungalows.ro.html?checkin=2027-02-03&checkout=2027-02-11&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Zanzibar",
+        "rating": 8.8,
+        "priceTotal": 300,
+        "pricePerPerson": 150,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zanzibar&checkin=2027-02-03&checkout=2027-02-11&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "10 – 18 Februarie 2027",
+        "price": 769,
+        "departureDate": "2027-02-10",
+        "returnDate": "2027-02-18",
+        "link": "https://www.momondo.ro/flight-search/OTP-ZNZ/2027-02-10/2027-02-18/2adults",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-ZNZ/2027-02-10/2027-02-18/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20ZNZ%20on%202027-02-10%20returning%202027-02-18&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Nisip alb ca pudra, ape de un turcoaz ireal și apusuri de film în Nungwi. 8 nopți de evadare tropicală completă în Oceanul Indian la 31°C.",
+    "featured": true,
+    "publishedAt": "2026-11-06T16:30:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-exo-009",
+    "slug": "vacanta-exotica-gran-canaria-din-cluj-225-euro",
+    "title": "Dunele Maspalomas & Oceanul: 7 nopți în Gran Canaria din Cluj-Napoca",
+    "destination": "Gran Canaria (Insulele Canare)",
+    "country": "Spania",
+    "flag": "🇪🇸",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "LPA",
+    "dates": "23 – 30 Ianuarie 2027",
+    "departureDate": "2027-01-23",
+    "returnDate": "2027-01-30",
+    "nights": 7,
+    "category": "Exotic & Soare de Iarnă",
+    "badge": "🏖️ Canare 23°C",
+    "image": "https://images.unsplash.com/photo-1582298538104-fe2e74c27f59?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 225,
+    "discountPercent": 55,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "CLJ – LPA (Zbor conexiune scurtă)",
+      "price": 95,
+      "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-23&dateIn=2027-01-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=LPA&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-23&dateIn=2027-01-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=LPA&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+CLJ+Gran+Canaria+23+–+30+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/lpa/270123/270130/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/lpa/2027-01-23/2027-01-30?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-LPA/2027-01-23/2027-01-30/2adults"
+    },
+    "hotel": {
+      "name": "Bungalows Vistaflor Maspalomas 3★",
+      "provider": "Booking.com",
+      "rating": 8.4,
+      "reviewsCount": 1800,
+      "distance": "Lângă faimoasele dune din Maspalomas",
+      "amenities": [
+        "Piscină mare exterioară",
+        "Terasă proprie",
+        "Bucătărie utilată"
+      ],
+      "priceTotal": 260,
+      "pricePerPerson": 130,
+      "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Bungalows Vistaflor Maspalomas 3★",
+        "rating": 8.4,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Gran Canaria",
+        "rating": 8.8,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Gran+Canaria&checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "6 – 13 Februarie 2027",
+        "price": 239,
+        "departureDate": "2027-02-06",
+        "returnDate": "2027-02-13",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-06&dateIn=2027-02-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=LPA&tpAdults=2",
+        "momondoLink": "https://www.momondo.ro/flight-search/CLJ-LPA/2027-02-06/2027-02-13/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20LPA%20on%202027-02-06%20returning%202027-02-13&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "O săptămână completă în Insulele Canare cu plecare din Cluj! Nisip auriu în rezervația naturală a dunelor Maspalomas, ocean și temperaturi ideale de primăvară în ianuarie.",
+    "featured": false,
+    "publishedAt": "2026-11-06T15:20:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-001",
+    "slug": "city-break-roma-din-bucuresti-98-euro",
+    "title": "Weekend la Roma: 3 nopți în Orașul Etern + Zbor dus-întors",
+    "destination": "Roma",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "FCO",
+    "dates": "20 – 23 Noiembrie 2026",
+    "departureDate": "2026-11-20",
+    "returnDate": "2026-11-23",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🔥 Chilipir",
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 98,
+    "discountPercent": 55,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "OTP – FCO (Direct)",
+      "price": 38,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FCO/2026-11-20/2026-11-23/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FCO/2026-11-20/2026-11-23/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Roma+20+–+23+Noiembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/fco/261120/261123/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/fco/2026-11-20/2026-11-23?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-FCO/2026-11-20/2026-11-23/2adults"
+    },
+    "alternativeAirlines": [
+      {
+        "name": "Ryanair",
+        "price": 42,
+        "route": "OTP – CIA (Direct)"
+      },
+      {
+        "name": "TAROM",
+        "price": 99,
+        "route": "OTP – FCO (Cu bagaj cală 23kg inclus)"
+      }
+    ],
+    "hotel": {
+      "name": "Hotel San Giovanni Roma 3★",
+      "provider": "Booking.com",
+      "rating": 8.4,
+      "reviewsCount": 1420,
+      "distance": "1.8 km de Colosseum",
+      "amenities": [
+        "Baie privată",
+        "WiFi Gratuit",
+        "Aer condiționat",
+        "Aproape de metrou"
+      ],
+      "priceTotal": 120,
+      "pricePerPerson": 60,
+      "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel San Giovanni Roma 3★",
+        "rating": 8.4,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Roma",
+        "rating": 8.8,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma&checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "27 – 30 Noiembrie 2026",
+        "price": 104,
+        "departureDate": "2026-11-27",
+        "returnDate": "2026-11-30",
+        "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FCO/2026-11-27/2026-11-30/2/0/0/null",
+        "momondoLink": "https://www.momondo.ro/flight-search/OTP-FCO/2026-11-27/2026-11-30/2adults",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20FCO%20on%202026-11-27%20returning%202026-11-30&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Una dintre cele mai accesibile escapade la Roma! Zbor direct din București cu orar convenabil de weekend și cazare la un hotel de 3 stele cu recenzii foarte bune.",
+    "featured": true,
+    "publishedAt": "2026-11-06T12:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-002",
+    "slug": "vacanta-milano-bergamo-din-cluj-74-euro",
+    "title": "Escapadă la Milano & Lacul Como din Cluj-Napoca",
+    "destination": "Milano & Bergamo",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "BGY",
+    "dates": "27 – 30 Noiembrie 2026",
+    "departureDate": "2026-11-27",
+    "returnDate": "2026-11-30",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "⚡ Cel mai mic preț",
+    "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 75,
+    "discountPercent": 62,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "CLJ – BGY (Direct)",
+      "price": 29,
+      "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+CLJ+Milano+&+Bergamo+27+–+30+Noiembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bgy/261127/261130/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/bgy/2026-11-27/2026-11-30?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-BGY/2026-11-27/2026-11-30/2adults"
+    },
+    "hotel": {
+      "name": "B&B Bergamo Central",
+      "provider": "Booking.com",
+      "rating": 8.7,
+      "reviewsCount": 890,
+      "distance": "Central în Bergamo Basso",
+      "amenities": [
+        "Baie privată",
+        "Mic dejun inclus",
+        "WiFi rapid"
+      ],
+      "priceTotal": 92,
+      "pricePerPerson": 46,
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "B&B Bergamo Central",
+        "rating": 8.7,
+        "priceTotal": 92,
+        "pricePerPerson": 46,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Milano & Bergamo",
+        "rating": 8.8,
+        "priceTotal": 92,
+        "pricePerPerson": 46,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+&+Bergamo&checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Zbori la Bergamo cu doar 28€ dus-întors cu Ryanair! Cu trenul ajungi în 50 de minute fie în centrul Milano, fie pe malul celebrului Lac Como.",
+    "featured": true,
+    "publishedAt": "2026-11-06T10:30:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-003",
+    "slug": "city-break-malaga-spania-din-bucuresti-hisky-129-euro",
+    "title": "Andaluzia & Malaga din București cu HiSky: 3 nopți + Zbor direct",
+    "destination": "Malaga (Costa del Sol)",
+    "country": "Spania",
+    "flag": "🇪🇸",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "AGP",
+    "dates": "3 – 6 Decembrie 2026",
+    "departureDate": "2026-12-03",
+    "returnDate": "2026-12-06",
+    "nights": 3,
+    "category": "Mare & Soare",
+    "badge": "✈️ Companie HiSky",
+    "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 129,
+    "discountPercent": 46,
+    "flight": {
+      "airline": "HiSky",
+      "airlineCode": "H4",
+      "route": "OTP – AGP (Direct)",
+      "price": 59,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm (8 kg inclus)",
+      "link": "https://hisky.aero/ro",
+      "directAirlineLink": "https://www.google.com/travel/flights?q=Zboruri%20HiSky%20de%20la%20OTP%20la%20AGP%20din%202026-12-03%20pana%20in%202026-12-06",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Malaga+3+–+6+Decembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/agp/261203/261206/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/agp/2026-12-03/2026-12-06?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-AGP/2026-12-03/2026-12-06/2adults"
+    },
+    "hotel": {
+      "name": "Hotel Soho Boutique Málaga 3★",
+      "provider": "Booking.com",
+      "rating": 8.6,
+      "reviewsCount": 1650,
+      "distance": "În centrul istoric Soho",
+      "amenities": [
+        "Baie privată",
+        "WiFi Gratuit",
+        "La 500m de plajă"
+      ],
+      "priceTotal": 140,
+      "pricePerPerson": 70,
+      "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Soho Boutique Málaga 3★",
+        "rating": 8.6,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Malaga",
+        "rating": 8.8,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga&checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Zbor direct București - Malaga cu HiSky (8 kg bagaj inclus)! Temperaturi de 18-20°C în decembrie, plimbări pe faleză și tapas autentice.",
+    "featured": true,
+    "publishedAt": "2026-11-06T14:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-008",
+    "slug": "weekend-viena-din-bucuresti-89-euro",
+    "title": "Weekend la Viena din București: Piețele de Crăciun & Palatele Imperiale",
+    "destination": "Viena",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "VIE",
+    "dates": "28 – 30 Noiembrie 2026",
+    "departureDate": "2026-11-28",
+    "returnDate": "2026-11-30",
+    "nights": 2,
+    "category": "Weekend",
+    "badge": "🎄 Piețe de Crăciun",
+    "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 89,
+    "discountPercent": 50,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – VIE (Direct)",
+      "price": 35,
+      "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-28&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-28&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Viena+28+–+30+Noiembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/vie/261128/261130/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/vie/2026-11-28/2026-11-30?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-VIE/2026-11-28/2026-11-30/2adults"
+    },
+    "hotel": {
+      "name": "Ibis Wien Hauptbahnhof 3★",
+      "provider": "Booking.com",
+      "rating": 8.5,
+      "reviewsCount": 4200,
+      "distance": "Gara Centrală Viena",
+      "amenities": [
+        "Baie privată",
+        "Metrou direct spre Stephansplatz"
+      ],
+      "priceTotal": 108,
+      "pricePerPerson": 54,
+      "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Ibis Wien Hauptbahnhof 3★",
+        "rating": 8.5,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Viena",
+        "rating": 8.8,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Viena&checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Un weekend rapid și elegant la Viena! Prinde atmosfera magică din fața Primăriei Rathaus și palatele Schönbrunn și Hofburg.",
+    "featured": true,
+    "publishedAt": "2026-11-05T14:20:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-010",
+    "slug": "city-break-bologna-din-craiova-79-euro",
+    "title": "Capitala Gastronomică a Italiei: 3 nopți în Bologna din Craiova",
+    "destination": "Bologna",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Craiova",
+    "originCode": "CRA",
+    "destinationCode": "BLQ",
+    "dates": "5 – 8 Decembrie 2026",
+    "departureDate": "2026-12-05",
+    "returnDate": "2026-12-08",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🍝 Gurmand",
+    "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 79,
+    "discountPercent": 58,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "CRA – BLQ (Direct)",
+      "price": 29,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/CRA/BLQ/2026-12-05/2026-12-08/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/CRA/BLQ/2026-12-05/2026-12-08/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+CRA+Bologna+5+–+8+Decembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cra/blq/261205/261208/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/cra/blq/2026-12-05/2026-12-08?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/CRA-BLQ/2026-12-05/2026-12-08/2adults"
+    },
+    "hotel": {
+      "name": "Hotel San Donato Bologna 3★",
+      "provider": "Booking.com",
+      "rating": 8.3,
+      "reviewsCount": 1150,
+      "distance": "În centrul istoric lângă Due Torri",
+      "amenities": [
+        "Baie privată",
+        "WiFi gratuit"
+      ],
+      "priceTotal": 100,
+      "pricePerPerson": 50,
+      "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel San Donato Bologna 3★",
+        "rating": 8.3,
+        "priceTotal": 100,
+        "pricePerPerson": 50,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bologna",
+        "rating": 8.8,
+        "priceTotal": 100,
+        "pricePerPerson": 50,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Zbor direct din Craiova către Bologna, cel mai celebru oraș culinar din Italia. Savurează paste proaspete tagliatelle al ragù.",
+    "featured": false,
+    "publishedAt": "2026-11-06T11:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-015",
+    "slug": "city-break-bruxelles-din-suceava-88-euro",
+    "title": "Bruxelles & Bruges din Suceava: 3 nopți în inima Europei",
+    "destination": "Bruxelles & Bruges",
+    "country": "Belgia",
+    "flag": "🇧🇪",
+    "originCity": "Suceava",
+    "originCode": "SCV",
+    "destinationCode": "CRL",
+    "dates": "5 – 8 Decembrie 2026",
+    "departureDate": "2026-12-05",
+    "returnDate": "2026-12-08",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🍫 Ciocolată & Bere",
+    "image": "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 88,
+    "discountPercent": 52,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "SCV – CRL (Direct)",
+      "price": 32,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/SCV/CRL/2026-12-05/2026-12-08/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/SCV/CRL/2026-12-05/2026-12-08/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+SCV+Bruxelles+&+Bruges+5+–+8+Decembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/scv/crl/261205/261208/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/scv/crl/2026-12-05/2026-12-08?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/SCV-CRL/2026-12-05/2026-12-08/2adults"
+    },
+    "hotel": {
+      "name": "Meininger Hotel Bruxelles City Center 3★",
+      "provider": "Booking.com",
+      "rating": 8.5,
+      "reviewsCount": 5100,
+      "distance": "Pe malul canalului lângă Grand Place",
+      "amenities": [
+        "Baie privată",
+        "Design modern",
+        "Metrou aproape"
+      ],
+      "priceTotal": 112,
+      "pricePerPerson": 56,
+      "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Meininger Hotel Bruxelles City Center 3★",
+        "rating": 8.5,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bruxelles & Bruges",
+        "rating": 8.8,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+&+Bruges&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Zbor direct din Suceava spre Belgia! Vizitează Grand Place, savurează vafe fierbinți belgiene și fă o excursie de o zi în Bruges.",
+    "featured": false,
+    "publishedAt": "2026-11-04T12:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-011",
+    "slug": "city-break-londra-din-sibiu-109-euro",
+    "title": "Escapadă la Londra din Sibiu: 3 nopți în metropola britanică",
+    "destination": "Londra",
+    "country": "Marea Britanie",
+    "flag": "🇬🇧",
+    "originCity": "Sibiu",
+    "originCode": "SBZ",
+    "destinationCode": "LTN",
+    "dates": "12 – 15 Decembrie 2026",
+    "departureDate": "2026-12-12",
+    "returnDate": "2026-12-15",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "👑 Metropolă",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 109,
+    "discountPercent": 48,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "SBZ – LTN (Direct)",
+      "price": 39,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/SBZ/LTN/2026-12-12/2026-12-15/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/SBZ/LTN/2026-12-12/2026-12-15/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+SBZ+Londra+12+–+15+Decembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/sbz/ltn/261212/261215/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/sbz/ltn/2026-12-12/2026-12-15?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/SBZ-LTN/2026-12-12/2026-12-15/2adults"
+    },
+    "hotel": {
+      "name": "Point A Hotel London Kings Cross 3★",
+      "provider": "Booking.com",
+      "rating": 8.3,
+      "reviewsCount": 3800,
+      "distance": "5 min de gara Kings Cross",
+      "amenities": [
+        "Baie privată",
+        "WiFi rapid",
+        "Metrou la 2 minute"
+      ],
+      "priceTotal": 140,
+      "pricePerPerson": 70,
+      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Point A Hotel London Kings Cross 3★",
+        "rating": 8.3,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Londra",
+        "rating": 8.8,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Londra&checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Zbor direct din Sibiu la Londra! Vizitează Muzeul Britanic, Big Ben, London Eye și spectacolele de pe West End.",
+    "featured": false,
+    "publishedAt": "2026-11-05T16:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-012",
+    "slug": "city-break-paris-din-bucuresti-119-euro",
+    "title": "Weekend romantic la Paris din București: 3 nopți + Zbor direct",
+    "destination": "Paris",
+    "country": "Franța",
+    "flag": "🇫🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "BVA",
+    "dates": "11 – 14 Decembrie 2026",
+    "departureDate": "2026-12-11",
+    "returnDate": "2026-12-14",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🗼 Romantic",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 117,
+    "discountPercent": 48,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – BVA (Direct)",
+      "price": 43,
+      "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Paris+11+–+14+Decembrie+2026",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/bva/261211/261214/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/bva/2026-12-11/2026-12-14?adults=2",
+      "isConnecting": false,
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BVA/2026-12-11/2026-12-14/2adults"
+    },
+    "hotel": {
+      "name": "Ibis Paris Montmartre 3★",
+      "provider": "Booking.com",
+      "rating": 8.4,
+      "reviewsCount": 2900,
+      "distance": "În cartierul boem Montmartre",
+      "amenities": [
+        "Baie privată",
+        "Metrou la 200m",
+        "Aproape de Sacré-Cœur"
+      ],
+      "priceTotal": 148,
+      "pricePerPerson": 74,
+      "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Ibis Paris Montmartre 3★",
+        "rating": 8.4,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Paris",
+        "rating": 8.8,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      }
+    ],
+    "description": "Turnul Eiffel, Muzeul Luvru, croazieră pe Sena și croissante proaspete în Montmartre. Zbor direct din București la un preț imbatabil.",
+    "featured": false,
+    "publishedAt": "2026-11-06T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-001",
+    "slug": "vacanta-schi-bansko-bulgaria-transport-propriu-110-euro",
+    "title": "Schi la Bansko: 4 nopți la Green Life Ski & Spa Resort 4★ cu Piscină & Spa (Transport Propriu)",
+    "destination": "Bansko (Munții Pirin)",
+    "country": "Bulgaria",
+    "flag": "🇧🇬",
+    "originCity": "București",
+    "originCode": "AUTO",
+    "destinationCode": "BANSKO",
+    "dates": "5 – 9 Februarie 2027",
+    "departureDate": "2027-02-05",
+    "returnDate": "2027-02-09",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🎿 75 km Pârtii + Spa",
+    "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 110,
+    "discountPercent": 48,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (cu mașina personală)",
+      "airlineCode": "CAR",
+      "route": "București → Giurgiu → Ruse → Sofia → Bansko (~530 km, 5h30 pe drum asfaltat / autostradă)",
+      "price": 0,
+      "baggageInfo": "Portbagaj nelimitat: schiuri, clăpari, bețe și bagaje personale în mașină (fără taxe de cală)",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Green Life Ski & Spa Resort Bansko 4★",
+      "provider": "Booking.com",
+      "rating": 8.6,
+      "reviewsCount": 1850,
+      "distance": "La 300m de pârtii și telegondola Bansko (shuttle gratuit inclus)",
+      "amenities": [
+        "Piscină interioară încălzită",
+        "Centru Spa & Saună finlandeză",
+        "Depozit gratuit schi & clăpari",
+        "Shuttle gratuit la telegondolă"
+      ],
+      "priceTotal": 220,
+      "pricePerPerson": 110,
+      "link": "https://www.booking.com/hotel/bg/green-life-bansko.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Green Life Ski & Spa Resort Bansko 4★",
+        "rating": 8.6,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/bg/green-life-bansko.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bansko",
+        "rating": 8.8,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko&checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "22 – 26 Ianuarie 2027",
+        "price": 105,
+        "departureDate": "2027-01-22",
+        "returnDate": "2027-01-26",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria"
+      },
+      {
+        "dates": "12 – 16 Februarie 2027",
+        "price": 119,
+        "departureDate": "2027-02-12",
+        "returnDate": "2027-02-16",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria"
+      }
+    ],
+    "description": "Cea mai populară și avantajoasă stațiune de schi din Balcani! Peste 75 km de pârtii amenajate pe versantul muntelui Todorka (2.600m), telegondolă modernă și relaxare la centrul spa cu piscine încălzite al resortului 4★ Green Life. Fără bătăi de cap cu zborul: vii direct cu mașina și echipamentul în portbagaj.",
+    "featured": true,
+    "publishedAt": "2026-11-06T18:00:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-005",
+    "slug": "vacanta-schi-borovets-bulgaria-hotel-rila-135-euro",
+    "title": "Ski-in / Ski-out la Borovets: 4 nopți la Hotel Rila 4★ chiar la Baza Pârtiilor (Transport Propriu)",
+    "destination": "Borovets (Munții Rila)",
+    "country": "Bulgaria",
+    "flag": "🇧🇬",
+    "originCity": "București",
+    "originCode": "AUTO",
+    "destinationCode": "BOROVETS",
+    "dates": "29 Ianuarie – 2 Februarie 2027",
+    "departureDate": "2027-01-29",
+    "returnDate": "2027-02-02",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "⛷️ Ski-in / Ski-out & Spa",
+    "image": "https://images.unsplash.com/photo-1546948630-1149ea60dc86?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 135,
+    "discountPercent": 44,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (cu mașina personală)",
+      "airlineCode": "CAR",
+      "route": "București → Giurgiu → Ruse → Samokov → Borovets (~460 km, doar 4h30 - cea mai apropiată mare stațiune din BG)",
+      "price": 0,
+      "baggageInfo": "Echipament complet în mașină, parcare privată disponibilă la hotel",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Borovets,+Bulgaria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Borovets,+Bulgaria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Rila Borovets 4★",
+      "provider": "Booking.com",
+      "rating": 8.9,
+      "reviewsCount": 3100,
+      "distance": "La 50m de telescaunul Martinovi Baraki și 200m de telegondola Borovets",
+      "amenities": [
+        "Acces direct pe pârtie (Ski-to-door)",
+        "Piscină interioară semiolimpică (25m)",
+        "Zonă termală cu saune și jacuzzi",
+        "Depozit clăpari încălzit & închirieri schi"
+      ],
+      "priceTotal": 270,
+      "pricePerPerson": 135,
+      "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Rila Borovets 4★",
+        "rating": 8.9,
+        "priceTotal": 270,
+        "pricePerPerson": 135,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Borovets",
+        "rating": 8.8,
+        "priceTotal": 270,
+        "pricePerPerson": 135,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Borovets&checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "15 – 19 Ianuarie 2027",
+        "price": 129,
+        "departureDate": "2027-01-15",
+        "returnDate": "2027-01-19",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Borovets,+Bulgaria"
+      },
+      {
+        "dates": "19 – 23 Februarie 2027",
+        "price": 139,
+        "departureDate": "2027-02-19",
+        "returnDate": "2027-02-23",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Borovets,+Bulgaria"
+      }
+    ],
+    "description": "Ieși din hotel direct pe schiuri! Hotelul Rila 4★ este amplasat legendar la baza pârtiei Martinovi Baraki din Borovets. Domeniul oferă 58 km de pârtii printre pădurile maiestuoase de pini ale munților Rila, nocturnă spectaculoasă și o piscină semiolimpică de 25m cu vedere la zăpadă.",
+    "featured": true,
+    "publishedAt": "2026-11-06T18:02:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-006",
+    "slug": "vacanta-schi-pamporovo-bulgaria-apartamente-98-euro",
+    "title": "Schi & Relaxare la Pamporovo: 4 nopți la Grand Monastery 4★ pe Pârtia Studenets",
+    "destination": "Pamporovo (Munții Rodopi)",
+    "country": "Bulgaria",
+    "flag": "🇧🇬",
+    "originCity": "București",
+    "originCode": "AUTO",
+    "destinationCode": "PAMPOROVO",
+    "dates": "19 – 23 Februarie 2027",
+    "departureDate": "2027-02-19",
+    "returnDate": "2027-02-23",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "☀️ 120 Zile cu Soare & Pârtii Lungi",
+    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 98,
+    "discountPercent": 50,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (cu mașina personală)",
+      "airlineCode": "CAR",
+      "route": "București → Ruse → Byala → Stara Zagora → Plovdiv → Asenovgrad → Pamporovo (~490 km, 6h)",
+      "price": 0,
+      "baggageInfo": "Spațiu amplu în mașină, acces ușor chiar până la parcarea complexului",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Pamporovo,+Bulgaria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Pamporovo,+Bulgaria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Grand Monastery Private Apartments 4★",
+      "provider": "Booking.com",
+      "rating": 8.7,
+      "reviewsCount": 1420,
+      "distance": "Direct la telescaunul Studenets și pârtia principală Snezhanka",
+      "amenities": [
+        "Acces direct la pârtie (Ski-to-door)",
+        "Șemineu pe lemne în apartament",
+        "Piscină interioară încălzită & Spa",
+        "Bucătărie utilată complet & parcare"
+      ],
+      "priceTotal": 196,
+      "pricePerPerson": 98,
+      "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Grand Monastery Private Apartments 4★",
+        "rating": 8.7,
+        "priceTotal": 196,
+        "pricePerPerson": 98,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Pamporovo",
+        "rating": 8.8,
+        "priceTotal": 196,
+        "pricePerPerson": 98,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pamporovo&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "5 – 9 Februarie 2027",
+        "price": 95,
+        "departureDate": "2027-02-05",
+        "returnDate": "2027-02-09",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Pamporovo,+Bulgaria"
+      }
+    ],
+    "description": "Cea mai însorită stațiune montană din Europa, faimoasă pentru cele peste 120 de zile cu soare și pârtii largi excelente pentru familii și începători. Apartamentele Grand Monastery sunt dotate cu șemineu pe lemne și oferă acces direct la telescaunul Studenets.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:03:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-003",
+    "slug": "vacanta-schi-tirol-innsbruck-austria-hotel-maximilian-260-euro",
+    "title": "Schi în Tirolul Austriac: 5 nopți la Hotel Maximilian 4★ în Centrul Istoric Innsbruck (Transport Propriu)",
+    "destination": "Tirol & Innsbruck (Austria)",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București / România",
+    "originCode": "AUTO",
+    "destinationCode": "INNSBRUCK",
+    "dates": "28 Ianuarie – 2 Februarie 2027",
+    "departureDate": "2027-01-28",
+    "returnDate": "2027-02-02",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🏔️ 13 Domenii Schiabile & Ghețar",
+    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 260,
+    "discountPercent": 42,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (mașină personală sau tren ÖBB Nightjet)",
+      "airlineCode": "CAR",
+      "route": "România → Budapesta → Viena → Salzburg → Innsbruck (drum 100% autostradă)",
+      "price": 0,
+      "baggageInfo": "Echipament schi complet în portbagaj, parcare securizată în Innsbruck",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Innsbruck,+Austria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Innsbruck,+Austria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Maximilian - Stadthaus Penz 4★",
+      "provider": "Booking.com",
+      "rating": 8.8,
+      "reviewsCount": 2380,
+      "distance": "În centrul vechi din Innsbruck, lângă Acoperișul de Aur și stația telegondolei Nordkette",
+      "amenities": [
+        "Mic dejun tirolez inclus",
+        "Depozit schi securizat cu uscător clăpari",
+        "Acces rapid Nordkette & ghețarul Stubai",
+        "Ski bus gratuit cu Ski Pass"
+      ],
+      "priceTotal": 520,
+      "pricePerPerson": 260,
+      "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Maximilian - Stadthaus Penz 4★",
+        "rating": 8.8,
+        "priceTotal": 520,
+        "pricePerPerson": 260,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Tirol & Innsbruck",
+        "rating": 8.8,
+        "priceTotal": 520,
+        "pricePerPerson": 260,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Tirol+&+Innsbruck&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "4 – 9 Februarie 2027",
+        "price": 270,
+        "departureDate": "2027-02-04",
+        "returnDate": "2027-02-09",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Innsbruck,+Austria"
+      },
+      {
+        "dates": "18 – 23 Februarie 2027",
+        "price": 280,
+        "departureDate": "2027-02-18",
+        "returnDate": "2027-02-23",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Innsbruck,+Austria"
+      }
+    ],
+    "description": "Capitala mondială a sporturilor de iarnă! Innsbruck îmbină eleganța unui oraș imperial tirolez cu accesul la 13 domenii schiabile prin Olympia SkiWorld și zăpada impecabilă de pe ghețarul Stubai (3.210m). Telegondola futuristă Nordkette pleacă chiar din inima orașului.",
+    "featured": true,
+    "publishedAt": "2026-11-06T18:10:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-007",
+    "slug": "vacanta-schi-zell-am-see-kaprun-austria-285-euro",
+    "title": "Zăpadă Garantată la Zell am See & Kaprun: 5 nopți la Grand Hotel Zell am See 4★ pe Lac",
+    "destination": "Zell am See & Kaprun (Austria)",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București / România",
+    "originCode": "AUTO",
+    "destinationCode": "ZELLAMSEE",
+    "dates": "20 – 25 Ianuarie 2027",
+    "departureDate": "2027-01-20",
+    "returnDate": "2027-01-25",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "❄️ Ghețar Kitzsteinhorn 3.029m",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 285,
+    "discountPercent": 40,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (mașină personală)",
+      "airlineCode": "CAR",
+      "route": "România → Viena → Salzburg → Zell am See (drum autostradă, vignietă Austria obligatorie)",
+      "price": 0,
+      "baggageInfo": "Bagaje și schiuri fără restricții în mașină",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Zell+am+See,+Austria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Zell+am+See,+Austria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Grand Hotel Zell am See 4★ Superior",
+      "provider": "Booking.com",
+      "rating": 8.9,
+      "reviewsCount": 2890,
+      "distance": "Pe propria peninsulă pe malul lacului Zell, la 5 min de telecabina CityXpress",
+      "amenities": [
+        "Rooftop Panorama Spa cu vedere la lac",
+        "Piscină interioară și saune alpine",
+        "Acces la 138 km pârtii Zell am See - Kaprun",
+        "Ghețarul Kitzsteinhorn cu schi la peste 3.000m"
+      ],
+      "priceTotal": 570,
+      "pricePerPerson": 285,
+      "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Grand Hotel Zell am See 4★ Superior",
+        "rating": 8.9,
+        "priceTotal": 570,
+        "pricePerPerson": 285,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Zell am See & Kaprun",
+        "rating": 8.8,
+        "priceTotal": 570,
+        "pricePerPerson": 285,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zell+am+See+&+Kaprun&checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "27 Ianuarie – 1 Februarie 2027",
+        "price": 295,
+        "departureDate": "2027-01-27",
+        "returnDate": "2027-02-01",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Zell+am+See,+Austria"
+      }
+    ],
+    "description": "Una din cele mai spectaculoase panorame din Alpii Austrieci! Lacul Zell înghețat și ghețarul Kitzsteinhorn (3.029m) garantează zăpadă 100% din toamnă până în primăvară târzie. Domeniul reunește 138 km de pârtii impecabile și conexiune modernă 3K K-onnection.",
+    "featured": true,
+    "publishedAt": "2026-11-06T18:12:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-008",
+    "slug": "vacanta-schi-kitzbuhel-alpi-austria-295-euro",
+    "title": "Schi Legendă la Kitzbühel: 5 nopți la Q! Hotel Maria Theresia 4★ lângă Telegondola Hahnenkamm",
+    "destination": "Kitzbühel & Alpii Tirolezi (Austria)",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București / România",
+    "originCode": "AUTO",
+    "destinationCode": "KITZBUHEL",
+    "dates": "12 – 17 Februarie 2027",
+    "departureDate": "2027-02-12",
+    "returnDate": "2027-02-17",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🏆 Pârtia Streif & 233 km Pârtii",
+    "image": "https://images.unsplash.com/photo-1544085311-11a028465b03?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 295,
+    "discountPercent": 38,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (mașină personală)",
+      "airlineCode": "CAR",
+      "route": "România → Budapesta → Viena → Kufstein → Kitzbühel",
+      "price": 0,
+      "baggageInfo": "Schiuri și clăpari în mașină, fără bătăi de cap cu avioanele",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Kitzbuhel,+Austria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Kitzbuhel,+Austria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Q! Hotel Maria Theresia Kitzbühel 4★",
+      "provider": "Booking.com",
+      "rating": 8.7,
+      "reviewsCount": 1640,
+      "distance": "În centrul stațiunii Kitzbühel, la 400m de telegondola Hahnenkammbahn",
+      "amenities": [
+        "Centru Spa & Saune tiroleze",
+        "Lounge cu șemineu și après-ski elegant",
+        "Depozit schi modern cu uscător clăpari",
+        "Acces direct la domeniul KitzSki (233 km)"
+      ],
+      "priceTotal": 590,
+      "pricePerPerson": 295,
+      "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Q! Hotel Maria Theresia Kitzbühel 4★",
+        "rating": 8.7,
+        "priceTotal": 590,
+        "pricePerPerson": 295,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Kitzbühel & Alpii Tirolezi",
+        "rating": 8.8,
+        "priceTotal": 590,
+        "pricePerPerson": 295,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kitzbühel+&+Alpii+Tirolezi&checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "19 – 24 Februarie 2027",
+        "price": 310,
+        "departureDate": "2027-02-19",
+        "returnDate": "2027-02-24",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Kitzbuhel,+Austria"
+      }
+    ],
+    "description": "Legenda mondială a schiului alpin! Aici se desfășoară cea mai faimoasă cursă de coborâre din lume pe pârtia Streif. Domeniul KitzSki pune la dispoziție 233 km de pârtii excelente, 57 de instalații pe cablu ultra-moderne și o atmosferă après-ski de neegalat.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:14:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-009",
+    "slug": "vacanta-schi-schladming-dachstein-austria-240-euro",
+    "title": "Schi pe 4 Munți Conectați la Schladming: 4 nopți la TUI BLUE Schladming 3★ lângă Telegondola Planai",
+    "destination": "Schladming - Dachstein (Stiria, Austria)",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București / România",
+    "originCode": "AUTO",
+    "destinationCode": "SCHLADMING",
+    "dates": "15 – 19 Ianuarie 2027",
+    "departureDate": "2027-01-15",
+    "returnDate": "2027-01-19",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "⛷️ 4 Munți Conectați & 230 km Pârtii",
+    "image": "https://images.unsplash.com/photo-1546948630-1149ea60dc86?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 240,
+    "discountPercent": 45,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (mașină personală)",
+      "airlineCode": "CAR",
+      "route": "România → Budapesta → Graz / Liezen → Schladming (~1.050 km, cea mai apropiată mare stațiune austriacă)",
+      "price": 0,
+      "baggageInfo": "Echipament complet în mașină",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Schladming,+Austria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Schladming,+Austria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "TUI BLUE Schladming 3★ Superior",
+      "provider": "Booking.com",
+      "rating": 8.8,
+      "reviewsCount": 2100,
+      "distance": "Chiar vizavi de stația de plecare a telegondolei Planai",
+      "amenities": [
+        "SkySauna pe acoperiș cu vedere la Planai",
+        "Depozit securizat de schi cu uscător",
+        "Amplasare imbatabilă la 50m de gondolă",
+        "Acces la leagănul celor 4 munți (Hauser Kaibling, Planai, Hochwurzen, Reiteralm)"
+      ],
+      "priceTotal": 480,
+      "pricePerPerson": 240,
+      "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "TUI BLUE Schladming 3★ Superior",
+        "rating": 8.8,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Schladming - Dachstein",
+        "rating": 8.8,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Schladming+-+Dachstein&checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "22 – 26 Ianuarie 2027",
+        "price": 249,
+        "departureDate": "2027-01-22",
+        "returnDate": "2027-01-26",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Schladming,+Austria"
+      }
+    ],
+    "description": "Cea mai accesibilă destinație austriacă din România! Schladming leagă 4 munți într-un singur leagăn de schi cu peste 230 km de pârtii. Hotelul TUI BLUE este amplasat chiar lângă telegondola Planai și oferă o saună panoramică pe acoperiș.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:16:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-002",
+    "slug": "vacanta-schi-dolomiti-val-di-fassa-din-bucuresti-289-euro",
+    "title": "Schi în Dolomiți & Sellaronda: 5 nopți în Val di Fassa la Hotel Il Caminetto 3★ cu Spa + Zbor Milano",
+    "destination": "Dolomiți (Val di Fassa & Canazei)",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "BGY",
+    "dates": "22 – 27 Ianuarie 2027",
+    "departureDate": "2027-01-22",
+    "returnDate": "2027-01-27",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "⛷️ Dolomiti Superski & Sellaronda",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 289,
+    "discountPercent": 48,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – BGY (Direct Milano Bergamo)",
+      "price": 49,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus (echipament sportiv opțional)",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-22&dateIn=2027-01-27&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-22&dateIn=2027-01-27&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Dolomiți+22+–+27+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/bgy/270122/270127/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/bgy/2027-01-22/2027-01-27?adults=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BGY/2027-01-22/2027-01-27/2adults",
+      "isConnecting": false
+    },
+    "alternativeAirlines": [
+      {
+        "name": "Wizz Air",
+        "price": 55,
+        "route": "OTP – BGY (Direct)"
+      }
+    ],
+    "hotel": {
+      "name": "Hotel Il Caminetto Sport Canazei 3★",
+      "provider": "Booking.com",
+      "rating": 8.4,
+      "reviewsCount": 1240,
+      "distance": "În Canazei, la 700m de telecabina Canazei-Pecol (acces direct Sellaronda)",
+      "amenities": [
+        "Centru Wellness & Piscină",
+        "Saună tiroleză & Baie turcească",
+        "Depozit clăpari încălzit",
+        "Ski bus chiar în fața hotelului"
+      ],
+      "priceTotal": 480,
+      "pricePerPerson": 240,
+      "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Il Caminetto Sport Canazei 3★",
+        "rating": 8.4,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Dolomiți",
+        "rating": 8.8,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dolomiți&checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "15 – 20 Ianuarie 2027",
+        "price": 295,
+        "departureDate": "2027-01-15",
+        "returnDate": "2027-01-20",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-15&dateIn=2027-01-20&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY"
+      }
+    ],
+    "description": "Experiența supremă la schi pe tărâmul munților Dolomiți (patrimoniu UNESCO)! Ai acces direct la legendarul circuit Sellaronda cu 4 trecători alpine și 1.200 km de pârtii în Dolomiti Superski, combinate cu preparate culinare italiene și relaxare la spa.",
+    "featured": true,
+    "publishedAt": "2026-11-06T18:05:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-010",
+    "slug": "vacanta-schi-livigno-duty-free-italia-din-bucuresti-309-euro",
+    "title": "Schi & Shopping Duty-Free la Livigno: 5 nopți la Hotel Piccolo Tibet 3★ + Zbor Milano",
+    "destination": "Livigno (Alpii Italieni)",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "BGY",
+    "dates": "20 – 25 Ianuarie 2027",
+    "departureDate": "2027-01-20",
+    "returnDate": "2027-01-25",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🛍️ Zonă Duty-Free & 115 km Pârtii",
+    "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 309,
+    "discountPercent": 42,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – BGY (Direct Milano Bergamo) + Transfer Livigno",
+      "price": 49,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-20&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-20&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Livigno+20+–+25+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/bgy/270120/270125/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/bgy/2027-01-20/2027-01-25?adults=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BGY/2027-01-20/2027-01-25/2adults",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Piccolo Tibet 3★",
+      "provider": "Booking.com",
+      "rating": 8.9,
+      "reviewsCount": 980,
+      "distance": "În Livigno, la 200m de zona pietonală duty-free și de telescaunul Doss",
+      "amenities": [
+        "Saună finlandeză și zonă relaxare",
+        "Mic dejun bogat cu produse locale din Valtellina",
+        "Depozit clăpari încălzit",
+        "Ski bus gratuit la 50m"
+      ],
+      "priceTotal": 520,
+      "pricePerPerson": 260,
+      "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Piccolo Tibet 3★",
+        "rating": 8.9,
+        "priceTotal": 520,
+        "pricePerPerson": 260,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Livigno",
+        "rating": 8.8,
+        "priceTotal": 520,
+        "pricePerPerson": 260,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Livigno&checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "3 – 8 Februarie 2027",
+        "price": 319,
+        "departureDate": "2027-02-03",
+        "returnDate": "2027-02-08",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-03&dateIn=2027-02-08&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY"
+      }
+    ],
+    "description": "Supranumit «Micul Tibet» datorită altitudinii de peste 1.800m și a zăpezii pudră impecabile, Livigno este un paradis unic: 115 km de pârtii, cele mai bune snowpark-uri din Europa și statut complet de zonă scutită de taxe (Duty-Free) pentru cumpărături.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:18:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-011",
+    "slug": "vacanta-schi-cortina-dampezzo-dolomiti-din-bucuresti-320-euro",
+    "title": "Schi Olimpic la Cortina d'Ampezzo: 5 nopți la Hotel Meublé Oasi 3★ + Zbor Veneția/Treviso",
+    "destination": "Cortina d'Ampezzo (Dolomiți, Italia)",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "TSF",
+    "dates": "26 – 31 Ianuarie 2027",
+    "departureDate": "2027-01-26",
+    "returnDate": "2027-01-31",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "👑 Perla Dolomiților & Tofana",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 320,
+    "discountPercent": 40,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – TSF (Direct Veneția Treviso) + Cortina Express",
+      "price": 45,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-26&dateIn=2027-01-31&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=TSF",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-26&dateIn=2027-01-31&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=TSF",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Cortina+d'Ampezzo+26+–+31+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/tsf/270126/270131/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/tsf/2027-01-26/2027-01-31?adults=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-TSF/2027-01-26/2027-01-31/2adults",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Meublé Oasi 3★",
+      "provider": "Booking.com",
+      "rating": 9.1,
+      "reviewsCount": 840,
+      "distance": "La 300m de Corso Italia și aproape de telecabina Freccia nel Cielo (Tofana)",
+      "amenities": [
+        "Vedere panoramică spre masivul Tofane",
+        "Mic dejun italian excelent inclus",
+        "Depozit schi securizat",
+        "Parcare gratuită"
+      ],
+      "priceTotal": 550,
+      "pricePerPerson": 275,
+      "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Meublé Oasi 3★",
+        "rating": 9.1,
+        "priceTotal": 550,
+        "pricePerPerson": 275,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Cortina d'Ampezzo",
+        "rating": 8.8,
+        "priceTotal": 550,
+        "pricePerPerson": 275,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Cortina+d'Ampezzo&checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "9 – 14 Februarie 2027",
+        "price": 335,
+        "departureDate": "2027-02-09",
+        "returnDate": "2027-02-14",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-09&dateIn=2027-02-14&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=TSF"
+      }
+    ],
+    "description": "Perla absolută a Dolomiților și viitoarea gazdă a Jocurilor Olimpice de Iarnă 2026! Pârtiile legendare de pe Tofana, Faloria și Cristallo oferă cele mai dramatice peisaje alpine din lume, completate de rafinamentul unui orășel montan celebru.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:20:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-004",
+    "slug": "vacanta-schi-jasna-chopok-slovacia-hotel-jasna-195-euro",
+    "title": "Schi la Jasná Nízke Tatry: 5 nopți la Hotel Jasná 3★ la Baza Muntelui Chopok (Transport Propriu)",
+    "destination": "Jasná Chopok (Munții Tatra, Slovacia)",
+    "country": "Slovacia",
+    "flag": "🇸🇰",
+    "originCity": "București / Satu Mare / Cluj",
+    "originCode": "AUTO",
+    "destinationCode": "JASNA",
+    "dates": "12 – 17 Februarie 2027",
+    "departureDate": "2027-02-12",
+    "returnDate": "2027-02-17",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🏂 50 km Pârtii + Băi Termale Tatralandia",
+    "image": "https://images.unsplash.com/photo-1546948630-1149ea60dc86?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 195,
+    "discountPercent": 42,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (cu mașina personală)",
+      "airlineCode": "CAR",
+      "route": "România (Oradea/Satu Mare) → Debrecen → Miskolc → Košice → Poprad → Jasná (acces facil 6h din nord-vestul RO)",
+      "price": 0,
+      "baggageInfo": "Spațiu nelimitat în portbagaj pentru echipament și schiuri",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Jasna,+Slovakia",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Jasna,+Slovakia",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Jasná 3★",
+      "provider": "Booking.com",
+      "rating": 8.5,
+      "reviewsCount": 970,
+      "distance": "La poalele muntelui Chopok, la 800m de instalația Grand Jet Jasná",
+      "amenities": [
+        "Restaurant tradițional slovac",
+        "Saună uscată & depozit echipament",
+        "Shuttle pârtie inclus",
+        "Reducere intrare Aquapark Tatralandia"
+      ],
+      "priceTotal": 390,
+      "pricePerPerson": 195,
+      "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Jasná 3★",
+        "rating": 8.5,
+        "priceTotal": 390,
+        "pricePerPerson": 195,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Jasná Chopok",
+        "rating": 8.8,
+        "priceTotal": 390,
+        "pricePerPerson": 195,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Jasná+Chopok&checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "19 – 24 Februarie 2027",
+        "price": 205,
+        "departureDate": "2027-02-19",
+        "returnDate": "2027-02-24",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Jasna,+Slovakia"
+      }
+    ],
+    "description": "Cea mai modernă stațiune de schi din Europa Centrală! 50 km de pârtii impecabile deservite de telegondole ultra-rapide Doppelmayr Funitel pe ambii versanți ai muntelui Chopok. După schi, te relaxezi la celebrele bazine termale exterioare de la Tatralandia sau Bešeňová.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:15:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-012",
+    "slug": "vacanta-schi-tatranska-lomnica-slovacia-180-euro",
+    "title": "Schi la Înălțime în Tatra Mare: 4 nopți la Horizont Resort 4★ cu Spa la Tatranská Lomnica",
+    "destination": "Vysoké Tatry (Munții Tatra Mare, Slovacia)",
+    "country": "Slovacia",
+    "flag": "🇸🇰",
+    "originCity": "București / Nord-Vest RO",
+    "originCode": "AUTO",
+    "destinationCode": "TATRY",
+    "dates": "5 – 9 Februarie 2027",
+    "departureDate": "2027-02-05",
+    "returnDate": "2027-02-09",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🏔️ Diferență Nivel 1.300m & Spa Cedru",
+    "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 180,
+    "discountPercent": 40,
+    "transportType": "car",
+    "flight": {
+      "airline": "Transport propriu (cu mașina personală)",
+      "airlineCode": "CAR",
+      "route": "România → Košice → Poprad → Stará Lesná / Tatranská Lomnica",
+      "price": 0,
+      "baggageInfo": "Echipament schi în portbagaj",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Tatranska+Lomnica,+Slovakia",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Tatranska+Lomnica,+Slovakia",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Horizont Resort 4★",
+      "provider": "Booking.com",
+      "rating": 9.0,
+      "reviewsCount": 1870,
+      "distance": "La 2 km de pârtiile din Tatranská Lomnica (shuttle gratuit hotel)",
+      "amenities": [
+        "Mountain Wellness Center din lemn de cedru",
+        "Piscină interioară cu bar acvatic",
+        "Vedere panoramică spre vârfurile Tatra Mare",
+        "Depozit gratuit schi și uscător"
+      ],
+      "priceTotal": 360,
+      "pricePerPerson": 180,
+      "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Horizont Resort 4★",
+        "rating": 9.0,
+        "priceTotal": 360,
+        "pricePerPerson": 180,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Vysoké Tatry",
+        "rating": 8.8,
+        "priceTotal": 360,
+        "pricePerPerson": 180,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vysoké+Tatry&checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "12 – 16 Februarie 2027",
+        "price": 189,
+        "departureDate": "2027-02-12",
+        "returnDate": "2027-02-16",
+        "link": "https://www.google.com/maps/dir/Bucuresti/Tatranska+Lomnica,+Slovakia"
+      }
+    ],
+    "description": "Aici se află pârtia cu cea mai abruptă cădere și cea mai mare diferență de nivel din Carpați: 1.300 metri de la șaua Lomnické sedlo (2.190m) până în vale! Horizont Resort oferă un centru spa spectaculos construit din lemn de cedru și vedere la crestele alpine.",
+    "featured": false,
+    "publishedAt": "2026-11-06T18:22:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  },
+  {
+    "id": "deal-ski-013",
+    "slug": "vacanta-schi-val-thorens-trei-vai-franta-din-bucuresti-350-euro",
+    "title": "Schi în Cel Mai Mare Domeniu Schiabil din Lume: 5 nopți la Résidence Le Chamois d'Or în Val Thorens + Zbor Geneva",
+    "destination": "Val Thorens & Les 3 Vallées (Franța)",
+    "country": "Franța",
+    "flag": "🇫🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "GVA",
+    "dates": "13 – 18 Ianuarie 2027",
+    "departureDate": "2027-01-13",
+    "returnDate": "2027-01-18",
+    "nights": 5,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "👑 600 km Pârtii & Cota 2.300m",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 350,
+    "discountPercent": 46,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "OTP – GVA (Direct Geneva) + Shuttle Alpi Val Thorens",
+      "price": 65,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/GVA/2027-01-13/2027-01-18/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/GVA/2027-01-13/2027-01-18/2/0/0/null",
+      "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Val+Thorens+&+Les+3+Vallées+13+–+18+Ianuarie+2027",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/gva/270113/270118/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/gva/2027-01-13/2027-01-18?adults=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-GVA/2027-01-13/2027-01-18/2adults",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Résidence Le Chamois d'Or 3★",
+      "provider": "Booking.com",
+      "rating": 8.6,
+      "reviewsCount": 1150,
+      "distance": "Direct pe pârtiile din Val Thorens (altitudine 2.300m, ski-in/ski-out)",
+      "amenities": [
+        "Acces direct la 600 km de pârtii (Les 3 Vallées)",
+        "Bucătărie utilată și balcon cu vedere alpină",
+        "Supermarket și magazin de închirieri schi în clădire",
+        "Cea mai înaltă stațiune din Europa (zăpadă garantată)"
+      ],
+      "priceTotal": 570,
+      "pricePerPerson": 285,
+      "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Résidence Le Chamois d'Or 3★",
+        "rating": 8.6,
+        "priceTotal": 570,
+        "pricePerPerson": 285,
+        "type": "Cameră Dublă / Studio",
+        "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Val Thorens & Les 3 Vallées",
+        "rating": 8.8,
+        "priceTotal": 570,
+        "pricePerPerson": 285,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Val+Thorens+&+Les+3+Vallées&checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "20 – 25 Ianuarie 2027",
+        "price": 365,
+        "departureDate": "2027-01-20",
+        "returnDate": "2027-01-25",
+        "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/GVA/2027-01-20/2027-01-25/2/0/0/null"
+      }
+    ],
+    "description": "Visul oricărui schior: cel mai vast domeniu schiabil din lume (Les 3 Vallées — 600 km de pârtii legate) și stațiunea situată la cea mai mare altitudine din Europa (2.300m). Cazarea la Résidence Le Chamois d'Or oferă acces direct pe pârtie (ski-in/ski-out) din ușa clădirii.",
+    "featured": true,
+    "publishedAt": "2026-11-06T18:25:00.000Z",
+    "lastVerifiedAt": "2026-11-06T18:50:09.360548+00:00",
+    "lastVerifiedFormatted": "06 November 2026, 20:50"
+  }
+]

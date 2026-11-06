@@ -1,0 +1,143 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DealCard from '../../components/DealCard.astro';
+import CommunityBanner from '../../components/CommunityBanner.astro';
+import deals from '../../../data/deals.json';
+
+export function getStaticPaths() {
+  const categories = [
+    { 
+      slug: 'exotice', 
+      name: 'Exotic & Soare de Iarnă', 
+      icon: '🌴', 
+      badge: '☀️ Sezon Decembrie – Februarie',
+      desc: 'Evadări la soare și plajă în miezul iernii: Dubai, Abu Dhabi, Tenerife, Canare, Maldive, Iordania, Egipt, Maroc, Madeira și Zanzibar la prețuri pe cont propriu.' 
+    },
+    { 
+      slug: 'schi', 
+      name: 'Schi & Sporturi de Iarnă', 
+      icon: '🎿', 
+      badge: '⛷️ Sezon Decembrie – Martie',
+      desc: 'Top destinații de schi din Europa și România: Bansko, Dolomiți / Val di Fassa, Tirolul Austriac, Jasna Tatra și Carpații Românești. Zboruri convenabile + cazări lângă pârtii și telegondolă.' 
+    },
+    { 
+      slug: 'city-break', 
+      name: 'City Break', 
+      icon: '🏙️', 
+      badge: 'Capitale & Cultură',
+      desc: 'Escapade urbane de 2-4 nopți în marile capitale și orașe istorice europene: Roma, Milano, Barcelona, Viena, Londra, Paris, Praga.' 
+    },
+    { 
+      slug: 'mare-si-soare', 
+      name: 'Mare & Soare', 
+      icon: '🏖️', 
+      badge: 'Litoral & Plajă',
+      desc: 'Vacanțe la plajă și soare pe coastele Mediteranei și insulele europene: Cipru, Malta, Grecia, Spania și Italia.' 
+    },
+    { 
+      slug: 'weekend', 
+      name: 'Weekend Break', 
+      icon: '⚡', 
+      badge: 'Plecări Vineri - Duminică',
+      desc: 'Plecări rapide de sfârșit de săptămână fără a fi nevoie să îți iei multe zile libere de la serviciu.' 
+    },
+  ];
+
+  return categories.map(cat => {
+    const catDeals = deals.filter(d => {
+      const dealCat = d.category.toLowerCase();
+      if (cat.slug === 'exotice') {
+        return dealCat.includes('exotic') || d.title.toLowerCase().includes('exotic') || ['maldive', 'zanzibar', 'abu dhabi', 'dubai', 'tenerife', 'canare', 'aqaba', 'egipt', 'hurghada', 'marrakech', 'madeira'].some(dest => d.destination.toLowerCase().includes(dest));
+      }
+      if (cat.slug === 'schi') {
+        return dealCat.includes('schi') || dealCat.includes('ski') || ['bansko', 'dolomiti', 'tirol', 'innsbruck', 'jasna', 'tatry', 'alpi'].some(dest => d.destination.toLowerCase().includes(dest) || d.title.toLowerCase().includes(dest));
+      }
+      return dealCat.includes(cat.name.toLowerCase()) || dealCat.includes(cat.slug);
+    });
+
+    return {
+      params: { category: cat.slug },
+      props: { cat, deals: catDeals }
+    };
+  });
+}
+
+const { cat, deals: catDeals } = Astro.props;
+---
+
+<Layout 
+  title={`${cat.name} — Vacanțe Zbor + Cazare`}
+  description={cat.desc}
+>
+  <section class="gradient-hero text-white py-14 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 text-xs font-bold uppercase tracking-wider mb-4">
+        <span>{cat.icon} {cat.badge}</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black tracking-tight mb-3">
+        Oferte <span class="text-amber-300">{cat.name}</span>
+      </h1>
+      <p class="text-slate-300 text-sm sm:text-base max-w-2xl leading-relaxed">
+        {cat.desc}
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl font-black text-slate-900 tracking-tight">
+          Oferte disponibile ({catDeals.length})
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500">
+          Zboruri dus-întors și cazări verificate selectate pentru această categorie.
+        </p>
+      </div>
+      <a href="/" class="text-xs font-bold text-rose-600 hover:underline">
+        &larr; Vezi toate ofertele
+      </a>
+    </div>
+
+    {cat.slug === 'schi' && (
+      <div class="mb-8 p-5 rounded-2xl bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <span class="text-3xl">🇷🇴</span>
+          <div>
+            <h3 class="text-sm font-bold text-slate-900">Cauți o escapadă la schi în România?</h3>
+            <p class="text-xs text-slate-600">Avem oferte speciale cu plata prin vouchere de vacanță în Poiana Brașov, Sinaia, Straja și Păltiniș.</p>
+          </div>
+        </div>
+        <a 
+          href="/romania/" 
+          class="shrink-0 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow transition-all"
+        >
+          Vezi Schi în România &rarr;
+        </a>
+      </div>
+    )}
+
+    {catDeals.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {catDeals.map(deal => (
+          <DealCard deal={deal} />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-16 bg-white rounded-3xl border border-slate-200 p-8 max-w-xl mx-auto">
+        <div class="text-5xl mb-3">🌴</div>
+        <h3 class="text-lg font-bold text-slate-800 mb-2">Se actualizează ofertele</h3>
+        <p class="text-sm text-slate-500 mb-6">
+          Scanăm în mod continuu rutele exotice de iarnă.
+        </p>
+        <a 
+          href="/" 
+          class="inline-block px-5 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-rose-600 transition-colors"
+        >
+          &larr; Vezi toate ofertele din România
+        </a>
+      </div>
+    )}
+  </section>
+
+  <CommunityBanner />
+</Layout>

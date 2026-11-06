@@ -86,7 +86,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
       <div class="mb-6">
 
-        <div class="flex items-center gap-2 mb-3">
+        <div class="flex flex-wrap items-center gap-2 mb-3">
 
           <span class="px-2.5 py-1 rounded-full bg-rose-600 text-white text-xs font-black shadow-sm">
 
@@ -174,45 +174,25 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
       </div>
 
       <!-- Interactive Traveler Toggle: Duo vs Solo -->
-
-      <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-sm mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-
+      <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-sm mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div>
-
           <span class="font-bold text-sm text-slate-800">Câți călători sunteți?</span>
-
           <p class="text-xs text-slate-500">Prețul camerei se împarte la 2 când călătoriți în cuplu sau cu un prieten.</p>
-
         </div>
-
-        <div class="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-bold">
-
+        <div class="grid grid-cols-2 sm:inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-bold w-full sm:w-auto">
           <button 
-
             id="toggle-duo"
-
-            class="px-4 py-2 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer"
-
+            class="px-2.5 sm:px-4 py-2 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer text-center truncate"
           >
-
-            👥 Călătorim în 2 ({deal.priceTotalPerPerson} €/pers)
-
+            👥 În 2 ({deal.priceTotalPerPerson} €/p)
           </button>
-
           <button 
-
             id="toggle-solo"
-
-            class="px-4 py-2 rounded-lg text-slate-600 hover:text-slate-900 transition-all cursor-pointer"
-
+            class="px-2.5 sm:px-4 py-2 rounded-lg text-slate-600 hover:text-slate-900 transition-all cursor-pointer text-center truncate"
           >
-
-            👤 Călătoresc singur ({soloPrice} €)
-
+            👤 Singur ({soloPrice} €)
           </button>
-
         </div>
-
       </div>
 
       <!-- Quick Summary Box -->
@@ -267,7 +247,8 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
       </div>
 
-            <!-- PASUL 1: Detalii Zbor sau Terestru -->
+            <div id="optiuni-rezervare" class="scroll-mt-20"></div>
+      <!-- PASUL 1: Detalii Zbor sau Terestru -->
 
       {deal.transportType === 'car' && (
 
@@ -795,5 +776,21 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
   </script>
 
+
+  <!-- Mobile Sticky Bottom Bar (Apare doar pe telefon pentru conversie maximă) -->
+  <div class="md:hidden fixed bottom-0 inset-x-0 bg-white/95 backdrop-blur border-t border-slate-200 px-4 py-2.5 z-40 shadow-2xl flex items-center justify-between gap-3">
+    <div>
+      <span class="text-[10px] uppercase font-bold text-slate-400 block -mb-0.5">Total vacanță:</span>
+      <span class="text-xl font-black text-rose-600">{deal.priceTotalPerPerson} €</span>
+      <span class="text-[10px] text-slate-500 font-medium">/ pers</span>
+    </div>
+    <a 
+      href="#optiuni-rezervare" 
+      class="flex-1 py-2.5 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-black text-sm text-center shadow-md active:scale-95 transition-all"
+    >
+      Rezervă Oferta &rarr;
+    </a>
+  </div>
 </Layout>
+
 

@@ -2,65 +2,67 @@
 import airports from '../../data/airports.json';
 ---
 
-<section class="gradient-hero text-white pt-6 sm:pt-8 pb-10 sm:pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+<section class="gradient-hero text-white pt-5 sm:pt-8 pb-8 sm:pb-12 px-3 sm:px-6 lg:px-8 relative overflow-hidden">
   <div class="absolute -top-24 -right-24 w-96 h-96 bg-rose-500/20 rounded-full blur-3xl pointer-events-none"></div>
   <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
   <div class="max-w-5xl mx-auto text-center relative z-10">
-    <!-- Seasonal Announcement Badges -->
-    <div class="flex flex-wrap items-center justify-center gap-2.5 mb-3.5">
+    <!-- Seasonal Announcement Badges (Compacte pe mobil) -->
+    <div class="flex flex-wrap items-center justify-center gap-2 mb-3">
       <a 
         href="/categorie/schi/"
-        class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-sky-400/20 hover:bg-sky-400/30 backdrop-blur border border-sky-300/40 text-xs sm:text-sm font-bold text-sky-200 transition-all hover:scale-105 shadow-lg"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-400/20 hover:bg-sky-400/30 backdrop-blur border border-sky-300/40 text-xs sm:text-sm font-bold text-sky-200 transition-all hover:scale-105 shadow-md"
       >
         <span>🎿 SEZON SCHI:</span>
-        <span class="text-white font-normal">Bansko, Dolomiți, Tirol & Jasna &rarr;</span>
+        <span class="hidden sm:inline text-white font-normal">Bansko, Dolomiți, Tirol & Jasna &rarr;</span>
+        <span class="sm:hidden text-white font-normal">Oferte &rarr;</span>
       </a>
       <a 
         href="/categorie/exotice/"
-        class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-400/20 hover:bg-amber-400/30 backdrop-blur border border-amber-300/40 text-xs sm:text-sm font-bold text-amber-200 transition-all hover:scale-105 shadow-lg"
+        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-400/20 hover:bg-amber-400/30 backdrop-blur border border-amber-300/40 text-xs sm:text-sm font-bold text-amber-200 transition-all hover:scale-105 shadow-md"
       >
         <span>🌴 SOARE DE IARNĂ:</span>
-        <span class="text-white font-normal">Tenerife, Maldive, Dubai &rarr;</span>
+        <span class="hidden sm:inline text-white font-normal">Tenerife, Maldive, Dubai &rarr;</span>
+        <span class="sm:hidden text-white font-normal">Plajă &rarr;</span>
       </a>
     </div>
 
-    <h1 class="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-2.5">
+    <h1 class="text-xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-2 sm:mb-2.5">
       Călătorește pe cont propriu la <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-rose-300 to-rose-400">jumătate de preț</span>
     </h1>
 
-    <p class="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mb-5 leading-relaxed">
+    <p class="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mb-4 sm:mb-5 leading-relaxed px-2">
       Găsim biletele de avion și cazările la cel mai mic tarif verificat. Tu doar dai click și rezervi direct la sursă, fără comisioane de agenție.
     </p>
 
     <!-- Interactive Filter & Search Box -->
-    <div id="filtre" class="bg-white/95 backdrop-blur p-4 sm:p-5 rounded-2xl shadow-2xl border border-white/30 text-slate-800 text-left max-w-4xl mx-auto space-y-3.5">
+    <div id="filtre" class="bg-white/95 backdrop-blur p-3.5 sm:p-5 rounded-2xl shadow-2xl border border-white/30 text-slate-800 text-left max-w-4xl mx-auto space-y-3">
       <!-- Transport Mode Selector Tabs -->
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pb-2.5 border-b border-slate-100">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
         <div class="text-[11px] font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
           <span>Mod de călătorie:</span>
         </div>
-        <div class="inline-flex p-1 bg-slate-100 rounded-xl gap-1 text-xs font-semibold text-slate-600 w-full sm:w-auto">
+        <div class="grid grid-cols-3 sm:inline-flex p-1 bg-slate-100 rounded-xl gap-1 text-xs font-semibold text-slate-600 w-full sm:w-auto">
           <button 
             type="button" 
             data-transport="all" 
-            class="transport-tab active flex-1 sm:flex-none px-3.5 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer font-bold text-center"
+            class="transport-tab active px-2 sm:px-3.5 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition-all cursor-pointer font-bold text-center truncate"
           >
-            🌟 Toate Ofertele
+            <span>🌟</span> <span class="hidden sm:inline">Toate Ofertele</span><span class="sm:hidden">Toate</span>
           </button>
           <button 
             type="button" 
             data-transport="flight" 
-            class="transport-tab flex-1 sm:flex-none px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all cursor-pointer font-medium text-center"
+            class="transport-tab px-2 sm:px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all cursor-pointer font-medium text-center truncate"
           >
-            ✈️ Cu Avion Inclus
+            <span>✈️</span> <span class="hidden sm:inline">Cu Avion Inclus</span><span class="sm:hidden">Avion</span>
           </button>
           <button 
             type="button" 
             data-transport="car" 
-            class="transport-tab flex-1 sm:flex-none px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all cursor-pointer font-medium text-center"
+            class="transport-tab px-2 sm:px-3.5 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all cursor-pointer font-medium text-center truncate"
           >
-            🚗 Pe cont propriu / Cu mașina
+            <span>🚗</span> <span class="hidden sm:inline">Pe cont propriu / Cu mașina</span><span class="sm:hidden">Mașină</span>
           </button>
         </div>
       </div>
@@ -73,21 +75,21 @@ import airports from '../../data/airports.json';
         <input 
           type="text" 
           id="filter-search" 
-          placeholder="Caută destinație (ex: Tenerife, Bansko, Maldive, Tirol, Roma, Jasna...)" 
-          class="w-full bg-slate-100 border border-slate-200 rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all"
+          placeholder="Caută destinație (ex: Tenerife, Bansko, Maldive, Tirol, Roma...)" 
+          class="w-full bg-slate-100 border border-slate-200 rounded-xl pl-10 pr-4 py-2.5 text-xs sm:text-sm font-medium text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all"
         />
       </div>
 
       <!-- Dropdown Selectors Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">
         <!-- Filter 1: Oraș Plecare -->
         <div>
-          <label id="filter-origin-label" class="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+          <label id="filter-origin-label" class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
             🛫 Oraș de plecare
           </label>
           <select 
             id="filter-origin" 
-            class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all cursor-pointer"
+            class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all cursor-pointer"
           >
             <option value="all">Toate orașele din România</option>
             {airports.map(ap => (
@@ -98,36 +100,35 @@ import airports from '../../data/airports.json';
 
         <!-- Filter 2: Buget Maxim -->
         <div>
-          <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+          <label class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
             💰 Buget maxim / pers.
           </label>
           <select 
             id="filter-budget" 
-            class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all cursor-pointer"
+            class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all cursor-pointer"
           >
             <option value="all">Oricare buget</option>
             <option value="100">Sub 100 € (Chilipir)</option>
             <option value="150">Sub 150 € (City Break)</option>
-            <option value="250">Sub 250 € (Soare de Iarnă & Canare)</option>
+            <option value="250">Sub 250 € (Soare & Canare)</option>
             <option value="500">Sub 500 € (Exotic / Maldive)</option>
           </select>
         </div>
 
         <!-- Filter 3: Tip Vacanță -->
         <div>
-          <label class="block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+          <label class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1">
             🏖️ Tip vacanță
           </label>
           <select 
             id="filter-category" 
-            class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all cursor-pointer"
+            class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-xs sm:text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all cursor-pointer"
           >
             <option value="all">Toate tipurile</option>
-            <option value="Schi">🎿 Schi & Sporturi de Iarnă</option>
-            <option value="Exotic">🌴 Exotic & Soare de Iarnă (Dec–Feb)</option>
-            <option value="City Break">🏙️ City Break European</option>
-            <option value="Mare & Soare">🏖️ Mare & Soare</option>
-            <option value="Weekend">⚡ Escapadă de Weekend</option>
+            <option value="City Break">City Break European</option>
+            <option value="Schi">Vacanță la Schi</option>
+            <option value="Exotic">Soare & Exotice</option>
+            <option value="Weekend">Escapadă de Weekend</option>
           </select>
         </div>
       </div>

@@ -24,8 +24,7 @@ export function getStaticPaths() {
       // Identificatori de partener & afiliere
       const CONFIG = {
         TRAVELPAYOUTS_MARKER: '801687',
-        BOOKING_AID: '', // Se completează dacă ai cont direct pe Booking.com Partner
-        USE_TRAVELPAYOUTS_FOR_BOOKING: true, // Monetizare Booking.com prin Travelpayouts (Program 2040)
+        BOOKING_AID: '', // Se completează cu ID-ul oficial de la Booking.com Partner
         AGODA_CID: '',
         HOSTELWORLD_AID: ''
       };
@@ -37,30 +36,19 @@ export function getStaticPaths() {
           if (isFlight) {
             if (CONFIG.TRAVELPAYOUTS_MARKER) {
               u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
-              if (provider === 'kiwi' || u.hostname.includes('kiwi.com')) {
-                window.location.replace('https://tp.media/r?marker=' + CONFIG.TRAVELPAYOUTS_MARKER + '&p=1524&u=' + encodeURIComponent(targetUrl));
-                return;
-              }
             }
             u.searchParams.set('utm_source', 'ponturivacante');
             u.searchParams.set('utm_medium', 'affiliate');
           } else {
-            if (u.hostname.includes('rentalcars.com') && CONFIG.TRAVELPAYOUTS_MARKER) {
-              window.location.replace('https://tp.media/r?marker=' + CONFIG.TRAVELPAYOUTS_MARKER + '&p=629&u=' + encodeURIComponent(targetUrl));
-              return;
-            }
             if (provider === 'agoda' || u.hostname.includes('agoda.com')) {
               if (CONFIG.AGODA_CID) u.searchParams.set('cid', CONFIG.AGODA_CID);
               if (CONFIG.TRAVELPAYOUTS_MARKER) u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
             } else if (provider === 'hostelworld' || u.hostname.includes('hostelworld.com')) {
               if (CONFIG.HOSTELWORLD_AID) u.searchParams.set('affiliate', CONFIG.HOSTELWORLD_AID);
             } else {
-              // Default: Booking.com
+              // Booking.com: merge direct pe pagina hotelului selectat
               if (CONFIG.BOOKING_AID) {
                 u.searchParams.set('aid', CONFIG.BOOKING_AID);
-              } else if (CONFIG.USE_TRAVELPAYOUTS_FOR_BOOKING && CONFIG.TRAVELPAYOUTS_MARKER) {
-                window.location.replace('https://tp.media/r?marker=' + CONFIG.TRAVELPAYOUTS_MARKER + '&p=2040&u=' + encodeURIComponent(targetUrl));
-                return;
               }
             }
             u.searchParams.set('utm_source', 'ponturivacante');

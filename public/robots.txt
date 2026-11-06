@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /go/
 
-Sitemap: https://vacantediy.ro/sitemap-index.xml
+Sitemap: https://ponturivacante.ro/sitemap-index.xml

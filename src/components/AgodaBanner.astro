@@ -1,0 +1,68 @@
+---
+interface Props {
+  destination?: string;
+  subtitle?: string;
+}
+
+const { destination, subtitle } = Astro.props;
+
+const targetUrl = destination
+  ? `https://www.agoda.com/ro-ro/search?text=${encodeURIComponent(destination)}`
+  : 'https://www.agoda.com/ro-ro/';
+
+const affUrl = `/go/hotel/?url=${encodeURIComponent(targetUrl)}&provider=agoda`;
+---
+
+<aside class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
+  <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-cyan-950 via-slate-900 to-blue-950 text-white p-6 sm:p-10 shadow-2xl border border-cyan-500/30">
+    <!-- Decorative background glow -->
+    <div class="absolute -right-16 -top-16 w-80 h-80 bg-cyan-500/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -left-16 -bottom-16 w-80 h-80 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+      <div class="max-w-2xl space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-400/40 text-cyan-300 text-xs font-black tracking-wider uppercase">
+          <span>🏨 Partener Oficial de Cazare</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
+          <span>Reduceri Până la 30%</span>
+        </div>
+
+        <h3 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight">
+          {destination ? `Cauți cazare în ${destination}?` : 'Cauți doar cazare sau ai deja biletele de avion?'}
+        </h3>
+
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+          {subtitle || 'Descoperă peste 2.000.000 de hoteluri, resorturi all inclusive și apartamente în toată lumea pe Agoda. Beneficiezi de garanția celui mai bun tarif și anulare gratuită la majoritatea proprietăților.'}
+        </p>
+
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap items-center gap-4 pt-1 text-xs text-cyan-200/90 font-medium">
+          <span class="flex items-center gap-1.5">
+            <span class="text-emerald-400 font-bold">✓</span> Anulare Gratuită
+          </span>
+          <span class="flex items-center gap-1.5">
+            <span class="text-emerald-400 font-bold">✓</span> Confirmare Instantă
+          </span>
+          <span class="flex items-center gap-1.5">
+            <span class="text-emerald-400 font-bold">✓</span> Fără comisioane ascunse
+          </span>
+        </div>
+      </div>
+
+      <div class="shrink-0 w-full lg:w-auto">
+        <a 
+          href={affUrl}
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-2 w-full lg:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-500 to-sky-500 hover:from-cyan-400 hover:to-sky-400 text-slate-950 font-black text-sm transition-all shadow-lg shadow-cyan-500/25 hover:scale-105 active:scale-95 whitespace-nowrap cursor-pointer"
+        >
+          <span>{destination ? `Vezi cazările din ${destination}` : 'Caută Hoteluri pe Agoda'}</span>
+          <span>&rarr;</span>
+        </a>
+        <span class="block text-center lg:text-right text-[11px] text-slate-400 mt-2 font-medium">
+          Partener oficial verificat PonturiVacanțe (CID 1980047)
+        </span>
+      </div>
+    </div>
+  </div>
+</aside>

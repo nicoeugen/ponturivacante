@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import CommunityBanner from '../../components/CommunityBanner.astro';
+import AgodaBanner from '../../components/AgodaBanner.astro';
 import Newsletter from '../../components/Newsletter.astro';
 import articles from '../../../data/blog_articles.json';
 import deals from '../../../data/deals.json';
@@ -202,6 +203,9 @@ const displayDeals = relatedDeals.length > 0
         </a>
       </div>
     </div>
+
+    <!-- Agoda Partner Banner -->
+    <AgodaBanner destination={article.tag} subtitle={`Planifici o vacanță în ${article.tag || 'destinația ta preferată'}? Descoperă hotelurile și resorturile verificate pe Agoda cu cel mai bun tarif garantat.`} />
 
     <!-- Community & Newsletter -->
     <CommunityBanner />

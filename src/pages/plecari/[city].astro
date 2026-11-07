@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import DealCard from '../../components/DealCard.astro';
 import TelegramBanner from '../../components/TelegramBanner.astro';
+import KiwiBanner from '../../components/KiwiBanner.astro';
 import deals from '../../../data/deals.json';
 import airports from '../../../data/airports.json';
 
@@ -100,6 +101,9 @@ const otherAirports = airports.filter(a => a.code !== airport.code);
       </div>
     )}
   </section>
+
+  <!-- Kiwi Flights Partner Banner -->
+  <KiwiBanner originCity={airport.city} subtitle={`Vrei să zbori din ${airport.city} spre o altă destinație? Caută toate rutele low-cost și legăturile disponibile din aeroportul ${airport.name} pe Kiwi.com.`} />
 
   <TelegramBanner />
 </Layout>

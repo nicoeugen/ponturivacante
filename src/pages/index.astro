@@ -5,6 +5,7 @@ import DealCard from '../components/DealCard.astro';
 import CommunityBanner from '../components/CommunityBanner.astro';
 import Newsletter from '../components/Newsletter.astro';
 import AgodaBanner from '../components/AgodaBanner.astro';
+import KiwiBanner from '../components/KiwiBanner.astro';
 import deals from '../../data/deals.json';
 
 // Sort deals with newest first
@@ -62,8 +63,9 @@ const sortedDeals = [...deals].sort((a, b) =>
     </div>
   </section>
 
-  <!-- Agoda Official Partner Banner -->
+  <!-- Agoda & Kiwi Official Partner Banners -->
   <AgodaBanner />
+  <KiwiBanner />
 
   <!-- Community Callout: Telegram + WhatsApp -->
   <CommunityBanner />

@@ -607,6 +607,28 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
         )}
 
+        <!-- Agoda Live Price Check & Alternative Booking -->
+        <div class="mt-5 pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 bg-cyan-50/60 p-4 rounded-2xl border border-cyan-200/70">
+          <div class="space-y-0.5">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black uppercase tracking-wider text-cyan-900">🏷️ Verificare Tarife Agoda</span>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-cyan-200/80 text-cyan-950">Partener Oficial</span>
+            </div>
+            <p class="text-xs text-slate-600">
+              Verifică dacă <strong>{deal.hotel.name}</strong> are oferte promoționale sau camere libere pe Agoda.
+            </p>
+          </div>
+          <a 
+            href={`/go/hotel/?url=${encodeURIComponent(`https://www.agoda.com/ro-ro/search?text=${encodeURIComponent(deal.hotel.name + ' ' + deal.destination)}&checkIn=${deal.departureDate}&checkOut=${deal.returnDate}&rooms=1&adults=2`)}&deal=${deal.id}&provider=agoda`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2.5 bg-cyan-700 hover:bg-cyan-800 text-white font-bold text-xs rounded-xl shadow-sm transition-all whitespace-nowrap flex items-center gap-1.5 shrink-0"
+          >
+            <span>Verifică pe Agoda</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+
       </div>
 
       <!-- Extra Travel Services Cards (Asigurare Medicală & Închiriere Mașină) -->

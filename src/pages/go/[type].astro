@@ -50,15 +50,19 @@ export function getStaticPaths() {
             if (provider === 'agoda' || u.hostname.includes('agoda.com')) {
               if (CONFIG.AGODA_CID) u.searchParams.set('cid', CONFIG.AGODA_CID);
               if (CONFIG.TRAVELPAYOUTS_MARKER) u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+              u.searchParams.set('utm_source', 'ponturivacante');
             } else if (provider === 'hostelworld' || u.hostname.includes('hostelworld.com')) {
               if (CONFIG.HOSTELWORLD_AID) u.searchParams.set('affiliate', CONFIG.HOSTELWORLD_AID);
-            } else {
+              u.searchParams.set('utm_source', 'ponturivacante');
+            } else if (u.hostname.includes('booking.com')) {
               // Booking.com: merge direct pe pagina hotelului selectat
+              // Nu atașăm utm_source la Booking dacă nu avem AID aprobat, pentru a nu declanșa căutarea generică
               if (CONFIG.BOOKING_AID) {
                 u.searchParams.set('aid', CONFIG.BOOKING_AID);
               }
+            } else {
+              u.searchParams.set('utm_source', 'ponturivacante');
             }
-            u.searchParams.set('utm_source', 'ponturivacante');
           }
 
           window.location.replace(u.toString());

@@ -529,7 +529,10 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
         ryanair_url = f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={departure_date}&dateIn={return_date}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2"
 
         # Linkuri oficiale cazare
-        hotel_booking_url = f"https://www.booking.com/searchresults.ro.html?ss={bp['hotel']['searchQuery']}&checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
+        if bp['hotel'].get('directSlug'):
+            hotel_booking_url = f"{bp['hotel']['directSlug']}?checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
+        else:
+            hotel_booking_url = f"https://www.booking.com/searchresults.ro.html?ss={bp['hotel']['searchQuery']}&checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
         agoda_url = f"https://www.agoda.com/ro-ro/search?text={bp['hotel']['searchQuery']}&checkIn={departure_date}&checkOut={return_date}&rooms=1&adults=2"
         
         # Generare 2 Perioade Alternative (+7 zile, +14 zile)

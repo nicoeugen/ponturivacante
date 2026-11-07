@@ -47,25 +47,25 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Kefalos+Damon+Hotel+Apartments+Paphos&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Kefalos Damon Apartments 3★",
+        "name": "Kefalos Damon Hotel Apartments 3★",
         "rating": 8.6,
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Studio cu Balcon",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Kefalos+Damon+Apartments+Paphos&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Paphos Gardens Holiday Resort 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Paphos & Coasta Ciprului",
         "rating": 8.4,
         "priceTotal": 142,
         "pricePerPerson": 71,
@@ -139,7 +139,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Marina+Hotel+Malta+%28Valletta&checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -151,13 +151,13 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Marina+Hotel+Malta+%28Valletta&checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Plaza Regency Hotels 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Malta (Valletta & Sliema)",
         "rating": 8.3,
         "priceTotal": 140,
         "pricePerPerson": 70,
@@ -231,25 +231,25 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+London+Kings+Cross+Londra&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Point A Hotel Kings Cross 3★",
+        "name": "Point A Hotel London Kings Cross 3★",
         "rating": 8.4,
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Cameră Dublă Compactă",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Kings+Cross+Londra&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Ibis London City Shoreditch 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Londra & Tower Bridge",
         "rating": 8.5,
         "priceTotal": 156,
         "pricePerPerson": 78,
@@ -323,25 +323,25 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Prize+by+Radisson+Vienna+City+Viena&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Prize by Radisson Vienna 3★",
+        "name": "Prize by Radisson Vienna City 3★",
         "rating": 8.6,
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Prize+by+Radisson+Vienna+Viena&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Ibis Wien Hauptbahnhof 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Viena & Palatul Schönbrunn",
         "rating": 8.5,
         "priceTotal": 126,
         "pricePerPerson": 63,
@@ -401,7 +401,7 @@
       "isConnecting": false
     },
     "hotel": {
-      "name": "Hotel Laurentia 3★",
+      "name": "Hotel Laurentia Roma 3★",
       "provider": "Booking.com",
       "stars": 3,
       "rating": 8.5,
@@ -415,25 +415,25 @@
       ],
       "priceTotal": 128,
       "pricePerPerson": 64,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Hotel Laurentia 3★",
+        "name": "Hotel Laurentia Roma 3★",
         "rating": 8.5,
         "priceTotal": 128,
         "pricePerPerson": 64,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel Taormina Roma 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Roma & Colosseum",
         "rating": 8.3,
         "priceTotal": 120,
         "pricePerPerson": 60,
@@ -507,7 +507,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -519,13 +519,13 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel San Giorgio 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Milano & Lombardia",
         "rating": 8.4,
         "priceTotal": 108,
         "pricePerPerson": 54,
@@ -599,25 +599,25 @@
       ],
       "priceTotal": 130,
       "pricePerPerson": 65,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+London+Kings+Cross+Londra&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Point A Hotel Kings Cross 3★",
+        "name": "Point A Hotel London Kings Cross 3★",
         "rating": 8.4,
         "priceTotal": 130,
         "pricePerPerson": 65,
         "type": "Cameră Dublă Compactă",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Kings+Cross+Londra&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Ibis London City Shoreditch 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Londra & Westminster",
         "rating": 8.5,
         "priceTotal": 138,
         "pricePerPerson": 69,
@@ -677,7 +677,7 @@
       "isConnecting": false
     },
     "hotel": {
-      "name": "Ibis Styles Charleroi 3★",
+      "name": "Ibis Styles Charleroi Airport 3★",
       "provider": "Booking.com",
       "stars": 3,
       "rating": 8.5,
@@ -691,25 +691,25 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Ibis Styles Charleroi 3★",
+        "name": "Ibis Styles Charleroi Airport 3★",
         "rating": 8.5,
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel Continental Bruxelles 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Bruxelles & Gent",
         "rating": 8.2,
         "priceTotal": 118,
         "pricePerPerson": 59,
@@ -783,25 +783,25 @@
       ],
       "priceTotal": 168,
       "pricePerPerson": 84,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Dublin+Parnell+Street+Dublin&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Point A Hotel Dublin 3★",
+        "name": "Point A Hotel Dublin Parnell Street 3★",
         "rating": 8.7,
         "priceTotal": 168,
         "pricePerPerson": 84,
         "type": "Cameră Dublă Compactă",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Dublin+Dublin&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Maldron Hotel Parnell Square 4★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Dublin & Temple Bar",
         "rating": 8.6,
         "priceTotal": 182,
         "pricePerPerson": 91,
@@ -861,7 +861,7 @@
       "isConnecting": false
     },
     "hotel": {
-      "name": "Ibis Styles Charleroi 3★",
+      "name": "Ibis Styles Charleroi Airport 3★",
       "provider": "Booking.com",
       "stars": 3,
       "rating": 8.5,
@@ -875,25 +875,25 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Ibis Styles Charleroi 3★",
+        "name": "Ibis Styles Charleroi Airport 3★",
         "rating": 8.5,
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel Queen Anne Bruxelles 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Bruxelles & Flandra",
         "rating": 8.1,
         "priceTotal": 116,
         "pricePerPerson": 58,
@@ -967,7 +967,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -979,13 +979,13 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel Cappello d'Oro 4★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Milano & Lacul Como",
         "rating": 8.8,
         "priceTotal": 126,
         "pricePerPerson": 63,
@@ -1059,25 +1059,25 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Airport+Bruxelles%2C+Bruges&checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Ibis Styles Charleroi 3★",
+        "name": "Ibis Styles Charleroi Airport 3★",
         "rating": 8.5,
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles%2C+Bruges&checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Bedford Hotel & Congress Centre 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Bruxelles, Bruges & Gent",
         "rating": 8.3,
         "priceTotal": 112,
         "pricePerPerson": 56,
@@ -1137,7 +1137,7 @@
       "isConnecting": false
     },
     "hotel": {
-      "name": "Hotel Laurentia 3★",
+      "name": "Hotel Laurentia Roma 3★",
       "provider": "Booking.com",
       "stars": 3,
       "rating": 8.5,
@@ -1151,25 +1151,25 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Hotel Laurentia 3★",
+        "name": "Hotel Laurentia Roma 3★",
         "rating": 8.5,
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Cameră Dublă Clasică",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel Taormina Roma 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Roma & Vatican",
         "rating": 8.3,
         "priceTotal": 114,
         "pricePerPerson": 57,
@@ -1243,7 +1243,7 @@
       ],
       "priceTotal": 98,
       "pricePerPerson": 49,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Milano+Bergamo+Milano&checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -1255,13 +1255,13 @@
         "priceTotal": 98,
         "pricePerPerson": 49,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Milano+Bergamo+Milano&checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
         "providerId": "agoda",
-        "badge": "Ofertă Agoda",
-        "name": "Hotel San Giorgio Bergamo 3★",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Milano & Lacul Como",
         "rating": 8.4,
         "priceTotal": 94,
         "pricePerPerson": 47,
@@ -1319,7 +1319,7 @@
       "isConnecting": false
     },
     "hotel": {
-      "name": "Hotel Piazza Bellini & Relais 3★",
+      "name": "Hotel Piazza Bellini 3★",
       "provider": "Booking.com",
       "stars": 3,
       "rating": 8.7,
@@ -1333,25 +1333,25 @@
       ],
       "priceTotal": 184,
       "pricePerPerson": 92,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Napoli+Centro+Storico&checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "Recomandat ★★★",
-        "name": "Hotel Piazza Bellini & Relais 3★",
+        "name": "Hotel Piazza Bellini 3★",
         "rating": 8.7,
         "priceTotal": 184,
         "pricePerPerson": 92,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Napoli+Centro+Storico&checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Toate Cazările",
-        "name": "Vezi toate cazările din Napoli",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Napoli & Coasta Amalfi",
         "rating": 8.8,
         "priceTotal": 184,
         "pricePerPerson": 92,
@@ -2742,7 +2742,7 @@
       ],
       "priceTotal": 220,
       "pricePerPerson": 110,
-      "link": "https://www.booking.com/hotel/bg/green-life-bansko.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -2754,13 +2754,13 @@
         "priceTotal": 220,
         "pricePerPerson": 110,
         "type": "Cameră Dublă / Studio",
-        "link": "https://www.booking.com/hotel/bg/green-life-bansko.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Toate Cazările",
-        "name": "Vezi toate cazările din Bansko",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte cazări în Bansko (Munții Pirin)",
         "rating": 8.8,
         "priceTotal": 220,
         "pricePerPerson": 110,

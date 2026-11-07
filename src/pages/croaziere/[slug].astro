@@ -137,15 +137,25 @@ const { cruise } = Astro.props;
           <p class="text-xs text-slate-600 mb-4">
             Rută directă: {cruise.flight.route}. Recomandăm sosirea cu câteva ore înainte de îmbarcare pentru un transfer relaxat spre terminalul de croazieră.
           </p>
-          <a 
-            href={`/go/flight/?url=${encodeURIComponent(cruise.flight.link)}&deal=${cruise.id}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shadow-sm"
-          >
-            <span>✈️ Rezervă Zborul pe {cruise.flight.airline} ({cruise.flightPrice} € / pers)</span>
-            <span>&rarr;</span>
-          </a>
+          <div class="flex flex-wrap items-center gap-3">
+            <a 
+              href={`/go/flight/?url=${encodeURIComponent(cruise.flight.link)}&deal=${cruise.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shadow-sm transition-all"
+            >
+              <span>✈️ Rezervă Zborul pe {cruise.flight.airline} ({cruise.flightPrice} € / pers)</span>
+              <span>&rarr;</span>
+            </a>
+            <a 
+              href={`/go/flight/?url=${encodeURIComponent(`https://www.aviasales.com/?marker=801687&origin_iata=${cruise.originCode}&destination_iata=${cruise.id === 'cruise-005' ? 'MIA' : cruise.id === 'cruise-002' ? 'ATH' : cruise.id === 'cruise-003' ? 'AUH' : cruise.id === 'cruise-004' ? 'HAM' : 'BCN'}&depart_date=${cruise.departureDate}&return_date=${cruise.returnDate}&adults=2`)}&deal=${cruise.id}&provider=aviasales`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 font-bold text-xs border border-blue-200 transition-all shadow-sm"
+            >
+              <span>✈️ Compară pe Aviasales</span>
+            </a>
+          </div>
         </div>
 
         <!-- PASUL 2: Croaziera -->

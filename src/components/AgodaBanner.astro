@@ -6,8 +6,59 @@ interface Props {
 
 const { destination, subtitle } = Astro.props;
 
-const targetUrl = destination
-  ? `https://www.agoda.com/ro-ro/search?text=${encodeURIComponent(destination)}`
+// Dicționar de mapare destinații populare către paginile oficiale de oraș Agoda
+const CITY_TO_AGODA: Record<string, string> = {
+  'londra': 'london-gb',
+  'roma': 'rome-it',
+  'paris': 'paris-fr',
+  'viena': 'vienna-at',
+  'milano': 'milan-it',
+  'venetia': 'venice-it',
+  'barcelona': 'barcelona-es',
+  'madrid': 'madrid-es',
+  'valencia': 'valencia-es',
+  'paphos': 'paphos-cy',
+  'larnaca': 'larnaca-cy',
+  'atena': 'athens-gr',
+  'salonic': 'thessaloniki-gr',
+  'corfu': 'corfu-island-gr',
+  'creta': 'crete-island-gr',
+  'praga': 'prague-cz',
+  'budapesta': 'budapest-hu',
+  'varsovia': 'warsaw-pl',
+  'cracovia': 'krakow-pl',
+  'amsterdam': 'amsterdam-nl',
+  'bruxelles': 'brussels-be',
+  'berlin': 'berlin-de',
+  'munchen': 'munich-de',
+  'dublin': 'dublin-ie',
+  'lisabona': 'lisbon-pt',
+  'porto': 'porto-pt',
+  'istanbul': 'istanbul-tr',
+  'antalya': 'antalya-tr',
+  'dubai': 'dubai-ae',
+  'hurghada': 'hurghada-eg',
+  'cairo': 'cairo-eg',
+  'bansko': 'bansko-bg',
+  'malta': 'malta-island-mt',
+  'tenerife': 'tenerife-es',
+  'nice': 'nice-fr',
+  'nisa': 'nice-fr'
+};
+
+let agodaCitySlug = '';
+if (destination) {
+  const dLower = destination.toLowerCase().trim();
+  for (const [key, slug] of Object.entries(CITY_TO_AGODA)) {
+    if (dLower.includes(key)) {
+      agodaCitySlug = slug;
+      break;
+    }
+  }
+}
+
+const targetUrl = agodaCitySlug
+  ? `https://www.agoda.com/ro-ro/city/${agodaCitySlug}.html`
   : 'https://www.agoda.com/ro-ro/';
 
 const affUrl = `/go/hotel/?url=${encodeURIComponent(targetUrl)}&provider=agoda`;

@@ -1287,7 +1287,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
           <a 
 
-            href={`/go/hotel/?url=${encodeURIComponent(`https://www.agoda.com/ro-ro/search?text=${encodeURIComponent(deal.destination.replace('&', ' '))}&checkIn=${deal.departureDate}&checkOut=${deal.returnDate}&rooms=1&adults=2`)}&deal=${deal.id}&provider=agoda`}
+            href={`/go/hotel/?url=${encodeURIComponent((deal.accommodationOptions && deal.accommodationOptions[1]?.link) ? deal.accommodationOptions[1].link : 'https://www.agoda.com/ro-ro/?cid=1980047')}&deal=${deal.id}&provider=agoda`}
 
             target="_blank"
 

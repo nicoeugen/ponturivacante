@@ -51,26 +51,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Kefalos Damon Hotel Apartments 3★",
-        "rating": 8.6,
-        "priceTotal": 148,
-        "pricePerPerson": 74,
-        "type": "2 piscine exterioare • Balcon privat (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Kefalos+Damon+Hotel+Apartments+Paphos&checkIn=2027-01-21&checkOut=2027-01-25&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Kefalos Damon Hotel Apartments 3★",
         "rating": 8.6,
         "priceTotal": 148,
         "pricePerPerson": 74,
-        "type": "2 piscine exterioare • Balcon privat (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Paphos & Coasta Ciprului",
+        "rating": 8.7,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/paphos-cy.html?cid=1980047"
       }
     ],
     "description": "Fugi de frigul iernii la soare în Cipru! 20°C pe terasă, mozaicuri romane antice din Patrimoniul UNESCO și plaje spectaculoase cu zbor direct din București.",
@@ -132,26 +132,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Sliema Marina Hotel 3★",
-        "rating": 8.5,
-        "priceTotal": 148,
-        "pricePerPerson": 74,
-        "type": "Terasă pe acoperiș • Vedere panoramică la port (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Sliema+Marina+Hotel+Malta+Valletta&checkIn=2027-01-14&checkOut=2027-01-18&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Sliema Marina Hotel 3★",
         "rating": 8.5,
         "priceTotal": 148,
         "pricePerPerson": 74,
-        "type": "Terasă pe acoperiș • Vedere panoramică la port (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Malta (Valletta & Sliema)",
+        "rating": 8.6,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/malta-island-mt.html?cid=1980047"
       }
     ],
     "description": "Climat mediteranean blând, fortificații cavaleresti de culoarea mierii, gastronomie marină proaspătă și o excursie de neuitat la Laguna Albastră din Comino.",
@@ -213,26 +213,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Point A Hotel London Kings Cross 3★",
-        "rating": 8.4,
-        "priceTotal": 148,
-        "pricePerPerson": 74,
-        "type": "Baie privată • Wi-Fi rapid (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Point+A+Hotel+London+Kings+Cross+Londra&checkIn=2026-12-18&checkOut=2026-12-21&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Point A Hotel London Kings Cross 3★",
         "rating": 8.4,
         "priceTotal": 148,
         "pricePerPerson": 74,
-        "type": "Baie privată • Wi-Fi rapid (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Londra & Tower Bridge",
+        "rating": 8.5,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/london-gb.html?cid=1980047"
       }
     ],
     "description": "Zbor direct de pe litoral direct la Londra! Descoperă farmecul capitalei britanice, de la Big Ben și Palatul Buckingham până la cumpărăturile de pe Regent Street.",
@@ -294,26 +294,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Prize by Radisson Vienna City 3★",
-        "rating": 8.6,
-        "priceTotal": 120,
-        "pricePerPerson": 60,
-        "type": "Design tineresc • Wi-Fi rapid (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Prize+by+Radisson+Vienna+City+Viena&checkIn=2027-01-16&checkOut=2027-01-19&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Prize by Radisson Vienna City 3★",
         "rating": 8.6,
         "priceTotal": 120,
         "pricePerPerson": 60,
-        "type": "Design tineresc • Wi-Fi rapid (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Viena & Palatul Schönbrunn",
+        "rating": 8.7,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/vienna-at.html?cid=1980047"
       }
     ],
     "description": "Descoperă splendoarea imperială a Vienei: Palatul Hofburg, o felie de tort Sachertorte într-o cafenea tradițională și muzică clasică vieneză.",
@@ -375,26 +375,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Laurentia Roma 3★",
-        "rating": 8.5,
-        "priceTotal": 128,
-        "pricePerPerson": 64,
-        "type": "Wi-Fi gratuit • Mic dejun tip bufet (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Laurentia+Roma+Roma&checkIn=2027-01-20&checkOut=2027-01-23&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Laurentia Roma 3★",
         "rating": 8.5,
         "priceTotal": 128,
         "pricePerPerson": 64,
-        "type": "Wi-Fi gratuit • Mic dejun tip bufet (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Roma & Colosseum",
+        "rating": 8.6,
+        "priceTotal": 128,
+        "pricePerPerson": 64,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/rome-it.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Bucovina spre inima Romei! Panteonul, Piața Navona, Vaticanul și o cafea espresso veritabilă la preț de chilipir.",
@@ -456,26 +456,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "B&B Hotel Bergamo 3★",
-        "rating": 8.6,
-        "priceTotal": 112,
-        "pricePerPerson": 56,
-        "type": "Wi-Fi de mare viteză • Aer condiționat (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=B%26B+Hotel+Bergamo+Milano&checkIn=2027-01-15&checkOut=2027-01-18&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "B&B Hotel Bergamo 3★",
         "rating": 8.6,
         "priceTotal": 112,
         "pricePerPerson": 56,
-        "type": "Wi-Fi de mare viteză • Aer condiționat (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Milano & Lombardia",
+        "rating": 8.7,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/milan-it.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Oltenia spre Milano la un tarif de nerefuzat! Explorează galeriile elegante, bisericile istorice și bucătăria autentică lombardă.",
@@ -537,26 +537,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Point A Hotel London Kings Cross 3★",
-        "rating": 8.4,
-        "priceTotal": 130,
-        "pricePerPerson": 65,
-        "type": "Baie privată • Wi-Fi ultra-rapid (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Point+A+Hotel+London+Kings+Cross+Londra&checkIn=2026-12-11&checkOut=2026-12-14&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Point A Hotel London Kings Cross 3★",
         "rating": 8.4,
         "priceTotal": 130,
         "pricePerPerson": 65,
-        "type": "Baie privată • Wi-Fi ultra-rapid (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Londra & Westminster",
+        "rating": 8.5,
+        "priceTotal": 130,
+        "pricePerPerson": 65,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/london-gb.html?cid=1980047"
       }
     ],
     "description": "Muzee gratuite de talie mondială, luminile festive de pe Oxford Street, Big Ben și spectacolele de pe West End la un preț imbatabil direct din Cluj.",
@@ -618,26 +618,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Ibis Styles Charleroi Airport 3★",
-        "rating": 8.5,
-        "priceTotal": 112,
-        "pricePerPerson": 56,
-        "type": "Wi-Fi gratuit • Recepție 24h (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Ibis+Styles+Charleroi+Airport+Bruxelles&checkIn=2026-12-14&checkOut=2026-12-17&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Ibis Styles Charleroi Airport 3★",
         "rating": 8.5,
         "priceTotal": 112,
         "pricePerPerson": 56,
-        "type": "Wi-Fi gratuit • Recepție 24h (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bruxelles & Gent",
+        "rating": 8.6,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/brussels-be.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Cluj-Napoca spre inima Europei. Savurează vafe autentice în Grand Place și vizitează castelele de poveste din Gent.",
@@ -699,26 +699,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Point A Hotel Dublin Parnell Street 3★",
-        "rating": 8.7,
-        "priceTotal": 168,
-        "pricePerPerson": 84,
-        "type": "Design compact modern • Wi-Fi rapid (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Point+A+Hotel+Dublin+Parnell+Street+Dublin&checkIn=2026-12-10&checkOut=2026-12-13&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Point A Hotel Dublin Parnell Street 3★",
         "rating": 8.7,
         "priceTotal": 168,
         "pricePerPerson": 84,
-        "type": "Design compact modern • Wi-Fi rapid (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Dublin & Temple Bar",
+        "rating": 8.8,
+        "priceTotal": 168,
+        "pricePerPerson": 84,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/dublin-ie.html?cid=1980047"
       }
     ],
     "description": "Muzică live autentică în pub-urile legendare din Temple Bar, istoria berii la Guinness Storehouse și biblioteca spectaculoasă Trinity College, cu zbor direct din Iași.",
@@ -780,26 +780,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Ibis Styles Charleroi Airport 3★",
-        "rating": 8.5,
-        "priceTotal": 108,
-        "pricePerPerson": 54,
-        "type": "Design modern • Wi-Fi rapid (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Ibis+Styles+Charleroi+Airport+Bruxelles&checkIn=2026-12-16&checkOut=2026-12-19&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Ibis Styles Charleroi Airport 3★",
         "rating": 8.5,
         "priceTotal": 108,
         "pricePerPerson": 54,
-        "type": "Design modern • Wi-Fi rapid (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bruxelles & Flandra",
+        "rating": 8.6,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/brussels-be.html?cid=1980047"
       }
     ],
     "description": "Vizitează Târgul de Crăciun 'Plaisirs d'Hiver' din Bruxelles, degustă bere artizanală belgiană și savurează celebrele trufe de ciocolată direct din Iași.",
@@ -861,26 +861,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "B&B Hotel Bergamo 3★",
-        "rating": 8.6,
-        "priceTotal": 112,
-        "pricePerPerson": 56,
-        "type": "Wi-Fi de mare viteză • Aer condiționat (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=B%26B+Hotel+Bergamo+Milano&checkIn=2026-12-05&checkOut=2026-12-08&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "B&B Hotel Bergamo 3★",
         "rating": 8.6,
         "priceTotal": 112,
         "pricePerPerson": 56,
-        "type": "Wi-Fi de mare viteză • Aer condiționat (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Milano & Lacul Como",
+        "rating": 8.7,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/milan-it.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Moldova spre Milano la un tarif de nerefuzat! Explorează buticurile exclusiviste din Quadrilatero della Moda și fermecătorul oraș vechi Città Alta din Bergamo.",
@@ -942,26 +942,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Ibis Styles Charleroi Airport 3★",
-        "rating": 8.5,
-        "priceTotal": 108,
-        "pricePerPerson": 54,
-        "type": "Design modern • Wi-Fi rapid gratuit (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Ibis+Styles+Charleroi+Airport+Bruxelles%2C+Bruges&checkIn=2027-01-22&checkOut=2027-01-25&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Ibis Styles Charleroi Airport 3★",
         "rating": 8.5,
         "priceTotal": 108,
         "pricePerPerson": 54,
-        "type": "Design modern • Wi-Fi rapid gratuit (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bruxelles, Bruges & Gent",
+        "rating": 8.6,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/brussels-be.html?cid=1980047"
       }
     ],
     "description": "Grand Place iluminată noaptea, vafe calde belgiene, ciocolată artizanală și o excursie rapidă de o zi cu trenul în povestea medievală din Bruges.",
@@ -1023,26 +1023,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Laurentia Roma 3★",
-        "rating": 8.5,
-        "priceTotal": 120,
-        "pricePerPerson": 60,
-        "type": "Wi-Fi gratuit • Mic dejun tip bufet (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Laurentia+Roma+Roma&checkIn=2027-01-19&checkOut=2027-01-22&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Laurentia Roma 3★",
         "rating": 8.5,
         "priceTotal": 120,
         "pricePerPerson": 60,
-        "type": "Wi-Fi gratuit • Mic dejun tip bufet (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Roma & Vatican",
+        "rating": 8.6,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/rome-it.html?cid=1980047"
       }
     ],
     "description": "Roma este un muzeu în aer liber! Aruncă o monedă în Fontana di Trevi, vizitează Colosseumul și Vaticanul la cel mai bun tarif direct din Banat.",
@@ -1104,26 +1104,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "B&B Hotel Milano Bergamo 3★",
-        "rating": 8.6,
-        "priceTotal": 98,
-        "pricePerPerson": 49,
-        "type": "Wi-Fi rapid gratuit • Aer condiționat (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=B%26B+Hotel+Milano+Bergamo+Milano&checkIn=2027-01-12&checkOut=2027-01-15&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "B&B Hotel Milano Bergamo 3★",
         "rating": 8.6,
         "priceTotal": 98,
         "pricePerPerson": 49,
-        "type": "Wi-Fi rapid gratuit • Aer condiționat (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Milano & Lacul Como",
+        "rating": 8.7,
+        "priceTotal": 98,
+        "pricePerPerson": 49,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/milan-it.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Timișoara spre capitala mondială a modei! Vizitează Galleria Vittorio Emanuele II, Domul spectaculos și ia trenul rapid spre Lacul Como.",
@@ -1183,26 +1183,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Piazza Bellini 3★",
-        "rating": 8.7,
-        "priceTotal": 184,
-        "pricePerPerson": 92,
-        "type": "Wi-Fi gratuit • Mic dejun opțional (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Piazza+Bellini+Napoli&checkIn=2026-12-05&checkOut=2026-12-09&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Piazza Bellini 3★",
         "rating": 8.7,
         "priceTotal": 184,
         "pricePerPerson": 92,
-        "type": "Wi-Fi gratuit • Mic dejun opțional (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Napoli & Coasta Amalfi",
+        "rating": 8.8,
+        "priceTotal": 184,
+        "pricePerPerson": 92,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/naples-it.html?cid=1980047"
       }
     ],
     "description": "Capitala mondială a pizzei, ruinele fascinante din Pompei și priveliști spectaculoase spre Vezuviu și Insula Capri la tarife de nerefuzat direct din România.",
@@ -1269,26 +1269,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Apartamentos Los Cardones Costa Adeje 3★",
-        "rating": 8.5,
-        "priceTotal": 280,
-        "pricePerPerson": 140,
-        "type": "Piscină exterioară • Grădină tropicală (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Apartamentos+Los+Cardones+Costa+Adeje+Tenerife+Insulele+Canare&checkIn=2027-01-15&checkOut=2027-01-22&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Apartamentos Los Cardones Costa Adeje 3★",
         "rating": 8.5,
         "priceTotal": 280,
         "pricePerPerson": 140,
-        "type": "Piscină exterioară • Grădină tropicală (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Tenerife (Insulele Canare)",
+        "rating": 8.6,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/tenerife-es.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1375,26 +1375,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Premier Inn Abu Dhabi Capital Centre 3★",
-        "rating": 8.6,
-        "priceTotal": 220,
-        "pricePerPerson": 110,
-        "type": "Piscină acoperiș • Sală fitness (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Premier+Inn+Abu+Dhabi+Capital+Centre+Abu+Dhabi&checkIn=2026-12-10&checkOut=2026-12-15&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Premier Inn Abu Dhabi Capital Centre 3★",
         "rating": 8.6,
         "priceTotal": 220,
         "pricePerPerson": 110,
-        "type": "Piscină acoperiș • Sală fitness (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Abu Dhabi & Dubai",
+        "rating": 8.7,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/dubai-ae.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1481,26 +1481,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "My Hotel Aqaba 3★",
-        "rating": 8.6,
-        "priceTotal": 150,
-        "pricePerPerson": 75,
-        "type": "Piscină pe acoperiș • Mic dejun inclus (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=My+Hotel+Aqaba+Aqaba&checkIn=2027-01-18&checkOut=2027-01-22&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "My Hotel Aqaba 3★",
         "rating": 8.6,
         "priceTotal": 150,
         "pricePerPerson": 75,
-        "type": "Piscină pe acoperiș • Mic dejun inclus (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Aqaba & Petra",
+        "rating": 8.7,
+        "priceTotal": 150,
+        "pricePerPerson": 75,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/aqaba-jo.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1580,26 +1580,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Seagull Beach Resort 4★ All Inclusive",
-        "rating": 8.4,
-        "priceTotal": 280,
-        "pricePerPerson": 140,
-        "type": "All Inclusive complet • Aqua park propriu (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Seagull+Beach+Resort+All+Inclusive+Hurghada+Marea+Ro%C8%99ie&checkIn=2027-02-12&checkOut=2027-02-18&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Seagull Beach Resort 4★ All Inclusive",
         "rating": 8.4,
         "priceTotal": 280,
         "pricePerPerson": 140,
-        "type": "All Inclusive complet • Aqua park propriu (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Hurghada (Marea Roșie)",
+        "rating": 8.5,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/hurghada-eg.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1670,26 +1670,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Riad Dar Fangor Marrakech",
-        "rating": 8.9,
-        "priceTotal": 110,
-        "pricePerPerson": 55,
-        "type": "Curte interioară cu fântână • Mic dejun marocan inclus (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Riad+Dar+Fangor+Marrakech+Marrakech&checkIn=2027-01-14&checkOut=2027-01-18&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Riad Dar Fangor Marrakech",
         "rating": 8.9,
         "priceTotal": 110,
         "pricePerPerson": 55,
-        "type": "Curte interioară cu fântână • Mic dejun marocan inclus (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Marrakech",
+        "rating": 9.0,
+        "priceTotal": 110,
+        "pricePerPerson": 55,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/marrakech-ma.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1760,26 +1760,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Orquidea Funchal 3★",
-        "rating": 8.5,
-        "priceTotal": 200,
-        "pricePerPerson": 100,
-        "type": "Terasă panoramică cu vedere la ocean • Mic dejun inclus (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Orquidea+Funchal+Madeira+Funchal&checkIn=2027-01-19&checkOut=2027-01-24&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Orquidea Funchal 3★",
         "rating": 8.5,
         "priceTotal": 200,
         "pricePerPerson": 100,
-        "type": "Terasă panoramică cu vedere la ocean • Mic dejun inclus (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Madeira (Funchal)",
+        "rating": 8.6,
+        "priceTotal": 200,
+        "pricePerPerson": 100,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1850,26 +1850,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Bungalows Vistaflor Maspalomas 3★",
-        "rating": 8.4,
-        "priceTotal": 260,
-        "pricePerPerson": 130,
-        "type": "Piscină mare exterioară • Terasă proprie (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Bungalows+Vistaflor+Maspalomas+Gran+Canaria+Insulele+Canare&checkIn=2027-01-23&checkOut=2027-01-30&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Bungalows Vistaflor Maspalomas 3★",
         "rating": 8.4,
         "priceTotal": 260,
         "pricePerPerson": 130,
-        "type": "Piscină mare exterioară • Terasă proprie (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Gran Canaria (Insulele Canare)",
+        "rating": 8.5,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1953,26 +1953,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel San Giovanni Roma 3★",
-        "rating": 8.4,
-        "priceTotal": 120,
-        "pricePerPerson": 60,
-        "type": "Baie privată • WiFi Gratuit (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+San+Giovanni+Roma+Roma&checkIn=2026-11-20&checkOut=2026-11-23&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel San Giovanni Roma 3★",
         "rating": 8.4,
         "priceTotal": 120,
         "pricePerPerson": 60,
-        "type": "Baie privată • WiFi Gratuit (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Roma",
+        "rating": 8.5,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/rome-it.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -2043,26 +2043,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "B&B Bergamo Central",
-        "rating": 8.7,
-        "priceTotal": 92,
-        "pricePerPerson": 46,
-        "type": "Baie privată • Mic dejun inclus (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=B%26B+Bergamo+Central+Milano&checkIn=2026-11-27&checkOut=2026-11-30&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "B&B Bergamo Central",
         "rating": 8.7,
         "priceTotal": 92,
         "pricePerPerson": 46,
-        "type": "Baie privată • Mic dejun inclus (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Milano & Bergamo",
+        "rating": 8.8,
+        "priceTotal": 92,
+        "pricePerPerson": 46,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/milan-it.html?cid=1980047"
       }
     ],
     "description": "Zbori la Bergamo cu doar 28€ dus-întors cu Ryanair! Cu trenul ajungi în 50 de minute fie în centrul Milano, fie pe malul celebrului Lac Como.",
@@ -2122,26 +2122,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Soho Boutique Málaga 3★",
-        "rating": 8.6,
-        "priceTotal": 140,
-        "pricePerPerson": 70,
-        "type": "Baie privată • WiFi Gratuit (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Soho+Boutique+M%C3%A1laga+Malaga+Costa+del+Sol&checkIn=2026-12-03&checkOut=2026-12-06&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Soho Boutique Málaga 3★",
         "rating": 8.6,
         "priceTotal": 140,
         "pricePerPerson": 70,
-        "type": "Baie privată • WiFi Gratuit (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Malaga (Costa del Sol)",
+        "rating": 8.7,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "description": "Zbor direct București - Malaga cu HiSky (8 kg bagaj inclus)! Temperaturi de 18-20°C în decembrie, plimbări pe faleză și tapas autentice.",
@@ -2200,26 +2200,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Ibis Wien Hauptbahnhof 3★",
-        "rating": 8.5,
-        "priceTotal": 108,
-        "pricePerPerson": 54,
-        "type": "Baie privată • Metrou direct spre Stephansplatz (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Ibis+Wien+Hauptbahnhof+Viena&checkIn=2026-11-28&checkOut=2026-11-30&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Ibis Wien Hauptbahnhof 3★",
         "rating": 8.5,
         "priceTotal": 108,
         "pricePerPerson": 54,
-        "type": "Baie privată • Metrou direct spre Stephansplatz (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Viena",
+        "rating": 8.6,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/vienna-at.html?cid=1980047"
       }
     ],
     "description": "Un weekend rapid și elegant la Viena! Prinde atmosfera magică din fața Primăriei Rathaus și palatele Schönbrunn și Hofburg.",
@@ -2278,26 +2278,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel San Donato Bologna 3★",
-        "rating": 8.3,
-        "priceTotal": 100,
-        "pricePerPerson": 50,
-        "type": "Baie privată • WiFi gratuit (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+San+Donato+Bologna+Bologna&checkIn=2026-12-05&checkOut=2026-12-08&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel San Donato Bologna 3★",
         "rating": 8.3,
         "priceTotal": 100,
         "pricePerPerson": 50,
-        "type": "Baie privată • WiFi gratuit (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bologna",
+        "rating": 8.4,
+        "priceTotal": 100,
+        "pricePerPerson": 50,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/bologna-it.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Craiova către Bologna, cel mai celebru oraș culinar din Italia. Savurează paste proaspete tagliatelle al ragù.",
@@ -2357,26 +2357,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Meininger Hotel Bruxelles City Center 3★",
-        "rating": 8.5,
-        "priceTotal": 112,
-        "pricePerPerson": 56,
-        "type": "Baie privată • Design modern (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Meininger+Hotel+Bruxelles+City+Center+Bruxelles&checkIn=2026-12-05&checkOut=2026-12-08&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Meininger Hotel Bruxelles City Center 3★",
         "rating": 8.5,
         "priceTotal": 112,
         "pricePerPerson": 56,
-        "type": "Baie privată • Design modern (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bruxelles & Bruges",
+        "rating": 8.6,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/brussels-be.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Suceava spre Belgia! Vizitează Grand Place, savurează vafe fierbinți belgiene și fă o excursie de o zi în Bruges.",
@@ -2436,26 +2436,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Point A Hotel London Kings Cross 3★",
-        "rating": 8.3,
-        "priceTotal": 140,
-        "pricePerPerson": 70,
-        "type": "Baie privată • WiFi rapid (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Point+A+Hotel+London+Kings+Cross+Londra&checkIn=2026-12-12&checkOut=2026-12-15&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Point A Hotel London Kings Cross 3★",
         "rating": 8.3,
         "priceTotal": 140,
         "pricePerPerson": 70,
-        "type": "Baie privată • WiFi rapid (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Londra",
+        "rating": 8.4,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/london-gb.html?cid=1980047"
       }
     ],
     "description": "Zbor direct din Sibiu la Londra! Vizitează Muzeul Britanic, Big Ben, London Eye și spectacolele de pe West End.",
@@ -2515,26 +2515,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Ibis Paris Montmartre 3★",
-        "rating": 8.4,
-        "priceTotal": 148,
-        "pricePerPerson": 74,
-        "type": "Baie privată • Metrou la 200m (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Ibis+Paris+Montmartre+Paris&checkIn=2026-12-11&checkOut=2026-12-14&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Ibis Paris Montmartre 3★",
         "rating": 8.4,
         "priceTotal": 148,
         "pricePerPerson": 74,
-        "type": "Baie privată • Metrou la 200m (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Paris",
+        "rating": 8.5,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/paris-fr.html?cid=1980047"
       }
     ],
     "description": "Turnul Eiffel, Muzeul Luvru, croazieră pe Sena și croissante proaspete în Montmartre. Zbor direct din București la un preț imbatabil.",
@@ -2592,26 +2592,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Green Life Ski & Spa Resort Bansko 4★",
-        "rating": 8.6,
-        "priceTotal": 220,
-        "pricePerPerson": 110,
-        "type": "Piscină interioară încălzită • Centru Spa & Saună finlandeză (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Green+Life+Ski+%26+Spa+Resort+Bansko+Bansko+Mun%C8%9Bii+Pirin&checkIn=2027-02-05&checkOut=2027-02-09&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Green Life Ski & Spa Resort Bansko 4★",
         "rating": 8.6,
         "priceTotal": 220,
         "pricePerPerson": 110,
-        "type": "Piscină interioară încălzită • Centru Spa & Saună finlandeză (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bansko (Munții Pirin)",
+        "rating": 8.7,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/bansko-bg.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -2684,26 +2684,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Rila Borovets 4★",
-        "rating": 8.9,
-        "priceTotal": 270,
-        "pricePerPerson": 135,
-        "type": "Acces direct pe pârtie (Ski-to-door) • Piscină interioară semiolimpică (25m) (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Rila+Borovets+Borovets+Mun%C8%9Bii+Rila&checkIn=2027-01-29&checkOut=2027-02-02&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Rila Borovets 4★",
         "rating": 8.9,
         "priceTotal": 270,
         "pricePerPerson": 135,
-        "type": "Acces direct pe pârtie (Ski-to-door) • Piscină interioară semiolimpică (25m) (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Borovets (Munții Rila)",
+        "rating": 9.0,
+        "priceTotal": 270,
+        "pricePerPerson": 135,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -2776,26 +2776,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Grand Monastery Private Apartments 4★",
-        "rating": 8.7,
-        "priceTotal": 196,
-        "pricePerPerson": 98,
-        "type": "Acces direct la pârtie (Ski-to-door) • Șemineu pe lemne în apartament (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Grand+Monastery+Private+Apartments+Pamporovo+Mun%C8%9Bii+Rodopi&checkIn=2027-02-19&checkOut=2027-02-23&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Grand Monastery Private Apartments 4★",
         "rating": 8.7,
         "priceTotal": 196,
         "pricePerPerson": 98,
-        "type": "Acces direct la pârtie (Ski-to-door) • Șemineu pe lemne în apartament (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Pamporovo (Munții Rodopi)",
+        "rating": 8.8,
+        "priceTotal": 196,
+        "pricePerPerson": 98,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -2861,26 +2861,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Maximilian - Stadthaus Penz 4★",
-        "rating": 8.8,
-        "priceTotal": 520,
-        "pricePerPerson": 260,
-        "type": "Mic dejun tirolez inclus • Depozit schi securizat cu uscător clăpari (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Maximilian+-+Stadthaus+Penz+Tirol&checkIn=2027-01-28&checkOut=2027-02-02&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Maximilian - Stadthaus Penz 4★",
         "rating": 8.8,
         "priceTotal": 520,
         "pricePerPerson": 260,
-        "type": "Mic dejun tirolez inclus • Depozit schi securizat cu uscător clăpari (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Tirol & Innsbruck (Austria)",
+        "rating": 8.9,
+        "priceTotal": 520,
+        "pricePerPerson": 260,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -2953,26 +2953,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Grand Hotel Zell am See 4★ Superior",
-        "rating": 8.9,
-        "priceTotal": 570,
-        "pricePerPerson": 285,
-        "type": "Rooftop Panorama Spa cu vedere la lac • Piscină interioară și saune alpine (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Grand+Hotel+Zell+am+See+Superior+Zell+am+See&checkIn=2027-01-20&checkOut=2027-01-25&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Grand Hotel Zell am See 4★ Superior",
         "rating": 8.9,
         "priceTotal": 570,
         "pricePerPerson": 285,
-        "type": "Rooftop Panorama Spa cu vedere la lac • Piscină interioară și saune alpine (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Zell am See & Kaprun (Austria)",
+        "rating": 9.0,
+        "priceTotal": 570,
+        "pricePerPerson": 285,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3038,26 +3038,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Q! Hotel Maria Theresia Kitzbühel 4★",
-        "rating": 8.7,
-        "priceTotal": 590,
-        "pricePerPerson": 295,
-        "type": "Centru Spa & Saune tiroleze • Lounge cu șemineu și après-ski elegant (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Q%21+Hotel+Maria+Theresia+Kitzb%C3%BChel+Kitzb%C3%BChel&checkIn=2027-02-12&checkOut=2027-02-17&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Q! Hotel Maria Theresia Kitzbühel 4★",
         "rating": 8.7,
         "priceTotal": 590,
         "pricePerPerson": 295,
-        "type": "Centru Spa & Saune tiroleze • Lounge cu șemineu și après-ski elegant (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Kitzbühel & Alpii Tirolezi (Austria)",
+        "rating": 8.8,
+        "priceTotal": 590,
+        "pricePerPerson": 295,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3123,26 +3123,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "TUI BLUE Schladming 3★ Superior",
-        "rating": 8.8,
-        "priceTotal": 480,
-        "pricePerPerson": 240,
-        "type": "SkySauna pe acoperiș cu vedere la Planai • Depozit securizat de schi cu uscător (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=TUI+BLUE+Schladming+Superior+Schladming+-+Dachstein+Stiria%2C+Austria&checkIn=2027-01-15&checkOut=2027-01-19&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "TUI BLUE Schladming 3★ Superior",
         "rating": 8.8,
         "priceTotal": 480,
         "pricePerPerson": 240,
-        "type": "SkySauna pe acoperiș cu vedere la Planai • Depozit securizat de schi cu uscător (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Schladming - Dachstein (Stiria, Austria)",
+        "rating": 8.9,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3219,26 +3219,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Il Caminetto Sport Canazei 3★",
-        "rating": 8.4,
-        "priceTotal": 480,
-        "pricePerPerson": 240,
-        "type": "Centru Wellness & Piscină • Saună tiroleză & Baie turcească (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Il+Caminetto+Sport+Canazei+Dolomi%C8%9Bi+Val+di+Fassa&checkIn=2027-01-22&checkOut=2027-01-27&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Il Caminetto Sport Canazei 3★",
         "rating": 8.4,
         "priceTotal": 480,
         "pricePerPerson": 240,
-        "type": "Centru Wellness & Piscină • Saună tiroleză & Baie turcească (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Dolomiți (Val di Fassa & Canazei)",
+        "rating": 8.5,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3308,26 +3308,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Piccolo Tibet 3★",
-        "rating": 8.9,
-        "priceTotal": 520,
-        "pricePerPerson": 260,
-        "type": "Saună finlandeză și zonă relaxare • Mic dejun bogat cu produse locale din Valtellina (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Piccolo+Tibet+Livigno+Alpii+Italieni&checkIn=2027-01-20&checkOut=2027-01-25&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Piccolo Tibet 3★",
         "rating": 8.9,
         "priceTotal": 520,
         "pricePerPerson": 260,
-        "type": "Saună finlandeză și zonă relaxare • Mic dejun bogat cu produse locale din Valtellina (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Livigno (Alpii Italieni)",
+        "rating": 9.0,
+        "priceTotal": 520,
+        "pricePerPerson": 260,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3397,26 +3397,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Meublé Oasi 3★",
-        "rating": 9.1,
-        "priceTotal": 550,
-        "pricePerPerson": 275,
-        "type": "Vedere panoramică spre masivul Tofane • Mic dejun italian excelent inclus (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Meubl%C3%A9+Oasi+Cortina+d%27Ampezzo+Dolomi%C8%9Bi%2C+Italia&checkIn=2027-01-26&checkOut=2027-01-31&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Meublé Oasi 3★",
         "rating": 9.1,
         "priceTotal": 550,
         "pricePerPerson": 275,
-        "type": "Vedere panoramică spre masivul Tofane • Mic dejun italian excelent inclus (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Cortina d'Ampezzo (Dolomiți, Italia)",
+        "rating": 9.2,
+        "priceTotal": 550,
+        "pricePerPerson": 275,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3482,26 +3482,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Hotel Jasná 3★",
-        "rating": 8.5,
-        "priceTotal": 390,
-        "pricePerPerson": 195,
-        "type": "Restaurant tradițional slovac • Saună uscată & depozit echipament (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Hotel+Jasn%C3%A1+Jasn%C3%A1+Chopok+Mun%C8%9Bii+Tatra%2C+Slovacia&checkIn=2027-02-12&checkOut=2027-02-17&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Jasná 3★",
         "rating": 8.5,
         "priceTotal": 390,
         "pricePerPerson": 195,
-        "type": "Restaurant tradițional slovac • Saună uscată & depozit echipament (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Jasná Chopok (Munții Tatra, Slovacia)",
+        "rating": 8.6,
+        "priceTotal": 390,
+        "pricePerPerson": 195,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3567,26 +3567,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Horizont Resort 4★",
-        "rating": 9.0,
-        "priceTotal": 360,
-        "pricePerPerson": 180,
-        "type": "Mountain Wellness Center din lemn de cedru • Piscină interioară cu bar acvatic (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Horizont+Resort+Vysok%C3%A9+Tatry+Mun%C8%9Bii+Tatra+Mare%2C+Slovacia&checkIn=2027-02-05&checkOut=2027-02-09&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Horizont Resort 4★",
         "rating": 9.0,
         "priceTotal": 360,
         "pricePerPerson": 180,
-        "type": "Mountain Wellness Center din lemn de cedru • Piscină interioară cu bar acvatic (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Vysoké Tatry (Munții Tatra Mare, Slovacia)",
+        "rating": 9.1,
+        "priceTotal": 360,
+        "pricePerPerson": 180,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3656,26 +3656,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Résidence Le Chamois d'Or 3★",
-        "rating": 8.6,
-        "priceTotal": 570,
-        "pricePerPerson": 285,
-        "type": "Acces direct la 600 km de pârtii (Les 3 Vallées) • Bucătărie utilată și balcon cu vedere alpină (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=R%C3%A9sidence+Le+Chamois+d%27Or+Val+Thorens&checkIn=2027-01-13&checkOut=2027-01-18&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Résidence Le Chamois d'Or 3★",
         "rating": 8.6,
         "priceTotal": 570,
         "pricePerPerson": 285,
-        "type": "Acces direct la 600 km de pârtii (Les 3 Vallées) • Bucătărie utilată și balcon cu vedere alpină (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Val Thorens & Les 3 Vallées (Franța)",
+        "rating": 8.7,
+        "priceTotal": 570,
+        "pricePerPerson": 285,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3744,26 +3744,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Parrotel Beach Resort 5★ All Inclusive",
-        "rating": 8.4,
-        "priceTotal": 440,
-        "pricePerPerson": 220,
-        "type": "Regim All Inclusive complet (mese, băuturi, snack-uri) • 3 piscine mari exterioare + tobogane acvatice (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Parrotel+Beach+Resort+All+Inclusive+Sharm+El-Sheikh&checkIn=2027-03-08&checkOut=2027-03-14&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Parrotel Beach Resort 5★ All Inclusive",
         "rating": 8.4,
         "priceTotal": 440,
         "pricePerPerson": 220,
-        "type": "Regim All Inclusive complet (mese, băuturi, snack-uri) • 3 piscine mari exterioare + tobogane acvatice (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Sharm El-Sheikh",
+        "rating": 8.5,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/sharm-el-sheikh-eg.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3839,26 +3839,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Seagull Beach Resort 4★ All Inclusive",
-        "rating": 8.3,
-        "priceTotal": 440,
-        "pricePerPerson": 220,
-        "type": "All Inclusive complet cu restaurante bufet și băuturi locale • Parc acvatic cu tobogane mari și piscine încălzite (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Seagull+Beach+Resort+All+Inclusive+Hurghada&checkIn=2027-02-15&checkOut=2027-02-21&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Seagull Beach Resort 4★ All Inclusive",
         "rating": 8.3,
         "priceTotal": 440,
         "pricePerPerson": 220,
-        "type": "All Inclusive complet cu restaurante bufet și băuturi locale • Parc acvatic cu tobogane mari și piscine încălzite (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Hurghada",
+        "rating": 8.4,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/hurghada-eg.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -3927,26 +3927,26 @@
     },
     "accommodationOptions": [
       {
-        "provider": "Agoda",
-        "providerId": "agoda",
-        "badge": "★ Partener Oficial",
-        "name": "Great Pyramid Inn 3★ Superior",
-        "rating": 8.7,
-        "priceTotal": 220,
-        "pricePerPerson": 110,
-        "type": "Terasă pe acoperiș cu mic dejun și vedere directă la Sfinx și Piramide • Mic dejun oriental și continental inclus (Agoda)",
-        "link": "https://www.agoda.com/ro-ro/search?text=Great+Pyramid+Inn+Superior+Cairo&checkIn=2027-01-18&checkOut=2027-01-22&rooms=1&adults=2&cid=1980047"
-      },
-      {
         "provider": "Booking.com",
         "providerId": "booking",
-        "badge": "Alternativă Booking.com",
+        "badge": "★ Recomandat (Direct la hotel)",
         "name": "Great Pyramid Inn 3★ Superior",
         "rating": 8.7,
         "priceTotal": 220,
         "pricePerPerson": 110,
-        "type": "Terasă pe acoperiș cu mic dejun și vedere directă la Sfinx și Piramide • Mic dejun oriental și continental inclus (Booking)",
+        "type": "Disponibilitate confirmată • Pagina hotelului",
         "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Cairo & Giza",
+        "rating": 8.8,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/cairo-eg.html?cid=1980047"
       }
     ],
     "alternativeDates": [

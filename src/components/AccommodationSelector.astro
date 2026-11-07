@@ -24,7 +24,7 @@ const { options, dealId, nights } = Astro.props;
   <div class="flex items-center justify-between">
     <h3 class="text-xl font-black text-slate-900 tracking-tight flex items-center gap-2">
       <span>🏨 Opțiuni de cazare verificate</span>
-      <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-cyan-100 text-cyan-900">
+      <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-900">
         Disponibilitate confirmată
       </span>
     </h3>
@@ -32,30 +32,32 @@ const { options, dealId, nights } = Astro.props;
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     {options.map((opt, idx) => {
-      const isAgoda = opt.providerId === 'agoda';
       const isBooking = opt.providerId === 'booking';
+      const isAgoda = opt.providerId === 'agoda';
       const isHostel = opt.providerId === 'hostelworld';
 
       return (
         <div class={`rounded-3xl p-5 border-2 flex flex-col justify-between transition-all duration-300 ${
-          isAgoda 
-            ? 'bg-gradient-to-br from-cyan-50/90 via-sky-50/40 to-white border-cyan-500/80 shadow-md ring-2 ring-cyan-500/20' 
+          isBooking 
+            ? 'bg-gradient-to-br from-blue-50/90 via-indigo-50/40 to-white border-blue-500/80 shadow-md ring-2 ring-blue-500/20' 
+            : isAgoda 
+            ? 'bg-gradient-to-br from-cyan-50/50 via-sky-50/30 to-white border-cyan-300 hover:border-cyan-400 shadow-sm'
             : 'bg-white border-slate-200 hover:border-slate-300 shadow-sm'
         }`}>
           <div>
             <!-- Badge & Platform -->
             <div class="flex items-center justify-between mb-3">
               <span class={`text-[11px] font-black px-2.5 py-1 rounded-full ${
-                isAgoda 
-                  ? 'bg-cyan-600 text-white' 
-                  : isBooking 
+                isBooking 
                   ? 'bg-blue-600 text-white' 
+                  : isAgoda 
+                  ? 'bg-cyan-700 text-white' 
                   : 'bg-orange-500 text-white'
               }`}>
                 {opt.badge}
               </span>
               <span class="text-xs font-bold text-slate-500">
-                pe {opt.provider} {isAgoda && <span class="text-cyan-700 font-extrabold">(Activ)</span>}
+                pe {opt.provider} {isBooking && <span class="text-blue-700 font-extrabold">(Principal)</span>}
               </span>
             </div>
 
@@ -85,14 +87,14 @@ const { options, dealId, nights } = Astro.props;
               target="_blank"
               rel="noopener noreferrer"
               class={`w-full py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-all shadow-sm ${
-                isAgoda 
-                  ? 'bg-cyan-700 hover:bg-cyan-800 text-white shadow-cyan-700/25 shadow-md' 
-                  : isBooking 
-                  ? 'bg-slate-800 hover:bg-slate-900 text-white' 
+                isBooking 
+                  ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/25 shadow-md' 
+                  : isAgoda 
+                  ? 'bg-cyan-700 hover:bg-cyan-800 text-white shadow-sm' 
                   : 'bg-orange-600 hover:bg-orange-700 text-white'
               }`}
             >
-              <span>{isAgoda ? 'Rezervă pe Agoda (Partener Oficial)' : `Verifică pe ${opt.provider}`}</span>
+              <span>{isBooking ? 'Rezervă direct pe Booking.com' : isAgoda ? 'Compară opțiuni pe Agoda' : `Verifică pe ${opt.provider}`}</span>
               <span>&rarr;</span>
             </a>
           </div>
@@ -101,10 +103,10 @@ const { options, dealId, nights } = Astro.props;
     })}
   </div>
 
-  <div class="bg-cyan-50/60 border border-cyan-200/80 rounded-2xl p-3.5 text-xs text-slate-700 flex items-start gap-2.5">
+  <div class="bg-blue-50/60 border border-blue-200/80 rounded-2xl p-3.5 text-xs text-slate-700 flex items-start gap-2.5">
     <span class="text-base leading-none">💡</span>
     <p class="leading-relaxed">
-      <strong>Rezervare directă & securizată:</strong> Ai opțiunea de a alege între <strong>Agoda</strong> (partener oficial cu confirmare instantă) și <strong>Booking.com</strong>. Ambele butoane deschid hotelul selectat pentru datele indicate, permițându-ți să alegi cel mai bun tarif sau politica de anulare preferată.
+      <strong>Rezervare directă & securizată:</strong> Butonul principal deschide direct pagina hotelului verificat pe <strong>Booking.com</strong> cu datele exacte selectate. Ai de asemenea opțiunea <strong>Agoda (Partener Oficial)</strong> pentru a explora tarife comparative sau alte cazări din aceeași zonă.
     </p>
   </div>
 </div>

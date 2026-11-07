@@ -34,18 +34,30 @@ export function getStaticPaths() {
           const u = new URL(targetUrl);
 
           if (isFlight) {
-            if (CONFIG.TRAVELPAYOUTS_MARKER) {
-              u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+            const host = u.hostname.toLowerCase();
+            const isAirline = host.includes('wizzair.com') || 
+                              host.includes('ryanair.com') || 
+                              host.includes('austrian.com') || 
+                              host.includes('hisky.aero') || 
+                              host.includes('lufthansa.com') || 
+                              host.includes('tarom.ro');
+
+            // Nu injectăm parametri străini în routerul SPA al companiilor aeriene (Wizz, Ryanair etc.)
+            // deoarece parametrii necunoscuți determină routerul să redirecționeze pe homepage.
+            if (!isAirline) {
+              if (CONFIG.TRAVELPAYOUTS_MARKER) {
+                u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+              }
+              if (provider === 'kiwi' || host.includes('kiwi.com')) {
+                u.searchParams.set('affilid', 'travelpayouts');
+                u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+              }
+              if (provider === 'aviasales' || host.includes('aviasales.com')) {
+                u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+              }
+              u.searchParams.set('utm_source', 'ponturivacante');
+              u.searchParams.set('utm_medium', 'affiliate');
             }
-            if (provider === 'kiwi' || u.hostname.includes('kiwi.com')) {
-              u.searchParams.set('affilid', 'travelpayouts');
-              u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
-            }
-            if (provider === 'aviasales' || u.hostname.includes('aviasales.com')) {
-              u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
-            }
-            u.searchParams.set('utm_source', 'ponturivacante');
-            u.searchParams.set('utm_medium', 'affiliate');
           } else {
             if (provider === 'agoda' || u.hostname.includes('agoda.com')) {
               if (CONFIG.AGODA_CID) u.searchParams.set('cid', CONFIG.AGODA_CID);

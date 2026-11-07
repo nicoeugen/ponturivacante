@@ -24,8 +24,8 @@
       "route": "OTP – PFO (Direct Paphos)",
       "price": 42,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PFO&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PFO&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PFO&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/pfo/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/pfo",
@@ -47,7 +47,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Kefalos+Damon+Hotel+Apartments+Paphos&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -59,7 +59,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Studio cu Balcon",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kefalos+Damon+Apartments+Paphos&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -70,7 +70,7 @@
         "priceTotal": 142,
         "pricePerPerson": 71,
         "type": "Cameră Dublă Resort",
-        "link": "https://www.agoda.com/search?city=16584"
+        "link": "https://www.agoda.com/search?city=16584&checkIn=2027-01-21&checkOut=2027-01-25&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -81,7 +81,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Cipru+Paphos&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Fugi de frigul iernii la soare în Cipru! 20°C pe terasă, mozaicuri romane antice din Patrimoniul UNESCO și plaje spectaculoase cu zbor direct din București.",
@@ -116,8 +116,8 @@
       "route": "OTP – MLA (Direct Malta Luqa)",
       "price": 45,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-14&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MLA&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-14&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MLA&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MLA&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mla/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/mla",
@@ -139,7 +139,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Marina+Hotel+Malta+%28Valletta&checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -151,7 +151,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Marina+Hotel+Malta+%28Valletta&checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -162,7 +162,7 @@
         "priceTotal": 140,
         "pricePerPerson": 70,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.agoda.com/search?city=5072"
+        "link": "https://www.agoda.com/search?city=5072&checkIn=2027-01-14&checkOut=2027-01-18&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -173,7 +173,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Hoteluri & Rezervări Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Malta"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Malta+Malta+%28Valletta&checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Climat mediteranean blând, fortificații cavaleresti de culoarea mierii, gastronomie marină proaspătă și o excursie de neuitat la Laguna Albastră din Comino.",
@@ -208,8 +208,8 @@
       "route": "CND – LTN (Direct Londra Luton)",
       "price": 44,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
-      "link": "https://www.wizzair.com",
-      "directAirlineLink": "https://www.wizzair.com",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/CND/LTN/2026-12-18/2026-12-21/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/CND/LTN/2026-12-18/2026-12-21/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CND%20to%20LTN&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cnd/ltn/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/cnd/ltn",
@@ -231,7 +231,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+London+Kings+Cross+Londra&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -243,7 +243,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Cameră Dublă Compactă",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Kings+Cross+Londra&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -254,7 +254,7 @@
         "priceTotal": 156,
         "pricePerPerson": 78,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=2114"
+        "link": "https://www.agoda.com/search?city=2114&checkIn=2026-12-18&checkOut=2026-12-21&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -265,7 +265,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=London"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Londra+Londra&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Zbor direct de pe litoral direct la Londra! Descoperă farmecul capitalei britanice, de la Big Ben și Palatul Buckingham până la cumpărăturile de pe Regent Street.",
@@ -300,8 +300,8 @@
       "route": "SBZ – VIE (Direct Viena)",
       "price": 34,
       "baggageInfo": "Geantă de mână 40×30×10 cm inclusă sub scaun",
-      "link": "https://www.austrian.com",
-      "directAirlineLink": "https://www.austrian.com",
+      "link": "https://www.austrian.com/ro/ro/book-and-manage/flights/search?origin=SBZ&destination=VIE&departureDate=2027-01-16&returnDate=2027-01-19&cabinClass=ECONOMY&passengers=2-0-0",
+      "directAirlineLink": "https://www.austrian.com/ro/ro/book-and-manage/flights/search?origin=SBZ&destination=VIE&departureDate=2027-01-16&returnDate=2027-01-19&cabinClass=ECONOMY&passengers=2-0-0",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20SBZ%20to%20VIE&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/sbz/vie/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/sbz/vie",
@@ -323,7 +323,7 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Prize+by+Radisson+Vienna+City+Viena&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -335,7 +335,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Prize+by+Radisson+Vienna+Viena&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -346,7 +346,7 @@
         "priceTotal": 126,
         "pricePerPerson": 63,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.agoda.com/search?city=3876"
+        "link": "https://www.agoda.com/search?city=3876&checkIn=2027-01-16&checkOut=2027-01-19&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -357,7 +357,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Hoteluri & Pensiuni Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Viena+Viena&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Descoperă splendoarea imperială a Vienei: Palatul Hofburg, o felie de tort Sachertorte într-o cafenea tradițională și muzică clasică vieneză.",
@@ -392,8 +392,8 @@
       "route": "SCV – FCO (Direct Roma Fiumicino)",
       "price": 35,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
-      "link": "https://www.wizzair.com",
-      "directAirlineLink": "https://www.wizzair.com",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/SCV/FCO/2027-01-20/2027-01-23/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/SCV/FCO/2027-01-20/2027-01-23/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20SCV%20to%20FCO&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/scv/fco/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/scv/fco",
@@ -415,7 +415,7 @@
       ],
       "priceTotal": 128,
       "pricePerPerson": 64,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -427,7 +427,7 @@
         "priceTotal": 128,
         "pricePerPerson": 64,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -438,7 +438,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=8584"
+        "link": "https://www.agoda.com/search?city=8584&checkIn=2027-01-20&checkOut=2027-01-23&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -449,7 +449,7 @@
         "priceTotal": 128,
         "pricePerPerson": 64,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Roma+Roma&checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Zbor direct din Bucovina spre inima Romei! Panteonul, Piața Navona, Vaticanul și o cafea espresso veritabilă la preț de chilipir.",
@@ -484,8 +484,8 @@
       "route": "CRA – BGY (Direct Milano Bergamo)",
       "price": 28,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
-      "link": "https://www.wizzair.com",
-      "directAirlineLink": "https://www.wizzair.com",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/CRA/BGY/2027-01-15/2027-01-18/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/CRA/BGY/2027-01-15/2027-01-18/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CRA%20to%20BGY&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cra/bgy/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/cra/bgy",
@@ -507,7 +507,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -519,7 +519,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -530,7 +530,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=17316"
+        "link": "https://www.agoda.com/search?city=17316&checkIn=2027-01-15&checkOut=2027-01-18&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -541,7 +541,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Bergamo+%26+Milano+Milano&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Zbor direct din Oltenia spre Milano la un tarif de nerefuzat! Explorează galeriile elegante, bisericile istorice și bucătăria autentică lombardă.",
@@ -576,8 +576,8 @@
       "route": "CLJ – STN (Direct Londra Stansted)",
       "price": 34,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=STN&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=STN&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20STN&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/stn/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/stn",
@@ -599,7 +599,7 @@
       ],
       "priceTotal": 130,
       "pricePerPerson": 65,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+London+Kings+Cross+Londra&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -611,7 +611,7 @@
         "priceTotal": 130,
         "pricePerPerson": 65,
         "type": "Cameră Dublă Compactă",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Kings+Cross+Londra&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -622,7 +622,7 @@
         "priceTotal": 138,
         "pricePerPerson": 69,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=2114"
+        "link": "https://www.agoda.com/search?city=2114&checkIn=2026-12-11&checkOut=2026-12-14&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -633,7 +633,7 @@
         "priceTotal": 130,
         "pricePerPerson": 65,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=London"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Londra+Londra&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Muzee gratuite de talie mondială, luminile festive de pe Oxford Street, Big Ben și spectacolele de pe West End la un preț imbatabil direct din Cluj.",
@@ -668,8 +668,8 @@
       "route": "CLJ – CRL (Direct Bruxelles Charleroi)",
       "price": 32,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=CRL&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=CRL&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20CRL&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/crl/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/crl",
@@ -691,7 +691,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -703,7 +703,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -714,7 +714,7 @@
         "priceTotal": 118,
         "pricePerPerson": 59,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=5092"
+        "link": "https://www.agoda.com/search?city=5092&checkIn=2026-12-14&checkOut=2026-12-17&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -725,7 +725,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Bruxelles+Bruxelles&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Zbor direct din Cluj-Napoca spre inima Europei. Savurează vafe autentice în Grand Place și vizitează castelele de poveste din Gent.",
@@ -760,8 +760,8 @@
       "route": "IAS – DUB (Direct Dublin)",
       "price": 45,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-10&dateIn=2026-12-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=DUB&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-10&dateIn=2026-12-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=DUB&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20DUB&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/dub/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/dub",
@@ -783,7 +783,7 @@
       ],
       "priceTotal": 168,
       "pricePerPerson": 84,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Centre"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Dublin+Parnell+Street+Dublin&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -795,7 +795,7 @@
         "priceTotal": 168,
         "pricePerPerson": 84,
         "type": "Cameră Dublă Compactă",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Centre"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Point+A+Hotel+Dublin+Dublin&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -806,7 +806,7 @@
         "priceTotal": 182,
         "pricePerPerson": 91,
         "type": "Cameră Dublă Superioară",
-        "link": "https://www.agoda.com/search?city=5085"
+        "link": "https://www.agoda.com/search?city=5085&checkIn=2026-12-10&checkOut=2026-12-13&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -817,7 +817,7 @@
         "priceTotal": 168,
         "pricePerPerson": 84,
         "type": "Hoteluri & Pensiuni Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Dublin+Dublin&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Muzică live autentică în pub-urile legendare din Temple Bar, istoria berii la Guinness Storehouse și biblioteca spectaculoasă Trinity College, cu zbor direct din Iași.",
@@ -852,8 +852,8 @@
       "route": "IAS – CRL (Direct Bruxelles Charleroi)",
       "price": 34,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-16&dateIn=2026-12-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=CRL&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-16&dateIn=2026-12-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=CRL&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20CRL&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/crl/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/crl",
@@ -875,7 +875,7 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -887,7 +887,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles&checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -898,7 +898,7 @@
         "priceTotal": 116,
         "pricePerPerson": 58,
         "type": "Cameră Centrală",
-        "link": "https://www.agoda.com/search?city=5092"
+        "link": "https://www.agoda.com/search?city=5092&checkIn=2026-12-16&checkOut=2026-12-19&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -909,7 +909,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Bruxelles+Bruxelles&checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Vizitează Târgul de Crăciun 'Plaisirs d'Hiver' din Bruxelles, degustă bere artizanală belgiană și savurează celebrele trufe de ciocolată direct din Iași.",
@@ -944,8 +944,8 @@
       "route": "IAS – BGY (Direct Milano Bergamo)",
       "price": 30,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com",
-      "directAirlineLink": "https://www.ryanair.com",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BGY&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BGY&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20BGY&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/bgy/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/bgy",
@@ -967,7 +967,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -979,7 +979,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Bergamo+Milano&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -990,7 +990,7 @@
         "priceTotal": 126,
         "pricePerPerson": 63,
         "type": "Cameră Superioară",
-        "link": "https://www.agoda.com/search?city=17316"
+        "link": "https://www.agoda.com/search?city=17316&checkIn=2026-12-05&checkOut=2026-12-08&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -1001,7 +1001,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Bergamo+%26+Milano+Milano&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Zbor direct din Moldova spre Milano la un tarif de nerefuzat! Explorează buticurile exclusiviste din Quadrilatero della Moda și fermecătorul oraș vechi Città Alta din Bergamo.",
@@ -1036,8 +1036,8 @@
       "route": "TSR – CRL (Direct Bruxelles Charleroi)",
       "price": 35,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
-      "link": "https://www.wizzair.com",
-      "directAirlineLink": "https://www.wizzair.com",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/CRL/2027-01-22/2027-01-25/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/CRL/2027-01-22/2027-01-25/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20CRL&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/crl/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/crl",
@@ -1059,7 +1059,7 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Airport+Bruxelles%2C+Bruges&checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -1071,7 +1071,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Ibis+Styles+Charleroi+Bruxelles%2C+Bruges&checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -1082,7 +1082,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Cameră Dublă Centrală",
-        "link": "https://www.agoda.com/search?city=5092"
+        "link": "https://www.agoda.com/search?city=5092&checkIn=2027-01-22&checkOut=2027-01-25&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -1093,7 +1093,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Bruxelles+Bruxelles%2C+Bruges&checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Grand Place iluminată noaptea, vafe calde belgiene, ciocolată artizanală și o excursie rapidă de o zi cu trenul în povestea medievală din Bruges.",
@@ -1128,8 +1128,8 @@
       "route": "TSR – FCO (Direct Roma Fiumicino)",
       "price": 38,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
-      "link": "https://www.wizzair.com",
-      "directAirlineLink": "https://www.wizzair.com",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/FCO/2027-01-19/2027-01-22/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/FCO/2027-01-19/2027-01-22/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20FCO&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/fco/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/fco",
@@ -1151,7 +1151,7 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -1163,7 +1163,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Cameră Dublă Clasică",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Hotel+Laurentia+Roma&checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -1174,7 +1174,7 @@
         "priceTotal": 114,
         "pricePerPerson": 57,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=8584"
+        "link": "https://www.agoda.com/search?city=8584&checkIn=2027-01-19&checkOut=2027-01-22&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -1185,7 +1185,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Hoteluri & Pensiuni Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Roma+Roma&checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Roma este un muzeu în aer liber! Aruncă o monedă în Fontana di Trevi, vizitează Colosseumul și Vaticanul la cel mai bun tarif direct din Banat.",
@@ -1220,8 +1220,8 @@
       "route": "TSR – BGY (Direct Milano Bergamo)",
       "price": 30,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
-      "link": "https://www.wizzair.com",
-      "directAirlineLink": "https://www.wizzair.com",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/BGY/2027-01-12/2027-01-15/2/0/0/null",
+      "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/BGY/2027-01-12/2027-01-15/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20BGY&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/bgy/",
       "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/bgy",
@@ -1243,7 +1243,7 @@
       ],
       "priceTotal": 98,
       "pricePerPerson": 49,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Stazione"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Milano+Bergamo+Milano&checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -1255,7 +1255,7 @@
         "priceTotal": 98,
         "pricePerPerson": 49,
         "type": "Cameră Dublă Standard",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Stazione"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=B%26B+Hotel+Milano+Bergamo+Milano&checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -1266,7 +1266,7 @@
         "priceTotal": 94,
         "pricePerPerson": 47,
         "type": "Cameră Dublă Confort",
-        "link": "https://www.agoda.com/search?city=17316"
+        "link": "https://www.agoda.com/search?city=17316&checkIn=2027-01-12&checkOut=2027-01-15&rooms=1&adults=2"
       },
       {
         "provider": "Booking.com",
@@ -1277,7 +1277,7 @@
         "priceTotal": 98,
         "pricePerPerson": 49,
         "type": "Hoteluri & Apartamente Verificate",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vezi+toate+caz%C4%83rile+din+Bergamo+%26+Milano+Milano&checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Zbor direct din Timișoara spre capitala mondială a modei! Vizitează Galleria Vittorio Emanuele II, Domul spectaculos și ia trenul rapid spre Lacul Como.",
@@ -1889,7 +1889,7 @@
       "route": "OTP – LIS / BCN – FNC (Zbor cu escală)",
       "price": 189,
       "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus",
-      "link": "https://www.momondo.ro/flight-search/OTP-FNC/2027-01-19/2027-01-24/2adults",
+      "link": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FNC/2027-01-19/2027-01-24/2/0/0/null",
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FNC/2027-01-19/2027-01-24/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Madeira+19+–+24+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/fnc/270119/270124/?adultsv2=2",

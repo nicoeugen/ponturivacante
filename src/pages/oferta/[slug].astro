@@ -11,6 +11,7 @@ import BaggageGuide from '../../components/BaggageGuide.astro';
 import deals from '../../../data/deals.json';
 
 import airlines from '../../../data/airlines.json';
+import blogArticles from '../../../data/blog_articles.json';
 
 export async function getStaticPaths() {
 
@@ -25,6 +26,46 @@ export async function getStaticPaths() {
 }
 
 const { deal } = Astro.props;
+
+// Găsim cel mai relevant ghid din blog pentru această destinație
+const destLower = (deal.destination || '').toLowerCase();
+const countryLower = (deal.country || '').toLowerCase();
+const slugLower = deal.slug.toLowerCase();
+const catLower = (deal.category || '').toLowerCase();
+
+const relatedArticle = blogArticles.find(a => {
+  const tag = (a.tag || '').toLowerCase();
+  if (tag === 'egipt') {
+    return countryLower.includes('egipt') || destLower.includes('hurghada') || destLower.includes('sharm') || destLower.includes('cairo');
+  }
+  if (tag === 'schi') {
+    return catLower.includes('schi') || slugLower.includes('schi');
+  }
+  if (tag === 'roma') {
+    return destLower.includes('roma') || slugLower.includes('roma');
+  }
+  if (tag === 'londra') {
+    return destLower.includes('londra') || slugLower.includes('londra');
+  }
+  if (tag === 'cipru') {
+    return countryLower.includes('cipru') || destLower.includes('paphos') || destLower.includes('larnaca');
+  }
+  if (tag === 'maldive' || tag === 'exotice') {
+    return catLower.includes('exotic') || destLower.includes('maldive') || destLower.includes('tenerife') || destLower.includes('dubai');
+  }
+  if (tag === 'croaziere') {
+    return catLower.includes('croazier');
+  }
+  if (tag && (destLower.includes(tag) || countryLower.includes(tag) || slugLower.includes(tag))) {
+    return true;
+  }
+  return false;
+}) || blogArticles.find(a => {
+  if (catLower.includes('city break')) return a.slug === 'secretul-city-break-sub-100-euro-europa';
+  if (catLower.includes('exotic')) return a.slug === 'top-destinatii-exotice-soare-iarna-buget-redus';
+  return a.slug === 'cum-sa-gasesti-bilete-avion-ieftine-wizz-ryanair-trucuri';
+});
+
 
 const soloPrice = deal.flight.price + deal.hotel.priceTotal;
 
@@ -705,6 +746,39 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
         </div>
 
+      )}
+
+            <!-- Ghidul Călătorului: Articol din Blog -->
+      {relatedArticle && (
+        <div class="bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100/60 rounded-3xl p-6 sm:p-7 border border-amber-200/90 shadow-sm mb-10 transition-all hover:shadow-md">
+          <div class="flex items-center justify-between mb-3">
+            <span class="inline-flex items-center gap-1.5 text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-amber-500/15 text-amber-900 border border-amber-300/40">
+              <span>📖</span> Ghidul Călătorului pe Blog
+            </span>
+            <span class="text-xs font-semibold text-amber-800/80">
+              {relatedArticle.readTime}
+            </span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-5 items-start sm:items-center justify-between">
+            <div class="space-y-1.5 flex-1">
+              <h4 class="text-base sm:text-lg font-black text-slate-900 leading-snug">
+                {relatedArticle.title}
+              </h4>
+              <p class="text-xs text-slate-600 line-clamp-2 leading-relaxed">
+                {relatedArticle.excerpt}
+              </p>
+            </div>
+
+            <a 
+              href={`/blog/${relatedArticle.slug}/`}
+              class="shrink-0 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs transition-all flex items-center gap-2 shadow-sm"
+            >
+              <span>Citește Ghidul</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
       )}
 
       <!-- Sfaturi Utile DIY -->

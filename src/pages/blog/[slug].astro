@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import CommunityBanner from '../../components/CommunityBanner.astro';
 import Newsletter from '../../components/Newsletter.astro';
 import articles from '../../../data/blog_articles.json';
+import deals from '../../../data/deals.json';
 
 export async function getStaticPaths() {
   return articles.map(article => ({
@@ -12,6 +13,46 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
+
+// Identificăm ofertele relevante din catalog pentru acest articol
+const tag = (article.tag || '').toLowerCase();
+const relatedDeals = deals.filter(d => {
+  const dest = (d.destination || '').toLowerCase();
+  const country = (d.country || '').toLowerCase();
+  const slug = (d.slug || '').toLowerCase();
+  const cat = (d.category || '').toLowerCase();
+
+  if (tag === 'egipt') {
+    return country.includes('egipt') || dest.includes('hurghada') || dest.includes('sharm') || dest.includes('cairo');
+  }
+  if (tag === 'schi') {
+    return cat.includes('schi') || slug.includes('schi');
+  }
+  if (tag === 'roma') {
+    return dest.includes('roma') || slug.includes('roma');
+  }
+  if (tag === 'londra') {
+    return dest.includes('londra') || slug.includes('londra');
+  }
+  if (tag === 'cipru') {
+    return country.includes('cipru') || dest.includes('paphos') || dest.includes('larnaca');
+  }
+  if (tag === 'maldive' || tag === 'exotice') {
+    return cat.includes('exotic') || dest.includes('maldive') || dest.includes('tenerife') || dest.includes('dubai');
+  }
+  if (tag === 'croaziere') {
+    return cat.includes('croazier');
+  }
+  if (tag && (dest.includes(tag) || country.includes(tag) || slug.includes(tag))) {
+    return true;
+  }
+  return false;
+}).slice(0, 3);
+
+// Dacă nu există potrivire directă pe destinație, afișăm 3 oferte de top featured
+const displayDeals = relatedDeals.length > 0 
+  ? relatedDeals 
+  : deals.filter(d => d.featured).slice(0, 3);
 ---
 
 <Layout 
@@ -82,18 +123,81 @@ const { article } = Astro.props;
         })}
       </div>
 
-      <!-- Callout: Vezi Ofertele Active -->
-      <div class="bg-gradient-to-r from-rose-50 to-amber-50 rounded-3xl p-6 sm:p-8 border border-rose-200/80 my-12 text-center">
+      <!-- Secțiune Oferte Relevante pentru Destinația Articolului -->
+      {displayDeals.length > 0 && (
+        <div class="mt-14 pt-10 border-t-2 border-slate-100">
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <span class="text-xs font-black text-rose-600 uppercase tracking-wider block mb-1">
+                {relatedDeals.length > 0 ? `🎯 Oferte Active pentru ${article.tag}` : '🔥 Oferte Populare Recomandate'}
+              </span>
+              <h3 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Pune în practică: Vacanțe verificate gata de rezervare
+              </h3>
+            </div>
+            <a 
+              href="/" 
+              class="hidden sm:inline-flex text-xs font-bold text-slate-500 hover:text-slate-900 transition-colors"
+            >
+              Toate ofertele &rarr;
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {displayDeals.map(d => (
+              <a 
+                href={`/oferta/${d.slug}/`}
+                class="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-slate-300 transition-all flex flex-col justify-between"
+              >
+                <div>
+                  <div class="relative h-32 overflow-hidden bg-slate-100">
+                    <img 
+                      src={d.image} 
+                      alt={d.destination} 
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <div class="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-black">
+                      {d.badge || d.category}
+                    </div>
+                  </div>
+                  <div class="p-3.5">
+                    <h4 class="font-bold text-xs sm:text-sm text-slate-900 leading-snug mb-1 group-hover:text-rose-600 transition-colors line-clamp-2">
+                      {d.title}
+                    </h4>
+                    <p class="text-[11px] text-slate-500 mb-2">
+                      {d.originCity ? `Din ${d.originCity}` : 'România'} &bull; {d.dates}
+                    </p>
+                  </div>
+                </div>
+
+                <div class="p-3.5 pt-0 flex items-baseline justify-between border-t border-slate-50 mt-1">
+                  <div>
+                    <span class="text-base font-black text-rose-600">{d.priceTotalPerPerson} €</span>
+                    <span class="text-[10px] text-slate-400 block -mt-1">/persoană</span>
+                  </div>
+                  <span class="text-[11px] font-bold text-slate-700 group-hover:text-rose-600 flex items-center gap-0.5">
+                    Detalii &rarr;
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Callout: Scanează toate ofertele -->
+      <div class="bg-gradient-to-r from-rose-50 to-amber-50 rounded-3xl p-6 sm:p-8 border border-rose-200/80 my-10 text-center">
         <span class="text-2xl mb-2 block">✈️</span>
-        <h3 class="text-xl font-bold text-slate-900 mb-2">Vrei să pui în practică aceste trucuri?</h3>
+        <h3 class="text-xl font-bold text-slate-900 mb-2">Vrei să explorezi mai multe destinații?</h3>
         <p class="text-xs sm:text-sm text-slate-600 mb-6 max-w-md mx-auto">
-          Scanează ofertele noastre verificate de zbor + cazare cu plecare din România de la 74€!
+          Scanează catalogul complet cu 46+ oferte verificate de zbor + cazare cu plecare din 8 aeroporturi din România de la 74€!
         </p>
         <a 
           href="/" 
           class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-sm shadow-md"
         >
-          <span>Vezi Ofertele Active</span>
+          <span>Vezi Toate Ofertele din Catalog</span>
           <span>&rarr;</span>
         </a>
       </div>

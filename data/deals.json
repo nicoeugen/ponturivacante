@@ -3846,5 +3846,283 @@
     "publishedAt": "2026-11-06T18:25:00.000Z",
     "lastVerifiedAt": "2026-11-07T10:43:41.041493+00:00",
     "lastVerifiedFormatted": "07 November 2026, 12:43"
+  },
+  {
+    "id": "deal-egipt-001",
+    "slug": "sejur-all-inclusive-sharm-el-sheikh-egipt-din-bucuresti-369-euro",
+    "title": "Sejur All Inclusive Sharm El-Sheikh 5★ din București: Zbor Direct + 6 Nopți Resort pe Plajă, Marea Roșie",
+    "destination": "Sharm El-Sheikh",
+    "country": "Egipt",
+    "flag": "🇪🇬",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "SSH",
+    "dates": "8 – 14 Martie 2027",
+    "departureDate": "2027-03-08",
+    "returnDate": "2027-03-14",
+    "nights": 6,
+    "category": "Exotice & Soare",
+    "badge": "All Inclusive 5★",
+    "image": "https://images.unsplash.com/photo-1544885935-98dd03b09034?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 369,
+    "discountPercent": 48,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "București (OTP) ⇄ Sharm El-Sheikh (SSH)",
+      "price": 149,
+      "baggageInfo": "Rucsac inclus (40x30x20 cm), bagaj suplimentar opțional din aplicație",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/ssh/270308/270314/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=SSH&departure=2027-03-08&return=2027-03-14&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "aviasalesLink": "https://www.aviasales.com/search/OTP0803SSH14032?marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Parrotel Beach Resort 5★ All Inclusive",
+      "provider": "Booking.com",
+      "rating": 8.4,
+      "reviewsCount": 3200,
+      "distance": "Direct pe plaja privată din Nabq Bay, ponton privat peste reciful de corali",
+      "amenities": [
+        "Regim All Inclusive complet (mese, băuturi, snack-uri)",
+        "3 piscine mari exterioare + tobogane acvatice",
+        "Centru Spa, saună, baie turcească și masaj",
+        "Recif spectaculos de corali pentru snorkeling și scufundări"
+      ],
+      "priceTotal": 440,
+      "pricePerPerson": 220,
+      "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat All Inclusive 5★",
+        "name": "Parrotel Beach Resort 5★ All Inclusive",
+        "rating": 8.4,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Cameră Dublă Standard cu Balcon / Terasă",
+        "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte resorturi All Inclusive în Sharm El-Sheikh",
+        "rating": 8.5,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Resorturi Verificate pe Plajă",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sharm+El+Sheikh&checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "15 – 21 Martie 2027",
+        "price": 375,
+        "departureDate": "2027-03-15",
+        "returnDate": "2027-03-21",
+        "link": "https://www.kiwi.com/deep?from=OTP&to=SSH&departure=2027-03-15&return=2027-03-21&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+      },
+      {
+        "dates": "22 – 28 Martie 2027",
+        "price": 385,
+        "departureDate": "2027-03-22",
+        "returnDate": "2027-03-28",
+        "link": "https://www.kiwi.com/deep?from=OTP&to=SSH&departure=2027-03-22&return=2027-03-28&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+      }
+    ],
+    "description": "Scapă de frigul iernii la soare în Sharm El-Sheikh! Te bucuri de un resort de 5 stele situat direct pe plajă cu recif de corali de renume mondial, mâncare și băuturi All Inclusive nelimitate și zbor direct din București.",
+    "featured": true,
+    "publishedAt": "2026-11-07T11:00:00Z",
+    "lastVerifiedAt": "2026-11-07T11:00:00Z",
+    "lastVerifiedFormatted": "7 Noiembrie 2026"
+  },
+  {
+    "id": "deal-egipt-002",
+    "slug": "sejur-all-inclusive-hurghada-din-cluj-379-euro",
+    "title": "Sejur All Inclusive Hurghada din Cluj-Napoca: Zbor + 6 Nopți Resort 4★ Superior pe Plajă",
+    "destination": "Hurghada",
+    "country": "Egipt",
+    "flag": "🇪🇬",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "HRG",
+    "dates": "15 – 21 Februarie 2027",
+    "departureDate": "2027-02-15",
+    "returnDate": "2027-02-21",
+    "nights": 6,
+    "category": "Exotice & Soare",
+    "badge": "Plecare din Ardeal",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 379,
+    "discountPercent": 45,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "Cluj-Napoca (CLJ) ⇄ Hurghada (HRG)",
+      "price": 159,
+      "baggageInfo": "Rucsac inclus (40x30x20 cm), check-in online gratuit",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/hrg/270215/270221/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=HRG&departure=2027-02-15&return=2027-02-21&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "aviasalesLink": "https://www.aviasales.com/search/CLJ1502HRG21022?marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Seagull Beach Resort 4★ All Inclusive",
+      "provider": "Booking.com",
+      "rating": 8.3,
+      "reviewsCount": 4100,
+      "distance": "În inima stațiunii Hurghada, cu acces direct la plajă privată și debarcader",
+      "amenities": [
+        "All Inclusive complet cu restaurante bufet și băuturi locale",
+        "Parc acvatic cu tobogane mari și piscine încălzite",
+        "Terenuri de tenis, squash și centru fitness",
+        "Echipă dedicată de animație și spectacole tematice de seară"
+      ],
+      "priceTotal": 440,
+      "pricePerPerson": 220,
+      "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat All Inclusive",
+        "name": "Seagull Beach Resort 4★ All Inclusive",
+        "rating": 8.3,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Cameră Dublă Standard All Inclusive",
+        "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte resorturi All Inclusive în Hurghada",
+        "rating": 8.4,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Resorturi Verificate pe Plajă",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Hurghada&checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "22 – 28 Februarie 2027",
+        "price": 389,
+        "departureDate": "2027-02-22",
+        "returnDate": "2027-02-28",
+        "link": "https://www.kiwi.com/deep?from=CLJ&to=HRG&departure=2027-02-22&return=2027-02-28&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+      }
+    ],
+    "description": "Plecare direct din Ardeal spre soarele Mării Roșii! Sejur All Inclusive la Seagull Beach Resort cu zbor din Cluj-Napoca, parcuri acvatice și plajă cu nisip fin.",
+    "featured": false,
+    "publishedAt": "2026-11-07T11:00:00Z",
+    "lastVerifiedAt": "2026-11-07T11:00:00Z",
+    "lastVerifiedFormatted": "7 Noiembrie 2026"
+  },
+  {
+    "id": "deal-egipt-003",
+    "slug": "city-break-cairo-piramide-din-bucuresti-199-euro",
+    "title": "City Break Cairo & Piramidele din Giza din București: Zbor Direct + 4 Nopți Hotel cu Vedere la Piramide",
+    "destination": "Cairo & Giza",
+    "country": "Egipt",
+    "flag": "🇪🇬",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "SPX",
+    "dates": "18 – 22 Ianuarie 2027",
+    "departureDate": "2027-01-18",
+    "returnDate": "2027-01-22",
+    "nights": 4,
+    "category": "City Break Cultural",
+    "badge": "Top Istoric & Mister",
+    "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 199,
+    "discountPercent": 50,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "București (OTP) ⇄ Cairo Sphinx (SPX)",
+      "price": 89,
+      "baggageInfo": "Rucsac inclus (40x30x20 cm), aterizare la aeroportul nou Sphinx (la 20 min de Piramide)",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/spx/270118/270122/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=SPX&departure=2027-01-18&return=2027-01-22&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "aviasalesLink": "https://www.aviasales.com/search/OTP1801SPX22012?marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Great Pyramid Inn 3★ Superior",
+      "provider": "Booking.com",
+      "rating": 8.7,
+      "reviewsCount": 2600,
+      "distance": "Direct în fața Sfinxului și a Marii Piramide din Giza, cu rooftop panoramic",
+      "amenities": [
+        "Terasă pe acoperiș cu mic dejun și vedere directă la Sfinx și Piramide",
+        "Mic dejun oriental și continental inclus",
+        "Organizare tururi ghidate private la Muzeul Egiptean și Bazarul Khan el-Khalili",
+        "Transfer facil de la/la noul aeroport Sphinx"
+      ],
+      "priceTotal": 220,
+      "pricePerPerson": 110,
+      "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Vedere Directă Piramide",
+        "name": "Great Pyramid Inn 3★ Superior",
+        "rating": 8.7,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Cameră Dublă cu Mic Dejun Inclus",
+        "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Alternativă Zonă",
+        "name": "Caută alte hoteluri în Cairo & Giza",
+        "rating": 8.5,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Hoteluri Verificate în Giza",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Giza+Cairo&checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "25 – 29 Ianuarie 2027",
+        "price": 209,
+        "departureDate": "2027-01-25",
+        "returnDate": "2027-01-29",
+        "link": "https://www.kiwi.com/deep?from=OTP&to=SPX&departure=2027-01-25&return=2027-01-29&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+      },
+      {
+        "dates": "8 – 12 Februarie 2027",
+        "price": 215,
+        "departureDate": "2027-02-08",
+        "returnDate": "2027-02-12",
+        "link": "https://www.kiwi.com/deep?from=OTP&to=SPX&departure=2027-02-08&return=2027-02-12&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+      }
+    ],
+    "description": "Visezi să iei micul dejun privind direct spre Sfinx și Marea Piramidă a lui Keops? Zbor direct Wizz Air din București spre noul aeroport Sphinx (la doar 20 de minute de Giza) plus hotel cu recenzii excepționale și terasă pe acoperiș.",
+    "featured": true,
+    "publishedAt": "2026-11-07T11:00:00Z",
+    "lastVerifiedAt": "2026-11-07T11:00:00Z",
+    "lastVerifiedFormatted": "7 Noiembrie 2026"
   }
 ]

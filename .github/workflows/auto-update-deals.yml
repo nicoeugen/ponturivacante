@@ -1,10 +1,11 @@
-name: Actualizare Automată Oferte & Tarife Live
+name: Actualizare Automata Oferte & Tarife Live
 
 on:
   schedule:
-    # Rulează automat de două ori pe zi: la 06:00 și 18:00 UTC (08:00 și 20:00 ora României)
-    - cron: '0 6,18 * * *'
-  workflow_dispatch: # Permite rularea manuală oricând din panoul GitHub Actions
+    # Ruleaza automat de trei ori pe zi: la 06:25, 12:25 si 18:25 UTC (08:25, 14:25 si 20:25 ora Romaniei)
+    # Rularea la :25 evita congestia de sistem GitHub Actions de la :00
+    - cron: '25 6,12,18 * * *'
+  workflow_dispatch: # Permite rularea manuala oricand din tabul GitHub Actions
 
 jobs:
   update-deals:
@@ -13,26 +14,28 @@ jobs:
       contents: write
 
     steps:
-      - name: 📥 Clonare Repository
+      - name: ✈️ Clonare Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 🐍 Configurare Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 🔄 Rulare Motor Verificare Oferte & Tarife Live
+      - name: 🔍 Rulare Motor Verificare Oferte & Tarife Live
         run: |
           python scripts/deal_updater.py
 
-      - name: 💾 Commit & Push Modificări
+      - name: 🚀 Commit & Push Modificari
         run: |
           git config --local user.email "bot@ponturivacante.ro"
-          git config --local user.name "Ponturi Vacanțe Bot"
+          git config --local user.name "Ponturi Vacante Bot"
           git add data/deals.json data/romania_deals.json data/cruises.json
           if git diff --staged --quiet; then
-            echo "Nicio modificare de preț sau status detectată."
+            echo "Nicio modificare de pret sau oferte noi detectata."
           else
             git commit -m "[auto] Verificare tarife & publicare oferte noi ($(date +'%Y-%m-%d %H:%M'))"
-            git push
+            git push origin HEAD:main
           fi

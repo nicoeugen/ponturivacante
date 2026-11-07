@@ -1,5 +1,1293 @@
 [
   {
+    "id": "deal-otp-018",
+    "slug": "vacanta-cipru-paphos-din-bucuresti-116-euro",
+    "title": "Soare de iarnă în Cipru: 4 nopți la resort 3★ aproape de plajă + Zbor direct Paphos",
+    "destination": "Paphos & Coasta Ciprului",
+    "country": "Cipru",
+    "flag": "🇨🇾",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "PFO",
+    "dates": "21 – 25 Ianuarie 2027",
+    "departureDate": "2027-01-21",
+    "returnDate": "2027-01-25",
+    "nights": 4,
+    "category": "City Break",
+    "badge": "☀️ Soare 20°C & Plajă",
+    "image": "https://images.unsplash.com/photo-1548625361-19e344139886?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 116,
+    "discountPercent": 55,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – PFO (Direct Paphos)",
+      "price": 42,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PFO&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/pfo/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/pfo",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-PFO",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Kefalos Damon Hotel Apartments 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 1850,
+      "distance": "La 400m de plajă și faleza turistică Paphos",
+      "amenities": [
+        "2 piscine exterioare",
+        "Balcon privat",
+        "Chicinetă utilată",
+        "Restaurant mediteranean"
+      ],
+      "priceTotal": 148,
+      "pricePerPerson": 74,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Kefalos Damon Apartments 3★",
+        "rating": 8.6,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Studio cu Balcon",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Paphos Gardens Holiday Resort 3★",
+        "rating": 8.4,
+        "priceTotal": 142,
+        "pricePerPerson": 71,
+        "type": "Cameră Dublă Resort",
+        "link": "https://www.agoda.com/search?city=16584"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Cipru",
+        "rating": 8.7,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos"
+      }
+    ],
+    "description": "Fugi de frigul iernii la soare în Cipru! 20°C pe terasă, mozaicuri romane antice din Patrimoniul UNESCO și plaje spectaculoase cu zbor direct din București.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-otp-017",
+    "slug": "vacanta-malta-din-bucuresti-119-euro",
+    "title": "Vacanță la Mediterană în Malta: 4 nopți la hotel 3★ cu vedere + Zbor direct",
+    "destination": "Malta (Valletta & Sliema)",
+    "country": "Malta",
+    "flag": "🇲🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "MLA",
+    "dates": "14 – 18 Ianuarie 2027",
+    "departureDate": "2027-01-14",
+    "returnDate": "2027-01-18",
+    "nights": 4,
+    "category": "City Break",
+    "badge": "🏰 Cetăți & Ape Turcoaz",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 119,
+    "discountPercent": 56,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – MLA (Direct Malta Luqa)",
+      "price": 45,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MLA&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mla/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/mla",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MLA",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Sliema Marina Hotel 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 3100,
+      "distance": "Pe faleza Sliema, la 3 minute de ferry-ul spre Valletta",
+      "amenities": [
+        "Terasă pe acoperiș",
+        "Vedere panoramică la port",
+        "Wi-Fi rapid",
+        "Mic dejun tip bufet"
+      ],
+      "priceTotal": 148,
+      "pricePerPerson": 74,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Sliema Marina Hotel 3★",
+        "rating": 8.5,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Plaza Regency Hotels 3★",
+        "rating": 8.3,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.agoda.com/search?city=5072"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Malta",
+        "rating": 8.7,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Hoteluri & Rezervări Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Malta"
+      }
+    ],
+    "description": "Climat mediteranean blând, fortificații cavaleresti de culoarea mierii, gastronomie marină proaspătă și o excursie de neuitat la Laguna Albastră din Comino.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-cnd-001",
+    "slug": "city-break-londra-din-constanta-118-euro",
+    "title": "City Break la Londra din Constanța: 3 nopți la hotel 3★ + Zbor direct",
+    "destination": "Londra & Tower Bridge",
+    "country": "Marea Britanie",
+    "flag": "🇬🇧",
+    "originCity": "Constanța",
+    "originCode": "CND",
+    "destinationCode": "LTN",
+    "dates": "18 – 21 Decembrie 2026",
+    "departureDate": "2026-12-18",
+    "returnDate": "2026-12-21",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🇬🇧 Big Ben & Tower Bridge",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 118,
+    "discountPercent": 48,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "CND – LTN (Direct Londra Luton)",
+      "price": 44,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CND%20to%20LTN&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cnd/ltn/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/cnd/ltn",
+      "momondoLink": "https://www.momondo.ro/flight-search/CND-LTN",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Point A Hotel London Kings Cross 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.4,
+      "reviewsCount": 3800,
+      "distance": "În zona centrală Kings Cross, acces facil metrou",
+      "amenities": [
+        "Baie privată",
+        "Wi-Fi rapid",
+        "Recepție non-stop",
+        "Camere compacte curate"
+      ],
+      "priceTotal": 148,
+      "pricePerPerson": 74,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Point A Hotel Kings Cross 3★",
+        "rating": 8.4,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Cameră Dublă Compactă",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Ibis London City Shoreditch 3★",
+        "rating": 8.5,
+        "priceTotal": 156,
+        "pricePerPerson": 78,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=2114"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Londra",
+        "rating": 8.6,
+        "priceTotal": 148,
+        "pricePerPerson": 74,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=London"
+      }
+    ],
+    "description": "Zbor direct de pe litoral direct la Londra! Descoperă farmecul capitalei britanice, de la Big Ben și Palatul Buckingham până la cumpărăturile de pe Regent Street.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-sbz-002",
+    "slug": "city-break-viena-din-sibiu-94-euro",
+    "title": "Weekend imperial la Viena din Sibiu: 3 nopți la hotel 3★ + Zbor direct",
+    "destination": "Viena & Palatul Schönbrunn",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "Sibiu",
+    "originCode": "SBZ",
+    "destinationCode": "VIE",
+    "dates": "16 – 19 Ianuarie 2027",
+    "departureDate": "2027-01-16",
+    "returnDate": "2027-01-19",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "👑 Palate & Vals Vienez",
+    "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 94,
+    "discountPercent": 53,
+    "flight": {
+      "airline": "Austrian Airlines",
+      "airlineCode": "OS",
+      "route": "SBZ – VIE (Direct Viena)",
+      "price": 34,
+      "baggageInfo": "Geantă de mână 40×30×10 cm inclusă sub scaun",
+      "link": "https://www.austrian.com",
+      "directAirlineLink": "https://www.austrian.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20SBZ%20to%20VIE&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/sbz/vie/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/sbz/vie",
+      "momondoLink": "https://www.momondo.ro/flight-search/SBZ-VIE",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Prize by Radisson Vienna City 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 4200,
+      "distance": "Lângă gara centrală Hauptbahnhof, metrou direct spre Stephansplatz",
+      "amenities": [
+        "Design tineresc",
+        "Wi-Fi rapid",
+        "Aer condiționat",
+        "Mic dejun opțional"
+      ],
+      "priceTotal": 120,
+      "pricePerPerson": 60,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Prize by Radisson Vienna 3★",
+        "rating": 8.6,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Ibis Wien Hauptbahnhof 3★",
+        "rating": 8.5,
+        "priceTotal": 126,
+        "pricePerPerson": 63,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.agoda.com/search?city=3876"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Viena",
+        "rating": 8.8,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Hoteluri & Pensiuni Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna"
+      }
+    ],
+    "description": "Descoperă splendoarea imperială a Vienei: Palatul Hofburg, o felie de tort Sachertorte într-o cafenea tradițională și muzică clasică vieneză.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-scv-002",
+    "slug": "city-break-roma-din-suceava-99-euro",
+    "title": "City Break la Roma din Suceava: 3 nopți la hotel 3★ + Zbor direct Fiumicino",
+    "destination": "Roma & Colosseum",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Suceava",
+    "originCode": "SCV",
+    "destinationCode": "FCO",
+    "dates": "20 – 23 Ianuarie 2027",
+    "departureDate": "2027-01-20",
+    "returnDate": "2027-01-23",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🏛️ Cetatea Eternă",
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 99,
+    "discountPercent": 52,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "SCV – FCO (Direct Roma Fiumicino)",
+      "price": 35,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20SCV%20to%20FCO&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/scv/fco/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/scv/fco",
+      "momondoLink": "https://www.momondo.ro/flight-search/SCV-FCO",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Laurentia 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 1780,
+      "distance": "La mică distanță de gara Termini și stația de metrou",
+      "amenities": [
+        "Wi-Fi gratuit",
+        "Mic dejun tip bufet",
+        "Bar relaxant",
+        "Camere confortabile"
+      ],
+      "priceTotal": 128,
+      "pricePerPerson": 64,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Laurentia 3★",
+        "rating": 8.5,
+        "priceTotal": 128,
+        "pricePerPerson": 64,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel Taormina Roma 3★",
+        "rating": 8.3,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=8584"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Roma",
+        "rating": 8.8,
+        "priceTotal": 128,
+        "pricePerPerson": 64,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma"
+      }
+    ],
+    "description": "Zbor direct din Bucovina spre inima Romei! Panteonul, Piața Navona, Vaticanul și o cafea espresso veritabilă la preț de chilipir.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-cra-002",
+    "slug": "city-break-milano-din-craiova-84-euro",
+    "title": "City Break la Milano & Dom din Craiova: 3 nopți la hotel 3★ + Zbor direct",
+    "destination": "Milano & Lombardia",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Craiova",
+    "originCode": "CRA",
+    "destinationCode": "BGY",
+    "dates": "15 – 18 Ianuarie 2027",
+    "departureDate": "2027-01-15",
+    "returnDate": "2027-01-18",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🍕 Shopping & Domul",
+    "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 84,
+    "discountPercent": 54,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "CRA – BGY (Direct Milano Bergamo)",
+      "price": 28,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CRA%20to%20BGY&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cra/bgy/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/cra/bgy",
+      "momondoLink": "https://www.momondo.ro/flight-search/CRA-BGY",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "B&B Hotel Bergamo 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 2100,
+      "distance": "În Bergamo Città Bassa, lângă legătura rapidă de tren spre Milano",
+      "amenities": [
+        "Wi-Fi de mare viteză",
+        "Aer condiționat",
+        "Mic dejun generos",
+        "Curățenie impecabilă"
+      ],
+      "priceTotal": 112,
+      "pricePerPerson": 56,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "B&B Hotel Bergamo 3★",
+        "rating": 8.6,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel San Giorgio 3★",
+        "rating": 8.4,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=17316"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bergamo & Milano",
+        "rating": 8.7,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano"
+      }
+    ],
+    "description": "Zbor direct din Oltenia spre Milano la un tarif de nerefuzat! Explorează galeriile elegante, bisericile istorice și bucătăria autentică lombardă.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-clj-004",
+    "slug": "city-break-londra-din-cluj-99-euro",
+    "title": "Weekend la Londra din Cluj-Napoca: 3 nopți la hotel 3★ + Zbor direct Stansted",
+    "destination": "Londra & Westminster",
+    "country": "Marea Britanie",
+    "flag": "🇬🇧",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "STN",
+    "dates": "11 – 14 Decembrie 2026",
+    "departureDate": "2026-12-11",
+    "returnDate": "2026-12-14",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🎡 Big Ben & London Eye",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 99,
+    "discountPercent": 51,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "CLJ – STN (Direct Londra Stansted)",
+      "price": 34,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20STN&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/stn/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/stn",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-STN",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Point A Hotel London Kings Cross 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.4,
+      "reviewsCount": 3800,
+      "distance": "5 minute de gara Kings Cross și metroul Piccadilly",
+      "amenities": [
+        "Baie privată",
+        "Wi-Fi ultra-rapid",
+        "Recepție 24/7",
+        "Zonă centrală"
+      ],
+      "priceTotal": 130,
+      "pricePerPerson": 65,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Point A Hotel Kings Cross 3★",
+        "rating": 8.4,
+        "priceTotal": 130,
+        "pricePerPerson": 65,
+        "type": "Cameră Dublă Compactă",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=London+Kings+Cross"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Ibis London City Shoreditch 3★",
+        "rating": 8.5,
+        "priceTotal": 138,
+        "pricePerPerson": 69,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=2114"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Londra",
+        "rating": 8.6,
+        "priceTotal": 130,
+        "pricePerPerson": 65,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=London"
+      }
+    ],
+    "description": "Muzee gratuite de talie mondială, luminile festive de pe Oxford Street, Big Ben și spectacolele de pe West End la un preț imbatabil direct din Cluj.",
+    "featured": false,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-clj-003",
+    "slug": "city-break-bruxelles-din-cluj-88-euro",
+    "title": "City Break la Bruxelles & Flandra din Cluj-Napoca: 3 nopți + Zbor direct",
+    "destination": "Bruxelles & Gent",
+    "country": "Belgia",
+    "flag": "🇧🇪",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "CRL",
+    "dates": "14 – 17 Decembrie 2026",
+    "departureDate": "2026-12-14",
+    "returnDate": "2026-12-17",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "✨ Atmosferă Europeană",
+    "image": "https://images.unsplash.com/photo-1572979241487-7323145d55b0?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 88,
+    "discountPercent": 54,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "CLJ – CRL (Direct Bruxelles Charleroi)",
+      "price": 32,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20CRL&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/crl/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/crl",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-CRL",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Ibis Styles Charleroi 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 1950,
+      "distance": "La câteva minute de naveta directă spre Bruxelles Midi",
+      "amenities": [
+        "Wi-Fi gratuit",
+        "Recepție 24h",
+        "Bar modern",
+        "Izolație fonică"
+      ],
+      "priceTotal": 112,
+      "pricePerPerson": 56,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Ibis Styles Charleroi 3★",
+        "rating": 8.5,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel Continental Bruxelles 3★",
+        "rating": 8.2,
+        "priceTotal": 118,
+        "pricePerPerson": 59,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=5092"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bruxelles",
+        "rating": 8.7,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles"
+      }
+    ],
+    "description": "Zbor direct din Cluj-Napoca spre inima Europei. Savurează vafe autentice în Grand Place și vizitează castelele de poveste din Gent.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-ias-003",
+    "slug": "city-break-dublin-din-iasi-129-euro",
+    "title": "City Break la Dublin din Iași: 3 nopți la hotel 3★ + Zbor direct Irlanda",
+    "destination": "Dublin & Temple Bar",
+    "country": "Irlanda",
+    "flag": "🇮🇪",
+    "originCity": "Iași",
+    "originCode": "IAS",
+    "destinationCode": "DUB",
+    "dates": "10 – 13 Decembrie 2026",
+    "departureDate": "2026-12-10",
+    "returnDate": "2026-12-13",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🍀 Pub-uri & Temple Bar",
+    "image": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 129,
+    "discountPercent": 50,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "IAS – DUB (Direct Dublin)",
+      "price": 45,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20DUB&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/dub/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/dub",
+      "momondoLink": "https://www.momondo.ro/flight-search/IAS-DUB",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Point A Hotel Dublin Parnell Street 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.7,
+      "reviewsCount": 3400,
+      "distance": "În centrul Dublinului, la 8 minute de Temple Bar",
+      "amenities": [
+        "Design compact modern",
+        "Wi-Fi rapid",
+        "Lounge bar",
+        "Recepție 24/7"
+      ],
+      "priceTotal": 168,
+      "pricePerPerson": 84,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Centre"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Point A Hotel Dublin 3★",
+        "rating": 8.7,
+        "priceTotal": 168,
+        "pricePerPerson": 84,
+        "type": "Cameră Dublă Compactă",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Centre"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Maldron Hotel Parnell Square 4★",
+        "rating": 8.6,
+        "priceTotal": 182,
+        "pricePerPerson": 91,
+        "type": "Cameră Dublă Superioară",
+        "link": "https://www.agoda.com/search?city=5085"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Dublin",
+        "rating": 8.8,
+        "priceTotal": 168,
+        "pricePerPerson": 84,
+        "type": "Hoteluri & Pensiuni Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin"
+      }
+    ],
+    "description": "Muzică live autentică în pub-urile legendare din Temple Bar, istoria berii la Guinness Storehouse și biblioteca spectaculoasă Trinity College, cu zbor direct din Iași.",
+    "featured": false,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-ias-002",
+    "slug": "city-break-bruxelles-din-iasi-88-euro",
+    "title": "Weekend la Bruxelles din Iași: 3 nopți la hotel 3★ + Zbor direct",
+    "destination": "Bruxelles & Flandra",
+    "country": "Belgia",
+    "flag": "🇧🇪",
+    "originCity": "Iași",
+    "originCode": "IAS",
+    "destinationCode": "CRL",
+    "dates": "16 – 19 Decembrie 2026",
+    "departureDate": "2026-12-16",
+    "returnDate": "2026-12-19",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🎄 Piețe de Crăciun & Gofre",
+    "image": "https://images.unsplash.com/photo-1572979241487-7323145d55b0?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 88,
+    "discountPercent": 53,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "IAS – CRL (Direct Bruxelles Charleroi)",
+      "price": 34,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20CRL&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/crl/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/crl",
+      "momondoLink": "https://www.momondo.ro/flight-search/IAS-CRL",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Ibis Styles Charleroi 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 1980,
+      "distance": "Acces facil spre autocarele Brussels City Shuttle",
+      "amenities": [
+        "Design modern",
+        "Wi-Fi rapid",
+        "Bar & Bistro",
+        "Mic dejun generos"
+      ],
+      "priceTotal": 108,
+      "pricePerPerson": 54,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Ibis Styles Charleroi 3★",
+        "rating": 8.5,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel Queen Anne Bruxelles 3★",
+        "rating": 8.1,
+        "priceTotal": 116,
+        "pricePerPerson": 58,
+        "type": "Cameră Centrală",
+        "link": "https://www.agoda.com/search?city=5092"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bruxelles",
+        "rating": 8.6,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles"
+      }
+    ],
+    "description": "Vizitează Târgul de Crăciun 'Plaisirs d'Hiver' din Bruxelles, degustă bere artizanală belgiană și savurează celebrele trufe de ciocolată direct din Iași.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-ias-001",
+    "slug": "city-break-milano-din-iasi-85-euro",
+    "title": "City Break în capitala modei din Iași: 3 nopți la hotel 3★ + Zbor direct Milano",
+    "destination": "Milano & Lacul Como",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Iași",
+    "originCode": "IAS",
+    "destinationCode": "BGY",
+    "dates": "5 – 8 Decembrie 2026",
+    "departureDate": "2026-12-05",
+    "returnDate": "2026-12-08",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "✨ Cumpărături & Domul",
+    "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 86,
+    "discountPercent": 55,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "IAS – BGY (Direct Milano Bergamo)",
+      "price": 30,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com",
+      "directAirlineLink": "https://www.ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20BGY&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/bgy/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/bgy",
+      "momondoLink": "https://www.momondo.ro/flight-search/IAS-BGY",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "B&B Hotel Bergamo 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 2300,
+      "distance": "În Bergamo Città Bassa, lângă gara cu tren direct la Milano",
+      "amenities": [
+        "Wi-Fi de mare viteză",
+        "Aer condiționat",
+        "Mic dejun bufet generos",
+        "Camere moderne"
+      ],
+      "priceTotal": 112,
+      "pricePerPerson": 56,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "B&B Hotel Bergamo 3★",
+        "rating": 8.6,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Centro"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel Cappello d'Oro 4★",
+        "rating": 8.8,
+        "priceTotal": 126,
+        "pricePerPerson": 63,
+        "type": "Cameră Superioară",
+        "link": "https://www.agoda.com/search?city=17316"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bergamo & Milano",
+        "rating": 8.7,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano"
+      }
+    ],
+    "description": "Zbor direct din Moldova spre Milano la un tarif de nerefuzat! Explorează buticurile exclusiviste din Quadrilatero della Moda și fermecătorul oraș vechi Città Alta din Bergamo.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-tsr-003",
+    "slug": "city-break-bruxelles-din-timisoara-89-euro",
+    "title": "Weekend la Bruxelles & Bruges din Timișoara: 3 nopți la hotel 3★ + Zbor direct",
+    "destination": "Bruxelles, Bruges & Gent",
+    "country": "Belgia",
+    "flag": "🇧🇪",
+    "originCity": "Timișoara",
+    "originCode": "TSR",
+    "destinationCode": "CRL",
+    "dates": "22 – 25 Ianuarie 2027",
+    "departureDate": "2027-01-22",
+    "returnDate": "2027-01-25",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🍫 Ciocolată & Grand Place",
+    "image": "https://images.unsplash.com/photo-1572979241487-7323145d55b0?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 89,
+    "discountPercent": 52,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "TSR – CRL (Direct Bruxelles Charleroi)",
+      "price": 35,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20CRL&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/crl/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/crl",
+      "momondoLink": "https://www.momondo.ro/flight-search/TSR-CRL",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Ibis Styles Charleroi Airport 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 1950,
+      "distance": "Lângă terminalul de transfer rapid spre Bruxelles Midi și Bruges",
+      "amenities": [
+        "Design modern",
+        "Wi-Fi rapid gratuit",
+        "Restaurant & Bar",
+        "Recepție non-stop"
+      ],
+      "priceTotal": 108,
+      "pricePerPerson": 54,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Ibis Styles Charleroi 3★",
+        "rating": 8.5,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles+Centre"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Bedford Hotel & Congress Centre 3★",
+        "rating": 8.3,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
+        "type": "Cameră Dublă Centrală",
+        "link": "https://www.agoda.com/search?city=5092"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bruxelles",
+        "rating": 8.6,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bruxelles"
+      }
+    ],
+    "description": "Grand Place iluminată noaptea, vafe calde belgiene, ciocolată artizanală și o excursie rapidă de o zi cu trenul în povestea medievală din Bruges.",
+    "featured": false,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-tsr-002",
+    "slug": "city-break-roma-din-timisoara-98-euro",
+    "title": "City Break în Cetatea Eternă din Timișoara: 3 nopți la hotel 3★ + Zbor direct Roma",
+    "destination": "Roma & Vatican",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Timișoara",
+    "originCode": "TSR",
+    "destinationCode": "FCO",
+    "dates": "19 – 22 Ianuarie 2027",
+    "departureDate": "2027-01-19",
+    "returnDate": "2027-01-22",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🏛️ Colosseum & Fontana di Trevi",
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 98,
+    "discountPercent": 53,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "TSR – FCO (Direct Roma Fiumicino)",
+      "price": 38,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20FCO&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/fco/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/fco",
+      "momondoLink": "https://www.momondo.ro/flight-search/TSR-FCO",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Laurentia 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 1780,
+      "distance": "În cartierul San Lorenzo, la 10 minute de gara Termini",
+      "amenities": [
+        "Wi-Fi gratuit",
+        "Mic dejun tip bufet",
+        "Bar elegant",
+        "Camere cu aer condiționat"
+      ],
+      "priceTotal": 120,
+      "pricePerPerson": 60,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "Hotel Laurentia 3★",
+        "rating": 8.5,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Cameră Dublă Clasică",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Termini"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel Taormina Roma 3★",
+        "rating": 8.3,
+        "priceTotal": 114,
+        "pricePerPerson": 57,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=8584"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Roma",
+        "rating": 8.8,
+        "priceTotal": 120,
+        "pricePerPerson": 60,
+        "type": "Hoteluri & Pensiuni Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma"
+      }
+    ],
+    "description": "Roma este un muzeu în aer liber! Aruncă o monedă în Fontana di Trevi, vizitează Colosseumul și Vaticanul la cel mai bun tarif direct din Banat.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
+    "id": "deal-tsr-001",
+    "slug": "city-break-milano-din-timisoara-79-euro",
+    "title": "City Break la Milano & Domul gotic din Timișoara: 3 nopți la hotel 3★ + Zbor direct",
+    "destination": "Milano & Lacul Como",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Timișoara",
+    "originCode": "TSR",
+    "destinationCode": "BGY",
+    "dates": "12 – 15 Ianuarie 2027",
+    "departureDate": "2027-01-12",
+    "returnDate": "2027-01-15",
+    "nights": 3,
+    "category": "City Break",
+    "badge": "🛍️ Modă & Domul din Milano",
+    "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 79,
+    "discountPercent": 56,
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W6",
+      "route": "TSR – BGY (Direct Milano Bergamo)",
+      "price": 30,
+      "baggageInfo": "Rucsac gratuit 40×30×20 cm inclus sub scaun",
+      "link": "https://www.wizzair.com",
+      "directAirlineLink": "https://www.wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20BGY&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/bgy/",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/bgy",
+      "momondoLink": "https://www.momondo.ro/flight-search/TSR-BGY",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "B&B Hotel Milano Bergamo 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 2100,
+      "distance": "La 600m de gara Bergamo și naveta directă spre Milano Centrale",
+      "amenities": [
+        "Wi-Fi rapid gratuit",
+        "Aer condiționat",
+        "Recepție 24/7",
+        "Izolare fonică excelentă"
+      ],
+      "priceTotal": 98,
+      "pricePerPerson": 49,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Stazione"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Recomandat ★★★",
+        "name": "B&B Hotel Milano Bergamo 3★",
+        "rating": 8.6,
+        "priceTotal": 98,
+        "pricePerPerson": 49,
+        "type": "Cameră Dublă Standard",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bergamo+Stazione"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Ofertă Agoda",
+        "name": "Hotel San Giorgio Bergamo 3★",
+        "rating": 8.4,
+        "priceTotal": 94,
+        "pricePerPerson": 47,
+        "type": "Cameră Dublă Confort",
+        "link": "https://www.agoda.com/search?city=17316"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Toate Cazările",
+        "name": "Vezi toate cazările din Bergamo & Milano",
+        "rating": 8.7,
+        "priceTotal": 98,
+        "pricePerPerson": 49,
+        "type": "Hoteluri & Apartamente Verificate",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano"
+      }
+    ],
+    "description": "Zbor direct din Timișoara spre capitala mondială a modei! Vizitează Galleria Vittorio Emanuele II, Domul spectaculos și ia trenul rapid spre Lacul Como.",
+    "featured": true,
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
+  },
+  {
     "id": "deal-016",
     "slug": "city-break-napoli-din-bucuresti-124-euro",
     "title": "City Break în Napoli & Coasta Amalfi: 4 nopți la hotel verificat + Zbor direct",
@@ -75,8 +1363,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T22:23:31.468928+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:31.468928+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-001",
@@ -181,8 +1469,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-002",
@@ -287,8 +1575,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:45:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-003",
@@ -393,8 +1681,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-004",
@@ -483,8 +1771,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:15:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-005",
@@ -573,8 +1861,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T15:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-006",
@@ -663,8 +1951,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T14:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-007",
@@ -752,8 +2040,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:15:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-008",
@@ -841,8 +2129,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-exo-009",
@@ -931,8 +2219,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T15:20:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-001",
@@ -1034,8 +2322,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T12:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-002",
@@ -1113,8 +2401,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T10:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-003",
@@ -1192,8 +2480,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T14:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-008",
@@ -1270,8 +2558,8 @@
     "featured": true,
     "publishedAt": "2026-11-05T14:20:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-010",
@@ -1348,8 +2636,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T11:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-015",
@@ -1427,8 +2715,8 @@
     "featured": false,
     "publishedAt": "2026-11-04T12:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-011",
@@ -1506,8 +2794,8 @@
     "featured": false,
     "publishedAt": "2026-11-05T16:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-012",
@@ -1585,8 +2873,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-001",
@@ -1677,8 +2965,8 @@
     "description": "Cea mai populară și avantajoasă stațiune de schi din Balcani! Peste 75 km de pârtii amenajate pe versantul muntelui Todorka (2.600m), telegondolă modernă și relaxare la centrul spa cu piscine încălzite al resortului 4★ Green Life. Fără bătăi de cap cu zborul: vii direct cu mașina și echipamentul în portbagaj.",
     "featured": true,
     "publishedAt": "2026-11-06T18:00:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-005",
@@ -1769,8 +3057,8 @@
     "description": "Ieși din hotel direct pe schiuri! Hotelul Rila 4★ este amplasat legendar la baza pârtiei Martinovi Baraki din Borovets. Domeniul oferă 58 km de pârtii printre pădurile maiestuoase de pini ale munților Rila, nocturnă spectaculoasă și o piscină semiolimpică de 25m cu vedere la zăpadă.",
     "featured": true,
     "publishedAt": "2026-11-06T18:02:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-006",
@@ -1854,8 +3142,8 @@
     "description": "Cea mai însorită stațiune montană din Europa, faimoasă pentru cele peste 120 de zile cu soare și pârtii largi excelente pentru familii și începători. Apartamentele Grand Monastery sunt dotate cu șemineu pe lemne și oferă acces direct la telescaunul Studenets.",
     "featured": false,
     "publishedAt": "2026-11-06T18:03:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-003",
@@ -1946,8 +3234,8 @@
     "description": "Capitala mondială a sporturilor de iarnă! Innsbruck îmbină eleganța unui oraș imperial tirolez cu accesul la 13 domenii schiabile prin Olympia SkiWorld și zăpada impecabilă de pe ghețarul Stubai (3.210m). Telegondola futuristă Nordkette pleacă chiar din inima orașului.",
     "featured": true,
     "publishedAt": "2026-11-06T18:10:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-007",
@@ -2031,8 +3319,8 @@
     "description": "Una din cele mai spectaculoase panorame din Alpii Austrieci! Lacul Zell înghețat și ghețarul Kitzsteinhorn (3.029m) garantează zăpadă 100% din toamnă până în primăvară târzie. Domeniul reunește 138 km de pârtii impecabile și conexiune modernă 3K K-onnection.",
     "featured": true,
     "publishedAt": "2026-11-06T18:12:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-008",
@@ -2116,8 +3404,8 @@
     "description": "Legenda mondială a schiului alpin! Aici se desfășoară cea mai faimoasă cursă de coborâre din lume pe pârtia Streif. Domeniul KitzSki pune la dispoziție 233 km de pârtii excelente, 57 de instalații pe cablu ultra-moderne și o atmosferă après-ski de neegalat.",
     "featured": false,
     "publishedAt": "2026-11-06T18:14:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-009",
@@ -2201,8 +3489,8 @@
     "description": "Cea mai accesibilă destinație austriacă din România! Schladming leagă 4 munți într-un singur leagăn de schi cu peste 230 km de pârtii. Hotelul TUI BLUE este amplasat chiar lângă telegondola Planai și oferă o saună panoramică pe acoperiș.",
     "featured": false,
     "publishedAt": "2026-11-06T18:16:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-002",
@@ -2297,8 +3585,8 @@
     "description": "Experiența supremă la schi pe tărâmul munților Dolomiți (patrimoniu UNESCO)! Ai acces direct la legendarul circuit Sellaronda cu 4 trecători alpine și 1.200 km de pârtii în Dolomiti Superski, combinate cu preparate culinare italiene și relaxare la spa.",
     "featured": true,
     "publishedAt": "2026-11-06T18:05:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-010",
@@ -2386,8 +3674,8 @@
     "description": "Supranumit «Micul Tibet» datorită altitudinii de peste 1.800m și a zăpezii pudră impecabile, Livigno este un paradis unic: 115 km de pârtii, cele mai bune snowpark-uri din Europa și statut complet de zonă scutită de taxe (Duty-Free) pentru cumpărături.",
     "featured": false,
     "publishedAt": "2026-11-06T18:18:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-011",
@@ -2475,8 +3763,8 @@
     "description": "Perla absolută a Dolomiților și viitoarea gazdă a Jocurilor Olimpice de Iarnă 2026! Pârtiile legendare de pe Tofana, Faloria și Cristallo oferă cele mai dramatice peisaje alpine din lume, completate de rafinamentul unui orășel montan celebru.",
     "featured": false,
     "publishedAt": "2026-11-06T18:20:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-004",
@@ -2560,8 +3848,8 @@
     "description": "Cea mai modernă stațiune de schi din Europa Centrală! 50 km de pârtii impecabile deservite de telegondole ultra-rapide Doppelmayr Funitel pe ambii versanți ai muntelui Chopok. După schi, te relaxezi la celebrele bazine termale exterioare de la Tatralandia sau Bešeňová.",
     "featured": false,
     "publishedAt": "2026-11-06T18:15:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-012",
@@ -2645,8 +3933,8 @@
     "description": "Aici se află pârtia cu cea mai abruptă cădere și cea mai mare diferență de nivel din Carpați: 1.300 metri de la șaua Lomnické sedlo (2.190m) până în vale! Horizont Resort oferă un centru spa spectaculos construit din lemn de cedru și vedere la crestele alpine.",
     "featured": false,
     "publishedAt": "2026-11-06T18:22:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   },
   {
     "id": "deal-ski-013",
@@ -2734,7 +4022,7 @@
     "description": "Visul oricărui schior: cel mai vast domeniu schiabil din lume (Les 3 Vallées — 600 km de pârtii legate) și stațiunea situată la cea mai mare altitudine din Europa (2.300m). Cazarea la Résidence Le Chamois d'Or oferă acces direct pe pârtie (ski-in/ski-out) din ușa clădirii.",
     "featured": true,
     "publishedAt": "2026-11-06T18:25:00.000Z",
-    "lastVerifiedAt": "2026-11-06T22:23:26.419075+00:00",
-    "lastVerifiedFormatted": "07 November 2026, 00:23"
+    "lastVerifiedAt": "2026-11-07T08:43:45.040307+00:00",
+    "lastVerifiedFormatted": "07 November 2026, 10:43"
   }
 ]

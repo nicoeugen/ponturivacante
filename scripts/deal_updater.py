@@ -280,6 +280,81 @@ CANDIDATE_BLUEPRINTS = [
         },
         "description": "Vibrație spaniolă pură, parcul El Retiro, arta de la Muzeul Prado și restaurante autentice de tapas deschise până târziu în noapte.",
         "discountPercent": 50
+    },
+    # --- CANDIDATE CLUJ-NAPOCA (CLJ) ---
+    {
+        "destCode": "BVA",
+        "destination": "Paris & Turnul Eiffel (din Cluj)",
+        "country": "Franța",
+        "flag": "🇫🇷",
+        "originCity": "Cluj-Napoca",
+        "originCode": "CLJ",
+        "category": "City Break",
+        "badge": "🗼 Romantic & Cultură",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Ibis Paris Montmartre 3★",
+            "stars": 3,
+            "rating": 8.5,
+            "reviewsCount": 2900,
+            "distance": "În Montmartre, la 300m de Moulin Rouge",
+            "amenities": ["Wi-Fi gratuit", "Recepție 24/7", "Bar modern", "Aer condiționat"],
+            "pricePerNightPerPerson": 27,
+            "searchQuery": "Paris+Montmartre"
+        },
+        "description": "Zbor direct din inima Transilvaniei spre Paris! Turnul Eiffel, Muzeul Luvru și croasant cald pe străduțele boeme din Montmartre.",
+        "discountPercent": 52
+    },
+    {
+        "destCode": "DUB",
+        "destination": "Dublin & Temple Bar (din Cluj)",
+        "country": "Irlanda",
+        "flag": "🇮🇪",
+        "originCity": "Cluj-Napoca",
+        "originCode": "CLJ",
+        "category": "City Break",
+        "badge": "🍀 Pub-uri & Muzică Live",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Point A Hotel Dublin 3★",
+            "stars": 3,
+            "rating": 8.7,
+            "reviewsCount": 3400,
+            "distance": "În centrul orașului, aproape de Trinity College",
+            "amenities": ["Design modern", "Wi-Fi rapid", "Lounge", "Recepție 24/7"],
+            "pricePerNightPerPerson": 28,
+            "searchQuery": "Dublin+Parnell"
+        },
+        "description": "Vibrație irlandeză autentică, pub-urile pline de viață din Temple Bar și turul celebrei fabrici Guinness Storehouse direct din Cluj.",
+        "discountPercent": 50
+    },
+
+    # --- CANDIDATE IAȘI (IAS) ---
+    {
+        "destCode": "BVA",
+        "destination": "Paris & Montmartre (din Iași)",
+        "country": "Franța",
+        "flag": "🇫🇷",
+        "originCity": "Iași",
+        "originCode": "IAS",
+        "category": "City Break",
+        "badge": "🗼 Turnul Eiffel & Luvru",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Ibis Paris Montmartre 3★",
+            "stars": 3,
+            "rating": 8.5,
+            "reviewsCount": 2900,
+            "distance": "În cartierul pictorilor Montmartre",
+            "amenities": ["Wi-Fi gratuit", "Recepție 24/7", "Bar modern", "Aer condiționat"],
+            "pricePerNightPerPerson": 27,
+            "searchQuery": "Paris+Montmartre"
+        },
+        "description": "Evadare romantică din Moldova la Paris! Plimbare pe malul Senei, croasante proaspete și priveliște spre Turnul Eiffel la tarife accesibile.",
+        "discountPercent": 52
     }
 ]
 
@@ -618,6 +693,12 @@ def run_comprehensive_update(discover_mode=True, max_new_deals=1):
         print("📡 Interogare tarife live Ryanair...")
         ryanair_otp = RyanairProvider.get_lowest_fares("OTP")
         ryanair_clj = RyanairProvider.get_lowest_fares("CLJ")
+        ryanair_ias = RyanairProvider.get_lowest_fares("IAS")
+        ryanair_by_origin = {
+            "OTP": ryanair_otp,
+            "CLJ": ryanair_clj,
+            "IAS": ryanair_ias
+        }
         print(f"   ✓ {len(ryanair_otp)} destinații live din București (OTP)")
         print(f"   ✓ {len(ryanair_clj)} destinații live din Cluj-Napoca (CLJ)\n")
 
@@ -642,7 +723,7 @@ def run_comprehensive_update(discover_mode=True, max_new_deals=1):
             # 1. Verificare Zbor
             if t_type == 'flight':
                 if 'Ryanair' in airline:
-                    fares_cache = ryanair_clj if origin_code == 'CLJ' else ryanair_otp
+                    fares_cache = ryanair_by_origin.get(origin_code, ryanair_otp)
                     target_iata = None
                     for key, code in ryanair_dest_map.items():
                         if key.lower() in dest.lower():
@@ -679,7 +760,7 @@ def run_comprehensive_update(discover_mode=True, max_new_deals=1):
         # B. Descoperire Automată de Oferte Noi
         # --------------------------------------------------------------
         if discover_mode:
-            new_deals = discover_new_deals(deals, ryanair_otp, max_new=max_new_deals)
+            new_deals = discover_new_deals(deals, ryanair_by_origin, max_new=max_new_deals)
             if new_deals:
                 # Pune oferta nouă la începutul listei
                 deals = new_deals + deals

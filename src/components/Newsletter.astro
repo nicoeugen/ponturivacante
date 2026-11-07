@@ -31,7 +31,7 @@
         <button 
           type="submit" 
           id="newsletter-btn"
-          class="px-6 py-3.5 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-sm transition-all shadow-lg hover:shadow-rose-600/30 cursor-pointer flex-shrink-0"
+          class="px-6 py-3.5 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-sm transition-all shadow-lg hover:shadow-rose-600/30 cursor-pointer flex-shrink-0 disabled:opacity-50"
         >
           Mă abonez &rarr;
         </button>
@@ -39,7 +39,7 @@
 
       <!-- Success message -->
       <div id="newsletter-success" class="hidden mt-4 p-4 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-200 text-sm font-semibold">
-        🎉 Felicitări! Te-ai abonat cu succes. Pregătește-te de vacanță!
+        🎉 Felicitări! Te-ai abonat cu succes la ofertele PonturiVacanțe.
       </div>
 
       <p class="text-[11px] text-slate-500 mt-4">
@@ -50,29 +50,60 @@
 </section>
 
 <script is:inline>
-  const form = document.getElementById('newsletter-form');
-  const emailInput = document.getElementById('newsletter-email');
-  const successBox = document.getElementById('newsletter-success');
-  const btn = document.getElementById('newsletter-btn');
+  (function() {
+    const form = document.getElementById('newsletter-form');
+    const emailInput = document.getElementById('newsletter-email');
+    const successBox = document.getElementById('newsletter-success');
+    const btn = document.getElementById('newsletter-btn');
 
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const email = emailInput?.value;
-    if (email) {
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = emailInput?.value?.trim();
+      if (!email) return;
+
       btn.disabled = true;
       btn.innerText = 'Se trimite...';
 
-      // Salvare locală (sau webhook extern)
+      try {
+        const res = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+
+        const data = await res.json().catch(() => ({}));
+
+        if (res.ok && data.success) {
+          form.classList.add('hidden');
+          if (successBox) {
+            successBox.innerText = data.message || '🎉 Felicitări! Te-ai abonat cu succes la ofertele PonturiVacanțe.';
+            successBox.classList.remove('hidden');
+          }
+        } else {
+          // Backup local
+          saveLocal(email);
+          form.classList.add('hidden');
+          if (successBox) {
+            successBox.innerText = '🎉 Felicitări! Te-ai abonat cu succes la ofertele PonturiVacanțe.';
+            successBox.classList.remove('hidden');
+          }
+        }
+      } catch (err) {
+        saveLocal(email);
+        form.classList.add('hidden');
+        if (successBox) {
+          successBox.innerText = '🎉 Felicitări! Te-ai abonat cu succes la ofertele PonturiVacanțe.';
+          successBox.classList.remove('hidden');
+        }
+      }
+    });
+
+    function saveLocal(email) {
       try {
         const subs = JSON.parse(localStorage.getItem('diy_subscribers') || '[]');
         subs.push({ email, date: new Date().toISOString() });
         localStorage.setItem('diy_subscribers', JSON.stringify(subs));
-      } catch (err) {}
-
-      setTimeout(() => {
-        form.classList.add('hidden');
-        successBox.classList.remove('hidden');
-      }, 600);
+      } catch (e) {}
     }
-  });
+  })();
 </script>

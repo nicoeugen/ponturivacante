@@ -525,7 +525,7 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
         skyscanner_url = f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{dep_dt.strftime('%y%m%d')}/{ret_dt.strftime('%y%m%d')}/?adultsv2=2"
         momondo_url = f"https://www.momondo.ro/flight-search/{bp['originCode']}-{dest_code}/{departure_date}/{return_date}/2adults"
         google_flights = f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{departure_date}%20returning%20{return_date}&curr=EUR&hl=ro"
-        kiwi_url = f"https://www.kiwi.com/ro/search/results/{bp['originCode'].lower()}/{dest_code.lower()}/{departure_date}/{return_date}?adults=2&affilid=travelpayouts&marker=801687"
+        kiwi_url = f"https://www.kiwi.com/deep?from={bp['originCode']}&to={dest_code}&departure={departure_date}&return={return_date}&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
         ryanair_url = f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={departure_date}&dateIn={return_date}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2"
 
         # Linkuri oficiale cazare

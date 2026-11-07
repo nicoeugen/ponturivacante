@@ -216,7 +216,7 @@
       "airline": "Lufthansa / United",
       "route": "OTP – MIA (1 escală optimă)",
       "price": 340,
-      "link": "https://www.kiwi.com/ro/search/results/otp/mia/2027-02-05/2027-02-14?adults=2&affilid=travelpayouts&marker=801687",
+      "link": "https://www.kiwi.com/deep?from=OTP&to=MIA&departure=2027-02-05&return=2027-02-14&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MIA%20on%202027-02-05%20returning%202027-02-14&curr=EUR&hl=ro"
     },
     "cruiseDetails": {

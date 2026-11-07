@@ -28,7 +28,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PFO&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PFO&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/pfo/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/pfo",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=PFO&departure=2027-01-21&return=2027-01-25&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-PFO",
       "isConnecting": false
     },
@@ -120,7 +120,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-14&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MLA&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MLA&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mla/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/mla",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MLA&departure=2027-01-14&return=2027-01-18&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-MLA",
       "isConnecting": false
     },
@@ -212,7 +212,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/CND/LTN/2026-12-18/2026-12-21/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CND%20to%20LTN&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cnd/ltn/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/cnd/ltn",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CND&to=LTN&departure=2026-12-18&return=2026-12-21&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/CND-LTN",
       "isConnecting": false
     },
@@ -304,7 +304,7 @@
       "directAirlineLink": "https://www.austrian.com/ro/ro/book-and-manage/flights/search?origin=SBZ&destination=VIE&departureDate=2027-01-16&returnDate=2027-01-19&cabinClass=ECONOMY&passengers=2-0-0",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20SBZ%20to%20VIE&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/sbz/vie/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/sbz/vie",
+      "kiwiLink": "https://www.kiwi.com/deep?from=SBZ&to=VIE&departure=2027-01-16&return=2027-01-19&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/SBZ-VIE",
       "isConnecting": false
     },
@@ -396,7 +396,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/SCV/FCO/2027-01-20/2027-01-23/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20SCV%20to%20FCO&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/scv/fco/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/scv/fco",
+      "kiwiLink": "https://www.kiwi.com/deep?from=SCV&to=FCO&departure=2027-01-20&return=2027-01-23&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/SCV-FCO",
       "isConnecting": false
     },
@@ -488,7 +488,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/CRA/BGY/2027-01-15/2027-01-18/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CRA%20to%20BGY&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cra/bgy/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/cra/bgy",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CRA&to=BGY&departure=2027-01-15&return=2027-01-18&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/CRA-BGY",
       "isConnecting": false
     },
@@ -580,7 +580,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=STN&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20STN&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/stn/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/stn",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=STN&departure=2026-12-11&return=2026-12-14&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/CLJ-STN",
       "isConnecting": false
     },
@@ -672,7 +672,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=CRL&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20CRL&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/crl/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/crl",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=CRL&departure=2026-12-14&return=2026-12-17&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/CLJ-CRL",
       "isConnecting": false
     },
@@ -764,7 +764,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-10&dateIn=2026-12-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=DUB&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20DUB&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/dub/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/dub",
+      "kiwiLink": "https://www.kiwi.com/deep?from=IAS&to=DUB&departure=2026-12-10&return=2026-12-13&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/IAS-DUB",
       "isConnecting": false
     },
@@ -856,7 +856,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-16&dateIn=2026-12-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=CRL&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20CRL&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/crl/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/crl",
+      "kiwiLink": "https://www.kiwi.com/deep?from=IAS&to=CRL&departure=2026-12-16&return=2026-12-19&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/IAS-CRL",
       "isConnecting": false
     },
@@ -948,7 +948,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BGY&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20BGY&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/bgy/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/ias/bgy",
+      "kiwiLink": "https://www.kiwi.com/deep?from=IAS&to=BGY&departure=2026-12-05&return=2026-12-08&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/IAS-BGY",
       "isConnecting": false
     },
@@ -1040,7 +1040,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/CRL/2027-01-22/2027-01-25/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20CRL&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/crl/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/crl",
+      "kiwiLink": "https://www.kiwi.com/deep?from=TSR&to=CRL&departure=2027-01-22&return=2027-01-25&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/TSR-CRL",
       "isConnecting": false
     },
@@ -1132,7 +1132,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/FCO/2027-01-19/2027-01-22/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20FCO&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/fco/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/fco",
+      "kiwiLink": "https://www.kiwi.com/deep?from=TSR&to=FCO&departure=2027-01-19&return=2027-01-22&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/TSR-FCO",
       "isConnecting": false
     },
@@ -1224,7 +1224,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/TSR/BGY/2027-01-12/2027-01-15/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20TSR%20to%20BGY&curr=EUR&hl=ro",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/tsr/bgy/",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/tsr/bgy",
+      "kiwiLink": "https://www.kiwi.com/deep?from=TSR&to=BGY&departure=2027-01-12&return=2027-01-15&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/TSR-BGY",
       "isConnecting": false
     },
@@ -1315,7 +1315,7 @@
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=NAP&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=NAP&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20NAP%20on%202026-12-05%20returning%202026-12-09&curr=EUR&hl=ro",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/nap/2026-12-05/2026-12-09?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=NAP&departure=2026-12-05&return=2026-12-09&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -1395,7 +1395,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/TFS/2027-01-15/2027-01-22/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Tenerife+15+–+22+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/tfs/270115/270122/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/tfs/2027-01-15/2027-01-22?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=TFS&departure=2027-01-15&return=2027-01-22&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-TFS/2027-01-15/2027-01-22/2adults"
     },
@@ -1501,7 +1501,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/AUH/2026-12-10/2026-12-15/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Abu+Dhabi+&+Dubai+10+–+15+Decembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/auh/261210/261215/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/auh/2026-12-10/2026-12-15?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=AUH&departure=2026-12-10&return=2026-12-15&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-AUH/2026-12-10/2026-12-15/2adults"
     },
@@ -1607,7 +1607,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-18&dateIn=2027-01-22&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AQJ&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Aqaba+&+Petra+18+–+22+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/aqj/270118/270122/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/aqj/2027-01-18/2027-01-22?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=AQJ&departure=2027-01-18&return=2027-01-22&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-AQJ/2027-01-18/2027-01-22/2adults"
     },
@@ -1713,7 +1713,7 @@
       "directAirlineLink": "https://web.flypgs.com/booking?from=OTP&to=HRG&date=2027-02-12&returnDate=2027-02-18&adult=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Hurghada+12+–+18+Februarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/hrg/270212/270218/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/hrg/2027-02-12/2027-02-18?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=HRG&departure=2027-02-12&return=2027-02-18&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": true,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-HRG/2027-02-12/2027-02-18/2adults"
     },
@@ -1803,7 +1803,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-14&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=RAK&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Marrakech+14+–+18+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/rak/270114/270118/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/rak/2027-01-14/2027-01-18?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=RAK&departure=2027-01-14&return=2027-01-18&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-RAK/2027-01-14/2027-01-18/2adults"
     },
@@ -1893,7 +1893,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FNC/2027-01-19/2027-01-24/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Madeira+19+–+24+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/fnc/270119/270124/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/fnc/2027-01-19/2027-01-24?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=FNC&departure=2027-01-19&return=2027-01-24&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": true,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-FNC/2027-01-19/2027-01-24/2adults"
     },
@@ -1982,7 +1982,7 @@
       "link": "https://www.momondo.ro/flight-search/OTP-MLE/2027-01-22/2027-01-30/2adults",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Maldive+22+–+30+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mle/270122/270130/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/mle/2027-01-22/2027-01-30?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MLE&departure=2027-01-22&return=2027-01-30&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": true,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-MLE/2027-01-22/2027-01-30/2adults"
     },
@@ -2071,7 +2071,7 @@
       "link": "https://www.momondo.ro/flight-search/OTP-ZNZ/2027-02-03/2027-02-11/2adults",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Zanzibar+3+–+11+Februarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/znz/270203/270211/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/znz/2027-02-03/2027-02-11?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=ZNZ&departure=2027-02-03&return=2027-02-11&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": true,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-ZNZ/2027-02-03/2027-02-11/2adults"
     },
@@ -2161,7 +2161,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-23&dateIn=2027-01-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=LPA&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+CLJ+Gran+Canaria+23+–+30+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/lpa/270123/270130/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/lpa/2027-01-23/2027-01-30?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=LPA&departure=2027-01-23&return=2027-01-30&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/CLJ-LPA/2027-01-23/2027-01-30/2adults"
     },
@@ -2251,7 +2251,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/FCO/2026-11-20/2026-11-23/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Roma+20+–+23+Noiembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/fco/261120/261123/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/fco/2026-11-20/2026-11-23?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=FCO&departure=2026-11-20&return=2026-11-23&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-FCO/2026-11-20/2026-11-23/2adults"
     },
@@ -2354,7 +2354,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+CLJ+Milano+&+Bergamo+27+–+30+Noiembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bgy/261127/261130/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/clj/bgy/2026-11-27/2026-11-30?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=BGY&departure=2026-11-27&return=2026-11-30&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/CLJ-BGY/2026-11-27/2026-11-30/2adults"
     },
@@ -2433,7 +2433,7 @@
       "directAirlineLink": "https://www.google.com/travel/flights?q=Zboruri%20HiSky%20de%20la%20OTP%20la%20AGP%20din%202026-12-03%20pana%20in%202026-12-06",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Malaga+3+–+6+Decembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/agp/261203/261206/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/agp/2026-12-03/2026-12-06?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=AGP&departure=2026-12-03&return=2026-12-06&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-AGP/2026-12-03/2026-12-06/2adults"
     },
@@ -2512,7 +2512,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-28&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Viena+28+–+30+Noiembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/vie/261128/261130/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/vie/2026-11-28/2026-11-30?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=VIE&departure=2026-11-28&return=2026-11-30&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-VIE/2026-11-28/2026-11-30/2adults"
     },
@@ -2590,7 +2590,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/CRA/BLQ/2026-12-05/2026-12-08/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+CRA+Bologna+5+–+8+Decembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/cra/blq/261205/261208/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/cra/blq/2026-12-05/2026-12-08?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CRA&to=BLQ&departure=2026-12-05&return=2026-12-08&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/CRA-BLQ/2026-12-05/2026-12-08/2adults"
     },
@@ -2668,7 +2668,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/SCV/CRL/2026-12-05/2026-12-08/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+SCV+Bruxelles+&+Bruges+5+–+8+Decembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/scv/crl/261205/261208/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/scv/crl/2026-12-05/2026-12-08?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=SCV&to=CRL&departure=2026-12-05&return=2026-12-08&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/SCV-CRL/2026-12-05/2026-12-08/2adults"
     },
@@ -2747,7 +2747,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/SBZ/LTN/2026-12-12/2026-12-15/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+SBZ+Londra+12+–+15+Decembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/sbz/ltn/261212/261215/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/sbz/ltn/2026-12-12/2026-12-15?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=SBZ&to=LTN&departure=2026-12-12&return=2026-12-15&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/SBZ-LTN/2026-12-12/2026-12-15/2adults"
     },
@@ -2826,7 +2826,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Paris+11+–+14+Decembrie+2026",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/bva/261211/261214/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/bva/2026-12-11/2026-12-14?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BVA&departure=2026-12-11&return=2026-12-14&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false,
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-BVA/2026-12-11/2026-12-14/2adults"
     },
@@ -3522,7 +3522,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-22&dateIn=2027-01-27&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Dolomiți+22+–+27+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/bgy/270122/270127/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/bgy/2027-01-22/2027-01-27?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BGY&departure=2027-01-22&return=2027-01-27&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-BGY/2027-01-22/2027-01-27/2adults",
       "isConnecting": false
     },
@@ -3618,7 +3618,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-20&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=BGY",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Livigno+20+–+25+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/bgy/270120/270125/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/bgy/2027-01-20/2027-01-25?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BGY&departure=2027-01-20&return=2027-01-25&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-BGY/2027-01-20/2027-01-25/2adults",
       "isConnecting": false
     },
@@ -3707,7 +3707,7 @@
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-26&dateIn=2027-01-31&isConnectedFlight=false&isReturn=true&originIata=OTP&destinationIata=TSF",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Cortina+d'Ampezzo+26+–+31+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/tsf/270126/270131/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/tsf/2027-01-26/2027-01-31?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=TSF&departure=2027-01-26&return=2027-01-31&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-TSF/2027-01-26/2027-01-31/2adults",
       "isConnecting": false
     },
@@ -3966,7 +3966,7 @@
       "directAirlineLink": "https://www.wizzair.com/ro-ro/booking/select-flight/OTP/GVA/2027-01-13/2027-01-18/2/0/0/null",
       "googleFlightsLink": "https://www.google.com/search?q=zboruri+OTP+Val+Thorens+&+Les+3+Vallées+13+–+18+Ianuarie+2027",
       "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/gva/270113/270118/?adultsv2=2",
-      "kiwiLink": "https://www.kiwi.com/ro/search/results/otp/gva/2027-01-13/2027-01-18?adults=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=GVA&departure=2027-01-13&return=2027-01-18&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "momondoLink": "https://www.momondo.ro/flight-search/OTP-GVA/2027-01-13/2027-01-18/2adults",
       "isConnecting": false
     },

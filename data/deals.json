@@ -15,7 +15,7 @@
     "nights": 4,
     "category": "City Break",
     "badge": "☀️ Soare 20°C & Plajă",
-    "image": "https://images.unsplash.com/photo-1548625361-19e344139886?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1580837119756-563d608dd119?auto=format&fit=crop&w=1200&q=80",
     "priceTotalPerPerson": 116,
     "discountPercent": 55,
     "flight": {
@@ -659,7 +659,7 @@
     "nights": 3,
     "category": "City Break",
     "badge": "✨ Atmosferă Europeană",
-    "image": "https://images.unsplash.com/photo-1572979241487-7323145d55b0?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?auto=format&fit=crop&w=1200&q=80",
     "priceTotalPerPerson": 88,
     "discountPercent": 54,
     "flight": {
@@ -843,7 +843,7 @@
     "nights": 3,
     "category": "City Break",
     "badge": "🎄 Piețe de Crăciun & Gofre",
-    "image": "https://images.unsplash.com/photo-1572979241487-7323145d55b0?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?auto=format&fit=crop&w=1200&q=80",
     "priceTotalPerPerson": 88,
     "discountPercent": 53,
     "flight": {
@@ -1027,7 +1027,7 @@
     "nights": 3,
     "category": "City Break",
     "badge": "🍫 Ciocolată & Grand Place",
-    "image": "https://images.unsplash.com/photo-1572979241487-7323145d55b0?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?auto=format&fit=crop&w=1200&q=80",
     "priceTotalPerPerson": 89,
     "discountPercent": 52,
     "flight": {

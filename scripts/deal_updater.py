@@ -99,7 +99,7 @@ CANDIDATE_BLUEPRINTS = [
         "category": "Exotic & Soare de Iarnă",
         "badge": "☀️ Soare 22°C în Cipru",
         "nights": 4,
-        "image": "https://images.unsplash.com/photo-1548625361-19e344139886?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://images.unsplash.com/photo-1580837119756-563d608dd119?auto=format&fit=crop&w=1200&q=80",
         "hotel": {
             "name": "Kefalos Damon Hotel Apartments 3★",
             "stars": 3,

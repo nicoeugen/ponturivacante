@@ -37,6 +37,13 @@ export function getStaticPaths() {
             if (CONFIG.TRAVELPAYOUTS_MARKER) {
               u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
             }
+            if (provider === 'kiwi' || u.hostname.includes('kiwi.com')) {
+              u.searchParams.set('affilid', 'travelpayouts');
+              u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+            }
+            if (provider === 'aviasales' || u.hostname.includes('aviasales.com')) {
+              u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
+            }
             u.searchParams.set('utm_source', 'ponturivacante');
             u.searchParams.set('utm_medium', 'affiliate');
           } else {

@@ -2774,14 +2774,14 @@
         "price": 105,
         "departureDate": "2027-01-22",
         "returnDate": "2027-01-26",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria"
+        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-01-22&checkout=2027-01-26&group_adults=2&no_rooms=1"
       },
       {
         "dates": "12 – 16 Februarie 2027",
         "price": 119,
         "departureDate": "2027-02-12",
         "returnDate": "2027-02-16",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria"
+        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Cea mai populară și avantajoasă stațiune de schi din Balcani! Peste 75 km de pârtii amenajate pe versantul muntelui Todorka (2.600m), telegondolă modernă și relaxare la centrul spa cu piscine încălzite al resortului 4★ Green Life. Fără bătăi de cap cu zborul: vii direct cu mașina și echipamentul în portbagaj.",
@@ -2866,14 +2866,14 @@
         "price": 129,
         "departureDate": "2027-01-15",
         "returnDate": "2027-01-19",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Borovets,+Bulgaria"
+        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
       },
       {
         "dates": "19 – 23 Februarie 2027",
         "price": 139,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-23",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Borovets,+Bulgaria"
+        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Ieși din hotel direct pe schiuri! Hotelul Rila 4★ este amplasat legendar la baza pârtiei Martinovi Baraki din Borovets. Domeniul oferă 58 km de pârtii printre pădurile maiestuoase de pini ale munților Rila, nocturnă spectaculoasă și o piscină semiolimpică de 25m cu vedere la zăpadă.",
@@ -2958,7 +2958,7 @@
         "price": 95,
         "departureDate": "2027-02-05",
         "returnDate": "2027-02-09",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Pamporovo,+Bulgaria"
+        "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Cea mai însorită stațiune montană din Europa, faimoasă pentru cele peste 120 de zile cu soare și pârtii largi excelente pentru familii și începători. Apartamentele Grand Monastery sunt dotate cu șemineu pe lemne și oferă acces direct la telescaunul Studenets.",
@@ -3043,14 +3043,14 @@
         "price": 270,
         "departureDate": "2027-02-04",
         "returnDate": "2027-02-09",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Innsbruck,+Austria"
+        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1"
       },
       {
         "dates": "18 – 23 Februarie 2027",
         "price": 280,
         "departureDate": "2027-02-18",
         "returnDate": "2027-02-23",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Innsbruck,+Austria"
+        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-02-18&checkout=2027-02-23&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Capitala mondială a sporturilor de iarnă! Innsbruck îmbină eleganța unui oraș imperial tirolez cu accesul la 13 domenii schiabile prin Olympia SkiWorld și zăpada impecabilă de pe ghețarul Stubai (3.210m). Telegondola futuristă Nordkette pleacă chiar din inima orașului.",
@@ -3135,7 +3135,7 @@
         "price": 295,
         "departureDate": "2027-01-27",
         "returnDate": "2027-02-01",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Zell+am+See,+Austria"
+        "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-27&checkout=2027-02-01&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Una din cele mai spectaculoase panorame din Alpii Austrieci! Lacul Zell înghețat și ghețarul Kitzsteinhorn (3.029m) garantează zăpadă 100% din toamnă până în primăvară târzie. Domeniul reunește 138 km de pârtii impecabile și conexiune modernă 3K K-onnection.",
@@ -3220,7 +3220,7 @@
         "price": 310,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-24",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Kitzbuhel,+Austria"
+        "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-19&checkout=2027-02-24&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Legenda mondială a schiului alpin! Aici se desfășoară cea mai faimoasă cursă de coborâre din lume pe pârtia Streif. Domeniul KitzSki pune la dispoziție 233 km de pârtii excelente, 57 de instalații pe cablu ultra-moderne și o atmosferă après-ski de neegalat.",
@@ -3305,7 +3305,7 @@
         "price": 249,
         "departureDate": "2027-01-22",
         "returnDate": "2027-01-26",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Schladming,+Austria"
+        "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-22&checkout=2027-01-26&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Cea mai accesibilă destinație austriacă din România! Schladming leagă 4 munți într-un singur leagăn de schi cu peste 230 km de pârtii. Hotelul TUI BLUE este amplasat chiar lângă telegondola Planai și oferă o saună panoramică pe acoperiș.",
@@ -3664,7 +3664,7 @@
         "price": 205,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-24",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Jasna,+Slovakia"
+        "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-19&checkout=2027-02-24&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Cea mai modernă stațiune de schi din Europa Centrală! 50 km de pârtii impecabile deservite de telegondole ultra-rapide Doppelmayr Funitel pe ambii versanți ai muntelui Chopok. După schi, te relaxezi la celebrele bazine termale exterioare de la Tatralandia sau Bešeňová.",
@@ -3749,7 +3749,7 @@
         "price": 189,
         "departureDate": "2027-02-12",
         "returnDate": "2027-02-16",
-        "link": "https://www.google.com/maps/dir/Bucuresti/Tatranska+Lomnica,+Slovakia"
+        "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
       }
     ],
     "description": "Aici se află pârtia cu cea mai abruptă cădere și cea mai mare diferență de nivel din Carpați: 1.300 metri de la șaua Lomnické sedlo (2.190m) până în vale! Horizont Resort oferă un centru spa spectaculos construit din lemn de cedru și vedere la crestele alpine.",

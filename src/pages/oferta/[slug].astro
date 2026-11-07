@@ -670,37 +670,36 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
           <div class="divide-y divide-slate-100">
 
-            {deal.alternativeDates.map(alt => (
+            {deal.alternativeDates.map(alt => {
+              const isCar = deal.transportType === 'car';
+              const baseHotelUrl = deal.hotel?.link ? deal.hotel.link.split('?')[0] : '';
+              const altHotelUrl = (alt.departureDate && alt.returnDate && baseHotelUrl)
+                ? `${baseHotelUrl}?checkin=${alt.departureDate}&checkout=${alt.returnDate}&group_adults=2&no_rooms=1`
+                : (alt.link || deal.hotel?.link || '#');
+              const targetUrl = isCar 
+                ? `/go/hotel/?url=${encodeURIComponent(altHotelUrl)}&deal=${deal.id}`
+                : `/go/flight/?url=${encodeURIComponent(alt.link || deal.flight.link)}&deal=${deal.id}&airline=${encodeURIComponent(deal.flight.airline || '')}`;
+              const buttonText = isCar 
+                ? 'Vezi cazare →' 
+                : `Vezi zbor (${deal.flight.airline}) →`;
 
-              <div class="py-3 flex items-center justify-between text-sm">
-
-                <span class="font-medium text-slate-700">{alt.dates}</span>
-
-                <div class="flex items-center gap-3">
-
-                  <span class="font-black text-rose-600">{alt.price} € <span class="text-xs font-normal text-slate-500">/pers</span></span>
-
-                  <a 
-
-                    href={`/go/flight/?url=${encodeURIComponent(alt.link || deal.flight.link)}&deal=${deal.id}&airline=${deal.flight.airline.toLowerCase()}`}
-
-                    target="_blank" 
-
-                    rel="noopener noreferrer"
-
-                    class="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white transition-colors"
-
-                  >
-
-                    Vezi zbor ({deal.flight.airline}) &rarr;
-
-                  </a>
-
+              return (
+                <div class="py-3 flex items-center justify-between text-sm">
+                  <span class="font-medium text-slate-700">{alt.dates}</span>
+                  <div class="flex items-center gap-3">
+                    <span class="font-black text-rose-600">{alt.price} € <span class="text-xs font-normal text-slate-500">/pers</span></span>
+                    <a 
+                      href={targetUrl}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="text-xs font-bold px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white transition-colors"
+                    >
+                      {buttonText}
+                    </a>
+                  </div>
                 </div>
-
-              </div>
-
-            ))}
+              );
+            })}
 
           </div>
 
@@ -713,12 +712,19 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
       <div class="bg-slate-100 rounded-3xl p-6 text-xs sm:text-sm text-slate-600 space-y-2 mb-10">
 
         <h4 class="font-bold text-slate-800 text-base mb-1">📌 Sfaturi importante înainte de rezervare:</h4>
-
-        <p>• <strong>Rezervă mai întâi zborul</strong> pentru a fi sigur de tarif și orar, apoi confirmă cazarea.</p>
-
-        <p>• <strong>Check-in online gratuit:</strong> Fă check-in-ul din aplicația companiei aeriene cu 24h înainte de zbor pentru a nu plăti taxe suplimentare la aeroport.</p>
-
-        <p>• <strong>Politica de anulare cazare:</strong> Multe opțiuni de pe Booking și Agoda oferă anulare gratuită până cu câteva zile înainte de călătorie.</p>
+        {deal.transportType === 'car' ? (
+          <>
+            <p>• <strong>Traseu & Vinietă:</strong> Achiziționează vinieta online înainte de plecare (ex: BGTOLL pentru Bulgaria, ASFINAG pentru Austria) și consultă starea drumurilor montane.</p>
+            <p>• <strong>Echipament de iarnă:</strong> Anvelopele de iarnă sunt obligatorii, iar lanțurile antiderapante sunt puternic recomandate în portbagaj.</p>
+            <p>• <strong>Politica de anulare cazare:</strong> Multe opțiuni de pe Booking oferă anulare gratuită până cu câteva zile înainte de check-in.</p>
+          </>
+        ) : (
+          <>
+            <p>• <strong>Rezervă mai întâi zborul</strong> pentru a fi sigur de tarif și orar, apoi confirmă cazarea.</p>
+            <p>• <strong>Check-in online gratuit:</strong> Fă check-in-ul din aplicația companiei aeriene cu 24h înainte de zbor pentru a nu plăti taxe suplimentare la aeroport.</p>
+            <p>• <strong>Politica de anulare cazare:</strong> Multe opțiuni de pe Booking și Agoda oferă anulare gratuită până cu câteva zile înainte de călătorie.</p>
+          </>
+        )}
 
       </div>
 

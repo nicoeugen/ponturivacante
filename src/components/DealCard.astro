@@ -36,12 +36,72 @@ interface Props {
 }
 
 const { deal } = Astro.props;
+
+// Multi-category categorization tags for cross-filtering
+const categoryTags = (() => {
+  const tags = new Set<string>();
+  const cat = (deal.category || '').toLowerCase();
+  const title = (deal.title || '').toLowerCase();
+  const badge = (deal.badge || '').toLowerCase();
+  const dates = (deal.dates || '').toLowerCase();
+  const dest = (deal.destination || '').toLowerCase();
+
+  tags.add(cat);
+
+  // 1. Târguri de Crăciun
+  if (cat.includes('craciun') || cat.includes('crăciun') || title.includes('craciun') || title.includes('crăciun') || badge.includes('crăciun')) {
+    tags.add('târguri de crăciun');
+    tags.add('targuri de craciun');
+    tags.add('targuri-craciun');
+    tags.add('craciun');
+  }
+
+  // 2. 1 Decembrie
+  if (cat.includes('1 decembrie') || title.includes('1 decembrie') || badge.includes('1 decembrie') || dates.includes('28 noiembrie')) {
+    tags.add('1 decembrie');
+    tags.add('1-decembrie');
+  }
+
+  // 3. Revelion 2027
+  if (cat.includes('revelion') || title.includes('revelion') || badge.includes('revelion') || dates.includes('30 decembrie')) {
+    tags.add('revelion');
+    tags.add('revelion 2027');
+  }
+
+  // 4. Schi & Sporturi de Iarnă
+  const skiKeywords = ['bansko', 'dolomiti', 'tirol', 'innsbruck', 'jasna', 'tatry', 'alpi', 'borovets', 'pamporovo', 'kitzbuhel', 'zell am see', 'schladming', 'livigno', 'cortina', 'val thorens'];
+  if (cat.includes('schi') || cat.includes('ski') || skiKeywords.some(x => dest.includes(x) || title.includes(x))) {
+    tags.add('schi');
+    tags.add('schi & sporturi de iarnă');
+  }
+
+  // 5. Exotic & Soare de Iarnă
+  const exoticKeywords = ['maldive', 'zanzibar', 'abu dhabi', 'dubai', 'tenerife', 'canare', 'aqaba', 'egipt', 'hurghada', 'marrakech', 'madeira'];
+  if (cat.includes('exotic') || title.includes('exotic') || exoticKeywords.some(x => dest.includes(x) || title.includes(x))) {
+    tags.add('exotic');
+    tags.add('exotice');
+    tags.add('soare de iarnă');
+  }
+
+  // 6. City Break
+  if (cat.includes('city break') || title.includes('city break')) {
+    tags.add('city break');
+  }
+
+  // 7. Weekend
+  if (cat.includes('weekend') || title.includes('weekend')) {
+    tags.add('weekend');
+  }
+
+  return Array.from(tags).join('__');
+})();
 ---
 
 <article 
   class="deal-card group bg-white rounded-3xl overflow-hidden border border-slate-200/80 card-shadow hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between"
   data-origin={deal.originCity}
   data-category={deal.category}
+  data-categories={categoryTags}
   data-price={deal.priceTotalPerPerson}
   data-transport={deal.transportType || 'flight'}
 >

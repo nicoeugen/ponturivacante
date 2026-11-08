@@ -280,7 +280,33 @@ searchIndex.sort((a, b) => b.count - a.count || a.minPrice - b.minPrice);
 
         const matchSearch = (!query || cardText.includes(query));
         const matchOrigin = (selectedOrigin === 'all' || origin === selectedOrigin);
-        const matchCategory = (selectedCategory === 'all' || (category && category.toLowerCase().includes(selectedCategory.toLowerCase())));
+        
+        let matchCategory = (selectedCategory === 'all');
+        if (!matchCategory) {
+          const sel = selectedCategory.toLowerCase().trim();
+          const cardCat = (card.dataset.category || '').toLowerCase();
+          const cardCats = (card.dataset.categories || '').toLowerCase();
+          const cardTitle = cardText;
+
+          if (sel.includes('craciun') || sel.includes('crăciun')) {
+            matchCategory = cardCats.includes('craciun') || cardTitle.includes('craciun') || cardTitle.includes('crăciun');
+          } else if (sel.includes('1 decembrie')) {
+            matchCategory = cardCats.includes('1 decembrie') || cardTitle.includes('1 decembrie');
+          } else if (sel.includes('revelion')) {
+            matchCategory = cardCats.includes('revelion') || cardTitle.includes('revelion');
+          } else if (sel.includes('schi') || sel.includes('ski')) {
+            matchCategory = cardCats.includes('schi') || cardCats.includes('ski');
+          } else if (sel.includes('exotic')) {
+            matchCategory = cardCats.includes('exotic') || cardCats.includes('soare de iarnă');
+          } else if (sel.includes('city')) {
+            matchCategory = cardCats.includes('city break');
+          } else if (sel.includes('weekend')) {
+            matchCategory = cardCats.includes('weekend');
+          } else {
+            matchCategory = cardCat.includes(sel) || cardCats.includes(sel);
+          }
+        }
+
         const matchBudget = (selectedBudget === 'all' || price <= parseFloat(selectedBudget));
         const matchTransport = (currentTransport === 'all' || cardTransport === currentTransport);
 
@@ -407,10 +433,31 @@ searchIndex.sort((a, b) => b.count - a.count || a.minPrice - b.minPrice);
         if (chip.dataset.query && filterSearch) {
           filterSearch.value = chip.dataset.query;
         }
+        visibleLimit = PAGE_SIZE;
         applyFilters();
         const dealsGrid = document.getElementById('deals-grid');
         if (dealsGrid) {
           dealsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Top festive badges click listener on homepage
+    const topBadges = document.querySelectorAll('.top-festive-badge');
+    topBadges.forEach(b => {
+      b.addEventListener('click', (e) => {
+        if (!e.ctrlKey && !e.metaKey && !e.shiftKey && e.button === 0) {
+          e.preventDefault();
+          const cat = b.dataset.filterCategory;
+          if (cat && filterCategory) {
+            filterCategory.value = cat;
+            visibleLimit = PAGE_SIZE;
+            applyFilters();
+            const dealsGrid = document.getElementById('deals-grid');
+            if (dealsGrid) {
+              dealsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
         }
       });
     });

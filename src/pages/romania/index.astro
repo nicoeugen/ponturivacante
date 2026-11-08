@@ -26,7 +26,7 @@ import romaniaDeals from '../../../data/romania_deals.json';
         Nu trebuie să iei avionul ca să ai o vacanță magică! Am selectat cele mai spectaculoase cabane cu ciubăr la munte, weekend-uri la schi pe pârtiile din Carpați, conace istorice și resorturi termale din România.
       </p>
 
-      <!-- Fast Filters Box (Urcată mai sus) -->
+      <!-- Fast Filters Box -->
       <div class="bg-white/95 backdrop-blur p-4 sm:p-5 rounded-2xl shadow-2xl border border-white/30 text-slate-800 max-w-4xl mx-auto space-y-3 text-left">
         <!-- Search Input -->
         <div class="relative">
@@ -52,12 +52,12 @@ import romaniaDeals from '../../../data/romania_deals.json';
               class="w-full bg-slate-100 border border-slate-200 rounded-xl px-3 py-2 text-sm font-semibold text-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-500 cursor-pointer"
             >
               <option value="all">Toate experiențele din România</option>
-              <option value="Schi & Pârtii">🎿 Schi & Pârtii (Poiana, Sinaia, Straja, Păltiniș)</option>
-              <option value="Cabane & A-Frame">🔥 Cabane cu Ciubăr & A-Frame</option>
-              <option value="Spa & Termal">♨️ Spa & Ape Termale (Felix)</option>
-              <option value="Conace & Castele">👑 Conace Boierești & Castele</option>
-              <option value="Tradițional & Sat Românesc">🌾 Maramureș & Tradiție</option>
-              <option value="City Break România">🎄 City Break & Târguri Crăciun</option>
+              <option value="schi">🎿 Schi & Pârtii (Poiana, Sinaia, Straja, Păltiniș)</option>
+              <option value="cabane">🔥 Cabane cu Ciubăr & A-Frame</option>
+              <option value="spa">♨️ Spa & Ape Termale (Felix)</option>
+              <option value="conace">👑 Conace Boierești & Castele</option>
+              <option value="traditie">🌾 Maramureș & Tradiție</option>
+              <option value="city-break">🎄 City Break & Târguri Crăciun</option>
             </select>
           </div>
 
@@ -81,7 +81,7 @@ import romaniaDeals from '../../../data/romania_deals.json';
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
     <div class="flex items-center justify-between mb-8">
       <div>
-        <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+        <h2 id="ro-section-title" class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
           Cazări Recomandate în România ({romaniaDeals.length})
         </h2>
         <p class="text-xs sm:text-sm text-slate-500">
@@ -129,21 +129,41 @@ import romaniaDeals from '../../../data/romania_deals.json';
     const cards = document.querySelectorAll('.romania-card');
     const emptyState = document.getElementById('ro-empty');
     const badge = document.getElementById('ro-deals-badge');
+    const sectionTitle = document.getElementById('ro-section-title');
     const btnReset = document.getElementById('btn-ro-reset');
 
     function applyRoFilters() {
-      const query = (filterSearch?.value || '').trim().toLowerCase();
-      const selectedCat = filterCat.value;
-      const requireVoucher = filterVoucher.checked;
+      const query = (filterSearch?.value || '').trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const selectedCat = (filterCat?.value || 'all').toLowerCase();
+      const requireVoucher = filterVoucher?.checked;
       let count = 0;
 
       cards.forEach(card => {
-        const cat = card.dataset.category || '';
+        const rawCat = (card.getAttribute('data-category') || card.dataset.category || '').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        const rawTitle = card.innerText.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         const hasVoucher = card.dataset.voucher === 'true';
-        const cardText = card.innerText.toLowerCase();
 
-        const matchSearch = (!query || cardText.includes(query));
-        const matchCat = (selectedCat === 'all' || cat.toLowerCase().includes(selectedCat.toLowerCase()));
+        const matchSearch = (!query || rawTitle.includes(query));
+        
+        let matchCat = (selectedCat === 'all');
+        if (!matchCat) {
+          if (selectedCat === 'schi' || selectedCat === 'ski') {
+            matchCat = rawCat.includes('schi') || rawCat.includes('partii') || rawTitle.includes('schi') || rawTitle.includes('parti');
+          } else if (selectedCat === 'cabane') {
+            matchCat = rawCat.includes('caban') || rawCat.includes('frame');
+          } else if (selectedCat === 'spa') {
+            matchCat = rawCat.includes('spa') || rawCat.includes('termal');
+          } else if (selectedCat === 'conace') {
+            matchCat = rawCat.includes('conac') || rawCat.includes('castel');
+          } else if (selectedCat === 'traditie') {
+            matchCat = rawCat.includes('traditi') || rawCat.includes('sat');
+          } else if (selectedCat === 'city-break') {
+            matchCat = rawCat.includes('city') || rawCat.includes('targ');
+          } else {
+            matchCat = rawCat.includes(selectedCat);
+          }
+        }
+
         const matchVoucher = (!requireVoucher || hasVoucher);
 
         if (matchSearch && matchCat && matchVoucher) {
@@ -155,23 +175,54 @@ import romaniaDeals from '../../../data/romania_deals.json';
       });
 
       if (badge) badge.innerText = `${count} disponibile`;
+      if (sectionTitle) {
+        if (selectedCat === 'schi') {
+          sectionTitle.innerText = `🎿 Oferte Schi & Pârtii în România (${count})`;
+        } else if (selectedCat === 'cabane') {
+          sectionTitle.innerText = `🔥 Cabane A-Frame & Ciubăr în România (${count})`;
+        } else if (selectedCat === 'spa') {
+          sectionTitle.innerText = `♨️ Resorturi Spa & Termale în România (${count})`;
+        } else {
+          sectionTitle.innerText = `Cazări Recomandate în România (${count})`;
+        }
+      }
+
       if (count === 0) {
-        emptyState.classList.remove('hidden');
+        emptyState?.classList.remove('hidden');
       } else {
-        emptyState.classList.add('hidden');
+        emptyState?.classList.add('hidden');
       }
     }
 
     function resetRoFilters() {
       if (filterSearch) filterSearch.value = '';
-      filterCat.value = 'all';
-      filterVoucher.checked = false;
+      if (filterCat) filterCat.value = 'all';
+      if (filterVoucher) filterVoucher.checked = false;
       applyRoFilters();
+    }
+
+    // Inițializare & Citire parametri din URL (?category=schi etc.)
+    const urlParams = new URLSearchParams(window.location.search);
+    const catParam = urlParams.get('category') || urlParams.get('cat');
+    if (catParam && filterCat) {
+      const pLower = catParam.toLowerCase();
+      if (pLower.includes('schi') || pLower.includes('ski')) {
+        filterCat.value = 'schi';
+      } else if (pLower.includes('caban')) {
+        filterCat.value = 'cabane';
+      } else if (pLower.includes('spa')) {
+        filterCat.value = 'spa';
+      } else if (pLower.includes('conac')) {
+        filterCat.value = 'conace';
+      }
     }
 
     filterSearch?.addEventListener('input', applyRoFilters);
     filterCat?.addEventListener('change', applyRoFilters);
     filterVoucher?.addEventListener('change', applyRoFilters);
     btnReset?.addEventListener('click', resetRoFilters);
+
+    // Rulare imediată la încărcare
+    applyRoFilters();
   </script>
 </Layout>

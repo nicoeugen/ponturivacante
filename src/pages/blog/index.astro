@@ -11,28 +11,55 @@ import articles from '../../../data/blog_articles.json';
   description="Articole, trucuri de zbor ieftin cu Wizz și Ryanair, ghiduri de croaziere și itinerarii pas cu pas pentru vacanțe inteligente."
 >
   <!-- Hero Section -->
-  <section class="gradient-hero text-white py-16 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto text-center">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-500/20 backdrop-blur border border-rose-400/30 text-xs sm:text-sm font-bold text-rose-200 mb-6 shadow-md">
-        <span>📝 GHIDURI & TRUCURI DE CĂLĂTORIE</span>
+  <section class="gradient-hero text-white pt-5 sm:pt-8 pb-8 sm:pb-12 px-3 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-rose-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <!-- Announcement Badges (Compacte pe mobil) -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-3">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-500/20 backdrop-blur border border-rose-400/30 text-xs sm:text-sm font-bold text-rose-200 shadow-md">
+          <span>📝 GHIDURI & TRUCURI DE CĂLĂTORIE</span>
+        </div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-400/20 backdrop-blur border border-amber-300/40 text-xs sm:text-sm font-bold text-amber-200 shadow-md">
+          <span>💡 Sfaturi Direct la Sursă</span>
+        </div>
       </div>
 
-      <h1 class="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight mb-4">
-        Învață să călătorești <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-300">mai mult și mai ieftin</span>
+      <h1 class="text-xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-2 sm:mb-2.5">
+        Învață să călătorești la <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-rose-300 to-rose-400">jumătate de preț</span>
       </h1>
 
-      <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-        Ghiduri complete scrise de călători pasionați: cum funcționează algoritmii low-cost, ce bagaje trec gratuit la poartă și cum organizezi o vacanță de lux cu buget redus.
+      <p class="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mb-4 sm:mb-5 leading-relaxed px-2">
+        Ghiduri complete scrise de călători: algoritmi de zbor low-cost, trucuri de bagaj gratuit și cum organizezi vacanțe inteligente pe cont propriu.
       </p>
+
+      <!-- Interactive Search Box -->
+      <div class="bg-white/95 backdrop-blur p-3.5 sm:p-5 rounded-2xl shadow-2xl border border-white/30 text-slate-800 text-left max-w-3xl mx-auto">
+        <div class="relative">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400 text-base">
+            🔍
+          </span>
+          <input 
+            type="text" 
+            id="blog-search" 
+            placeholder="Caută în ghiduri (ex: bilete ieftine wizz, ryanair, bagaje, schi, roma, egipt...)" 
+            class="w-full bg-slate-100 border border-slate-200 rounded-xl pl-10 pr-4 py-2.5 text-xs sm:text-sm font-medium text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500 transition-all"
+          />
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Articles Grid -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+  <!-- Articles Grid Section -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-16 relative z-20">
     <div class="flex items-center justify-between mb-8">
       <div>
-        <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-          Toate Articolele ({articles.length})
+        <h2 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+          <span>Toate Ghidurile & Articolele</span>
+          <span id="blog-count-badge" class="text-xs font-bold px-2 py-0.5 rounded-full bg-rose-100 text-rose-700">
+            {articles.length} articole
+          </span>
         </h2>
         <p class="text-xs sm:text-sm text-slate-500">
           Informații utile, practice și testate direct pe rutele din România.
@@ -40,12 +67,71 @@ import articles from '../../../data/blog_articles.json';
       </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div id="articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
       {articles.map(article => (
-        <BlogCard article={article} />
+        <div class="blog-card-item" data-title={article.title.toLowerCase()} data-excerpt={article.excerpt.toLowerCase()} data-category={(article.category || '').toLowerCase()} data-tag={(article.tag || '').toLowerCase()}>
+          <BlogCard article={article} />
+        </div>
       ))}
     </div>
+
+    <!-- Empty State -->
+    <div id="blog-empty" class="hidden text-center py-16 bg-white rounded-3xl border border-slate-200 p-8 max-w-md mx-auto">
+      <div class="text-5xl mb-3">🔍</div>
+      <h3 class="text-lg font-bold text-slate-800 mb-1">Nu am găsit articole pentru această căutare</h3>
+      <p class="text-xs text-slate-500 mb-4">Încearcă alte cuvinte cheie (ex: bagaj, avion, croaziera, schi, roma).</p>
+      <button 
+        id="btn-reset-blog"
+        class="px-5 py-2 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-rose-600 transition-colors cursor-pointer"
+      >
+        Afișează toate articolele
+      </button>
+    </div>
   </section>
+
+  <!-- Client-side Search Script -->
+  <script is:inline>
+    const searchInput = document.getElementById('blog-search');
+    const items = document.querySelectorAll('.blog-card-item');
+    const emptyState = document.getElementById('blog-empty');
+    const countBadge = document.getElementById('blog-count-badge');
+    const btnReset = document.getElementById('btn-reset-blog');
+
+    function filterArticles() {
+      const q = (searchInput?.value || '').toLowerCase().trim();
+      let visible = 0;
+
+      items.forEach(item => {
+        const title = item.dataset.title || '';
+        const excerpt = item.dataset.excerpt || '';
+        const cat = item.dataset.category || '';
+        const tag = item.dataset.tag || '';
+        const match = !q || title.includes(q) || excerpt.includes(q) || cat.includes(q) || tag.includes(q);
+
+        if (match) {
+          item.style.display = '';
+          visible++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      if (countBadge) {
+        countBadge.textContent = `${visible} articole`;
+      }
+      if (emptyState) {
+        emptyState.classList.toggle('hidden', visible > 0);
+      }
+    }
+
+    searchInput?.addEventListener('input', filterArticles);
+    btnReset?.addEventListener('click', () => {
+      if (searchInput) {
+        searchInput.value = '';
+        filterArticles();
+      }
+    });
+  </script>
 
   <!-- Community & Newsletter -->
   <CommunityBanner />

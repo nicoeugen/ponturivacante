@@ -7,67 +7,34 @@ import airports from '../../data/airports.json';
   <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
   <div class="max-w-5xl mx-auto text-center relative z-10">
-    <!-- Seasonal & Festive Announcement Badges (Compact & Responsive Bar) -->
-    <div class="w-full overflow-x-auto no-scrollbar py-1 mb-3">
-      <div class="inline-flex sm:flex items-center justify-start sm:justify-center gap-2 min-w-full px-1">
-        <!-- 1 Decembrie -->
-        <a 
-          href="/categorie/1-decembrie/"
-          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-500/25 hover:bg-rose-500/35 backdrop-blur border border-rose-300/40 text-xs sm:text-sm font-bold text-rose-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
-          title="Minivacanța 30 Noiembrie - 1 Decembrie (28 Nov - 1 Dec)"
-        >
-          <span>🇷🇴</span>
-          <span>1 Decembrie</span>
-          <span class="hidden md:inline text-white font-normal">(28 Nov – 1 Dec)</span>
-          <span class="text-xs">&rarr;</span>
-        </a>
+    <!-- Top Festive Badges -->
+    <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-4">
+      <a 
+        href="/categorie/targuri-craciun/"
+        class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-500/25 hover:bg-emerald-500/35 backdrop-blur border border-emerald-300/40 text-xs sm:text-sm font-bold text-emerald-200 hover:text-white transition-all hover:scale-105 shadow-md"
+      >
+        <span>🎄</span>
+        <span>Târguri de Crăciun</span>
+        <span class="text-xs">&rarr;</span>
+      </a>
 
-        <!-- Târguri de Crăciun -->
-        <a 
-          href="/categorie/targuri-craciun/"
-          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/25 hover:bg-emerald-500/35 backdrop-blur border border-emerald-300/40 text-xs sm:text-sm font-bold text-emerald-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
-          title="Târguri de Crăciun în Europa"
-        >
-          <span>🎄</span>
-          <span>Târguri Crăciun</span>
-          <span class="hidden lg:inline text-white font-normal">: Viena, Praga & Alsacia</span>
-          <span class="text-xs">&rarr;</span>
-        </a>
+      <a 
+        href="/categorie/revelion/"
+        class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-purple-500/25 hover:bg-purple-500/35 backdrop-blur border border-purple-300/40 text-xs sm:text-sm font-bold text-purple-200 hover:text-white transition-all hover:scale-105 shadow-md"
+      >
+        <span>🎆</span>
+        <span>Revelion 2027</span>
+        <span class="text-xs">&rarr;</span>
+      </a>
 
-        <!-- Revelion 2027 -->
-        <a 
-          href="/categorie/revelion/"
-          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-purple-500/25 hover:bg-purple-500/35 backdrop-blur border border-purple-300/40 text-xs sm:text-sm font-bold text-purple-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
-          title="Revelion 2027 pe Cont Propriu"
-        >
-          <span>🎆</span>
-          <span>Revelion 2027</span>
-          <span class="hidden lg:inline text-white font-normal">: Istanbul & Atena</span>
-          <span class="text-xs">&rarr;</span>
-        </a>
-
-        <!-- Sezon Schi -->
-        <a 
-          href="/categorie/schi/"
-          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-400/20 hover:bg-sky-400/30 backdrop-blur border border-sky-300/40 text-xs sm:text-sm font-bold text-sky-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
-        >
-          <span>🎿</span>
-          <span>Schi</span>
-          <span class="hidden md:inline text-white font-normal">: Bansko & Alpi</span>
-          <span class="text-xs">&rarr;</span>
-        </a>
-
-        <!-- Soare de Iarnă -->
-        <a 
-          href="/categorie/exotice/"
-          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-400/20 hover:bg-amber-400/30 backdrop-blur border border-amber-300/40 text-xs sm:text-sm font-bold text-amber-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
-        >
-          <span>🌴</span>
-          <span>Soare</span>
-          <span class="hidden md:inline text-white font-normal">: Tenerife & Dubai</span>
-          <span class="text-xs">&rarr;</span>
-        </a>
-      </div>
+      <a 
+        href="/categorie/1-decembrie/"
+        class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-rose-500/25 hover:bg-rose-500/35 backdrop-blur border border-rose-300/40 text-xs sm:text-sm font-bold text-rose-200 hover:text-white transition-all hover:scale-105 shadow-md"
+      >
+        <span>🇷🇴</span>
+        <span>Vacanța 1 Decembrie</span>
+        <span class="text-xs">&rarr;</span>
+      </a>
     </div>
 
     <h1 class="text-xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-2 sm:mb-2.5">

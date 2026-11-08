@@ -71,6 +71,25 @@ const topOrigins = Object.entries(originCounts)
       ))}
     </div>
 
+    <!-- Load More Button -->
+    <div id="load-more-container" class="mt-12 text-center">
+      <button 
+        id="btn-load-more" 
+        type="button" 
+        class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-white hover:bg-slate-50 text-slate-900 border-2 border-slate-200 hover:border-rose-300 hover:text-rose-600 font-extrabold text-sm sm:text-base shadow-sm hover:shadow-md transition-all cursor-pointer group"
+      >
+        <span id="load-more-text">Afișează încă 12 oferte</span>
+        <span class="w-7 h-7 rounded-full bg-rose-50 text-rose-600 flex items-center justify-center text-xs group-hover:translate-y-0.5 transition-transform font-black">
+          ↓
+        </span>
+      </button>
+      <div class="mt-3">
+        <span id="load-more-counter" class="text-xs font-semibold text-slate-400">
+          Afișezi 12 din {deals.length} oferte
+        </span>
+      </div>
+    </div>
+
     <!-- No Deals Found State (Hidden by default) -->
     <div id="no-deals-state" class="hidden text-center py-16 bg-white rounded-3xl border border-slate-200 p-8">
       <div class="text-5xl mb-3">🔍</div>
@@ -103,11 +122,19 @@ const topOrigins = Object.entries(originCounts)
     const filterCategory = document.getElementById('filter-category');
     const btnReset = document.getElementById('btn-reset-filters');
     const btnResetState = document.getElementById('btn-reset-state');
-    const cards = document.querySelectorAll('.deal-card');
+    const cards = Array.from(document.querySelectorAll('.deal-card'));
     const noDealsState = document.getElementById('no-deals-state');
     const badge = document.getElementById('active-deals-badge');
     const transportTabs = document.querySelectorAll('.transport-tab');
 
+    // Load More Elements
+    const loadMoreContainer = document.getElementById('load-more-container');
+    const btnLoadMore = document.getElementById('btn-load-more');
+    const loadMoreText = document.getElementById('load-more-text');
+    const loadMoreCounter = document.getElementById('load-more-counter');
+
+    const PAGE_SIZE = 12;
+    let visibleLimit = PAGE_SIZE;
     let currentTransport = 'all';
 
     function updateOriginOptions(transportMode) {
@@ -148,6 +175,7 @@ const topOrigins = Object.entries(originCounts)
         }
       });
       updateOriginOptions(val);
+      visibleLimit = PAGE_SIZE;
       applyFilters();
     }
 
@@ -163,7 +191,9 @@ const topOrigins = Object.entries(originCounts)
       const selectedBudget = filterBudget?.value || 'all';
       const selectedCategory = filterCategory?.value || 'all';
 
-      let visibleCount = 0;
+      // 1. Filter matching cards
+      const matchingCards = [];
+      const nonMatchingCards = [];
 
       cards.forEach(card => {
         const origin = card.dataset.origin;
@@ -179,8 +209,22 @@ const topOrigins = Object.entries(originCounts)
         const matchTransport = (currentTransport === 'all' || cardTransport === currentTransport);
 
         if (matchSearch && matchOrigin && matchCategory && matchBudget && matchTransport) {
+          matchingCards.push(card);
+        } else {
+          nonMatchingCards.push(card);
+        }
+      });
+
+      // Always hide non-matching
+      nonMatchingCards.forEach(c => c.classList.add('hidden'));
+
+      // 2. Paginate matching cards
+      const totalMatches = matchingCards.length;
+      const countToShow = Math.min(visibleLimit, totalMatches);
+
+      matchingCards.forEach((card, index) => {
+        if (index < countToShow) {
           card.classList.remove('hidden');
-          visibleCount++;
         } else {
           card.classList.add('hidden');
         }
@@ -188,11 +232,32 @@ const topOrigins = Object.entries(originCounts)
 
       // Update badge count
       if (badge) {
-        badge.innerText = `${visibleCount} oferte afișate`;
+        if (totalMatches === countToShow) {
+          badge.innerText = `${totalMatches} oferte afișate`;
+        } else {
+          badge.innerText = `${countToShow} din ${totalMatches} oferte afișate`;
+        }
+      }
+
+      // 3. Update Load More button state
+      if (loadMoreContainer) {
+        if (countToShow < totalMatches) {
+          loadMoreContainer.classList.remove('hidden');
+          const remaining = totalMatches - countToShow;
+          const nextBatch = Math.min(PAGE_SIZE, remaining);
+          if (loadMoreText) {
+            loadMoreText.innerText = `Afișează încă ${nextBatch} oferte`;
+          }
+          if (loadMoreCounter) {
+            loadMoreCounter.innerText = `Afișezi ${countToShow} din ${totalMatches} oferte disponibile (au mai rămas ${remaining})`;
+          }
+        } else {
+          loadMoreContainer.classList.add('hidden');
+        }
       }
 
       // Show / hide empty state
-      if (visibleCount === 0) {
+      if (totalMatches === 0) {
         if (noDealsState) noDealsState.classList.remove('hidden');
       } else {
         if (noDealsState) noDealsState.classList.add('hidden');
@@ -209,11 +274,20 @@ const topOrigins = Object.entries(originCounts)
       }
     }
 
+    // Handle "Load More" click
+    if (btnLoadMore) {
+      btnLoadMore.addEventListener('click', () => {
+        visibleLimit += PAGE_SIZE;
+        applyFilters();
+      });
+    }
+
     function resetFilters() {
       if (filterSearch) filterSearch.value = '';
       if (filterOrigin) filterOrigin.value = 'all';
       if (filterBudget) filterBudget.value = 'all';
       if (filterCategory) filterCategory.value = 'all';
+      visibleLimit = PAGE_SIZE;
       setTransport('all');
       updateCityPills('all');
     }
@@ -265,16 +339,29 @@ const topOrigins = Object.entries(originCounts)
       });
     });
 
-    if (filterSearch) filterSearch.addEventListener('input', applyFilters);
+    if (filterSearch) filterSearch.addEventListener('input', () => {
+      visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
     if (filterOrigin) {
       filterOrigin.addEventListener('change', () => {
         updateCityPills(filterOrigin.value);
+        visibleLimit = PAGE_SIZE;
         applyFilters();
       });
     }
-    if (filterBudget) filterBudget.addEventListener('change', applyFilters);
-    if (filterCategory) filterCategory.addEventListener('change', applyFilters);
+    if (filterBudget) filterBudget.addEventListener('change', () => {
+      visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
+    if (filterCategory) filterCategory.addEventListener('change', () => {
+      visibleLimit = PAGE_SIZE;
+      applyFilters();
+    });
     if (btnReset) btnReset.addEventListener('click', resetFilters);
     if (btnResetState) btnResetState.addEventListener('click', resetFilters);
+
+    // Initial page load limit to 12 deals
+    applyFilters();
   </script>
 </Layout>

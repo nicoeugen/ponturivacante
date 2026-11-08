@@ -879,60 +879,43 @@ def format_ro_dates(dep_dt, ret_dt):
         return f"{dep_dt.day} {RO_MONTHS[dep_dt.month]} – {ret_dt.day} {RO_MONTHS[ret_dt.month]} {ret_dt.year}"
 
 def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
-
     """
-
     Identifică rute noi unde zborul este ultra-ieftin și construiește oferte complete
-
     ce nu există încă în data/deals.json.
-
     """
-
-    print(f"\n--- 🤖 MOTOR AUTONOM DE DESCOPERIRE OFERTE NOI ---")
-
+    print("\n--- 🤖 MOTOR AUTONOM DE DESCOPERIRE OFERTE NOI ---")
     
-
-    # Colectează codurile și destinațiile deja existente
-
-    existing_dest_codes = set()
-
+    # Colectează rutele (origine + destinație) deja existente
+    existing_routes = set()
     existing_dest_names = set()
-
     for d in existing_deals:
-
-        if d.get('destinationCode'):
-
-            existing_dest_codes.add(d['destinationCode'].upper())
-
+        orig = d.get('originCode', 'OTP').upper()
+        dest = (d.get('destinationCode') or '').upper()
+        if dest:
+            existing_routes.add((orig, dest))
         if d.get('destination'):
-
             existing_dest_names.add(d['destination'].lower())
 
     new_deals_added = []
-
     
-
     for bp in CANDIDATE_BLUEPRINTS:
-
         dest_code = bp['destCode']
-
+        origin_code = bp.get('originCode', 'OTP').upper()
         
-
-        # Verifică dacă există deja
-
-        if dest_code in existing_dest_codes:
-
+        # Verifică dacă ruta există deja
+        if (origin_code, dest_code.upper()) in existing_routes:
             continue
-
-        if any(bp['destination'].lower() in name for name in existing_dest_names):
-
-            continue
-
             
-
+        # Preluare tarife pe aeroportul de plecare
+        if isinstance(ryanair_fares, dict) and origin_code in ryanair_fares:
+            origin_fares = ryanair_fares[origin_code]
+        elif isinstance(ryanair_fares, dict) and 'OTP' in ryanair_fares:
+            origin_fares = ryanair_fares.get('OTP', {})
+        else:
+            origin_fares = ryanair_fares
+            
         # Verifică dacă Ryanair are zbor live ieftin
-
-        fare_info = ryanair_fares.get(dest_code)
+        fare_info = origin_fares.get(dest_code)
 
         if not fare_info:
 

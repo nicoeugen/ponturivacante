@@ -267,7 +267,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-        <a href={`/plecari/${deal.originCity.toLowerCase().replace(/\s+/g, '-')}/`} class="hover:text-rose-600 transition-colors">Oferte {deal.originCity}</a>
+        <a href={`/plecari/${(deal.originCity || "bucuresti").split("/")[0].trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-")}/`} class="hover:text-rose-600 transition-colors">Oferte {deal.originCity}</a>
 
 
 

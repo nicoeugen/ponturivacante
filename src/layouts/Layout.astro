@@ -13,7 +13,7 @@ interface Props {
 const { 
   title, 
   description = "Călătorește pe cont propriu la jumătate de preț: oferte verificate de zbor low-cost + cazare, city break-uri europene, destinații exotice, schi, croaziere și cabane în România. Calculator live de buget pe fiecare ofertă.",
-  image = "https://ponturivacante.ro/og-image.jpg"
+  image = "https://ponturivacante.ro/og-image.jpg?v=2"
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ponturivacante.ro');
@@ -60,6 +60,7 @@ const structuredData = {
     <meta property="og:image:alt" content="PonturiVacanțe — Călătorește pe cont propriu la jumătate de preț" />
     <meta property="og:site_name" content="PonturiVacanțe" />
     <meta property="og:locale" content="ro_RO" />
+    <link rel="image_src" href={image.startsWith('http') ? image : `https://ponturivacante.ro${image}`} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />

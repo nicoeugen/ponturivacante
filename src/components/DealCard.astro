@@ -194,7 +194,7 @@ const categoryTags = (() => {
           <span>Calculează bugetul tău</span>
         </span>
         <span class="text-[10px] text-amber-700 font-black group-hover/calc:translate-x-0.5 transition-transform flex items-center gap-1">
-          <span>Bagaje & Mese</span>
+          <span>{deal.transportType === 'car' ? '1, 2, 4 Pers. & Mese' : 'Bagaje & Mese'}</span>
           <span>&rarr;</span>
         </span>
       </a>

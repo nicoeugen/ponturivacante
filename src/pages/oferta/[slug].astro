@@ -1434,16 +1434,18 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
                   🎯 Personalizează cheltuielile estimative:
                 </span>
 
-                <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
-                  <div class="flex items-center gap-3">
-                    <input type="checkbox" id="calc-baggage" class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
-                    <div>
-                      <div class="text-xs font-bold text-white">🧳 Bagaj mare de cală (dus-întors)</div>
-                      <div class="text-[11px] text-slate-400">Rucsacul mic e deja inclus gratuit</div>
+                {deal.transportType !== 'car' && (
+                  <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" id="calc-baggage" class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
+                      <div>
+                        <div class="text-xs font-bold text-white">🧳 Bagaj mare de cală (dus-întors)</div>
+                        <div class="text-[11px] text-slate-400">Rucsacul mic e deja inclus gratuit</div>
+                      </div>
                     </div>
-                  </div>
-                  <span class="text-xs font-bold text-amber-300">+35 € / pers</span>
-                </label>
+                    <span class="text-xs font-bold text-amber-300">+35 € / pers</span>
+                  </label>
+                )}
 
                 <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
                   <div class="flex items-center gap-3">
@@ -1456,16 +1458,29 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
                   <span class="text-xs font-bold text-amber-300">+{deal.nights * 30} € / pers</span>
                 </label>
 
-                <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
-                  <div class="flex items-center gap-3">
-                    <input type="checkbox" id="calc-transfer" checked class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
-                    <div>
-                      <div class="text-xs font-bold text-white">🚌 Transfer Aeroport ⇄ Hotel (autobuz / tren)</div>
-                      <div class="text-[11px] text-slate-400">Transport local dus-întors</div>
+                {deal.transportType !== 'car' ? (
+                  <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" id="calc-transfer" checked class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
+                      <div>
+                        <div class="text-xs font-bold text-white">🚌 Transfer Aeroport ⇄ Hotel (autobuz / tren)</div>
+                        <div class="text-[11px] text-slate-400">Transport local dus-întors</div>
+                      </div>
                     </div>
-                  </div>
-                  <span class="text-xs font-bold text-amber-300">+15 € / pers</span>
-                </label>
+                    <span class="text-xs font-bold text-amber-300">+15 € / pers</span>
+                  </label>
+                ) : (
+                  <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
+                    <div class="flex items-center gap-3">
+                      <input type="checkbox" id="calc-transfer" checked class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
+                      <div>
+                        <div class="text-xs font-bold text-white">🚗 Vinietă & Taxe de drum (tranzit & destinație)</div>
+                        <div class="text-[11px] text-slate-400">Vinietă BG/AT/SK + pod/autostradă estimat</div>
+                      </div>
+                    </div>
+                    <span class="text-xs font-bold text-amber-300">+15 € / pers</span>
+                  </label>
+                )}
 
                 <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
                   <div class="flex items-center gap-3">
@@ -1499,7 +1514,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
                 <!-- Detaliu costuri -->
                 <div class="space-y-1.5 text-xs text-slate-300 pt-3 border-t border-slate-700 mb-6">
                   <div class="flex justify-between">
-                    <span>✈️ Zbor dus-întors:</span>
+                    <span>{deal.transportType === 'car' ? '🚗 Transport Propriu:' : '✈️ Zbor dus-întors:'}</span>
                     <strong id="calc-row-flight">-- €</strong>
                   </div>
                   <div class="flex justify-between">

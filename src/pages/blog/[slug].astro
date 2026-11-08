@@ -24,6 +24,15 @@ const relatedDeals = deals.filter(d => {
   const slug = (d.slug || '').toLowerCase();
   const cat = (d.category || '').toLowerCase();
 
+  if (tag.includes('1 decembrie')) {
+    return cat.includes('1 decembrie') || slug.includes('1-decembrie') || dest.includes('viena') || dest.includes('budapesta') || dest.includes('roma');
+  }
+  if (tag.includes('craciun') || tag.includes('crăciun')) {
+    return cat.includes('craciun') || slug.includes('craciun') || slug.includes('targ') || dest.includes('colmar') || dest.includes('praga') || dest.includes('viena');
+  }
+  if (tag.includes('revelion')) {
+    return cat.includes('revelion') || slug.includes('revelion');
+  }
   if (tag === 'egipt') {
     return country.includes('egipt') || dest.includes('hurghada') || dest.includes('sharm') || dest.includes('cairo');
   }

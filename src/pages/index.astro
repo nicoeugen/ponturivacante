@@ -12,6 +12,15 @@ import deals from '../../data/deals.json';
 const sortedDeals = [...deals].sort((a, b) => 
   new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
 );
+
+const originCounts: Record<string, number> = {};
+deals.forEach(d => {
+  const city = d.originCity || 'București';
+  originCounts[city] = (originCounts[city] || 0) + 1;
+});
+
+const topOrigins = Object.entries(originCounts)
+  .sort((a, b) => b[1] - a[1]);
 ---
 
 <Layout title="Ponturi Vacanțe Ieftine din România — Zbor + Cazare">
@@ -40,6 +49,19 @@ const sortedDeals = [...deals].sort((a, b) =>
       >
         Resetează toate filtrele
       </button>
+    </div>
+
+    <!-- Quick Origin City Pills -->
+    <div class="flex items-center gap-1.5 overflow-x-auto pb-4 mb-2 no-scrollbar">
+      <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider whitespace-nowrap mr-1">Plecare:</span>
+      <button type="button" class="city-pill active px-3.5 py-1.5 rounded-full bg-slate-900 text-white text-xs font-bold shadow-sm transition-all whitespace-nowrap cursor-pointer hover:bg-rose-600" data-city="all">
+        Toate ({deals.length})
+      </button>
+      {topOrigins.map(([city, count]) => (
+        <button type="button" class="city-pill px-3.5 py-1.5 rounded-full bg-white text-slate-700 border border-slate-200 text-xs font-bold shadow-sm transition-all whitespace-nowrap cursor-pointer hover:bg-rose-50 hover:text-rose-600 hover:border-rose-300" data-city={city}>
+          ✈️ {city} <span class="text-[10px] opacity-70">({count})</span>
+        </button>
+      ))}
     </div>
 
     <!-- Deals Grid -->
@@ -193,10 +215,63 @@ const sortedDeals = [...deals].sort((a, b) =>
       if (filterBudget) filterBudget.value = 'all';
       if (filterCategory) filterCategory.value = 'all';
       setTransport('all');
+      updateCityPills('all');
     }
 
+    // City pills selector sync
+    const cityPills = document.querySelectorAll('.city-pill');
+    function updateCityPills(selectedCity) {
+      cityPills.forEach(p => {
+        const match = (p.dataset.city === selectedCity);
+        if (match) {
+          p.classList.add('bg-slate-900', 'text-white');
+          p.classList.remove('bg-white', 'text-slate-700');
+        } else {
+          p.classList.remove('bg-slate-900', 'text-white');
+          p.classList.add('bg-white', 'text-slate-700');
+        }
+      });
+    }
+
+    cityPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const city = pill.dataset.city || 'all';
+        if (filterOrigin) {
+          filterOrigin.value = city;
+        }
+        updateCityPills(city);
+        applyFilters();
+      });
+    });
+
+    // Trending search chips from hero
+    const heroChips = document.querySelectorAll('.hero-chip');
+    heroChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        if (chip.dataset.budget && filterBudget) {
+          filterBudget.value = chip.dataset.budget;
+        }
+        if (chip.dataset.category && filterCategory) {
+          filterCategory.value = chip.dataset.category;
+        }
+        if (chip.dataset.query && filterSearch) {
+          filterSearch.value = chip.dataset.query;
+        }
+        applyFilters();
+        const dealsGrid = document.getElementById('deals-grid');
+        if (dealsGrid) {
+          dealsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
     if (filterSearch) filterSearch.addEventListener('input', applyFilters);
-    if (filterOrigin) filterOrigin.addEventListener('change', applyFilters);
+    if (filterOrigin) {
+      filterOrigin.addEventListener('change', () => {
+        updateCityPills(filterOrigin.value);
+        applyFilters();
+      });
+    }
     if (filterBudget) filterBudget.addEventListener('change', applyFilters);
     if (filterCategory) filterCategory.addEventListener('change', applyFilters);
     if (btnReset) btnReset.addEventListener('click', resetFilters);

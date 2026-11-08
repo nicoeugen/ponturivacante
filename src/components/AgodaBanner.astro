@@ -37,29 +37,60 @@ const CITY_TO_AGODA: Record<string, string> = {
   'istanbul': 'istanbul-tr',
   'antalya': 'antalya-tr',
   'dubai': 'dubai-ae',
+  'abu dhabi': 'abu-dhabi-ae',
   'hurghada': 'hurghada-eg',
   'cairo': 'cairo-eg',
-  'bansko': 'bansko-bg',
-  'malta': 'malta-island-mt',
+  'sharm': 'sharm-el-sheikh-eg',
+  'marrakech': 'marrakech-ma',
+  'aqaba': 'aqaba-jo',
+  'catania': 'catania-it',
+  'napoli': 'naples-it',
+  'bologna': 'bologna-it',
+  'malaga': 'malaga-es',
   'tenerife': 'tenerife-es',
+  'gran canaria': 'gran-canaria-es',
+  'madeira': 'funchal-pt',
+  'funchal': 'funchal-pt',
   'nice': 'nice-fr',
-  'nisa': 'nice-fr'
+  'nisa': 'nice-fr',
+  'bansko': 'bansko-bg',
+  'borovets': 'borovets-bg',
+  'pamporovo': 'pamporovo-bg',
+  'innsbruck': 'innsbruck-at',
+  'tirol': 'innsbruck-at',
+  'zell am see': 'zell-am-see-at',
+  'kaprun': 'zell-am-see-at',
+  'kitzbuhel': 'kitzbuhel-at',
+  'kitzbühel': 'kitzbuhel-at',
+  'schladming': 'schladming-at',
+  'livigno': 'livigno-it',
+  'cortina': 'cortina-d-ampezzo-it',
+  'val di fassa': 'canazei-it',
+  'canazei': 'canazei-it',
+  'dolomiți': 'canazei-it',
+  'dolomiti': 'canazei-it',
+  'jasna': 'demanovska-dolina-sk',
+  'jasná': 'demanovska-dolina-sk',
+  'tatranska lomnica': 'vysoke-tatry-sk',
+  'tatry': 'vysoke-tatry-sk',
+  'val thorens': 'val-thorens-fr',
+  'malta': 'valletta-mt'
 };
 
-let agodaCitySlug = '';
+let targetUrl = 'https://www.agoda.com/ro-ro/';
 if (destination) {
   const dLower = destination.toLowerCase().trim();
-  for (const [key, slug] of Object.entries(CITY_TO_AGODA)) {
-    if (dLower.includes(key)) {
-      agodaCitySlug = slug;
-      break;
+  if (dLower.includes('românia') || dLower.includes('romania')) {
+    targetUrl = 'https://www.agoda.com/ro-ro/country/romania.html';
+  } else {
+    for (const [key, slug] of Object.entries(CITY_TO_AGODA)) {
+      if (dLower.includes(key)) {
+        targetUrl = `https://www.agoda.com/ro-ro/city/${slug}.html`;
+        break;
+      }
     }
   }
 }
-
-const targetUrl = agodaCitySlug
-  ? `https://www.agoda.com/ro-ro/city/${agodaCitySlug}.html`
-  : 'https://www.agoda.com/ro-ro/';
 
 const affUrl = `/go/hotel/?url=${encodeURIComponent(targetUrl)}&provider=agoda`;
 ---

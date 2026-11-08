@@ -1,5 +1,656 @@
 [
   {
+    "id": "deal-revelion-malta-2027-cluj",
+    "slug": "revelion-2027-malta-valletta-faleza-sliema-din-cluj-189-euro",
+    "title": "Revelion 2027 în Malta: 4 nopți la hotel 4★ pe faleză + Artificii în Grand Harbour + Zbor direct din Cluj (189 €)",
+    "destination": "Malta & Faleza Sliema (Malta)",
+    "country": "Malta",
+    "flag": "🇲🇹",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "MLA",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 189,
+    "discountPercent": 51,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Plecări directe din Cluj-Napoca pentru o escapadă festivă sub soarele Maltei (18°C)! În noaptea dintre ani, capitala fortificată Valletta devine o scenă uriașă în aer liber în St. George's Square, cu spectacol gratuit de lasere, concerte live și focuri de artificii grandioase reflectate în marele port istoric Grand Harbour.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "Cluj-Napoca (CLJ) ⇄ Malta Luqa (MLA)",
+      "price": 72,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20CLJ%20to%20MLA%20on%202026-12-30%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20CLJ%20to%20MLA%20on%202026-12-30%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/clj/mla/261230/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-MLA/2026-12-30/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/cluj-napoca-romania/malta-malta/2026-12-30/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Plaza Regency Hotels 4★ Sliema Bay",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.5,
+      "reviewsCount": 3500,
+      "distance": "Pe faleza golfului Balluta Bay, cu ferry direct la 5 min spre Valletta",
+      "amenities": [
+        "Piscina pe acoperiș cu vedere panoramică la mare",
+        "Piscina interioară încălzită",
+        "Două baruri și terasă festivă",
+        "Stație de autobuz și ferry chiar în fața hotelului"
+      ],
+      "priceTotal": 234,
+      "pricePerPerson": 117,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=26310&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Vedere Panoramică la Mare",
+        "name": "Plaza Regency Hotel 4★",
+        "rating": 8.5,
+        "priceTotal": 234,
+        "pricePerPerson": 117,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=26310&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Ferry Rapid către Valletta",
+        "name": "Waterfront Hotel 4★",
+        "rating": 8.8,
+        "priceTotal": 270,
+        "pricePerPerson": 135,
+        "type": "Hotel 4★",
+        "link": "https://www.booking.com/searchresults.html?ss=Sliema&checkin=2026-12-30&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 179,
+        "note": "4 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 199,
+        "note": "Weekend Festiv"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-cipru-paphos-2027",
+    "slug": "revelion-2027-cipru-paphos-malul-marii-hotel-4-stele-179-euro",
+    "title": "Revelion 2027 în Cipru la malul mării: 4 nopți la hotel 4★ cu mic dejun + Portul Paphos + Zbor (179 €)",
+    "destination": "Paphos & Litoralul Mediteranei (Cipru)",
+    "country": "Cipru",
+    "flag": "🇨🇾",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "PFO",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1580837119756-563d608dd119?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 179,
+    "discountPercent": 53,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Iarnă caldă la 19-21°C în insula Afroditei! Plimbări la soare pe faleza din Kato Paphos, cetatea medievală luminată feeric, taverne tradiționale cu meze cipriot și vin Comandaria la malul mării, la un tarif incredibil de accesibil.",
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "București Otopeni (OTP) ⇄ Paphos International (PFO)",
+      "price": 68,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20PFO%20on%202026-12-30%20through%202027-01-03",
+      "directAirlineLink": "https://ryanair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20PFO%20on%202026-12-30%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/pfo/261230/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-PFO/2026-12-30/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/paphos-cipru/2026-12-30/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Dionysos Central Hotel 4★ Kato Paphos",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.5,
+      "reviewsCount": 2700,
+      "distance": "La 150m de plajă și portul turistic Kato Paphos",
+      "amenities": [
+        "Piscina exterioară și terasă cu palmieri",
+        "Mic dejun mediteranean bogat inclus",
+        "Bar italian & restaurant festiv",
+        "La 2 pași de situl arheologic Mozaicurile din Paphos"
+      ],
+      "priceTotal": 222,
+      "pricePerPerson": 111,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=18942&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Lângă Port & Faleză",
+        "name": "Dionysos Central Hotel 4★",
+        "rating": 8.5,
+        "priceTotal": 222,
+        "pricePerPerson": 111,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=18942&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Chiar pe Plaja Tombs of Kings",
+        "name": "Venus Beach Hotel 5★",
+        "rating": 8.6,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Hotel 5★",
+        "link": "https://www.booking.com/searchresults.html?ss=Paphos&checkin=2026-12-30&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 169,
+        "note": "4 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 189,
+        "note": "Weekend Festiv"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-malaga-2027",
+    "slug": "revelion-2027-malaga-costa-del-sol-lumini-strada-spania-239-euro",
+    "title": "Revelion 2027 în Malaga: 4 nopți la hotel 4★ central + Tradiția celor 12 struguri + Zbor din București (239 €)",
+    "destination": "Malaga & Costa del Sol (Spania)",
+    "country": "Spania",
+    "flag": "🇪🇸",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "AGP",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 239,
+    "discountPercent": 49,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Vreme blândă de 18-20°C pe Costa del Sol! Malaga găzduiește cel mai spectaculos tunel de lumini și muzică din Spania pe bulevardul Calle Larios. La miezul nopții, toată lumea se adună în Plaza de la Constitución pentru tradiția celor 12 boabe de struguri 'las doce uvas de la suerte', urmată de petreceri pe plaja La Malagueta.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Malaga Costa del Sol (AGP)",
+      "price": 109,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20AGP%20on%202026-12-30%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20AGP%20on%202026-12-30%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/agp/261230/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-AGP/2026-12-30/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/malaga-spania/2026-12-30/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Eurostars Astoria Hotel 4★ Malaga Centro",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.6,
+      "reviewsCount": 3900,
+      "distance": "La 10 minute de Calle Larios și Muzeul Picasso",
+      "amenities": [
+        "Localizare centrală excelentă lângă zona pietonală",
+        "Căzi cu hidromasaj în camere",
+        "Mic dejun andaluz bogat",
+        "Recepție 24/7 și asistență turistică"
+      ],
+      "priceTotal": 260,
+      "pricePerPerson": 130,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=21980&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Central & Hidromasaj",
+        "name": "Eurostars Astoria 4★",
+        "rating": 8.6,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=21980&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Design Modern în Centru",
+        "name": "Soho Boutique Malaga 4★",
+        "rating": 8.7,
+        "priceTotal": 290,
+        "pricePerPerson": 145,
+        "type": "Hotel 4★ Boutique",
+        "link": "https://www.booking.com/searchresults.html?ss=Malaga&checkin=2026-12-30&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 229,
+        "note": "4 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 249,
+        "note": "Weekend Festiv"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-madeira-2027",
+    "slug": "revelion-2027-madeira-funchal-artificii-record-ocean-389-euro",
+    "title": "Revelion 2027 în Madeira: 5 nopți la hotel 4★ cu vedere la ocean + Artificii de Cartea Recordurilor + Zbor (389 €)",
+    "destination": "Madeira & Funchal (Portugalia)",
+    "country": "Portugalia",
+    "flag": "🇵🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "FNC",
+    "dates": "29 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-29",
+    "returnDate": "2027-01-03",
+    "nights": 5,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 389,
+    "discountPercent": 52,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Funchal deține recordul mondial Guinness World Records pentru cel mai mare spectacol de artificii de pe glob! Amfiteatrul natural al golfului Funchal este iluminat de mii de cascade pirotehnice lansate simultan de pe uscat și de pe vasele de croazieră ancorate în ocean, la o temperatură plăcută de 20-22°C.",
+    "flight": {
+      "airline": "Wizz Air / TAP",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Funchal Madeira (FNC)",
+      "price": 169,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20FNC%20on%202026-12-29%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20FNC%20on%202026-12-29%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/fnc/261229/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-FNC/2026-12-29/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/funchal-portugalia/2026-12-29/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Muthu Raga Madeira Hotel 4★ Funchal",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.7,
+      "reviewsCount": 3100,
+      "distance": "În zona Lido, cu vedere panoramică la golful Funchal",
+      "amenities": [
+        "Piscina exterioară încălzită cu vedere la ocean",
+        "Terasă panoramică ideală pentru vizionarea artificiilor",
+        "Mic dejun bogat inclus",
+        "Camere elegante cu balcon spre ocean"
+      ],
+      "priceTotal": 440,
+      "pricePerPerson": 220,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=51203&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Vedere Panoramică Artificii",
+        "name": "Muthu Raga Hotel 4★",
+        "rating": 8.7,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=51203&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Centrul Istoric Funchal",
+        "name": "Hotel Do Carmo 3★ Superior",
+        "rating": 8.5,
+        "priceTotal": 470,
+        "pricePerPerson": 235,
+        "type": "Hotel 3★ Superior",
+        "link": "https://www.booking.com/searchresults.html?ss=Funchal&checkin=2026-12-29&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "30 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 410,
+        "note": "5 nopți"
+      },
+      {
+        "dates": "28 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 375,
+        "note": "Plecări din timp"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-hurghada-all-inclusive-2027",
+    "slug": "revelion-2027-all-inclusive-hurghada-egipt-resort-5-stele-379-euro",
+    "title": "Revelion 2027 All Inclusive în Hurghada: 5 nopți la resort 5★ pe plajă + Cină Festivă + Zbor (379 €)",
+    "destination": "Hurghada & Marea Roșie (Egipt)",
+    "country": "Egipt",
+    "flag": "🇪🇬",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "HRG",
+    "dates": "30 Decembrie 2026 – 4 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-04",
+    "nights": 5,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1544885935-98dd03b09034?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 379,
+    "discountPercent": 54,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Răsfăț All Inclusive la 25°C la Marea Roșie! Ai toate mesele, gustările și băuturile incluse, plajă privată cu recif de corali, piscine încălzite și o cină grandioasă de gală în noaptea de Revelion cu muzică orientală, artificii și dansuri tradiționale.",
+    "flight": {
+      "airline": "HiSky / Charter",
+      "airlineCode": "H4",
+      "route": "București Otopeni (OTP) ⇄ Hurghada International (HRG)",
+      "price": 159,
+      "baggageInfo": "Bagaj de mână + bagaj de cală inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20HRG%20on%202026-12-30%20through%202027-01-04",
+      "directAirlineLink": "https://hisky.aero",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20HRG%20on%202026-12-30%20through%202027-01-04",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/hrg/261230/270104/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-HRG/2026-12-30/2027-01-04",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/hurghada-egipt/2026-12-30/2027-01-04?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Titanic Beach Spa & Aqua Park Resort 5★ All Inclusive",
+      "provider": "Agoda",
+      "stars": 5,
+      "rating": 8.7,
+      "reviewsCount": 4200,
+      "distance": "Chiar pe plaja privată din Hurghada",
+      "amenities": [
+        "Regim complet All Inclusive (toate mesele & băuturile)",
+        "Aqua Park & piscine exterioare încălzite",
+        "Cină festivă de gală în noaptea de Anul Nou inclusă",
+        "Ponton privat pentru snorkeling la recif"
+      ],
+      "priceTotal": 440,
+      "pricePerPerson": 220,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=44120&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "All Inclusive & Plajă Privată",
+        "name": "Titanic Beach Resort 5★",
+        "rating": 8.7,
+        "priceTotal": 440,
+        "pricePerPerson": 220,
+        "type": "Resort 5★ All Inclusive",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=44120&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Lagună & Recif de Corali",
+        "name": "Desert Rose Resort 5★",
+        "rating": 8.6,
+        "priceTotal": 480,
+        "pricePerPerson": 240,
+        "type": "Resort 5★ All Inclusive",
+        "link": "https://www.booking.com/searchresults.html?ss=Hurghada&checkin=2026-12-30&checkout=2027-01-04"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 3 Ianuarie 2027",
+        "priceTotal": 369,
+        "note": "5 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 5 Ianuarie 2027",
+        "priceTotal": 395,
+        "note": "Weekend extins"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-tenerife-2027",
+    "slug": "revelion-2027-tenerife-soare-ocean-resort-din-bucuresti-389-euro",
+    "title": "Revelion 2027 în Tenerife: 5 nopți la resort 4★ cu piscină încălzită la ocean + Zbor din București (389 €)",
+    "destination": "Tenerife & Insulele Canare (Spania)",
+    "country": "Spania",
+    "flag": "🇪🇸",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "TFS",
+    "dates": "29 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-29",
+    "returnDate": "2027-01-03",
+    "nights": 5,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 389,
+    "discountPercent": 50,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Revelion în pantaloni scurți și tricou! În sudul insulei Tenerife (Playa de las Américas & Costa Adeje) temperaturile ating 23-24°C la amiază. La miezul nopții, mii de oameni sărbătoresc pe plajă cu șampanie, artificii reflectate în Oceanul Atlantic și muzică live.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Tenerife Sud Reina Sofia (TFS)",
+      "price": 159,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20TFS%20on%202026-12-29%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20TFS%20on%202026-12-29%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/tfs/261229/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-TFS/2026-12-29/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/tenerife-spania/2026-12-29/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Coral Compostela Beach Golf 4★ Playa de las Américas",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.7,
+      "reviewsCount": 3800,
+      "distance": "La 600m de plajele cu nisip auriu din Playa de las Américas",
+      "amenities": [
+        "Două piscine exterioare încălzite în sezonul de iarnă",
+        "Terasă solară cu șezlonguri și palmieri",
+        "Apartamente moderne cu bucătărie utilată și balcon",
+        "Restaurant & Bar festiv"
+      ],
+      "priceTotal": 460,
+      "pricePerPerson": 230,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=32014&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Piscine Încălzite la Soare",
+        "name": "Coral Compostela Golf 4★",
+        "rating": 8.7,
+        "priceTotal": 460,
+        "pricePerPerson": 230,
+        "type": "Resort 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=32014&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Chiar pe Malul Oceanului",
+        "name": "Sol Tenerife Resort 4★",
+        "rating": 8.4,
+        "priceTotal": 510,
+        "pricePerPerson": 255,
+        "type": "Resort 4★",
+        "link": "https://www.booking.com/searchresults.html?ss=Playa+de+las+Americas&checkin=2026-12-29&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "30 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 409,
+        "note": "5 nopți"
+      },
+      {
+        "dates": "28 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 379,
+        "note": "5 nopți"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-dubai-2027",
+    "slug": "revelion-2027-dubai-artificii-burj-khalifa-din-bucuresti-469-euro",
+    "title": "Revelion 2027 în Dubai: 5 nopți la hotel 4★ în Dubai Marina + Artificii Burj Khalifa + Zbor (469 €)",
+    "destination": "Dubai (Emiratele Arabe Unite)",
+    "country": "Emiratele Arabe Unite",
+    "flag": "🇦🇪",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "DXB",
+    "dates": "29 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-29",
+    "returnDate": "2027-01-03",
+    "nights": 5,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 469,
+    "discountPercent": 48,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:25:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:25:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:25",
+    "description": "Trece în 2027 la 26°C sub cel mai faimos spectacol pirotehnic din lume! Miezul nopții la Burj Khalifa, Dubai Mall și promenada Dubai Marina oferă o atmosferă electrizantă cu palmieri luminați, yachturi festive și plajă la Jumeirah Beach chiar în ianuarie.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Dubai World Central (DWC)",
+      "price": 189,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20DXB%20on%202026-12-29%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20DXB%20on%202026-12-29%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/dxb/261229/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-DXB/2026-12-29/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/dubai-emiratele-arabe-unite/2026-12-29/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Marina Byblos Hotel 4★ Dubai Marina",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.6,
+      "reviewsCount": 5400,
+      "distance": "La 5 minute de mers pe jos de plaja JBR și promenada Marina",
+      "amenities": [
+        "Piscina panoramică pe acoperiș",
+        "Centru Spa & Masaj",
+        "Shuttle gratuit către marile mall-uri",
+        "Camere deluxe spațioase"
+      ],
+      "priceTotal": 560,
+      "pricePerPerson": 280,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=28192&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Aproape de Plajă & Metrou",
+        "name": "Marina Byblos Hotel 4★",
+        "rating": 8.6,
+        "priceTotal": 560,
+        "pricePerPerson": 280,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=28192&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Vedere Panoramică la Zgârie-Nori",
+        "name": "Millennium Place Marina 4★",
+        "rating": 8.8,
+        "priceTotal": 610,
+        "pricePerPerson": 305,
+        "type": "Hotel 4★",
+        "link": "https://www.booking.com/searchresults.html?ss=Dubai+Marina&checkin=2026-12-29&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "30 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 489,
+        "note": "5 nopți"
+      },
+      {
+        "dates": "28 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 449,
+        "note": "Plecări devreme"
+      }
+    ]
+  },
+  {
     "id": "deal-revelion-bansko-2027",
     "slug": "revelion-2027-schi-spa-bansko-bulgaria-185-euro",
     "title": "Revelion 2027 la Schi & Spa în Bansko: 4 nopți la hotel 4★ cu Centru Spa & Mic Dejun (185 €)",

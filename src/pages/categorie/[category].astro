@@ -9,6 +9,27 @@ import romaniaDeals from '../../../data/romania_deals.json';
 export function getStaticPaths() {
   const categories = [
     { 
+      slug: '1-decembrie', 
+      name: 'Minivacanța de 1 Decembrie', 
+      icon: '🇷🇴', 
+      badge: '🎆 Weekend Prelungit (28 Nov – 1 Dec)',
+      desc: 'Oferte speciale pentru minivacanța de Sfântul Andrei și Ziua Națională a României (sâmbătă 28 noiembrie – marți 1 decembrie). City break-uri la Târgurile de Crăciun, capitale europene și relaxare la munte & spa.' 
+    },
+    { 
+      slug: 'targuri-craciun', 
+      name: 'Târguri de Crăciun Europene', 
+      icon: '🎄', 
+      badge: '✨ Sezon Noiembrie – Decembrie',
+      desc: 'Cele mai festive și spectaculoase piețe de Crăciun din Europa: Viena, Budapesta, Praga, Nürnberg, Colmar & Alsacia. Vin fiert cu scorțișoară, luminițe de poveste și cazări la pași de târg.' 
+    },
+    { 
+      slug: 'revelion', 
+      name: 'Revelion 2027 pe Cont Propriu', 
+      icon: '🎆', 
+      badge: '🥂 Noaptea Dintre Ani',
+      desc: 'Petrece Revelionul fără să plătești tarife exagerate de agenție: croazieră pe Bosfor în Istanbul, artificii peste Acropole în Atena, petrecere la zăpadă în Bansko sau soare în Dubai.' 
+    },
+    { 
       slug: 'exotice', 
       name: 'Exotic & Soare de Iarnă', 
       icon: '🌴', 
@@ -47,9 +68,22 @@ export function getStaticPaths() {
 
   return categories.map(cat => {
     const catDeals = deals.filter(d => {
-      const dealCat = d.category.toLowerCase();
+      const dealCat = (d.category || '').toLowerCase();
+      const titleLower = (d.title || '').toLowerCase();
+      const badgeLower = (d.badge || '').toLowerCase();
+      const datesLower = (d.dates || '').toLowerCase();
+
+      if (cat.slug === '1-decembrie') {
+        return dealCat.includes('1 decembrie') || titleLower.includes('1 decembrie') || badgeLower.includes('1 decembrie') || datesLower.includes('28 noiembrie');
+      }
+      if (cat.slug === 'targuri-craciun') {
+        return dealCat.includes('craciun') || dealCat.includes('crăciun') || titleLower.includes('craciun') || titleLower.includes('crăciun') || badgeLower.includes('crăciun');
+      }
+      if (cat.slug === 'revelion') {
+        return dealCat.includes('revelion') || titleLower.includes('revelion') || badgeLower.includes('revelion') || datesLower.includes('30 decembrie');
+      }
       if (cat.slug === 'exotice') {
-        return dealCat.includes('exotic') || d.title.toLowerCase().includes('exotic') || ['maldive', 'zanzibar', 'abu dhabi', 'dubai', 'tenerife', 'canare', 'aqaba', 'egipt', 'hurghada', 'marrakech', 'madeira'].some(dest => d.destination.toLowerCase().includes(dest));
+        return dealCat.includes('exotic') || titleLower.includes('exotic') || ['maldive', 'zanzibar', 'abu dhabi', 'dubai', 'tenerife', 'canare', 'aqaba', 'egipt', 'hurghada', 'marrakech', 'madeira'].some(dest => d.destination.toLowerCase().includes(dest));
       }
       if (cat.slug === 'schi') {
         return dealCat.includes('schi') || dealCat.includes('ski') || ['bansko', 'dolomiti', 'tirol', 'innsbruck', 'jasna', 'tatry', 'alpi'].some(dest => d.destination.toLowerCase().includes(dest) || d.title.toLowerCase().includes(dest));
@@ -66,9 +100,21 @@ export function getStaticPaths() {
 
 const { cat, deals: catDeals } = Astro.props;
 
-const roSkiDeals = cat.slug === 'schi'
-  ? romaniaDeals.filter(r => r.category.toLowerCase().includes('schi') || r.title.toLowerCase().includes('schi'))
-  : [];
+const roSkiDeals = (() => {
+  if (cat.slug === 'schi') {
+    return romaniaDeals.filter(r => r.category.toLowerCase().includes('schi') || r.title.toLowerCase().includes('schi'));
+  }
+  if (cat.slug === '1-decembrie') {
+    return romaniaDeals.filter(r => r.title.toLowerCase().includes('sibiu') || r.title.toLowerCase().includes('craciun') || r.category.toLowerCase().includes('cabana'));
+  }
+  if (cat.slug === 'targuri-craciun') {
+    return romaniaDeals.filter(r => r.title.toLowerCase().includes('sibiu') || r.title.toLowerCase().includes('craciun'));
+  }
+  if (cat.slug === 'revelion') {
+    return romaniaDeals.filter(r => r.title.toLowerCase().includes('ciubar') || r.category.toLowerCase().includes('cabana') || r.title.toLowerCase().includes('castel'));
+  }
+  return [];
+})();
 ---
 
 <Layout 

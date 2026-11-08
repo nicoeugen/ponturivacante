@@ -7,24 +7,67 @@ import airports from '../../data/airports.json';
   <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
   <div class="max-w-5xl mx-auto text-center relative z-10">
-    <!-- Seasonal Announcement Badges (Compacte pe mobil) -->
-    <div class="flex flex-wrap items-center justify-center gap-2 mb-3">
-      <a 
-        href="/categorie/schi/"
-        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-400/20 hover:bg-sky-400/30 backdrop-blur border border-sky-300/40 text-xs sm:text-sm font-bold text-sky-200 transition-all hover:scale-105 shadow-md"
-      >
-        <span>🎿 SEZON SCHI:</span>
-        <span class="hidden sm:inline text-white font-normal">Bansko, Dolomiți, Tirol & Jasna &rarr;</span>
-        <span class="sm:hidden text-white font-normal">Oferte &rarr;</span>
-      </a>
-      <a 
-        href="/categorie/exotice/"
-        class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-400/20 hover:bg-amber-400/30 backdrop-blur border border-amber-300/40 text-xs sm:text-sm font-bold text-amber-200 transition-all hover:scale-105 shadow-md"
-      >
-        <span>🌴 SOARE DE IARNĂ:</span>
-        <span class="hidden sm:inline text-white font-normal">Tenerife, Dubai, Canare &rarr;</span>
-        <span class="sm:hidden text-white font-normal">Plajă &rarr;</span>
-      </a>
+    <!-- Seasonal & Festive Announcement Badges (Compact & Responsive Bar) -->
+    <div class="w-full overflow-x-auto no-scrollbar py-1 mb-3">
+      <div class="inline-flex sm:flex items-center justify-start sm:justify-center gap-2 min-w-full px-1">
+        <!-- 1 Decembrie -->
+        <a 
+          href="/categorie/1-decembrie/"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-500/25 hover:bg-rose-500/35 backdrop-blur border border-rose-300/40 text-xs sm:text-sm font-bold text-rose-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
+          title="Minivacanța 30 Noiembrie - 1 Decembrie (28 Nov - 1 Dec)"
+        >
+          <span>🇷🇴</span>
+          <span>1 Decembrie</span>
+          <span class="hidden md:inline text-white font-normal">(28 Nov – 1 Dec)</span>
+          <span class="text-xs">&rarr;</span>
+        </a>
+
+        <!-- Târguri de Crăciun -->
+        <a 
+          href="/categorie/targuri-craciun/"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/25 hover:bg-emerald-500/35 backdrop-blur border border-emerald-300/40 text-xs sm:text-sm font-bold text-emerald-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
+          title="Târguri de Crăciun în Europa"
+        >
+          <span>🎄</span>
+          <span>Târguri Crăciun</span>
+          <span class="hidden lg:inline text-white font-normal">: Viena, Praga & Alsacia</span>
+          <span class="text-xs">&rarr;</span>
+        </a>
+
+        <!-- Revelion 2027 -->
+        <a 
+          href="/categorie/revelion/"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-purple-500/25 hover:bg-purple-500/35 backdrop-blur border border-purple-300/40 text-xs sm:text-sm font-bold text-purple-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
+          title="Revelion 2027 pe Cont Propriu"
+        >
+          <span>🎆</span>
+          <span>Revelion 2027</span>
+          <span class="hidden lg:inline text-white font-normal">: Istanbul & Atena</span>
+          <span class="text-xs">&rarr;</span>
+        </a>
+
+        <!-- Sezon Schi -->
+        <a 
+          href="/categorie/schi/"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-400/20 hover:bg-sky-400/30 backdrop-blur border border-sky-300/40 text-xs sm:text-sm font-bold text-sky-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
+        >
+          <span>🎿</span>
+          <span>Schi</span>
+          <span class="hidden md:inline text-white font-normal">: Bansko & Alpi</span>
+          <span class="text-xs">&rarr;</span>
+        </a>
+
+        <!-- Soare de Iarnă -->
+        <a 
+          href="/categorie/exotice/"
+          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-400/20 hover:bg-amber-400/30 backdrop-blur border border-amber-300/40 text-xs sm:text-sm font-bold text-amber-200 hover:text-white transition-all hover:scale-105 shadow-md shrink-0"
+        >
+          <span>🌴</span>
+          <span>Soare</span>
+          <span class="hidden md:inline text-white font-normal">: Tenerife & Dubai</span>
+          <span class="text-xs">&rarr;</span>
+        </a>
+      </div>
     </div>
 
     <h1 class="text-xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight mb-2 sm:mb-2.5">
@@ -107,23 +150,20 @@ import airports from '../../data/airports.json';
         <span class="text-slate-500 whitespace-nowrap text-[11px] uppercase tracking-wider font-black flex items-center gap-1">
           <span>🔥</span> Rapid:
         </span>
-        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-sm font-bold text-xs active:scale-95" data-budget="100">
-          💸 Sub 100 €
+        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-rose-50 hover:bg-rose-600 text-rose-700 hover:text-white transition-all whitespace-nowrap cursor-pointer border border-rose-200 hover:border-rose-600 shadow-xs font-bold text-xs active:scale-95" data-category="1 Decembrie">
+          🇷🇴 1 Decembrie
         </button>
-        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-sm font-bold text-xs active:scale-95" data-category="Schi">
-          🎿 Schi & Iarnă
-        </button>
-        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-sm font-bold text-xs active:scale-95" data-query="Tenerife">
-          🌴 Tenerife & Canare
-        </button>
-        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-sm font-bold text-xs active:scale-95" data-query="Roma">
-          🏛️ Roma
-        </button>
-        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-sm font-bold text-xs active:scale-95" data-query="Viena">
+        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white transition-all whitespace-nowrap cursor-pointer border border-emerald-200 hover:border-emerald-600 shadow-xs font-bold text-xs active:scale-95" data-category="Târguri de Crăciun">
           🎄 Târguri Crăciun
         </button>
-        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-sm font-bold text-xs active:scale-95" data-query="Londra">
-          🇬🇧 Londra
+        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-purple-50 hover:bg-purple-600 text-purple-700 hover:text-white transition-all whitespace-nowrap cursor-pointer border border-purple-200 hover:border-purple-600 shadow-xs font-bold text-xs active:scale-95" data-category="Revelion">
+          🎆 Revelion 2027
+        </button>
+        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-xs font-bold text-xs active:scale-95" data-category="Schi">
+          🎿 Schi & Iarnă
+        </button>
+        <button type="button" class="hero-chip px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-rose-600 hover:text-white text-slate-800 transition-all whitespace-nowrap cursor-pointer border border-slate-200 hover:border-rose-600 shadow-xs font-bold text-xs active:scale-95" data-budget="100">
+          💸 Sub 100 €
         </button>
       </div>
 
@@ -173,6 +213,9 @@ import airports from '../../data/airports.json';
             class="w-full bg-white border-2 border-slate-300 hover:border-slate-400 focus:border-rose-600 focus:ring-2 focus:ring-rose-500/20 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm font-bold text-slate-900 shadow-sm transition-all cursor-pointer"
           >
             <option value="all">Toate tipurile</option>
+            <option value="1 Decembrie">🇷🇴 Minivacanța 1 Decembrie (28 Nov – 1 Dec)</option>
+            <option value="Târguri de Crăciun">🎄 Târguri de Crăciun</option>
+            <option value="Revelion">🎆 Revelion 2027</option>
             <option value="City Break">City Break European</option>
             <option value="Schi">Vacanță la Schi</option>
             <option value="Exotic">Soare & Plajă (Iarnă/Primăvară)</option>

@@ -1,5 +1,749 @@
 [
   {
+    "id": "deal-revelion-bansko-2027",
+    "slug": "revelion-2027-schi-spa-bansko-bulgaria-185-euro",
+    "title": "Revelion 2027 la Schi & Spa în Bansko: 4 nopți la hotel 4★ cu Centru Spa & Mic Dejun (185 €)",
+    "destination": "Bansko (Pârtii & Spa, Bulgaria)",
+    "country": "Bulgaria",
+    "flag": "🇧🇬",
+    "originCity": "București",
+    "originCode": "AUTO",
+    "destinationCode": "BANSKO",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 185,
+    "discountPercent": 55,
+    "transportType": "car",
+    "publishedAt": "2026-11-08T20:24:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:24:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:24",
+    "description": "Trecerea dintre ani pe zăpadă în cea mai populară stațiune de schi din Balcani! Zile întregi pe pârtiile de la Todorka (2.600m), seri de relaxare în piscine termale și saune fierbinți, urmate de petrecerea tradițională de Anul Nou în mehana-urile din orașul vechi.",
+    "flight": {
+      "airline": "Transport propriu (cu mașina personală)",
+      "airlineCode": "CAR",
+      "route": "București ⇄ Giurgiu ⇄ Ruse ⇄ Sofia ⇄ Bansko (~520 km, autostradă în Bulgaria)",
+      "price": 0,
+      "baggageInfo": "Bagaj nelimitat în portbagajul propriu.",
+      "link": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "googleFlightsLink": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "skyscannerLink": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "momondoLink": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "kiwiLink": "https://www.google.com/maps/dir/Bucuresti/Bansko,+Bulgaria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Saint George Palace 4★ cu Spa Complet",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.7,
+      "reviewsCount": 1890,
+      "distance": "La marginea Parcului Național Pirin, transfer gratuit telegondolă",
+      "amenities": [
+        "Piscina mare interioară încălzită",
+        "Saună clasică & Baie de aburi",
+        "Mic dejun tip bufet inclus",
+        "Shuttle bus gratuit spre telegondolă"
+      ],
+      "priceTotal": 370,
+      "pricePerPerson": 185,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=443210&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Spa Inclus & Mic Dejun",
+        "name": "Saint George Palace 4★",
+        "rating": 8.7,
+        "priceTotal": 370,
+        "pricePerPerson": 185,
+        "type": "Hotel 4★ Spa",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=443210&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Lângă Telegondolă",
+        "name": "Grand Hotel Bansko 4★",
+        "rating": 8.8,
+        "priceTotal": 410,
+        "pricePerPerson": 205,
+        "type": "Hotel 4★",
+        "link": "https://www.booking.com/searchresults.html?ss=Bansko&checkin=2026-12-30&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 179,
+        "note": "4 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 195,
+        "note": "Weekend An Nou"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-atena-2027",
+    "slug": "revelion-2027-atena-artificii-acropole-din-bucuresti-198-euro",
+    "title": "Revelion 2027 la Atena: 4 nopți la hotel 4★ cu terasă pe acoperiș + Vedere la Acropole + Zbor (198 €)",
+    "destination": "Atena & Artificii la Acropole (Grecia)",
+    "country": "Grecia",
+    "flag": "🇬🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "ATH",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 198,
+    "discountPercent": 51,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:22:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:22:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:22",
+    "description": "Sărbătorește trecerea în 2027 sub cerul înstelat al Mediteranei! La miezul nopții, Acropolele și Partenonul sunt luminate de un spectacol grandios de artificii, în timp ce cartierul boem Plaka răsună de muzică grecească, taverne vesele și clinchet de pahare.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Atena Eleftherios Venizelos (ATH)",
+      "price": 79,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20ATH%20on%202026-12-30%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20ATH%20on%202026-12-30%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/ath/261230/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-ATH/2026-12-30/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/atena-grecia/2026-12-30/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "The Stanley Hotel 4★ cu Terasă Acoperiș",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.5,
+      "reviewsCount": 4600,
+      "distance": "Stația de metrou Metaxourghio chiar la ieșirea din hotel",
+      "amenities": [
+        "Rooftop Bar cu vedere la Acropole",
+        "Piscina panoramică exterioară",
+        "Două restaurante gourmet",
+        "Camere moderne izolate fonic"
+      ],
+      "priceTotal": 238,
+      "pricePerPerson": 119,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=11234&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Vedere Panoramică Acropole",
+        "name": "The Stanley Hotel 4★",
+        "rating": 8.5,
+        "priceTotal": 238,
+        "pricePerPerson": 119,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=11234&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Inima Cartierului Plaka",
+        "name": "Acropolis View Hotel 3★",
+        "rating": 8.7,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Hotel 3★",
+        "link": "https://www.booking.com/searchresults.html?ss=Athens&checkin=2026-12-30&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 189,
+        "note": "4 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 209,
+        "note": "Weekend Festiv"
+      }
+    ]
+  },
+  {
+    "id": "deal-revelion-istanbul-2027",
+    "slug": "revelion-2027-istanbul-croaziera-bosfor-din-bucuresti-229-euro",
+    "title": "Revelion 2027 la Istanbul: 4 nopți la hotel 4★ în Taksim + Artificii pe Bosfor + Zbor din București (229 €)",
+    "destination": "Istanbul & Focuri de Artificii pe Bosfor (Turcia)",
+    "country": "Turcia",
+    "flag": "🇹🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "IST",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🎆 Revelion 2027",
+    "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 229,
+    "discountPercent": 48,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:20:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:20:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:20",
+    "description": "Noaptea dintre ani între două continente! Admiră focurile uriașe de artificii de pe Podul Bosfor, savurează baklava proaspătă și ceai fierbinte pe malul mării la Ortaköy și bucură-te de atmosfera electrizantă de Revelion pe bulevardul pietonal Istiklal.",
+    "flight": {
+      "airline": "Wizz Air / Pegasus",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Istanbul Airport (IST / SAW)",
+      "price": 89,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20IST%20on%202026-12-30%20through%202027-01-03",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20IST%20on%202026-12-30%20through%202027-01-03",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/ista/261230/270103/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-IST/2026-12-30/2027-01-03",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/istanbul-turcia/2026-12-30/2027-01-03?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Occidental Taksim 4★",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.9,
+      "reviewsCount": 3100,
+      "distance": "150 metri de Piața Taksim și metrou",
+      "amenities": [
+        "Centru Spa cu Baie Turcească & Saună",
+        "Piscina interioară încălzită",
+        "Mic dejun bogat",
+        "Restaurant mediteranean"
+      ],
+      "priceTotal": 280,
+      "pricePerPerson": 140,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=234120&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Top Lux & Spa în Taksim",
+        "name": "Occidental Taksim 4★",
+        "rating": 8.9,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Hotel 4★ Spa",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=234120&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Vedere la Bosfor",
+        "name": "The Marmara Pera 4★",
+        "rating": 8.6,
+        "priceTotal": 310,
+        "pricePerPerson": 155,
+        "type": "Hotel 4★",
+        "link": "https://www.booking.com/searchresults.html?ss=Istanbul&checkin=2026-12-30&checkout=2027-01-03"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "priceTotal": 219,
+        "note": "4 nopți"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "priceTotal": 235,
+        "note": "Weekend An Nou"
+      }
+    ]
+  },
+  {
+    "id": "deal-targ-alsacia-cluj-2026",
+    "slug": "targ-craciun-alsacia-colmar-strasbourg-din-cluj-148-euro",
+    "title": "Capitala Mondială a Crăciunului: 3 nopți în Colmar & Alsacia + Zbor din Cluj-Napoca (148 €)",
+    "destination": "Colmar & Strasbourg (Alsacia, Franța)",
+    "country": "Franța",
+    "flag": "🇫🇷",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "BSL",
+    "dates": "5 – 8 Decembrie 2026",
+    "departureDate": "2026-12-05",
+    "returnDate": "2026-12-08",
+    "nights": 3,
+    "category": "Târguri de Crăciun",
+    "badge": "🎄 Târg de Crăciun",
+    "image": "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 148,
+    "discountPercent": 52,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:18:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:18:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:18",
+    "description": "Satul din basmele Fraților Grimm prins în viață! Căsuțe din turtă dulce cu bârne de lemn pictate, canalele din Mica Veneție (La Petite Venise) oglindind mii de ghirlande sclipitoare, vin cald alsacian și trenuleț spre Strasbourg, renumita Capitală a Crăciunului.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "Cluj-Napoca (CLJ) ⇄ Basel-Mulhouse (BSL)",
+      "price": 48,
+      "baggageInfo": "Rucsac gratuit inclus. Transfer facil cu trenul/autobuzul de 40 min până în centrul Colmar.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20CLJ%20to%20BSL%20on%202026-12-05%20through%202026-12-08",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20CLJ%20to%20BSL%20on%202026-12-05%20through%202026-12-08",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/clj/bsl/261205/261208/",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-BSL/2026-12-05/2026-12-08",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/cluj-napoca-romania/basel-elvetia/2026-12-05/2026-12-08?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Turenne 3★ în Mica Veneție Colmar",
+      "provider": "Agoda",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 1950,
+      "distance": "La intrarea în centrul vechi pietonal din Colmar",
+      "amenities": [
+        "Locație perfectă lângă Târg",
+        "Zonă de Spa & Saună",
+        "Bar tipic alsacian",
+        "WiFi rapid inclus"
+      ],
+      "priceTotal": 200,
+      "pricePerPerson": 100,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=45210&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Lângă Târgul de Crăciun",
+        "name": "Hotel Turenne 3★ Colmar",
+        "rating": 8.6,
+        "priceTotal": 200,
+        "pricePerPerson": 100,
+        "type": "Hotel 3★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=45210&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Centru Strasbourg",
+        "name": "Ibis Strasbourg Centre Historique 3★",
+        "rating": 8.3,
+        "priceTotal": 220,
+        "pricePerPerson": 110,
+        "type": "Hotel 3★",
+        "link": "https://www.booking.com/searchresults.html?ss=Colmar&checkin=2026-12-05&checkout=2026-12-08"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "12 – 15 Decembrie 2026",
+        "priceTotal": 156,
+        "note": "Weekend plin"
+      },
+      {
+        "dates": "28 Noiembrie – 1 Decembrie 2026",
+        "priceTotal": 162,
+        "note": "Minivacanță 1 Decembrie"
+      }
+    ]
+  },
+  {
+    "id": "deal-targ-praga-2026",
+    "slug": "targ-craciun-praga-orasul-vechi-din-bucuresti-125-euro",
+    "title": "Târgul de Crăciun la Praga: 3 nopți la hotel 4★ cu mic dejun + Zbor direct din București (125 €)",
+    "destination": "Praga & Piața Orașului Vechi (Cehia)",
+    "country": "Cehia",
+    "flag": "🇨🇿",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "PRG",
+    "dates": "4 – 7 Decembrie 2026",
+    "departureDate": "2026-12-04",
+    "returnDate": "2026-12-07",
+    "nights": 3,
+    "category": "Târguri de Crăciun",
+    "badge": "🎄 Târg de Crăciun",
+    "image": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 125,
+    "discountPercent": 56,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:16:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:16:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:16",
+    "description": "Unul dintre cele mai romantice și fotogenice târguri din Europa! Bradul uriaș luminat în fața Bisericii Maicii Domnului din Týn, miros de Trdelník cald cu vanilie și nucă, spectacolul Ceasului Astronomic și plimbări feerice pe Podul Carol sub ninsoare.",
+    "flight": {
+      "airline": "Wizz Air / HiSky",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Praga Václav Havel (PRG)",
+      "price": 46,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20PRG%20on%202026-12-04%20through%202026-12-07",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20PRG%20on%202026-12-04%20through%202026-12-07",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/prg/261204/261207/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-PRG/2026-12-04/2026-12-07",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/praga-cehia/2026-12-04/2026-12-07?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Golf Prague 4★ cu Mic Dejun",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.7,
+      "reviewsCount": 4200,
+      "distance": "Stație de tramvai direct spre Castelul Praga chiar în fața hotelului",
+      "amenities": [
+        "Mic dejun tip bufet inclus",
+        "Centru de relaxare & Fitness",
+        "Camere spațioase renovate",
+        "WiFi gratuit"
+      ],
+      "priceTotal": 158,
+      "pricePerPerson": 79,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=76512&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Mic Dejun Inclus",
+        "name": "Hotel Golf Prague 4★",
+        "rating": 8.7,
+        "priceTotal": 158,
+        "pricePerPerson": 79,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=76512&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Central Istoric",
+        "name": "Ibis Praha Old Town 3★",
+        "rating": 8.5,
+        "priceTotal": 180,
+        "pricePerPerson": 90,
+        "type": "Hotel 3★",
+        "link": "https://www.booking.com/searchresults.html?ss=Prague&checkin=2026-12-04&checkout=2026-12-07"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "11 – 14 Decembrie 2026",
+        "priceTotal": 129,
+        "note": "Mijloc de Decembrie"
+      },
+      {
+        "dates": "18 – 21 Decembrie 2026",
+        "priceTotal": 139,
+        "note": "Înainte de Crăciun"
+      }
+    ]
+  },
+  {
+    "id": "deal-1dec-roma-cluj-2026",
+    "slug": "minivacanta-1-decembrie-roma-din-cluj-129-euro",
+    "title": "Minivacanța de 1 Decembrie la Roma din Cluj-Napoca: 3 nopți la hotel 4★ + Zbor direct dus-întors (129 €)",
+    "destination": "Roma & Colosseum (Italia)",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "FCO",
+    "dates": "28 Noiembrie – 1 Decembrie 2026",
+    "departureDate": "2026-11-28",
+    "returnDate": "2026-12-01",
+    "nights": 3,
+    "category": "1 Decembrie",
+    "badge": "🇷🇴 Minivacanță 1 Decembrie",
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 129,
+    "discountPercent": 50,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:14:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:14:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:14",
+    "description": "Vreme blândă de 16-18°C la sfârșit de noiembrie în Cetatea Eternă! Vizitează Colosseumul, Fontana di Trevi și Muzeele Vaticanului fără arșița verii și fără cozile sufocante. Piazza Navona îmbracă deja decorul de sărbătoare cu artizani și dulciuri italiene.",
+    "flight": {
+      "airline": "Wizz Air",
+      "airlineCode": "W4",
+      "route": "Cluj-Napoca (CLJ) ⇄ Roma Fiumicino (FCO)",
+      "price": 44,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20CLJ%20to%20FCO%20on%202026-11-28%20through%202026-12-01",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20CLJ%20to%20FCO%20on%202026-11-28%20through%202026-12-01",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/clj/fco/261128/261201/",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-FCO/2026-11-28/2026-12-01",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/cluj-napoca-romania/roma-italia/2026-11-28/2026-12-01?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Pineta Palace Roma 4★",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.3,
+      "reviewsCount": 2180,
+      "distance": "Zonă rezidențială liniștită, legătură directă spre Vatican",
+      "amenities": [
+        "Restaurant clasic italian",
+        "Terasă panoramică",
+        "Mic dejun generos opțional",
+        "WiFi rapid inclus"
+      ],
+      "priceTotal": 170,
+      "pricePerPerson": 85,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=10892&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Raport Excelent Calitate/Preț",
+        "name": "Hotel Pineta Palace Roma 4★",
+        "rating": 8.3,
+        "priceTotal": 170,
+        "pricePerPerson": 85,
+        "type": "Hotel 4★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=10892&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Aproape de Gară",
+        "name": "Hotel Luce Roma 3★",
+        "rating": 8.2,
+        "priceTotal": 190,
+        "pricePerPerson": 95,
+        "type": "Hotel 3★",
+        "link": "https://www.booking.com/searchresults.html?ss=Rome&checkin=2026-11-28&checkout=2026-12-01"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "27 – 30 Noiembrie 2026",
+        "priceTotal": 139,
+        "note": "Plecare Vineri"
+      },
+      {
+        "dates": "5 – 8 Decembrie 2026",
+        "priceTotal": 125,
+        "note": "Weekend Decembrie"
+      }
+    ]
+  },
+  {
+    "id": "deal-1dec-budapesta-2026",
+    "slug": "minivacanta-1-decembrie-budapesta-targ-craciun-din-bucuresti-108-euro",
+    "title": "Minivacanța de 1 Decembrie la Budapesta: 3 nopți la hotel 4★ cu Spa Termal + Târgul de Crăciun la Bazilică + Zbor (108 €)",
+    "destination": "Budapesta & Târgul de la Bazilică (Ungaria)",
+    "country": "Ungaria",
+    "flag": "🇭🇺",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "BUD",
+    "dates": "28 Noiembrie – 1 Decembrie 2026",
+    "departureDate": "2026-11-28",
+    "returnDate": "2026-12-01",
+    "nights": 3,
+    "category": "1 Decembrie",
+    "badge": "🇷🇴 Minivacanță 1 Decembrie",
+    "image": "https://images.unsplash.com/photo-1541849546-216549ae216d?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 108,
+    "discountPercent": 58,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:12:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:12:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:12",
+    "description": "Petrece weekendul prelungit de 1 Decembrie în una dintre cele mai spectaculoase capitale balneare din lume! Proiecții laser de basm pe fațada Bazilicii Sf. Ștefan, cozonac secuiesc cald (Kürtőskalács), băi fierbinți în ape termale la Széchenyi și croazieră de seară pe Dunăre pe lângă Parlamentul luminat.",
+    "flight": {
+      "airline": "Wizz Air / Ryanair",
+      "airlineCode": "W4",
+      "route": "București Otopeni (OTP) ⇄ Budapesta Liszt Ferenc (BUD)",
+      "price": 38,
+      "baggageInfo": "Rucsac gratuit inclus.",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20BUD%20on%202026-11-28%20through%202026-12-01",
+      "directAirlineLink": "https://wizzair.com",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20BUD%20on%202026-11-28%20through%202026-12-01",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/bud/261128/261201/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BUD/2026-11-28/2026-12-01",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/budapesta-ungaria/2026-11-28/2026-12-01?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Danubius Hotel Helia 4★ cu Băi Termale",
+      "provider": "Agoda",
+      "stars": 4,
+      "rating": 8.8,
+      "reviewsCount": 3850,
+      "distance": "Pe malul Dunării, vis-a-vis de Insula Margareta",
+      "amenities": [
+        "Centru Spa cu bazine termale naturale",
+        "Saună finlandeză & Jacuzzi",
+        "Piscine interioare încălzite",
+        "Restaurant cu vedere la Dunăre"
+      ],
+      "priceTotal": 140,
+      "pricePerPerson": 70,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=115432&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Acces Spa Termal Inclus",
+        "name": "Danubius Hotel Helia 4★",
+        "rating": 8.8,
+        "priceTotal": 140,
+        "pricePerPerson": 70,
+        "type": "Hotel 4★ Spa",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=115432&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Ultra Central Vörösmarty",
+        "name": "Ibis Styles Budapest City 3★",
+        "rating": 8.4,
+        "priceTotal": 150,
+        "pricePerPerson": 75,
+        "type": "Hotel 3★",
+        "link": "https://www.booking.com/searchresults.html?ss=Budapest&checkin=2026-11-28&checkout=2026-12-01"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "27 – 30 Noiembrie 2026",
+        "priceTotal": 114,
+        "note": "Plecare Vineri"
+      },
+      {
+        "dates": "4 – 7 Decembrie 2026",
+        "priceTotal": 105,
+        "note": "Weekend Moș Nicolae"
+      }
+    ]
+  },
+  {
+    "id": "deal-1dec-viena-2026",
+    "slug": "minivacanta-1-decembrie-viena-targ-craciun-din-bucuresti-119-euro",
+    "title": "Minivacanța de 1 Decembrie la Viena: 3 nopți la hotel 3★ în Centru + Târgul de Crăciun din Rathausplatz + Zbor din București (119 €)",
+    "destination": "Viena & Târgul de Crăciun (Austria)",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "VIE",
+    "dates": "28 Noiembrie – 1 Decembrie 2026",
+    "departureDate": "2026-11-28",
+    "returnDate": "2026-12-01",
+    "nights": 3,
+    "category": "1 Decembrie",
+    "badge": "🇷🇴 Minivacanță 1 Decembrie",
+    "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 119,
+    "discountPercent": 54,
+    "transportType": "flight",
+    "publishedAt": "2026-11-08T20:10:00.000Z",
+    "featured": true,
+    "lastVerifiedAt": "2026-11-08T20:10:00.000Z",
+    "lastVerifiedFormatted": "Azi la 20:10",
+    "description": "Profită din plin de minivacanța de Sfântul Andrei și Ziua Națională (sâmbătă 28 noiembrie – marți 1 decembrie, 4 zile libere fără concediu suplimentar)! Viena deschide oficial sezonul de basm: cel mai spectaculos Târg de Crăciun din Europa în fața Primăriei (Rathausplatz), vin fiert cu scorțișoară, patinoar uriaș și luminițe imperiale pe Graben.",
+    "flight": {
+      "airline": "Ryanair / Wizz Air",
+      "airlineCode": "FR",
+      "route": "București Otopeni (OTP) ⇄ Viena Schwechat (VIE)",
+      "price": 42,
+      "baggageInfo": "Rucsac gratuit inclus (40x30x20 cm).",
+      "link": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20VIE%20on%202026-11-28%20through%202026-12-01",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=flights%20from%20OTP%20to%20VIE%20on%202026-11-28%20through%202026-12-01",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/flights/otp/vie/261128/261201/",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-VIE/2026-11-28/2026-12-01",
+      "kiwiLink": "https://www.kiwi.com/ro/search/results/bucuresti-romania/viena-austria/2026-11-28/2026-12-01?affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "MEININGER Hotel Wien Hauptbahnhof 3★",
+      "provider": "Agoda",
+      "stars": 3,
+      "rating": 8.7,
+      "reviewsCount": 2410,
+      "distance": "1.8 km de Centrul Istoric (stație de metrou la 2 minute)",
+      "amenities": [
+        "WiFi gratuit de mare viteză",
+        "Recepție 24/7",
+        "Bar & Lounge relaxant",
+        "Camere moderne izolate fonic"
+      ],
+      "priceTotal": 154,
+      "pricePerPerson": 77,
+      "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=287654&currency=EUR"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Recomandat Desk & Cupluri",
+        "name": "MEININGER Hotel Wien Hauptbahnhof 3★",
+        "rating": 8.7,
+        "priceTotal": 154,
+        "pricePerPerson": 77,
+        "type": "Hotel 3★",
+        "link": "https://www.agoda.com/partners/partnersearch.aspx?cid=1980047&hid=287654&currency=EUR"
+      },
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "Central lângă Metrou",
+        "name": "Ibis Wien Hauptbahnhof 3★",
+        "rating": 8.5,
+        "priceTotal": 170,
+        "pricePerPerson": 85,
+        "type": "Hotel 3★",
+        "link": "https://www.booking.com/searchresults.html?ss=Vienna&checkin=2026-11-28&checkout=2026-12-01"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "27 – 30 Noiembrie 2026",
+        "priceTotal": 124,
+        "note": "Plecare Vineri"
+      },
+      {
+        "dates": "29 Noiembrie – 2 Decembrie 2026",
+        "priceTotal": 115,
+        "note": "Plecare Duminică"
+      }
+    ]
+  },
+  {
     "id": "deal-021",
     "slug": "city-break-tirana-din-bucuresti-96-euro",
     "title": "City Break în Tirana & Muntele Dajti: 3 nopți la hotel verificat + Zbor direct",

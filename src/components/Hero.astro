@@ -68,17 +68,38 @@ import airports from '../../data/airports.json';
         </div>
       </div>
 
-      <!-- Search Input -->
-      <div class="relative flex items-center">
-        <span class="absolute left-4 pointer-events-none text-rose-600 text-lg sm:text-xl">
-          🔍
-        </span>
-        <input 
-          type="text" 
-          id="filter-search" 
-          placeholder="Caută destinație (ex: Roma, Bansko, Milano, Tenerife, Viena, Napoli...)" 
-          class="w-full bg-slate-50 hover:bg-white focus:bg-white border-2 border-slate-300 hover:border-slate-400 focus:border-rose-600 focus:ring-4 focus:ring-rose-500/20 rounded-2xl pl-12 pr-4 py-3 sm:py-3.5 text-sm sm:text-base font-bold text-slate-950 placeholder-slate-400 shadow-inner transition-all"
-        />
+      <!-- Search Input with Live Autocomplete -->
+      <div id="search-container" class="relative">
+        <div class="relative flex items-center">
+          <span class="absolute left-4 pointer-events-none text-rose-600 text-lg sm:text-xl">
+            🔍
+          </span>
+          <input 
+            type="text" 
+            id="filter-search" 
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="Caută destinație (ex: Roma, Bansko, Milano, Tenerife, Viena, Napoli...)" 
+            class="w-full bg-slate-50 hover:bg-white focus:bg-white border-2 border-slate-300 hover:border-slate-400 focus:border-rose-600 focus:ring-4 focus:ring-rose-500/20 rounded-2xl pl-12 pr-11 py-3 sm:py-3.5 text-sm sm:text-base font-bold text-slate-950 placeholder-slate-400 shadow-inner transition-all"
+          />
+          <!-- Clear search button -->
+          <button 
+            id="btn-clear-search" 
+            type="button" 
+            class="hidden absolute right-3 w-7 h-7 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-700 flex items-center justify-center text-xs font-bold transition-colors cursor-pointer"
+            aria-label="Șterge căutarea"
+            title="Șterge căutarea"
+          >
+            ✕
+          </button>
+        </div>
+
+        <!-- Autocomplete Suggestions Dropdown -->
+        <div 
+          id="search-autocomplete" 
+          class="hidden absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl shadow-2xl border-2 border-slate-200 overflow-hidden z-50 max-h-80 overflow-y-auto divide-y divide-slate-100"
+        >
+        </div>
       </div>
 
       <!-- Trending Quick Search Chips -->

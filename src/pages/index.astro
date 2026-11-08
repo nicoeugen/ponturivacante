@@ -21,6 +21,47 @@ deals.forEach(d => {
 
 const topOrigins = Object.entries(originCounts)
   .sort((a, b) => b[1] - a[1]);
+
+// Search index for autocomplete predictions
+const searchIndex: Array<{
+  term: string;
+  country: string;
+  flag: string;
+  category: string;
+  minPrice: number;
+  count: number;
+}> = [];
+
+const seenDestinations = new Set<string>();
+deals.forEach(d => {
+  const dest = (d.destination || '').split('(')[0].split('&')[0].trim();
+  const country = d.country || '';
+  const flag = d.flag || '✈️';
+  const category = d.category || '';
+  const price = d.priceTotalPerPerson || 0;
+  const key = `${dest}__${country}`;
+
+  if (!seenDestinations.has(key)) {
+    seenDestinations.add(key);
+    searchIndex.push({
+      term: dest,
+      country,
+      flag,
+      category,
+      minPrice: price,
+      count: 1
+    });
+  } else {
+    const existing = searchIndex.find(x => x.term === dest && x.country === country);
+    if (existing) {
+      existing.count += 1;
+      existing.minPrice = Math.min(existing.minPrice, price);
+    }
+  }
+});
+
+// Sort searchIndex by popularity
+searchIndex.sort((a, b) => b.count - a.count || a.minPrice - b.minPrice);
 ---
 
 <Layout title="Ponturi Vacanțe Ieftine din România — Zbor + Cazare">
@@ -146,9 +187,12 @@ const topOrigins = Object.entries(originCounts)
   <!-- Email Newsletter Subscription -->
   <Newsletter />
 
-  <!-- Client-side filter script -->
-  <script is:inline>
+  <!-- Client-side filter script with live predictions -->
+  <script is:inline define:vars={{ searchIndex }}>
     const filterSearch = document.getElementById('filter-search');
+    const searchContainer = document.getElementById('search-container');
+    const autocompleteBox = document.getElementById('search-autocomplete');
+    const btnClearSearch = document.getElementById('btn-clear-search');
     const filterOrigin = document.getElementById('filter-origin');
     const filterBudget = document.getElementById('filter-budget');
     const filterCategory = document.getElementById('filter-category');
@@ -371,9 +415,218 @@ const topOrigins = Object.entries(originCounts)
       });
     });
 
-    if (filterSearch) filterSearch.addEventListener('input', () => {
+    // --- 🔮 AUTOCOMPLETE PREDICTIE CĂUTARE ---
+    let selectedSuggestionIndex = -1;
+    let currentMatches = [];
+
+    function normalizeText(str) {
+      return (str || '')
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .trim();
+    }
+
+    function hideAutocomplete() {
+      if (autocompleteBox) {
+        autocompleteBox.classList.add('hidden');
+        autocompleteBox.innerHTML = '';
+      }
+      selectedSuggestionIndex = -1;
+      currentMatches = [];
+    }
+
+    function selectSuggestion(item) {
+      if (!filterSearch || !item) return;
+      filterSearch.value = item.term;
+      hideAutocomplete();
+      updateClearButton();
       visibleLimit = PAGE_SIZE;
       applyFilters();
+
+      const dealsGrid = document.getElementById('deals-grid');
+      if (dealsGrid) {
+        dealsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function highlightMatch(text, query) {
+      if (!query) return text;
+      const normText = normalizeText(text);
+      const normQuery = normalizeText(query);
+      const idx = normText.indexOf(normQuery);
+      if (idx === -1) return text;
+      const before = text.slice(0, idx);
+      const match = text.slice(idx, idx + query.length);
+      const after = text.slice(idx + query.length);
+      return `${before}<mark class="bg-rose-100 text-rose-700 font-black rounded px-0.5">${match}</mark>${after}`;
+    }
+
+    function renderAutocomplete(query) {
+      if (!autocompleteBox || !query || query.length < 1) {
+        hideAutocomplete();
+        return;
+      }
+
+      const q = normalizeText(query);
+
+      // Find matches in searchIndex
+      const matches = searchIndex.filter(item => {
+        const normTerm = normalizeText(item.term);
+        const normCountry = normalizeText(item.country);
+        const normCat = normalizeText(item.category);
+        return normTerm.includes(q) || normCountry.includes(q) || normCat.includes(q);
+      });
+
+      // Sort: starts with query first, then by popularity/price
+      matches.sort((a, b) => {
+        const aStarts = normalizeText(a.term).startsWith(q) || normalizeText(a.country).startsWith(q);
+        const bStarts = normalizeText(b.term).startsWith(q) || normalizeText(b.country).startsWith(q);
+        if (aStarts && !bStarts) return -1;
+        if (!aStarts && bStarts) return 1;
+        return (b.count - a.count) || (a.minPrice - b.minPrice);
+      });
+
+      currentMatches = matches.slice(0, 6); // Max 6 suggestions
+
+      if (currentMatches.length === 0) {
+        hideAutocomplete();
+        return;
+      }
+
+      selectedSuggestionIndex = -1;
+
+      let html = '<div class="px-3 py-1.5 bg-slate-50 text-[10px] font-black uppercase tracking-wider text-slate-400 flex items-center justify-between"><span>Destinații Sugerate</span><span>Apasă Enter sau Click</span></div>';
+
+      currentMatches.forEach((item, index) => {
+        const termHighlighted = highlightMatch(item.term, query);
+        const countryHighlighted = highlightMatch(item.country, query);
+
+        html += `
+          <button 
+            type="button" 
+            class="autocomplete-item w-full text-left px-3.5 py-2.5 hover:bg-rose-50/70 focus:bg-rose-50 flex items-center justify-between gap-3 transition-colors cursor-pointer group"
+            data-index="${index}"
+          >
+            <div class="flex items-center gap-2.5 min-w-0">
+              <span class="text-xl shrink-0">${item.flag}</span>
+              <div class="min-w-0 truncate">
+                <div class="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-rose-600 truncate">
+                  ${termHighlighted}
+                  <span class="text-slate-400 font-normal text-xs ml-1">(${countryHighlighted})</span>
+                </div>
+                <div class="text-[10px] text-slate-400 flex items-center gap-1.5">
+                  <span class="font-semibold text-slate-600">${item.category}</span>
+                  <span>&bull;</span>
+                  <span>${item.count} ${item.count === 1 ? 'ofertă verificată' : 'oferte verificate'}</span>
+                </div>
+              </div>
+            </div>
+            <div class="text-right shrink-0">
+              <span class="text-xs font-black text-rose-600 block">de la ${item.minPrice}&nbsp;€</span>
+              <span class="text-[10px] text-slate-400 font-medium">/ pers</span>
+            </div>
+          </button>
+        `;
+      });
+
+      autocompleteBox.innerHTML = html;
+      autocompleteBox.classList.remove('hidden');
+
+      // Bind click on items
+      const itemButtons = autocompleteBox.querySelectorAll('.autocomplete-item');
+      itemButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const idx = parseInt(btn.dataset.index, 10);
+          selectSuggestion(currentMatches[idx]);
+        });
+      });
+    }
+
+    function updateClearButton() {
+      if (!btnClearSearch || !filterSearch) return;
+      if (filterSearch.value.trim().length > 0) {
+        btnClearSearch.classList.remove('hidden');
+      } else {
+        btnClearSearch.classList.add('hidden');
+      }
+    }
+
+    if (filterSearch) {
+      filterSearch.addEventListener('input', () => {
+        visibleLimit = PAGE_SIZE;
+        updateClearButton();
+        applyFilters();
+        renderAutocomplete(filterSearch.value.trim());
+      });
+
+      filterSearch.addEventListener('focus', () => {
+        if (filterSearch.value.trim().length >= 1) {
+          renderAutocomplete(filterSearch.value.trim());
+        }
+      });
+
+      // Keyboard navigation in autocomplete
+      filterSearch.addEventListener('keydown', (e) => {
+        if (!autocompleteBox || autocompleteBox.classList.contains('hidden') || currentMatches.length === 0) {
+          return;
+        }
+
+        const items = autocompleteBox.querySelectorAll('.autocomplete-item');
+
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          selectedSuggestionIndex = (selectedSuggestionIndex + 1) % currentMatches.length;
+          items.forEach((it, idx) => {
+            if (idx === selectedSuggestionIndex) {
+              it.classList.add('bg-rose-50', 'ring-2', 'ring-rose-400');
+              it.scrollIntoView({ block: 'nearest' });
+            } else {
+              it.classList.remove('bg-rose-50', 'ring-2', 'ring-rose-400');
+            }
+          });
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          selectedSuggestionIndex = (selectedSuggestionIndex - 1 + currentMatches.length) % currentMatches.length;
+          items.forEach((it, idx) => {
+            if (idx === selectedSuggestionIndex) {
+              it.classList.add('bg-rose-50', 'ring-2', 'ring-rose-400');
+              it.scrollIntoView({ block: 'nearest' });
+            } else {
+              it.classList.remove('bg-rose-50', 'ring-2', 'ring-rose-400');
+            }
+          });
+        } else if (e.key === 'Enter') {
+          if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < currentMatches.length) {
+            e.preventDefault();
+            selectSuggestion(currentMatches[selectedSuggestionIndex]);
+          } else {
+            hideAutocomplete();
+          }
+        } else if (e.key === 'Escape') {
+          hideAutocomplete();
+        }
+      });
+    }
+
+    if (btnClearSearch) {
+      btnClearSearch.addEventListener('click', () => {
+        if (filterSearch) {
+          filterSearch.value = '';
+          filterSearch.focus();
+        }
+        updateClearButton();
+        hideAutocomplete();
+        visibleLimit = PAGE_SIZE;
+        applyFilters();
+      });
+    }
+
+    // Close autocomplete on click outside
+    document.addEventListener('click', (e) => {
+      if (searchContainer && !searchContainer.contains(e.target)) {
+        hideAutocomplete();
+      }
     });
     if (filterOrigin) {
       filterOrigin.addEventListener('change', () => {

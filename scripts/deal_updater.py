@@ -694,6 +694,102 @@ CANDIDATE_BLUEPRINTS = [
 
         "discountPercent": 52
 
+    },
+
+    {
+
+        "destCode": "PSR",
+
+        "destination": "Pescara & Coasta Adriatică",
+
+        "country": "Italia",
+
+        "flag": "🇮🇹",
+
+        "originCity": "București",
+
+        "originCode": "OTP",
+
+        "category": "City Break",
+
+        "badge": "🌊 Faleză & Fructe de Mare",
+
+        "nights": 3,
+
+        "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80",
+
+        "hotel": {
+
+            "name": "Hotel Plaza Pescara 4★",
+
+            "stars": 4,
+
+            "rating": 8.6,
+
+            "reviewsCount": 1950,
+
+            "distance": "În centrul orașului Pescara, la 300m de plajă și faleză",
+
+            "amenities": ["Wi-Fi gratuit", "Mic dejun inclus", "Locație centrală", "Camere elegante"],
+
+            "pricePerNightPerPerson": 24,
+
+            "searchQuery": "Pescara+Centro"
+
+        },
+
+        "description": "Evadare relaxantă pe riviera Adriaticii: promenadă lungă pe malul mării, restaurante pescărești autentice din regiunea Abruzzo și vinuri locale excelente.",
+
+        "discountPercent": 54
+
+    },
+
+    {
+
+        "destCode": "SUF",
+
+        "destination": "Lamezia & Coasta Calabriei",
+
+        "country": "Italia",
+
+        "flag": "🇮🇹",
+
+        "originCity": "București",
+
+        "originCode": "OTP",
+
+        "category": "City Break",
+
+        "badge": "🏖️ Italia Autentică & Tropea",
+
+        "nights": 3,
+
+        "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+
+        "hotel": {
+
+            "name": "Hotel Savant 4★",
+
+            "stars": 4,
+
+            "rating": 8.5,
+
+            "reviewsCount": 1600,
+
+            "distance": "În centrul orașului Lamezia Terme, acces ușor spre Tropea",
+
+            "amenities": ["Restaurant calabrez", "Mic dejun tip bufet", "Wi-Fi rapid", "Terasă panoramică"],
+
+            "pricePerNightPerPerson": 23,
+
+            "searchQuery": "Lamezia+Terme+Centro"
+
+        },
+
+        "description": "Descoperă sudul sălbatic și spectaculos al Italiei: faleze dramatice spre Marea Tireniană, bucătărie picantă calabreză și apropiere de celebra perlă marină Tropea.",
+
+        "discountPercent": 56
+
     }
 
 ]
@@ -878,7 +974,7 @@ def format_ro_dates(dep_dt, ret_dt):
 
         return f"{dep_dt.day} {RO_MONTHS[dep_dt.month]} – {ret_dt.day} {RO_MONTHS[ret_dt.month]} {ret_dt.year}"
 
-def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
+def discover_new_deals(existing_deals, ryanair_fares, max_new=5):
     """
     Identifică rute noi unde zborul este ultra-ieftin și construiește oferte complete
     ce nu există încă în data/deals.json.
@@ -1018,7 +1114,8 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
             'NAP': 'naples-it', 'MLA': 'malta-island-mt', 'PFO': 'paphos-cy',
             'CTA': 'catania-it', 'SKG': 'thessaloniki-gr', 'TIA': 'tirana-al',
             'GDN': 'gdansk-pl', 'TSF': 'venice-it', 'PSA': 'pisa-it',
-            'MAD': 'madrid-es', 'BVA': 'paris-fr', 'DUB': 'dublin-ie'
+            'MAD': 'madrid-es', 'BVA': 'paris-fr', 'DUB': 'dublin-ie',
+            'PSR': 'pescara-it', 'SUF': 'lamezia-terme-it'
         }
         city_slug = agoda_city_slugs.get(dest_code)
         if city_slug:
@@ -1253,7 +1350,7 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=1):
 
 # ==============================================================================
 
-def run_comprehensive_update(discover_mode=True, max_new_deals=1):
+def run_comprehensive_update(discover_mode=True, max_new_deals=5):
 
     print(f"\n==================================================================")
 
@@ -1495,5 +1592,5 @@ def run_comprehensive_update(discover_mode=True, max_new_deals=1):
 
 if __name__ == '__main__':
 
-    run_comprehensive_update(discover_mode=True, max_new_deals=1)
+    run_comprehensive_update(discover_mode=True, max_new_deals=5)
 

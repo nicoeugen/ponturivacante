@@ -15,3 +15,10 @@ node_modules/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+scripts/__pycache__/
+engine/__pycache__/

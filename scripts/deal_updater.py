@@ -946,68 +946,110 @@ CANDIDATE_BLUEPRINTS = [
 # ==============================================================================
 
 class RyanairProvider:
-
-    """Preia tarife live și datele exacte prin API-ul oficial Ryanair FarFinder."""
+    """Preia tarife live și datele exacte prin API-ul oficial Ryanair FarFinder (roundTripFares)."""
 
     @staticmethod
-
-    def get_lowest_fares(origin_iata="OTP"):
-
-        date_from = datetime.now().strftime('%Y-%m-%d')
-
-        date_to = (datetime.now() + timedelta(days=150)).strftime('%Y-%m-%d')
+    def get_route_roundtrip(origin_code, dest_code, min_duration=2, max_duration=5, max_price=220, date_from=None, date_to=None):
+        """
+        Interoghează API-ul oficial Ryanair roundTripFares pentru o rută specifică,
+        garantând zboruri reale pe ambele segmente (dus și întors) și preț exact total.
+        """
+        if not date_from:
+            date_from = (datetime.now() + timedelta(days=7)).strftime('%Y-%m-%d')
+        if not date_to:
+            date_to = (datetime.now() + timedelta(days=120)).strftime('%Y-%m-%d')
 
         url = (
-
-            f"https://services-api.ryanair.com/farfnd/v4/oneWayFares?"
-
-            f"departureAirportIataCode={origin_iata}&market=ro-ro&"
-
-            f"outboundDepartureDateFrom={date_from}&outboundDepartureDateTo={date_to}&priceValueTo=150"
-
+            f"https://services-api.ryanair.com/farfnd/v4/roundTripFares?"
+            f"departureAirportIataCode={origin_code}&arrivalAirportIataCode={dest_code}&market=ro-ro&"
+            f"outboundDepartureDateFrom={date_from}&outboundDepartureDateTo={date_to}&"
+            f"inboundDepartureDateFrom={date_from}&inboundDepartureDateTo={date_to}&"
+            f"durationFrom={min_duration}&durationTo={max_duration}&priceValueTo={max_price}"
         )
-
-        fares_by_dest = {}
-
         try:
-
             req = urllib.request.Request(url, headers=HEADERS)
-
             with urllib.request.urlopen(req, timeout=12, context=ctx) as r:
-
                 data = json.loads(r.read().decode('utf-8'))
-
-                for f in data.get('fares', []):
-
-                    out = f.get('outbound', {})
-
-                    arr_iata = out.get('arrivalAirport', {}).get('iataCode')
-
-                    price = out.get('price', {}).get('value')
-
-                    dep_date = out.get('departureDate')
-
-                    name = out.get('arrivalAirport', {}).get('name', arr_iata)
-
-                    if arr_iata and price is not None:
-
-                        if arr_iata not in fares_by_dest or price < fares_by_dest[arr_iata]['price']:
-
-                            fares_by_dest[arr_iata] = {
-
-                                'price': price,
-
-                                'depDate': dep_date,
-
-                                'airportName': name
-
-                            }
-
+                fares = data.get('fares', [])
+                if fares:
+                    f = fares[0]
+                    out = f['outbound']
+                    inb = f['inbound']
+                    summary = f['summary']
+                    
+                    dep_dt = datetime.strptime(out['departureDate'][:10], '%Y-%m-%d')
+                    ret_dt = datetime.strptime(inb['departureDate'][:10], '%Y-%m-%d')
+                    nights = summary.get('tripDurationDays') or (ret_dt - dep_dt).days
+                    
+                    p_out = out.get('price', {}).get('value', 0)
+                    p_in = inb.get('price', {}).get('value', 0)
+                    tot_flight = int(round(summary.get('price', {}).get('value', p_out + p_in)))
+                    
+                    return {
+                        'origin': origin_code,
+                        'dest': dest_code,
+                        'dep_dt': dep_dt,
+                        'ret_dt': ret_dt,
+                        'departure_date': dep_dt.strftime('%Y-%m-%d'),
+                        'return_date': ret_dt.strftime('%Y-%m-%d'),
+                        'nights': nights,
+                        'price_out': p_out,
+                        'price_in': p_in,
+                        'flight_price': tot_flight,
+                        'raw_total': summary.get('price', {}).get('value')
+                    }
         except Exception as e:
+            print(f"   ⚠️ [Ryanair API] Avertisment verificare rută {origin_code} -> {dest_code}: {e}")
+        return None
 
-            print(f"   ⚠️ [Ryanair API] Avertisment preluare tarife {origin_iata}: {e}")
+    @staticmethod
+    def get_lowest_roundtrip_fares(origin_iata="OTP", min_duration=2, max_duration=5, max_price=120):
+        """
+        Preia cele mai ieftine zboruri dus-întors cu durată între 2 și 5 nopți din aeroportul specificat.
+        Returnează un dicționar indexat după codul destinației IATA.
+        """
+        date_from = (datetime.now() + timedelta(days=7)).strftime('%Y-%m-%d')
+        date_to = (datetime.now() + timedelta(days=120)).strftime('%Y-%m-%d')
 
+        url = (
+            f"https://services-api.ryanair.com/farfnd/v4/roundTripFares?"
+            f"departureAirportIataCode={origin_iata}&market=ro-ro&"
+            f"outboundDepartureDateFrom={date_from}&outboundDepartureDateTo={date_to}&"
+            f"inboundDepartureDateFrom={date_from}&inboundDepartureDateTo={date_to}&"
+            f"durationFrom={min_duration}&durationTo={max_duration}&priceValueTo={max_price}"
+        )
+        fares_by_dest = {}
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=12, context=ctx) as r:
+                data = json.loads(r.read().decode('utf-8'))
+                for f in data.get('fares', []):
+                    out = f.get('outbound', {})
+                    inb = f.get('inbound', {})
+                    summary = f.get('summary', {})
+                    arr_iata = out.get('arrivalAirport', {}).get('iataCode')
+                    if arr_iata:
+                        dep_dt = datetime.strptime(out['departureDate'][:10], '%Y-%m-%d')
+                        ret_dt = datetime.strptime(inb['departureDate'][:10], '%Y-%m-%d')
+                        tot = summary.get('price', {}).get('value', 0)
+                        fares_by_dest[arr_iata] = {
+                            'dep_dt': dep_dt,
+                            'ret_dt': ret_dt,
+                            'departure_date': dep_dt.strftime('%Y-%m-%d'),
+                            'return_date': ret_dt.strftime('%Y-%m-%d'),
+                            'nights': summary.get('tripDurationDays', (ret_dt - dep_dt).days),
+                            'price_out': out.get('price', {}).get('value', 0),
+                            'price_in': inb.get('price', {}).get('value', 0),
+                            'flight_price': int(round(tot)),
+                            'raw_total': tot
+                        }
+        except Exception as e:
+            print(f"   ⚠️ [Ryanair API] Avertisment preluare tarife dus-întors {origin_iata}: {e}")
         return fares_by_dest
+
+    @staticmethod
+    def get_lowest_fares(origin_iata="OTP"):
+        return RyanairProvider.get_lowest_roundtrip_fares(origin_iata)
 
 class MultiAirlineProvider:
 
@@ -1119,12 +1161,12 @@ def format_ro_dates(dep_dt, ret_dt):
 
         return f"{dep_dt.day} {RO_MONTHS[dep_dt.month]} – {ret_dt.day} {RO_MONTHS[ret_dt.month]} {ret_dt.year}"
 
-def discover_new_deals(existing_deals, ryanair_fares, max_new=5):
+def discover_new_deals(existing_deals, ryanair_fares=None, max_new=5):
     """
-    Identifică rute noi unde zborul este ultra-ieftin și construiește oferte complete
-    ce nu există încă în data/deals.json.
+    Identifică rute noi unde există zboruri dus-întors reale ultra-ieftine și construiește oferte
+    complete (zbor confirmat pe ambele segmente + hotel verificat) ce nu există încă în data/deals.json.
     """
-    print("\n--- 🤖 MOTOR AUTONOM DE DESCOPERIRE OFERTE NOI ---")
+    print("\n--- 🤖 MOTOR AUTONOM DE DESCOPERIRE OFERTE NOI (ROUNDTRIP VERIFICAT) ---")
     
     # Colectează rutele (origine + destinație) deja existente
     existing_routes = set()
@@ -1140,118 +1182,54 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=5):
     new_deals_added = []
     
     for bp in CANDIDATE_BLUEPRINTS:
+        if len(new_deals_added) >= max_new:
+            break
+
         dest_code = bp['destCode']
         origin_code = bp.get('originCode', 'OTP').upper()
         
         # Verifică dacă ruta există deja
         if (origin_code, dest_code.upper()) in existing_routes:
             continue
-            
-        # Preluare tarife pe aeroportul de plecare
-        if isinstance(ryanair_fares, dict) and origin_code in ryanair_fares:
-            origin_fares = ryanair_fares[origin_code]
-        elif isinstance(ryanair_fares, dict) and 'OTP' in ryanair_fares:
-            origin_fares = ryanair_fares.get('OTP', {})
-        else:
-            origin_fares = ryanair_fares
-            
-        # Verifică dacă Ryanair are zbor live ieftin
-        fare_info = origin_fares.get(dest_code)
 
-        if not fare_info:
-
+        # Interoghează Ryanair pentru zbor dus-întors REAL confirmat
+        rt = RyanairProvider.get_route_roundtrip(origin_code, dest_code, min_duration=2, max_duration=5, max_price=160)
+        if not rt or rt['flight_price'] > 120:
             continue
-
             
-
-        one_way_price = fare_info['price']
-
-        dep_str = fare_info['depDate']
-
-        
-
-        # Prag de preț: doar zboruri sub 35€ pe segment (dus-întors sub 70€)
-
-        if one_way_price > 35:
-
-            continue
-
-            
-
-        try:
-
-            dep_dt = datetime.strptime(dep_str[:10], '%Y-%m-%d')
-
-        except Exception:
-
-            dep_dt = datetime.now() + timedelta(days=25)
-
-            
-
-        nights = bp['nights']
-
-        ret_dt = dep_dt + timedelta(days=nights)
-
-        
-
-        departure_date = dep_dt.strftime('%Y-%m-%d')
-
-        return_date = ret_dt.strftime('%Y-%m-%d')
-
+        dep_dt = rt['dep_dt']
+        ret_dt = rt['ret_dt']
+        nights = rt['nights']
+        departure_date = rt['departure_date']
+        return_date = rt['return_date']
         dates_formatted = format_ro_dates(dep_dt, ret_dt)
-
         
-
-        # Calculează prețurile
-
-        flight_roundtrip = int(round(one_way_price * 2))
-
+        # Calculează prețurile reale
+        flight_roundtrip = rt['flight_price']
         hotel_night_price = bp['hotel']['pricePerNightPerPerson']
-
         hotel_per_person = hotel_night_price * nights
-
         hotel_total = hotel_per_person * 2
-
         total_per_person = flight_roundtrip + hotel_per_person
-
         
-
         # Generare ID unic & Slug
-
         existing_ids = [int(re.findall(r'\d+', d.get('id', '0'))[-1]) for d in existing_deals if re.findall(r'\d+', d.get('id', '0'))]
-
         next_num = max(existing_ids, default=30) + 1 + len(new_deals_added)
-
         deal_id = f"deal-{next_num:03d}"
-
         
-
         slug_raw = f"{bp['category']} {bp['destination'].split('&')[0]} din {bp['originCity']} {total_per_person} euro"
-
         deal_slug = slugify(slug_raw)
-
         
-
         # Linkuri oficiale zboruri
-
         skyscanner_url = f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{dep_dt.strftime('%y%m%d')}/{ret_dt.strftime('%y%m%d')}/?adultsv2=2"
-
         momondo_url = f"https://www.momondo.ro/flight-search/{bp['originCode']}-{dest_code}/{departure_date}/{return_date}/2adults"
-
         google_flights = f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{departure_date}%20returning%20{return_date}&curr=EUR&hl=ro"
-
         kiwi_url = f"https://www.kiwi.com/deep?from={bp['originCode']}&to={dest_code}&departure={departure_date}&return={return_date}&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
-
         ryanair_url = f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={departure_date}&dateIn={return_date}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2"
 
         # Linkuri oficiale cazare
-
         if bp['hotel'].get('directSlug'):
-
             hotel_booking_url = f"{bp['hotel']['directSlug']}?checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
-
         else:
-
             hotel_booking_url = f"https://www.booking.com/searchresults.ro.html?ss={bp['hotel']['searchQuery']}&checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
 
         # Link oficial Agoda de oras verificat
@@ -1270,160 +1248,76 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=5):
         else:
             agoda_url = "https://www.agoda.com/ro-ro/?cid=1980047"
 
-        
-
-        # Generare 2 Perioade Alternative (+7 zile, +14 zile)
-
-        alt1_dep = dep_dt + timedelta(days=7)
-
-        alt1_ret = alt1_dep + timedelta(days=nights)
-
-        alt2_dep = dep_dt + timedelta(days=14)
-
-        alt2_ret = alt2_dep + timedelta(days=nights)
-
-        
-
-        alt_dates = [
-
-            {
-
-                "dates": format_ro_dates(alt1_dep, alt1_ret),
-
-                "price": total_per_person + 6,
-
-                "departureDate": alt1_dep.strftime('%Y-%m-%d'),
-
-                "returnDate": alt1_ret.strftime('%Y-%m-%d'),
-
-                "link": f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={alt1_dep.strftime('%Y-%m-%d')}&dateIn={alt1_ret.strftime('%Y-%m-%d')}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2",
-
-                "skyscannerLink": f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{alt1_dep.strftime('%y%m%d')}/{alt1_ret.strftime('%y%m%d')}/?adultsv2=2",
-
-                "googleFlightsLink": f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{alt1_dep.strftime('%Y-%m-%d')}%20returning%20{alt1_ret.strftime('%Y-%m-%d')}&curr=EUR&hl=ro"
-
-            },
-
-            {
-
-                "dates": format_ro_dates(alt2_dep, alt2_ret),
-
-                "price": total_per_person + 12,
-
-                "departureDate": alt2_dep.strftime('%Y-%m-%d'),
-
-                "returnDate": alt2_ret.strftime('%Y-%m-%d'),
-
-                "link": f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={alt2_dep.strftime('%Y-%m-%d')}&dateIn={alt2_ret.strftime('%Y-%m-%d')}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2",
-
-                "skyscannerLink": f"https://www.skyscanner.ro/transport/zboruri/{bp['originCode'].lower()}/{dest_code.lower()}/{alt2_dep.strftime('%y%m%d')}/{alt2_ret.strftime('%y%m%d')}/?adultsv2=2",
-
-                "googleFlightsLink": f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{bp['originCode']}%20to%20{dest_code}%20on%20{alt2_dep.strftime('%Y-%m-%d')}%20returning%20{alt2_ret.strftime('%Y-%m-%d')}&curr=EUR&hl=ro"
-
-            }
-
-        ]
-
-        
+        # Caută o a doua perioadă alternativă REALĂ confirmată
+        alt_from = (ret_dt + timedelta(days=7)).strftime('%Y-%m-%d')
+        alt_to = (ret_dt + timedelta(days=50)).strftime('%Y-%m-%d')
+        alt_rt = RyanairProvider.get_route_roundtrip(origin_code, dest_code, min_duration=2, max_duration=5, max_price=180, date_from=alt_from, date_to=alt_to)
+        alt_dates = []
+        if alt_rt:
+            alt_dep = alt_rt['dep_dt']
+            alt_ret = alt_rt['ret_dt']
+            alt_nights = alt_rt['nights']
+            alt_flight_p = alt_rt['flight_price']
+            alt_tot = alt_flight_p + (hotel_night_price * alt_nights)
+            alt_dates.append({
+                "dates": format_ro_dates(alt_dep, alt_ret),
+                "price": alt_tot,
+                "departureDate": alt_rt['departure_date'],
+                "returnDate": alt_rt['return_date'],
+                "link": f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={alt_rt['departure_date']}&dateIn={alt_rt['return_date']}&isConnectedFlight=false&isReturn=true&discount=0&originIata={origin_code}&destinationIata={dest_code}&tpAdults=2",
+                "skyscannerLink": f"https://www.skyscanner.ro/transport/zboruri/{origin_code.lower()}/{dest_code.lower()}/{alt_dep.strftime('%y%m%d')}/{alt_ret.strftime('%y%m%d')}/?adultsv2=2",
+                "googleFlightsLink": f"https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20{origin_code}%20to%20{dest_code}%20on%20{alt_rt['departure_date']}%20returning%20{alt_rt['return_date']}&curr=EUR&hl=ro"
+            })
 
         title = f"{bp['category']} în {bp['destination']}: {nights} nopți la hotel verificat + Zbor direct"
-
         now_iso = datetime.now(timezone.utc).isoformat()
-
         now_date_str = datetime.now().strftime("%d %B %Y, %H:%M")
-
         
-
         new_deal = {
-
             "id": deal_id,
-
             "slug": deal_slug,
-
             "title": title,
-
             "destination": bp["destination"],
-
             "country": bp["country"],
-
             "flag": bp["flag"],
-
             "originCity": bp["originCity"],
-
             "originCode": bp["originCode"],
-
             "destinationCode": dest_code,
-
             "dates": dates_formatted,
-
             "departureDate": departure_date,
-
             "returnDate": return_date,
-
             "nights": nights,
-
             "category": bp["category"],
-
             "badge": bp["badge"],
-
             "image": bp["image"],
-
             "priceTotalPerPerson": total_per_person,
-
             "discountPercent": bp.get("discountPercent", 55),
-
             "flight": {
-
                 "airline": "Ryanair",
-
                 "airlineCode": "FR",
-
                 "route": f"{bp['originCode']} – {dest_code} (Direct)",
-
                 "price": flight_roundtrip,
-
                 "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-
                 "link": ryanair_url,
-
                 "directAirlineLink": ryanair_url,
-
                 "googleFlightsLink": google_flights,
-
                 "skyscannerLink": skyscanner_url,
-
                 "momondoLink": momondo_url,
-
                 "kiwiLink": kiwi_url,
-
                 "isConnecting": False
-
             },
-
             "hotel": {
-
                 "name": bp["hotel"]["name"],
-
                 "provider": "Booking.com",
-
                 "stars": bp["hotel"]["stars"],
-
                 "rating": bp["hotel"]["rating"],
-
                 "reviewsCount": bp["hotel"]["reviewsCount"],
-
                 "distance": bp["hotel"]["distance"],
-
                 "amenities": bp["hotel"]["amenities"],
-
                 "priceTotal": hotel_total,
-
                 "pricePerPerson": hotel_per_person,
-
                 "link": hotel_booking_url
-
             },
-
             "accommodationOptions": [
                 {
                     "provider": "Booking.com",
@@ -1448,47 +1342,20 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=5):
                     "link": agoda_url
                 }
             ],
-
             "alternativeDates": alt_dates,
-
             "description": bp["description"],
-
             "featured": True,
-
             "publishedAt": now_iso,
-
             "transportType": "flight",
-
             "lastVerifiedAt": now_iso,
-
             "lastVerifiedFormatted": now_date_str
-
         }
-
         
-
         new_deals_added.append(new_deal)
+        existing_routes.add((origin_code, dest_code.upper()))
+        print(f"   ✨ OFERTĂ NOUĂ DESCOPERITĂ: {title} | {dates_formatted} | Zbor: {flight_roundtrip}€ + Cazare: {hotel_per_person}€ = {total_per_person}€")
 
-        print(f"  🎉 [OFERTĂ NOUĂ DESCOPERITĂ]: {title}")
-
-        print(f"     ✈️ Zbor: {flight_roundtrip} € ({bp['originCode']} -> {dest_code}) | 🏨 Cazare: {hotel_per_person} € | Total: {total_per_person} €/pers")
-
-        print(f"     🔗 Slug: /oferta/{deal_slug}/\n")
-
-        
-
-        if len(new_deals_added) >= max_new:
-
-            break
-
-            
-
-    if not new_deals_added:
-
-        print("   ℹ️ Toate destinațiile candidate sunt deja listate sau tarifele nu se încadrează în pragul de reducere.")
-
-        
-
+    print(f"--- SFÂRȘIT DESCOPERIRE: {len(new_deals_added)} oferte noi adăugate ---\n")
     return new_deals_added
 
 # ==============================================================================
@@ -1607,7 +1474,7 @@ def run_comprehensive_update(discover_mode=True, max_new_deals=5):
 
                     if target_iata and target_iata in fares_cache:
 
-                        live_price = int(round(fares_cache[target_iata]['price'] * 2))
+                        live_price = fares_cache[target_iata].get('flight_price', int(round(fares_cache[target_iata].get('price', 0) * 2)))
 
                         old_price = fl.get('price', 0)
 

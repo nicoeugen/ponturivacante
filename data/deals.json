@@ -1,35 +1,127 @@
 [
   {
+    "id": "deal-2041",
+    "slug": "city-break-manchester-din-bucuresti-179-euro",
+    "title": "City Break în Manchester & Liverpool: 4 nopți la hotel verificat + Zbor direct",
+    "destination": "Manchester & Liverpool",
+    "country": "Marea Britanie",
+    "flag": "🇬🇧",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "MAN",
+    "dates": "21 – 25 Ianuarie 2027",
+    "departureDate": "2027-01-21",
+    "returnDate": "2027-01-25",
+    "nights": 4,
+    "category": "City Break",
+    "badge": "⚽ Fotbal, Muzică & Beatles",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 179,
+    "discountPercent": 51,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – MAN (Direct)",
+      "price": 67,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAN&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAN&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAN%20on%202027-01-21%20returning%202027-01-25&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/man/270121/270125/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MAN/2027-01-21/2027-01-25/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MAN&departure=2027-01-21&return=2027-01-25&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Motel One Manchester-Piccadilly 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.8,
+      "reviewsCount": 3500,
+      "distance": "La 3 minute de gara Piccadilly, în inima orașului",
+      "amenities": [
+        "Design modern premiat",
+        "Bar One cu selecție gin",
+        "Wi-Fi gratuit",
+        "Recepție 24/7"
+      ],
+      "priceTotal": 224,
+      "pricePerPerson": 112,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Manchester+Piccadilly&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Motel One Manchester-Piccadilly 3★",
+        "rating": 8.8,
+        "priceTotal": 224,
+        "pricePerPerson": 112,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Manchester+Piccadilly&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Manchester & Liverpool",
+        "rating": 8.9,
+        "priceTotal": 224,
+        "pricePerPerson": 112,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/manchester-gb.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "4 – 6 Martie 2027",
+        "price": 123,
+        "departureDate": "2027-03-04",
+        "returnDate": "2027-03-06",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-04&dateIn=2027-03-06&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAN&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/man/270304/270306/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAN%20on%202027-03-04%20returning%202027-03-06&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Capitala muzicii britanice și a fotbalului mondial! Stadioanele Old Trafford și Etihad, cartierul boem Northern Quarter și tren direct de 30 de minute spre Liverpool și The Cavern Club.",
+    "featured": true,
+    "publishedAt": "2026-11-10T19:49:59.132844+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-10T19:49:59.132844+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
+  },
+  {
     "id": "deal-2036",
-    "slug": "city-break-berlin-din-bucuresti-124-euro",
-    "title": "City Break în Berlin & Poarta Brandenburg: 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-berlin-din-bucuresti-109-euro",
+    "title": "City Break în Berlin & Poarta Brandenburg: 2 nopți la hotel verificat + Zbor direct",
     "destination": "Berlin & Poarta Brandenburg",
     "country": "Germania",
     "flag": "🇩🇪",
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "BER",
-    "dates": "17 – 20 Decembrie 2026",
-    "departureDate": "2026-12-17",
-    "returnDate": "2026-12-20",
-    "nights": 3,
+    "dates": "23 – 25 Ianuarie 2027",
+    "departureDate": "2027-01-23",
+    "returnDate": "2027-01-25",
+    "nights": 2,
     "category": "City Break",
     "badge": "🏛️ Târguri & Muzee",
     "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 124,
+    "priceTotalPerPerson": 109,
     "discountPercent": 55,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – BER (Direct)",
-      "price": 40,
+      "price": 53,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-17&dateIn=2026-12-20&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-17&dateIn=2026-12-20&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BER%20on%202026-12-17%20returning%202026-12-20&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/ber/261217/261220/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BER/2026-12-17/2026-12-20/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BER&departure=2026-12-17&return=2026-12-20&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-23&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-23&dateIn=2027-01-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BER%20on%202027-01-23%20returning%202027-01-25&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/ber/270123/270125/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BER/2027-01-23/2027-01-25/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BER&departure=2027-01-23&return=2027-01-25&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -45,9 +137,9 @@
         "Locație ultra-centrală",
         "3 restaurante"
       ],
-      "priceTotal": 168,
-      "pricePerPerson": 84,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2026-12-17&checkout=2026-12-20&group_adults=2&no_rooms=1"
+      "priceTotal": 112,
+      "pricePerPerson": 56,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2027-01-23&checkout=2027-01-25&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -56,10 +148,10 @@
         "badge": "★ Recomandat (Direct la hotel)",
         "name": "Park Inn by Radisson Berlin Alexanderplatz 4★",
         "rating": 8.5,
-        "priceTotal": 168,
-        "pricePerPerson": 84,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2026-12-17&checkout=2026-12-20&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2027-01-23&checkout=2027-01-25&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -67,42 +159,33 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Berlin & Poarta Brandenburg",
         "rating": 8.6,
-        "priceTotal": 168,
-        "pricePerPerson": 84,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/berlin-de.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "24 – 27 Decembrie 2026",
-        "price": 130,
-        "departureDate": "2026-12-24",
-        "returnDate": "2026-12-27",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-24&dateIn=2026-12-27&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/ber/261224/261227/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BER%20on%202026-12-24%20returning%202026-12-27&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "31 Decembrie – 3 Ianuarie 2027",
-        "price": 136,
-        "departureDate": "2026-12-31",
-        "returnDate": "2027-01-03",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-31&dateIn=2027-01-03&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/ber/261231/270103/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BER%20on%202026-12-31%20returning%202027-01-03&curr=EUR&hl=ro"
+        "dates": "8 – 11 Februarie 2027",
+        "price": 143,
+        "departureDate": "2027-02-08",
+        "returnDate": "2027-02-11",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-08&dateIn=2027-02-11&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BER&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/ber/270208/270211/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BER%20on%202027-02-08%20returning%202027-02-11&curr=EUR&hl=ro"
       }
     ],
     "description": "Vibrant, istoric și cosmopolit! Poarta Brandenburg, Insula Muzeelor UNESCO, Zidul Berlinului și atmosfera festivă a târgurilor de iarnă germane la tarife de nerefuzat.",
     "featured": true,
     "publishedAt": "2026-11-10T17:52:22.945115+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:22.945115+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2037",
-    "slug": "city-break-edinburgh-din-bucuresti-139-euro",
+    "slug": "city-break-edinburgh-din-bucuresti-204-euro",
     "title": "City Break în Edinburgh & Castelele Scoției: 3 nopți la hotel verificat + Zbor direct",
     "destination": "Edinburgh & Castelele Scoției",
     "country": "Marea Britanie",
@@ -110,27 +193,27 @@
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "EDI",
-    "dates": "14 – 17 Decembrie 2026",
-    "departureDate": "2026-12-14",
-    "returnDate": "2026-12-17",
+    "dates": "18 – 21 Ianuarie 2027",
+    "departureDate": "2027-01-18",
+    "returnDate": "2027-01-21",
     "nights": 3,
     "category": "City Break",
     "badge": "🏰 Castele Medievale & Mister",
     "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 139,
+    "priceTotalPerPerson": 204,
     "discountPercent": 52,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – EDI (Direct)",
-      "price": 46,
+      "price": 111,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20EDI%20on%202026-12-14%20returning%202026-12-17&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/edi/261214/261217/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-EDI/2026-12-14/2026-12-17/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=EDI&departure=2026-12-14&return=2026-12-17&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-18&dateIn=2027-01-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-18&dateIn=2027-01-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20EDI%20on%202027-01-18%20returning%202027-01-21&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/edi/270118/270121/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-EDI/2027-01-18/2027-01-21/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=EDI&departure=2027-01-18&return=2027-01-21&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -148,7 +231,7 @@
       ],
       "priceTotal": 186,
       "pricePerPerson": 93,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2027-01-18&checkout=2027-01-21&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -160,7 +243,7 @@
         "priceTotal": 186,
         "pricePerPerson": 93,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2027-01-18&checkout=2027-01-21&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -176,62 +259,53 @@
     ],
     "alternativeDates": [
       {
-        "dates": "21 – 24 Decembrie 2026",
-        "price": 145,
-        "departureDate": "2026-12-21",
-        "returnDate": "2026-12-24",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-21&dateIn=2026-12-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/edi/261221/261224/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20EDI%20on%202026-12-21%20returning%202026-12-24&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "28 – 31 Decembrie 2026",
-        "price": 151,
-        "departureDate": "2026-12-28",
-        "returnDate": "2026-12-31",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-28&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/edi/261228/261231/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20EDI%20on%202026-12-28%20returning%202026-12-31&curr=EUR&hl=ro"
+        "dates": "8 – 11 Martie 2027",
+        "price": 225,
+        "departureDate": "2027-03-08",
+        "returnDate": "2027-03-11",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-08&dateIn=2027-03-11&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=EDI&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/edi/270308/270311/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20EDI%20on%202027-03-08%20returning%202027-03-11&curr=EUR&hl=ro"
       }
     ],
     "description": "Orașul de poveste al Scoției: Castelul Edinburgh cocoțat pe stâncă vulcanică, străduțele medievale din Royal Mile, pub-uri cu muzică celtică și degustări de single malt autentic.",
     "featured": true,
     "publishedAt": "2026-11-10T17:52:22.946030+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:22.946030+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2038",
-    "slug": "city-break-marseille-din-bucuresti-131-euro",
-    "title": "City Break în Marseille & Coasta Provence: 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-marseille-din-bucuresti-113-euro",
+    "title": "City Break în Marseille & Coasta Provence: 2 nopți la hotel verificat + Zbor direct",
     "destination": "Marseille & Coasta Provence",
     "country": "Franța",
     "flag": "🇫🇷",
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "MRS",
-    "dates": "21 – 24 Decembrie 2026",
-    "departureDate": "2026-12-21",
-    "returnDate": "2026-12-24",
-    "nights": 3,
+    "dates": "22 – 24 Ianuarie 2027",
+    "departureDate": "2027-01-22",
+    "returnDate": "2027-01-24",
+    "nights": 2,
     "category": "City Break",
     "badge": "⛵ Vieux-Port & Faleze Calanques",
     "image": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 131,
+    "priceTotalPerPerson": 113,
     "discountPercent": 54,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – MRS (Direct)",
-      "price": 44,
+      "price": 55,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-21&dateIn=2026-12-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-21&dateIn=2026-12-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MRS%20on%202026-12-21%20returning%202026-12-24&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mrs/261221/261224/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MRS/2026-12-21/2026-12-24/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MRS&departure=2026-12-21&return=2026-12-24&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-22&dateIn=2027-01-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-22&dateIn=2027-01-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MRS%20on%202027-01-22%20returning%202027-01-24&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mrs/270122/270124/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MRS/2027-01-22/2027-01-24/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MRS&departure=2027-01-22&return=2027-01-24&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -247,9 +321,9 @@
         "Restaurant mediteranean",
         "Wi-Fi gratuit"
       ],
-      "priceTotal": 174,
-      "pricePerPerson": 87,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2026-12-21&checkout=2026-12-24&group_adults=2&no_rooms=1"
+      "priceTotal": 116,
+      "pricePerPerson": 58,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -258,10 +332,10 @@
         "badge": "★ Recomandat (Direct la hotel)",
         "name": "Radisson Blu Hotel Marseille Vieux Port 4★",
         "rating": 8.6,
-        "priceTotal": 174,
-        "pricePerPerson": 87,
+        "priceTotal": 116,
+        "pricePerPerson": 58,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2026-12-21&checkout=2026-12-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -269,70 +343,61 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Marseille & Coasta Provence",
         "rating": 8.7,
-        "priceTotal": 174,
-        "pricePerPerson": 87,
+        "priceTotal": 116,
+        "pricePerPerson": 58,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/marseille-fr.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "28 – 31 Decembrie 2026",
-        "price": 137,
-        "departureDate": "2026-12-28",
-        "returnDate": "2026-12-31",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-28&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mrs/261228/261231/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MRS%20on%202026-12-28%20returning%202026-12-31&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "4 – 7 Ianuarie 2027",
-        "price": 143,
-        "departureDate": "2027-01-04",
-        "returnDate": "2027-01-07",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-04&dateIn=2027-01-07&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mrs/270104/270107/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MRS%20on%202027-01-04%20returning%202027-01-07&curr=EUR&hl=ro"
+        "dates": "31 Ianuarie – 5 Februarie 2027",
+        "price": 204,
+        "departureDate": "2027-01-31",
+        "returnDate": "2027-02-05",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-31&dateIn=2027-02-05&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MRS&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mrs/270131/270205/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MRS%20on%202027-01-31%20returning%202027-02-05&curr=EUR&hl=ro"
       }
     ],
     "description": "Cel mai însorit oraș al Franței! Plimbări la apus în Vieux-Port, bazilica Notre-Dame de la Garde, calanques spectaculoase cu ape turcoaz și gastronomie provensală autentică.",
     "featured": true,
     "publishedAt": "2026-11-10T17:52:22.946333+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:22.946333+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2039",
-    "slug": "city-break-bologna-din-bucuresti-115-euro",
-    "title": "City Break în Bologna & Turnurile Medievale: 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-bologna-din-bucuresti-96-euro",
+    "title": "City Break în Bologna & Turnurile Medievale: 2 nopți la hotel verificat + Zbor direct",
     "destination": "Bologna & Turnurile Medievale",
     "country": "Italia",
     "flag": "🇮🇹",
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "BLQ",
-    "dates": "20 – 23 Decembrie 2026",
-    "departureDate": "2026-12-20",
-    "returnDate": "2026-12-23",
-    "nights": 3,
+    "dates": "30 Ianuarie – 1 Februarie 2027",
+    "departureDate": "2027-01-30",
+    "returnDate": "2027-02-01",
+    "nights": 2,
     "category": "City Break",
     "badge": "🍝 Capitala Gastronomică a Italiei",
     "image": "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 115,
+    "priceTotalPerPerson": 96,
     "discountPercent": 56,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – BLQ (Direct)",
-      "price": 34,
+      "price": 42,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-20&dateIn=2026-12-23&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-20&dateIn=2026-12-23&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BLQ%20on%202026-12-20%20returning%202026-12-23&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/blq/261220/261223/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BLQ/2026-12-20/2026-12-23/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BLQ&departure=2026-12-20&return=2026-12-23&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-30&dateIn=2027-02-01&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-30&dateIn=2027-02-01&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BLQ%20on%202027-01-30%20returning%202027-02-01&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/blq/270130/270201/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BLQ/2027-01-30/2027-02-01/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BLQ&departure=2027-01-30&return=2027-02-01&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -348,21 +413,21 @@
         "Camere spațioase",
         "Wi-Fi rapid"
       ],
-      "priceTotal": 162,
-      "pricePerPerson": 81,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Stazione+Centrale&checkin=2026-12-20&checkout=2026-12-23&group_adults=2&no_rooms=1"
+      "priceTotal": 108,
+      "pricePerPerson": 54,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Centro&checkin=2027-01-30&checkout=2027-02-01&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "★ Recomandat (Direct la hotel)",
-        "name": "Starhotels Excelsior 4★ Bologna",
+        "name": "Hotel Internazionale Bologna 4★",
         "rating": 8.8,
-        "priceTotal": 162,
-        "pricePerPerson": 81,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Stazione+Centrale&checkin=2026-12-20&checkout=2026-12-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Centro&checkin=2027-01-30&checkout=2027-02-01&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -370,70 +435,61 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Bologna & Turnurile Medievale",
         "rating": 8.9,
-        "priceTotal": 162,
-        "pricePerPerson": 81,
+        "priceTotal": 108,
+        "pricePerPerson": 54,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/bologna-it.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "27 – 30 Decembrie 2026",
-        "price": 121,
-        "departureDate": "2026-12-27",
-        "returnDate": "2026-12-30",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-27&dateIn=2026-12-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/blq/261227/261230/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BLQ%20on%202026-12-27%20returning%202026-12-30&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "3 – 6 Ianuarie 2027",
-        "price": 127,
-        "departureDate": "2027-01-03",
-        "returnDate": "2027-01-06",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-03&dateIn=2027-01-06&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/blq/270103/270106/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BLQ%20on%202027-01-03%20returning%202027-01-06&curr=EUR&hl=ro"
+        "dates": "8 – 12 Februarie 2027",
+        "price": 153,
+        "departureDate": "2027-02-08",
+        "returnDate": "2027-02-12",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-08&dateIn=2027-02-12&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BLQ&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/blq/270208/270212/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BLQ%20on%202027-02-08%20returning%202027-02-12&curr=EUR&hl=ro"
       }
     ],
     "description": "Paradisul culinar al Italiei! Celebrele porticuri UNESCO, ragù alla bolognese autentic, cele două turnuri înclinate Asinelli și Garisenda și excursii ușoare spre Modena și Parma.",
     "featured": true,
     "publishedAt": "2026-11-10T17:52:22.946600+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:22.946600+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2040",
-    "slug": "city-break-bristol-din-bucuresti-131-euro",
-    "title": "City Break în Bristol & Băile Romane din Bath: 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-bristol-din-bucuresti-209-euro",
+    "title": "City Break în Bristol & Băile Romane din Bath: 5 nopți la hotel verificat + Zbor direct",
     "destination": "Bristol & Băile Romane din Bath",
     "country": "Marea Britanie",
     "flag": "🇬🇧",
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "BRS",
-    "dates": "17 – 20 Decembrie 2026",
-    "departureDate": "2026-12-17",
-    "returnDate": "2026-12-20",
-    "nights": 3,
+    "dates": "26 – 31 Decembrie 2026",
+    "departureDate": "2026-12-26",
+    "returnDate": "2026-12-31",
+    "nights": 5,
     "category": "City Break",
     "badge": "🌉 Podul Suspendat & Bath UNESCO",
     "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 131,
+    "priceTotalPerPerson": 209,
     "discountPercent": 50,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – BRS (Direct)",
-      "price": 44,
+      "price": 64,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-17&dateIn=2026-12-20&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-17&dateIn=2026-12-20&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BRS%20on%202026-12-17%20returning%202026-12-20&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/brs/261217/261220/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BRS/2026-12-17/2026-12-20/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BRS&departure=2026-12-17&return=2026-12-20&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-26&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-26&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BRS%20on%202026-12-26%20returning%202026-12-31&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/brs/261226/261231/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-BRS/2026-12-26/2026-12-31/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BRS&departure=2026-12-26&return=2026-12-31&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -449,9 +505,9 @@
         "Bar elegant",
         "Wi-Fi inclus"
       ],
-      "priceTotal": 174,
-      "pricePerPerson": 87,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-17&checkout=2026-12-20&group_adults=2&no_rooms=1"
+      "priceTotal": 290,
+      "pricePerPerson": 145,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -460,10 +516,10 @@
         "badge": "★ Recomandat (Direct la hotel)",
         "name": "Bristol Marriott Royal Hotel 4★",
         "rating": 8.7,
-        "priceTotal": 174,
-        "pricePerPerson": 87,
+        "priceTotal": 290,
+        "pricePerPerson": 145,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-17&checkout=2026-12-20&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -471,70 +527,61 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Bristol & Băile Romane din Bath",
         "rating": 8.8,
-        "priceTotal": 174,
-        "pricePerPerson": 87,
+        "priceTotal": 290,
+        "pricePerPerson": 145,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/bristol-gb.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "24 – 27 Decembrie 2026",
-        "price": 137,
-        "departureDate": "2026-12-24",
-        "returnDate": "2026-12-27",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-24&dateIn=2026-12-27&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/brs/261224/261227/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BRS%20on%202026-12-24%20returning%202026-12-27&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "31 Decembrie – 3 Ianuarie 2027",
-        "price": 143,
-        "departureDate": "2026-12-31",
-        "returnDate": "2027-01-03",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-31&dateIn=2027-01-03&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/brs/261231/270103/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BRS%20on%202026-12-31%20returning%202027-01-03&curr=EUR&hl=ro"
+        "dates": "4 – 7 Februarie 2027",
+        "price": 160,
+        "departureDate": "2027-02-04",
+        "returnDate": "2027-02-07",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-04&dateIn=2027-02-07&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BRS&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/brs/270204/270207/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BRS%20on%202027-02-04%20returning%202027-02-07&curr=EUR&hl=ro"
       }
     ],
     "description": "Arta stradală a lui Banksy, celebrul pod Clifton Suspension Bridge și o scurtă călătorie de 12 minute cu trenul spre superbul oraș regal Bath și băile sale romane antice.",
     "featured": true,
     "publishedAt": "2026-11-10T17:52:22.946833+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:22.946833+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2034",
-    "slug": "city-break-pescara-din-bucuresti-106-euro",
-    "title": "City Break în Pescara & Coasta Adriatică: 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-pescara-din-bucuresti-85-euro",
+    "title": "City Break în Pescara & Coasta Adriatică: 2 nopți la hotel verificat + Zbor direct",
     "destination": "Pescara & Coasta Adriatică",
     "country": "Italia",
     "flag": "🇮🇹",
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "PSR",
-    "dates": "14 – 17 Decembrie 2026",
-    "departureDate": "2026-12-14",
-    "returnDate": "2026-12-17",
-    "nights": 3,
+    "dates": "6 – 8 Februarie 2027",
+    "departureDate": "2027-02-06",
+    "returnDate": "2027-02-08",
+    "nights": 2,
     "category": "City Break",
     "badge": "🌊 Faleză & Fructe de Mare",
     "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 106,
+    "priceTotalPerPerson": 85,
     "discountPercent": 54,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – PSR (Direct)",
-      "price": 34,
+      "price": 37,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-14&dateIn=2026-12-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PSR%20on%202026-12-14%20returning%202026-12-17&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/psr/261214/261217/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-PSR/2026-12-14/2026-12-17/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=PSR&departure=2026-12-14&return=2026-12-17&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-06&dateIn=2027-02-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-06&dateIn=2027-02-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PSR%20on%202027-02-06%20returning%202027-02-08&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/psr/270206/270208/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-PSR/2027-02-06/2027-02-08/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=PSR&departure=2027-02-06&return=2027-02-08&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -550,21 +597,21 @@
         "Locație centrală",
         "Camere elegante"
       ],
-      "priceTotal": 144,
-      "pricePerPerson": 72,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+      "priceTotal": 96,
+      "pricePerPerson": 48,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2027-02-06&checkout=2027-02-08&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "★ Recomandat (Direct la hotel)",
-        "name": "Hotel Plaza Pescara 4★",
+        "name": "Hotel Regent Pescara 3★",
         "rating": 8.6,
-        "priceTotal": 144,
-        "pricePerPerson": 72,
+        "priceTotal": 96,
+        "pricePerPerson": 48,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2027-02-06&checkout=2027-02-08&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -572,42 +619,33 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Pescara & Coasta Adriatică",
         "rating": 8.7,
-        "priceTotal": 144,
-        "pricePerPerson": 72,
+        "priceTotal": 96,
+        "pricePerPerson": 48,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/pescara-it.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "21 – 24 Decembrie 2026",
-        "price": 112,
-        "departureDate": "2026-12-21",
-        "returnDate": "2026-12-24",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-21&dateIn=2026-12-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/psr/261221/261224/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PSR%20on%202026-12-21%20returning%202026-12-24&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "28 – 31 Decembrie 2026",
-        "price": 118,
-        "departureDate": "2026-12-28",
-        "returnDate": "2026-12-31",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-28&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/psr/261228/261231/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PSR%20on%202026-12-28%20returning%202026-12-31&curr=EUR&hl=ro"
+        "dates": "20 – 22 Martie 2027",
+        "price": 98,
+        "departureDate": "2027-03-20",
+        "returnDate": "2027-03-22",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-20&dateIn=2027-03-22&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PSR&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/psr/270320/270322/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PSR%20on%202027-03-20%20returning%202027-03-22&curr=EUR&hl=ro"
       }
     ],
     "description": "Evadare relaxantă pe riviera Adriaticii: promenadă lungă pe malul mării, restaurante pescărești autentice din regiunea Abruzzo și vinuri locale excelente.",
     "featured": true,
     "publishedAt": "2026-11-10T02:17:07.189642+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2035",
-    "slug": "city-break-lamezia-din-bucuresti-99-euro",
+    "slug": "city-break-lamezia-din-bucuresti-109-euro",
     "title": "City Break în Lamezia & Coasta Calabriei: 3 nopți la hotel verificat + Zbor direct",
     "destination": "Lamezia & Coasta Calabriei",
     "country": "Italia",
@@ -615,27 +653,27 @@
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "SUF",
-    "dates": "22 – 25 Decembrie 2026",
-    "departureDate": "2026-12-22",
-    "returnDate": "2026-12-25",
+    "dates": "21 – 24 Ianuarie 2027",
+    "departureDate": "2027-01-21",
+    "returnDate": "2027-01-24",
     "nights": 3,
     "category": "City Break",
     "badge": "🏖️ Italia Autentică & Tropea",
     "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 99,
+    "priceTotalPerPerson": 109,
     "discountPercent": 56,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – SUF (Direct)",
-      "price": 30,
+      "price": 40,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-22&dateIn=2026-12-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-22&dateIn=2026-12-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SUF%20on%202026-12-22%20returning%202026-12-25&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/suf/261222/261225/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-SUF/2026-12-22/2026-12-25/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=SUF&departure=2026-12-22&return=2026-12-25&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-21&dateIn=2027-01-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SUF%20on%202027-01-21%20returning%202027-01-24&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/suf/270121/270124/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-SUF/2027-01-21/2027-01-24/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=SUF&departure=2027-01-21&return=2027-01-24&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -653,19 +691,19 @@
       ],
       "priceTotal": 138,
       "pricePerPerson": 69,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme+Centro&checkin=2026-12-22&checkout=2026-12-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme&checkin=2027-01-21&checkout=2027-01-24&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "★ Recomandat (Direct la hotel)",
-        "name": "Hotel Savant 4★",
+        "name": "Grand Hotel Lamezia 4★",
         "rating": 8.5,
         "priceTotal": 138,
         "pricePerPerson": 69,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme+Centro&checkin=2026-12-22&checkout=2026-12-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme&checkin=2027-01-21&checkout=2027-01-24&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -681,30 +719,21 @@
     ],
     "alternativeDates": [
       {
-        "dates": "29 Decembrie – 1 Ianuarie 2027",
-        "price": 105,
-        "departureDate": "2026-12-29",
-        "returnDate": "2027-01-01",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-29&dateIn=2027-01-01&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/suf/261229/270101/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SUF%20on%202026-12-29%20returning%202027-01-01&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "5 – 8 Ianuarie 2027",
-        "price": 111,
-        "departureDate": "2027-01-05",
-        "returnDate": "2027-01-08",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-05&dateIn=2027-01-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/suf/270105/270108/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SUF%20on%202027-01-05%20returning%202027-01-08&curr=EUR&hl=ro"
+        "dates": "31 Ianuarie – 4 Februarie 2027",
+        "price": 144,
+        "departureDate": "2027-01-31",
+        "returnDate": "2027-02-04",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-31&dateIn=2027-02-04&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=SUF&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/suf/270131/270204/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SUF%20on%202027-01-31%20returning%202027-02-04&curr=EUR&hl=ro"
       }
     ],
     "description": "Descoperă sudul sălbatic și spectaculos al Italiei: faleze dramatice spre Marea Tireniană, bucătărie picantă calabreză și apropiere de celebra perlă marină Tropea.",
     "featured": true,
     "publishedAt": "2026-11-10T02:17:07.189918+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2029",
@@ -804,40 +833,40 @@
     "featured": true,
     "publishedAt": "2026-11-09T17:48:58.192472+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2030",
-    "slug": "city-break-madrid-din-bucuresti-152-euro",
-    "title": "City Break în Madrid & Palatul Regal: 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-madrid-din-bucuresti-226-euro",
+    "title": "City Break în Madrid & Palatul Regal: 5 nopți la hotel verificat + Zbor direct",
     "destination": "Madrid & Palatul Regal",
     "country": "Spania",
     "flag": "🇪🇸",
     "originCity": "București",
     "originCode": "OTP",
     "destinationCode": "MAD",
-    "dates": "2 – 5 Decembrie 2026",
-    "departureDate": "2026-12-02",
-    "returnDate": "2026-12-05",
-    "nights": 3,
+    "dates": "4 – 9 Februarie 2027",
+    "departureDate": "2027-02-04",
+    "returnDate": "2027-02-09",
+    "nights": 5,
     "category": "City Break",
     "badge": "🇪🇸 Tapas & Cultură",
     "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 152,
+    "priceTotalPerPerson": 226,
     "discountPercent": 50,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – MAD (Direct)",
-      "price": 50,
+      "price": 56,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-02&dateIn=2026-12-05&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-02&dateIn=2026-12-05&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAD%20on%202026-12-02%20returning%202026-12-05&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mad/261202/261205/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MAD/2026-12-02/2026-12-05/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MAD&departure=2026-12-02&return=2026-12-05&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-04&dateIn=2027-02-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-04&dateIn=2027-02-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAD%20on%202027-02-04%20returning%202027-02-09&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mad/270204/270209/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MAD/2027-02-04/2027-02-09/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MAD&departure=2027-02-04&return=2027-02-09&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -853,9 +882,9 @@
         "Design modern",
         "Wi-Fi rapid"
       ],
-      "priceTotal": 204,
-      "pricePerPerson": 102,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2026-12-02&checkout=2026-12-05&group_adults=2&no_rooms=1"
+      "priceTotal": 340,
+      "pricePerPerson": 170,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
@@ -864,10 +893,10 @@
         "badge": "★ Recomandat (Direct la hotel)",
         "name": "Hotel Regina Madrid 4★",
         "rating": 8.9,
-        "priceTotal": 204,
-        "pricePerPerson": 102,
+        "priceTotal": 340,
+        "pricePerPerson": 170,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2026-12-02&checkout=2026-12-05&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -875,57 +904,48 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Madrid & Palatul Regal",
         "rating": 9.0,
-        "priceTotal": 204,
-        "pricePerPerson": 102,
+        "priceTotal": 340,
+        "pricePerPerson": 170,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/madrid-es.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "9 – 12 Decembrie 2026",
-        "price": 158,
-        "departureDate": "2026-12-09",
-        "returnDate": "2026-12-12",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-09&dateIn=2026-12-12&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mad/261209/261212/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAD%20on%202026-12-09%20returning%202026-12-12&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "16 – 19 Decembrie 2026",
-        "price": 164,
-        "departureDate": "2026-12-16",
-        "returnDate": "2026-12-19",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-16&dateIn=2026-12-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mad/261216/261219/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAD%20on%202026-12-16%20returning%202026-12-19&curr=EUR&hl=ro"
+        "dates": "10 – 13 Martie 2027",
+        "price": 180,
+        "departureDate": "2027-03-10",
+        "returnDate": "2027-03-13",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-10&dateIn=2027-03-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MAD&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mad/270310/270313/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MAD%20on%202027-03-10%20returning%202027-03-13&curr=EUR&hl=ro"
       }
     ],
     "description": "Vibrație spaniolă pură, parcul El Retiro, arta de la Muzeul Prado și restaurante autentice de tapas deschise până târziu în noapte.",
     "featured": true,
     "publishedAt": "2026-11-09T17:48:58.193991+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2031",
-    "slug": "city-break-paris-din-cluj-napoca-121-euro",
-    "title": "City Break în Paris & Turnul Eiffel (din Cluj): 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-paris-din-cluj-napoca-175-euro",
+    "title": "City Break în Paris & Turnul Eiffel (din Cluj): 5 nopți la hotel verificat + Zbor direct",
     "destination": "Paris & Turnul Eiffel (din Cluj)",
     "country": "Franța",
     "flag": "🇫🇷",
     "originCity": "Cluj-Napoca",
     "originCode": "CLJ",
     "destinationCode": "BVA",
-    "dates": "16 – 19 Ianuarie 2027",
+    "dates": "16 – 21 Ianuarie 2027",
     "departureDate": "2027-01-16",
-    "returnDate": "2027-01-19",
-    "nights": 3,
+    "returnDate": "2027-01-21",
+    "nights": 5,
     "category": "City Break",
     "badge": "🗼 Romantic & Cultură",
     "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 121,
+    "priceTotalPerPerson": 175,
     "discountPercent": 52,
     "flight": {
       "airline": "Ryanair",
@@ -933,12 +953,12 @@
       "route": "CLJ – BVA (Direct)",
       "price": 40,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BVA%20on%202027-01-16%20returning%202027-01-19&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bva/270116/270119/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-BVA/2027-01-16/2027-01-19/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=BVA&departure=2027-01-16&return=2027-01-19&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BVA%20on%202027-01-16%20returning%202027-01-21&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bva/270116/270121/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-BVA/2027-01-16/2027-01-21/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=BVA&departure=2027-01-16&return=2027-01-21&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -954,21 +974,21 @@
         "Bar modern",
         "Aer condiționat"
       ],
-      "priceTotal": 162,
-      "pricePerPerson": 81,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Montmartre&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      "priceTotal": 270,
+      "pricePerPerson": 135,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Centre&checkin=2027-01-16&checkout=2027-01-21&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "★ Recomandat (Direct la hotel)",
-        "name": "Ibis Paris Montmartre 3★",
+        "name": "Ibis Paris Tour Eiffel Cambronne 3★",
         "rating": 8.5,
-        "priceTotal": 162,
-        "pricePerPerson": 81,
+        "priceTotal": 270,
+        "pricePerPerson": 135,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Montmartre&checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Centre&checkin=2027-01-16&checkout=2027-01-21&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -976,70 +996,61 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Paris & Turnul Eiffel (din Cluj)",
         "rating": 8.6,
-        "priceTotal": 162,
-        "pricePerPerson": 81,
+        "priceTotal": 270,
+        "pricePerPerson": 135,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/paris-fr.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "23 – 26 Ianuarie 2027",
-        "price": 127,
-        "departureDate": "2027-01-23",
-        "returnDate": "2027-01-26",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-23&dateIn=2027-01-26&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bva/270123/270126/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BVA%20on%202027-01-23%20returning%202027-01-26&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "30 Ianuarie – 2 Februarie 2027",
-        "price": 133,
-        "departureDate": "2027-01-30",
+        "dates": "28 Ianuarie – 2 Februarie 2027",
+        "price": 179,
+        "departureDate": "2027-01-28",
         "returnDate": "2027-02-02",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-30&dateIn=2027-02-02&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bva/270130/270202/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BVA%20on%202027-01-30%20returning%202027-02-02&curr=EUR&hl=ro"
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-28&dateIn=2027-02-02&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BVA&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bva/270128/270202/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BVA%20on%202027-01-28%20returning%202027-02-02&curr=EUR&hl=ro"
       }
     ],
     "description": "Zbor direct din inima Transilvaniei spre Paris! Turnul Eiffel, Muzeul Luvru și croasant cald pe străduțele boeme din Montmartre.",
     "featured": true,
     "publishedAt": "2026-11-09T17:48:58.194787+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2032",
-    "slug": "city-break-dublin-din-cluj-napoca-116-euro",
-    "title": "City Break în Dublin & Temple Bar (din Cluj): 3 nopți la hotel verificat + Zbor direct",
+    "slug": "city-break-dublin-din-cluj-napoca-124-euro",
+    "title": "City Break în Dublin & Temple Bar (din Cluj): 2 nopți la hotel verificat + Zbor direct",
     "destination": "Dublin & Temple Bar (din Cluj)",
     "country": "Irlanda",
     "flag": "🇮🇪",
     "originCity": "Cluj-Napoca",
     "originCode": "CLJ",
     "destinationCode": "DUB",
-    "dates": "10 – 13 Decembrie 2026",
-    "departureDate": "2026-12-10",
-    "returnDate": "2026-12-13",
-    "nights": 3,
+    "dates": "4 – 6 Martie 2027",
+    "departureDate": "2027-03-04",
+    "returnDate": "2027-03-06",
+    "nights": 2,
     "category": "City Break",
     "badge": "🍀 Pub-uri & Muzică Live",
     "image": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 116,
+    "priceTotalPerPerson": 124,
     "discountPercent": 50,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "CLJ – DUB (Direct)",
-      "price": 32,
+      "price": 68,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-10&dateIn=2026-12-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
-      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-10&dateIn=2026-12-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
-      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20DUB%20on%202026-12-10%20returning%202026-12-13&curr=EUR&hl=ro",
-      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/dub/261210/261213/?adultsv2=2",
-      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-DUB/2026-12-10/2026-12-13/2adults",
-      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=DUB&departure=2026-12-10&return=2026-12-13&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-04&dateIn=2027-03-06&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-04&dateIn=2027-03-06&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20DUB%20on%202027-03-04%20returning%202027-03-06&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/dub/270304/270306/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-DUB/2027-03-04/2027-03-06/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=DUB&departure=2027-03-04&return=2027-03-06&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
       "isConnecting": false
     },
     "hotel": {
@@ -1055,21 +1066,21 @@
         "Lounge",
         "Recepție 24/7"
       ],
-      "priceTotal": 168,
-      "pricePerPerson": 84,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+Parnell&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+      "priceTotal": 112,
+      "pricePerPerson": 56,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-04&checkout=2027-03-06&group_adults=2&no_rooms=1"
     },
     "accommodationOptions": [
       {
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "★ Recomandat (Direct la hotel)",
-        "name": "Point A Hotel Dublin 3★",
+        "name": "Maldron Hotel Parnell Square 4★",
         "rating": 8.7,
-        "priceTotal": 168,
-        "pricePerPerson": 84,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+Parnell&checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-04&checkout=2027-03-06&group_adults=2&no_rooms=1"
       },
       {
         "provider": "Agoda",
@@ -1077,42 +1088,33 @@
         "badge": "Alternativă Agoda (Partener Oficial)",
         "name": "Alte opțiuni & tarife în Dublin & Temple Bar (din Cluj)",
         "rating": 8.8,
-        "priceTotal": 168,
-        "pricePerPerson": 84,
+        "priceTotal": 112,
+        "pricePerPerson": 56,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
         "link": "https://www.agoda.com/ro-ro/city/dublin-ie.html?cid=1980047"
       }
     ],
     "alternativeDates": [
       {
-        "dates": "17 – 20 Decembrie 2026",
-        "price": 122,
-        "departureDate": "2026-12-17",
-        "returnDate": "2026-12-20",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-17&dateIn=2026-12-20&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/dub/261217/261220/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20DUB%20on%202026-12-17%20returning%202026-12-20&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "24 – 27 Decembrie 2026",
-        "price": 128,
-        "departureDate": "2026-12-24",
-        "returnDate": "2026-12-27",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-24&dateIn=2026-12-27&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/dub/261224/261227/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20DUB%20on%202026-12-24%20returning%202026-12-27&curr=EUR&hl=ro"
+        "dates": "24 – 28 Martie 2027",
+        "price": 206,
+        "departureDate": "2027-03-24",
+        "returnDate": "2027-03-28",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-24&dateIn=2027-03-28&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=DUB&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/dub/270324/270328/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20DUB%20on%202027-03-24%20returning%202027-03-28&curr=EUR&hl=ro"
       }
     ],
     "description": "Vibrație irlandeză autentică, pub-urile pline de viață din Temple Bar și turul celebrei fabrici Guinness Storehouse direct din Cluj.",
     "featured": true,
     "publishedAt": "2026-11-09T17:48:58.195473+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2033",
-    "slug": "city-break-paris-din-iasi-125-euro",
+    "slug": "city-break-paris-din-iasi-133-euro",
     "title": "City Break în Paris & Montmartre (din Iași): 3 nopți la hotel verificat + Zbor direct",
     "destination": "Paris & Montmartre (din Iași)",
     "country": "Franța",
@@ -1127,13 +1129,13 @@
     "category": "City Break",
     "badge": "🗼 Turnul Eiffel & Luvru",
     "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 129,
+    "priceTotalPerPerson": 133,
     "discountPercent": 52,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "IAS – BVA (Direct)",
-      "price": 48,
+      "price": 52,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-02&dateIn=2027-02-05&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BVA&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-02&dateIn=2027-02-05&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BVA&tpAdults=2",
@@ -1165,7 +1167,7 @@
         "provider": "Booking.com",
         "providerId": "booking",
         "badge": "★ Recomandat (Direct la hotel)",
-        "name": "Ibis Paris Montmartre 3★",
+        "name": "Libertel Montmartre Opéra 3★",
         "rating": 8.5,
         "priceTotal": 162,
         "pricePerPerson": 81,
@@ -1186,30 +1188,21 @@
     ],
     "alternativeDates": [
       {
-        "dates": "9 – 12 Februarie 2027",
-        "price": 131,
-        "departureDate": "2027-02-09",
-        "returnDate": "2027-02-12",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-09&dateIn=2027-02-12&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BVA&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/bva/270209/270212/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20BVA%20on%202027-02-09%20returning%202027-02-12&curr=EUR&hl=ro"
-      },
-      {
-        "dates": "16 – 19 Februarie 2027",
-        "price": 137,
-        "departureDate": "2027-02-16",
-        "returnDate": "2027-02-19",
-        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-16&dateIn=2027-02-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BVA&tpAdults=2",
-        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/bva/270216/270219/?adultsv2=2",
-        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20BVA%20on%202027-02-16%20returning%202027-02-19&curr=EUR&hl=ro"
+        "dates": "12 – 16 Februarie 2027",
+        "price": 162,
+        "departureDate": "2027-02-12",
+        "returnDate": "2027-02-16",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-12&dateIn=2027-02-16&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BVA&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/ias/bva/270212/270216/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20IAS%20to%20BVA%20on%202027-02-12%20returning%202027-02-16&curr=EUR&hl=ro"
       }
     ],
     "description": "Evadare romantică din Moldova la Paris! Plimbare pe malul Senei, croasante proaspete și priveliște spre Turnul Eiffel la tarife accesibile.",
     "featured": true,
     "publishedAt": "2026-11-09T17:48:58.195977+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-2028",
@@ -1309,8 +1302,8 @@
     "featured": true,
     "publishedAt": "2026-11-09T17:35:54.429091+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-revelion-malta-2027-cluj",
@@ -1334,8 +1327,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Plecări directe din Cluj-Napoca pentru o escapadă festivă sub soarele Maltei (18°C)! În noaptea dintre ani, capitala fortificată Valletta devine o scenă uriașă în aer liber în St. George's Square, cu spectacol gratuit de lasere, concerte live și focuri de artificii grandioase reflectate în marele port istoric Grand Harbour.",
     "flight": {
       "airline": "Wizz Air",
@@ -1427,8 +1420,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Iarnă caldă la 19-21°C în insula Afroditei! Plimbări la soare pe faleza din Kato Paphos, cetatea medievală luminată feeric, taverne tradiționale cu meze cipriot și vin Comandaria la malul mării, la un tarif incredibil de accesibil.",
     "flight": {
       "airline": "Ryanair",
@@ -1520,8 +1513,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Vreme blândă de 18-20°C pe Costa del Sol! Malaga găzduiește cel mai spectaculos tunel de lumini și muzică din Spania pe bulevardul Calle Larios. La miezul nopții, toată lumea se adună în Plaza de la Constitución pentru tradiția celor 12 boabe de struguri 'las doce uvas de la suerte', urmată de petreceri pe plaja La Malagueta.",
     "flight": {
       "airline": "Wizz Air",
@@ -1613,8 +1606,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Funchal deține recordul mondial Guinness World Records pentru cel mai mare spectacol de artificii de pe glob! Amfiteatrul natural al golfului Funchal este iluminat de mii de cascade pirotehnice lansate simultan de pe uscat și de pe vasele de croazieră ancorate în ocean, la o temperatură plăcută de 20-22°C.",
     "flight": {
       "airline": "Wizz Air / TAP",
@@ -1706,8 +1699,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Răsfăț All Inclusive la 25°C la Marea Roșie! Ai toate mesele, gustările și băuturile incluse, plajă privată cu recif de corali, piscine încălzite și o cină grandioasă de gală în noaptea de Revelion cu muzică orientală, artificii și dansuri tradiționale.",
     "flight": {
       "airline": "HiSky / Charter",
@@ -1799,8 +1792,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Revelion în pantaloni scurți și tricou! În sudul insulei Tenerife (Playa de las Américas & Costa Adeje) temperaturile ating 23-24°C la amiază. La miezul nopții, mii de oameni sărbătoresc pe plajă cu șampanie, artificii reflectate în Oceanul Atlantic și muzică live.",
     "flight": {
       "airline": "Wizz Air",
@@ -1892,8 +1885,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:25:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Trece în 2027 la 26°C sub cel mai faimos spectacol pirotehnic din lume! Miezul nopții la Burj Khalifa, Dubai Mall și promenada Dubai Marina oferă o atmosferă electrizantă cu palmieri luminați, yachturi festive și plajă la Jumeirah Beach chiar în ianuarie.",
     "flight": {
       "airline": "Wizz Air",
@@ -1985,8 +1978,8 @@
     "transportType": "car",
     "publishedAt": "2026-11-08T20:24:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Trecerea dintre ani pe zăpadă în cea mai populară stațiune de schi din Balcani! Zile întregi pe pârtiile de la Todorka (2.600m), seri de relaxare în piscine termale și saune fierbinți, urmate de petrecerea tradițională de Anul Nou în mehana-urile din orașul vechi.",
     "flight": {
       "airline": "Transport propriu (cu mașina personală)",
@@ -2078,8 +2071,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:22:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Sărbătorește trecerea în 2027 sub cerul înstelat al Mediteranei! La miezul nopții, Acropolele și Partenonul sunt luminate de un spectacol grandios de artificii, în timp ce cartierul boem Plaka răsună de muzică grecească, taverne vesele și clinchet de pahare.",
     "flight": {
       "airline": "Wizz Air",
@@ -2171,8 +2164,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:20:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Noaptea dintre ani între două continente! Admiră focurile uriașe de artificii de pe Podul Bosfor, savurează baklava proaspătă și ceai fierbinte pe malul mării la Ortaköy și bucură-te de atmosfera electrizantă de Revelion pe bulevardul pietonal Istiklal.",
     "flight": {
       "airline": "Wizz Air / Pegasus",
@@ -2264,8 +2257,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:18:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Satul din basmele Fraților Grimm prins în viață! Căsuțe din turtă dulce cu bârne de lemn pictate, canalele din Mica Veneție (La Petite Venise) oglindind mii de ghirlande sclipitoare, vin cald alsacian și trenuleț spre Strasbourg, renumita Capitală a Crăciunului.",
     "flight": {
       "airline": "Wizz Air",
@@ -2357,8 +2350,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:16:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Unul dintre cele mai romantice și fotogenice târguri din Europa! Bradul uriaș luminat în fața Bisericii Maicii Domnului din Týn, miros de Trdelník cald cu vanilie și nucă, spectacolul Ceasului Astronomic și plimbări feerice pe Podul Carol sub ninsoare.",
     "flight": {
       "airline": "Wizz Air / HiSky",
@@ -2450,8 +2443,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:14:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Vreme blândă de 16-18°C la sfârșit de noiembrie în Cetatea Eternă! Vizitează Colosseumul, Fontana di Trevi și Muzeele Vaticanului fără arșița verii și fără cozile sufocante. Piazza Navona îmbracă deja decorul de sărbătoare cu artizani și dulciuri italiene.",
     "flight": {
       "airline": "Wizz Air",
@@ -2543,8 +2536,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:12:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Petrece weekendul prelungit de 1 Decembrie în una dintre cele mai spectaculoase capitale balneare din lume! Proiecții laser de basm pe fațada Bazilicii Sf. Ștefan, cozonac secuiesc cald (Kürtőskalács), băi fierbinți în ape termale la Széchenyi și croazieră de seară pe Dunăre pe lângă Parlamentul luminat.",
     "flight": {
       "airline": "Wizz Air / Ryanair",
@@ -2636,8 +2629,8 @@
     "transportType": "flight",
     "publishedAt": "2026-11-08T20:10:00.000Z",
     "featured": true,
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52",
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49",
     "description": "Profită din plin de minivacanța de Sfântul Andrei și Ziua Națională (sâmbătă 28 noiembrie – marți 1 decembrie, 4 zile libere fără concediu suplimentar)! Viena deschide oficial sezonul de basm: cel mai spectaculos Târg de Crăciun din Europa în fața Primăriei (Rathausplatz), vin fiert cu scorțișoară, patinoar uriaș și luminițe imperiale pe Graben.",
     "flight": {
       "airline": "Ryanair / Wizz Air",
@@ -2805,8 +2798,8 @@
     "featured": true,
     "publishedAt": "2026-11-08T16:54:12.104344+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-020",
@@ -2906,8 +2899,8 @@
     "featured": true,
     "publishedAt": "2026-11-08T13:38:48.627233+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-019",
@@ -3007,8 +3000,8 @@
     "featured": true,
     "publishedAt": "2026-11-08T07:55:54.878287+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-otp-018",
@@ -3088,8 +3081,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-otp-017",
@@ -3169,8 +3162,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-cnd-001",
@@ -3250,8 +3243,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-sbz-002",
@@ -3331,8 +3324,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-scv-002",
@@ -3412,8 +3405,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-cra-002",
@@ -3493,8 +3486,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-clj-004",
@@ -3574,8 +3567,8 @@
     "featured": false,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-clj-003",
@@ -3655,8 +3648,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ias-003",
@@ -3736,8 +3729,8 @@
     "featured": false,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ias-002",
@@ -3817,8 +3810,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ias-001",
@@ -3837,13 +3830,13 @@
     "category": "City Break",
     "badge": "✨ Cumpărături & Domul",
     "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 88,
+    "priceTotalPerPerson": 92,
     "discountPercent": 55,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "IAS – BGY (Direct Milano Bergamo)",
-      "price": 32,
+      "price": 36,
       "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BGY&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=IAS&destinationIata=BGY&tpAdults=2",
@@ -3898,8 +3891,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-tsr-003",
@@ -3979,8 +3972,8 @@
     "featured": false,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-tsr-002",
@@ -4060,8 +4053,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-tsr-001",
@@ -4141,8 +4134,8 @@
     "featured": true,
     "publishedAt": "2026-11-07T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-016",
@@ -4220,8 +4213,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T22:23:31.468928+00:00",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-001",
@@ -4326,8 +4319,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T16:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-002",
@@ -4432,8 +4425,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:45:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-003",
@@ -4538,8 +4531,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-004",
@@ -4628,8 +4621,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T15:15:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-005",
@@ -4718,8 +4711,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T15:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-006",
@@ -4808,8 +4801,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T14:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-exo-009",
@@ -4898,8 +4891,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T15:20:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-001",
@@ -5001,8 +4994,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T12:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-002",
@@ -5021,13 +5014,13 @@
     "category": "City Break",
     "badge": "⚡ Cel mai mic preț",
     "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 76,
+    "priceTotalPerPerson": 78,
     "discountPercent": 62,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "CLJ – BGY (Direct)",
-      "price": 30,
+      "price": 32,
       "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-11-27&dateIn=2026-11-30&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
@@ -5080,8 +5073,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T10:30:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-003",
@@ -5159,8 +5152,8 @@
     "featured": true,
     "publishedAt": "2026-11-06T14:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-008",
@@ -5237,8 +5230,8 @@
     "featured": true,
     "publishedAt": "2026-11-05T14:20:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-010",
@@ -5315,8 +5308,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T11:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-015",
@@ -5394,8 +5387,8 @@
     "featured": false,
     "publishedAt": "2026-11-04T12:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-011",
@@ -5473,8 +5466,8 @@
     "featured": false,
     "publishedAt": "2026-11-05T16:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-012",
@@ -5493,13 +5486,13 @@
     "category": "City Break",
     "badge": "🗼 Romantic",
     "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
-    "priceTotalPerPerson": 108,
+    "priceTotalPerPerson": 124,
     "discountPercent": 48,
     "flight": {
       "airline": "Ryanair",
       "airlineCode": "FR",
       "route": "OTP – BVA (Direct)",
-      "price": 34,
+      "price": 50,
       "baggageInfo": "Geantă mică 40×25×20 cm inclusă",
       "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
       "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-11&dateIn=2026-12-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=BVA&tpAdults=2",
@@ -5552,8 +5545,8 @@
     "featured": false,
     "publishedAt": "2026-11-06T08:00:00Z",
     "transportType": "flight",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-001",
@@ -5644,8 +5637,8 @@
     "description": "Cea mai populară și avantajoasă stațiune de schi din Balcani! Peste 75 km de pârtii amenajate pe versantul muntelui Todorka (2.600m), telegondolă modernă și relaxare la centrul spa cu piscine încălzite al resortului 4★ Green Life. Fără bătăi de cap cu zborul: vii direct cu mașina și echipamentul în portbagaj.",
     "featured": true,
     "publishedAt": "2026-11-06T18:00:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-005",
@@ -5736,8 +5729,8 @@
     "description": "Ieși din hotel direct pe schiuri! Hotelul Rila 4★ este amplasat legendar la baza pârtiei Martinovi Baraki din Borovets. Domeniul oferă 58 km de pârtii printre pădurile maiestuoase de pini ale munților Rila, nocturnă spectaculoasă și o piscină semiolimpică de 25m cu vedere la zăpadă.",
     "featured": true,
     "publishedAt": "2026-11-06T18:02:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-006",
@@ -5821,8 +5814,8 @@
     "description": "Cea mai însorită stațiune montană din Europa, faimoasă pentru cele peste 120 de zile cu soare și pârtii largi excelente pentru familii și începători. Apartamentele Grand Monastery sunt dotate cu șemineu pe lemne și oferă acces direct la telescaunul Studenets.",
     "featured": false,
     "publishedAt": "2026-11-06T18:03:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-003",
@@ -5913,8 +5906,8 @@
     "description": "Capitala mondială a sporturilor de iarnă! Innsbruck îmbină eleganța unui oraș imperial tirolez cu accesul la 13 domenii schiabile prin Olympia SkiWorld și zăpada impecabilă de pe ghețarul Stubai (3.210m). Telegondola futuristă Nordkette pleacă chiar din inima orașului.",
     "featured": true,
     "publishedAt": "2026-11-06T18:10:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-007",
@@ -5998,8 +5991,8 @@
     "description": "Una din cele mai spectaculoase panorame din Alpii Austrieci! Lacul Zell înghețat și ghețarul Kitzsteinhorn (3.029m) garantează zăpadă 100% din toamnă până în primăvară târzie. Domeniul reunește 138 km de pârtii impecabile și conexiune modernă 3K K-onnection.",
     "featured": true,
     "publishedAt": "2026-11-06T18:12:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-008",
@@ -6083,8 +6076,8 @@
     "description": "Legenda mondială a schiului alpin! Aici se desfășoară cea mai faimoasă cursă de coborâre din lume pe pârtia Streif. Domeniul KitzSki pune la dispoziție 233 km de pârtii excelente, 57 de instalații pe cablu ultra-moderne și o atmosferă après-ski de neegalat.",
     "featured": false,
     "publishedAt": "2026-11-06T18:14:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-009",
@@ -6168,8 +6161,8 @@
     "description": "Cea mai accesibilă destinație austriacă din România! Schladming leagă 4 munți într-un singur leagăn de schi cu peste 230 km de pârtii. Hotelul TUI BLUE este amplasat chiar lângă telegondola Planai și oferă o saună panoramică pe acoperiș.",
     "featured": false,
     "publishedAt": "2026-11-06T18:16:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-002",
@@ -6264,8 +6257,8 @@
     "description": "Experiența supremă la schi pe tărâmul munților Dolomiți (patrimoniu UNESCO)! Ai acces direct la legendarul circuit Sellaronda cu 4 trecători alpine și 1.200 km de pârtii în Dolomiti Superski, combinate cu preparate culinare italiene și relaxare la spa.",
     "featured": true,
     "publishedAt": "2026-11-06T18:05:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-010",
@@ -6353,8 +6346,8 @@
     "description": "Supranumit «Micul Tibet» datorită altitudinii de peste 1.800m și a zăpezii pudră impecabile, Livigno este un paradis unic: 115 km de pârtii, cele mai bune snowpark-uri din Europa și statut complet de zonă scutită de taxe (Duty-Free) pentru cumpărături.",
     "featured": false,
     "publishedAt": "2026-11-06T18:18:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-011",
@@ -6442,8 +6435,8 @@
     "description": "Perla absolută a Dolomiților și viitoarea gazdă a Jocurilor Olimpice de Iarnă 2026! Pârtiile legendare de pe Tofana, Faloria și Cristallo oferă cele mai dramatice peisaje alpine din lume, completate de rafinamentul unui orășel montan celebru.",
     "featured": false,
     "publishedAt": "2026-11-06T18:20:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-004",
@@ -6527,8 +6520,8 @@
     "description": "Cea mai modernă stațiune de schi din Europa Centrală! 50 km de pârtii impecabile deservite de telegondole ultra-rapide Doppelmayr Funitel pe ambii versanți ai muntelui Chopok. După schi, te relaxezi la celebrele bazine termale exterioare de la Tatralandia sau Bešeňová.",
     "featured": false,
     "publishedAt": "2026-11-06T18:15:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-012",
@@ -6612,8 +6605,8 @@
     "description": "Aici se află pârtia cu cea mai abruptă cădere și cea mai mare diferență de nivel din Carpați: 1.300 metri de la șaua Lomnické sedlo (2.190m) până în vale! Horizont Resort oferă un centru spa spectaculos construit din lemn de cedru și vedere la crestele alpine.",
     "featured": false,
     "publishedAt": "2026-11-06T18:22:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-ski-013",
@@ -6701,8 +6694,8 @@
     "description": "Visul oricărui schior: cel mai vast domeniu schiabil din lume (Les 3 Vallées — 600 km de pârtii legate) și stațiunea situată la cea mai mare altitudine din Europa (2.300m). Cazarea la Résidence Le Chamois d'Or oferă acces direct pe pârtie (ski-in/ski-out) din ușa clădirii.",
     "featured": true,
     "publishedAt": "2026-11-06T18:25:00.000Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-egipt-001",
@@ -6796,8 +6789,8 @@
     "description": "Scapă de frigul iernii la soare în Sharm El-Sheikh! Te bucuri de un resort de 5 stele situat direct pe plajă cu recif de corali de renume mondial, mâncare și băuturi All Inclusive nelimitate și zbor direct din București.",
     "featured": true,
     "publishedAt": "2026-11-07T11:00:00Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-egipt-002",
@@ -6884,8 +6877,8 @@
     "description": "Plecare direct din Ardeal spre soarele Mării Roșii! Sejur All Inclusive la Seagull Beach Resort cu zbor din Cluj-Napoca, parcuri acvatice și plajă cu nisip fin.",
     "featured": false,
     "publishedAt": "2026-11-07T11:00:00Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   },
   {
     "id": "deal-egipt-003",
@@ -6979,7 +6972,7 @@
     "description": "Visezi să iei micul dejun privind direct spre Sfinx și Marea Piramidă a lui Keops? Zbor direct Wizz Air din București spre noul aeroport Sphinx (la doar 20 de minute de Giza) plus hotel cu recenzii excepționale și terasă pe acoperiș.",
     "featured": true,
     "publishedAt": "2026-11-07T11:00:00Z",
-    "lastVerifiedAt": "2026-11-10T17:52:07.693029+00:00",
-    "lastVerifiedFormatted": "10 November 2026, 19:52"
+    "lastVerifiedAt": "2026-11-10T19:49:42.788967+00:00",
+    "lastVerifiedFormatted": "10 November 2026, 21:49"
   }
 ]

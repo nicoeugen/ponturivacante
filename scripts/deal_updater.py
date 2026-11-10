@@ -792,6 +792,151 @@ CANDIDATE_BLUEPRINTS = [
 
     }
 
+,
+    {
+        "destCode": "BER",
+        "destination": "Berlin & Poarta Brandenburg",
+        "country": "Germania",
+        "flag": "🇩🇪",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🏛️ Târguri & Muzee",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Park Inn by Radisson Berlin Alexanderplatz 4★",
+            "stars": 4,
+            "rating": 8.5,
+            "reviewsCount": 5400,
+            "distance": "Chiar în Alexanderplatz, lângă Turnul TV și metrou",
+            "amenities": ["Terasă panoramică pe acoperiș", "Wi-Fi rapid", "Locație ultra-centrală", "3 restaurante"],
+            "pricePerNightPerPerson": 28,
+            "searchQuery": "Berlin+Alexanderplatz"
+        },
+        "description": "Vibrant, istoric și cosmopolit! Poarta Brandenburg, Insula Muzeelor UNESCO, Zidul Berlinului și atmosfera festivă a târgurilor de iarnă germane la tarife de nerefuzat.",
+        "discountPercent": 55
+    },
+    {
+        "destCode": "EDI",
+        "destination": "Edinburgh & Castelele Scoției",
+        "country": "Marea Britanie",
+        "flag": "🇬🇧",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🏰 Castele Medievale & Mister",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "YOTEL Edinburgh 4★",
+            "stars": 4,
+            "rating": 8.7,
+            "reviewsCount": 3800,
+            "distance": "Pe celebra Queen Street din New Town, la 10 minute de Royal Mile",
+            "amenities": ["Design futuristic", "Mic dejun scoțian opțional", "Wi-Fi ultra-rapid", "Locație excelentă"],
+            "pricePerNightPerPerson": 31,
+            "searchQuery": "Edinburgh+New+Town"
+        },
+        "description": "Orașul de poveste al Scoției: Castelul Edinburgh cocoțat pe stâncă vulcanică, străduțele medievale din Royal Mile, pub-uri cu muzică celtică și degustări de single malt autentic.",
+        "discountPercent": 52
+    },
+    {
+        "destCode": "MRS",
+        "destination": "Marseille & Coasta Provence",
+        "country": "Franța",
+        "flag": "🇫🇷",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "⛵ Vieux-Port & Faleze Calanques",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Radisson Blu Hotel Marseille Vieux Port 4★",
+            "stars": 4,
+            "rating": 8.6,
+            "reviewsCount": 2600,
+            "distance": "Direct pe cheiul Vieux-Port, vedere la fortul Saint-Nicolas",
+            "amenities": ["Piscină panoramică", "Terasă spre port", "Restaurant mediteranean", "Wi-Fi gratuit"],
+            "pricePerNightPerPerson": 29,
+            "searchQuery": "Marseille+Vieux+Port"
+        },
+        "description": "Cel mai însorit oraș al Franței! Plimbări la apus în Vieux-Port, bazilica Notre-Dame de la Garde, calanques spectaculoase cu ape turcoaz și gastronomie provensală autentică.",
+        "discountPercent": 54
+    },
+    {
+        "destCode": "BLQ",
+        "destination": "Bologna & Turnurile Medievale",
+        "country": "Italia",
+        "flag": "🇮🇹",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🍝 Capitala Gastronomică a Italiei",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Starhotels Excelsior 4★ Bologna",
+            "stars": 4,
+            "rating": 8.8,
+            "reviewsCount": 4200,
+            "distance": "La 2 minute de gara centrală, acces rapid pe jos spre Piazza Maggiore",
+            "amenities": ["Mic dejun emilian generos", "Lounge bar", "Camere spațioase", "Wi-Fi rapid"],
+            "pricePerNightPerPerson": 27,
+            "searchQuery": "Bologna+Stazione+Centrale"
+        },
+        "description": "Paradisul culinar al Italiei! Celebrele porticuri UNESCO, ragù alla bolognese autentic, cele două turnuri înclinate Asinelli și Garisenda și excursii ușoare spre Modena și Parma.",
+        "discountPercent": 56
+    },
+    {
+        "destCode": "BRS",
+        "destination": "Bristol & Băile Romane din Bath",
+        "country": "Marea Britanie",
+        "flag": "🇬🇧",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🌉 Podul Suspendat & Bath UNESCO",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Bristol Marriott Royal Hotel 4★",
+            "stars": 4,
+            "rating": 8.7,
+            "reviewsCount": 2900,
+            "distance": "Lângă Catedrala din Bristol și portul Harbourside",
+            "amenities": ["Clădire victoriană istorică", "Centru fitness", "Bar elegant", "Wi-Fi inclus"],
+            "pricePerNightPerPerson": 29,
+            "searchQuery": "Bristol+City+Centre"
+        },
+        "description": "Arta stradală a lui Banksy, celebrul pod Clifton Suspension Bridge și o scurtă călătorie de 12 minute cu trenul spre superbul oraș regal Bath și băile sale romane antice.",
+        "discountPercent": 50
+    },
+    {
+        "destCode": "MAN",
+        "destination": "Manchester & Liverpool",
+        "country": "Marea Britanie",
+        "flag": "🇬🇧",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "⚽ Fotbal, Muzică & Beatles",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Motel One Manchester-Piccadilly 3★",
+            "stars": 3,
+            "rating": 8.8,
+            "reviewsCount": 3500,
+            "distance": "La 3 minute de gara Piccadilly, în inima orașului",
+            "amenities": ["Design modern premiat", "Bar One cu selecție gin", "Wi-Fi gratuit", "Recepție 24/7"],
+            "pricePerNightPerPerson": 28,
+            "searchQuery": "Manchester+Piccadilly"
+        },
+        "description": "Capitala muzicii britanice și a fotbalului mondial! Stadioanele Old Trafford și Etihad, cartierul boem Northern Quarter și tren direct de 30 de minute spre Liverpool și The Cavern Club.",
+        "discountPercent": 51
+    }
 ]
 
 # ==============================================================================
@@ -1115,7 +1260,9 @@ def discover_new_deals(existing_deals, ryanair_fares, max_new=5):
             'CTA': 'catania-it', 'SKG': 'thessaloniki-gr', 'TIA': 'tirana-al',
             'GDN': 'gdansk-pl', 'TSF': 'venice-it', 'PSA': 'pisa-it',
             'MAD': 'madrid-es', 'BVA': 'paris-fr', 'DUB': 'dublin-ie',
-            'PSR': 'pescara-it', 'SUF': 'lamezia-terme-it'
+            'PSR': 'pescara-it', 'SUF': 'lamezia-terme-it',
+            'BER': 'berlin-de', 'EDI': 'edinburgh-gb', 'MRS': 'marseille-fr',
+            'BLQ': 'bologna-it', 'BRS': 'bristol-gb', 'MAN': 'manchester-gb'
         }
         city_slug = agoda_city_slugs.get(dest_code)
         if city_slug:

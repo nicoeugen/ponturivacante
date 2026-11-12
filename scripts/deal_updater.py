@@ -936,6 +936,102 @@ CANDIDATE_BLUEPRINTS = [
         },
         "description": "Capitala muzicii britanice și a fotbalului mondial! Stadioanele Old Trafford și Etihad, cartierul boem Northern Quarter și tren direct de 30 de minute spre Liverpool și The Cavern Club.",
         "discountPercent": 51
+    },
+    {
+        "destCode": "STN",
+        "destination": "Londra & Palatul Buckingham",
+        "country": "Marea Britanie",
+        "flag": "🇬🇧",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "👑 Big Ben & Palate Regale",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Point A Hotel London Kings Cross 3★",
+            "stars": 3,
+            "rating": 8.5,
+            "reviewsCount": 4800,
+            "distance": "La 5 minute de gara Kings Cross și St Pancras",
+            "amenities": ["Design modern", "Wi-Fi gratuit", "Recepție 24h", "Metrou direct"],
+            "pricePerNightPerPerson": 32,
+            "searchQuery": "Kings+Cross+London"
+        },
+        "description": "City break emblematic în capitala Regatului Unit! Muzee de talie mondială gratuite, plimbări pe malul Tamisei, Big Ben și parcuri regale la prețuri accesibile.",
+        "discountPercent": 50
+    },
+    {
+        "destCode": "CIA",
+        "destination": "Roma & Fontana di Trevi",
+        "country": "Italia",
+        "flag": "🇮🇹",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🏛️ Colosseum & Vatican",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Hotel Sonya 3★ Roma",
+            "stars": 3,
+            "rating": 8.7,
+            "reviewsCount": 3100,
+            "distance": "În fața Operei din Roma, la 10 minute pe jos de Colosseum",
+            "amenities": ["Clădire istorică", "Mic dejun tip bufet", "Wi-Fi gratuit", "Aer condiționat"],
+            "pricePerNightPerPerson": 29,
+            "searchQuery": "Roma+Opera"
+        },
+        "description": "Orașul Etern te fascinează la fiecare pas! Aruncă o monedă în Fontana di Trevi, admiră Colosseumul și Forumul Roman și savurează paste autentice cacio e pepe în Trastevere.",
+        "discountPercent": 52
+    },
+    {
+        "destCode": "CRL",
+        "destination": "Bruxelles, Bruges & Gent (din Cluj)",
+        "country": "Belgia",
+        "flag": "🇧🇪",
+        "originCity": "Cluj-Napoca",
+        "originCode": "CLJ",
+        "category": "City Break",
+        "badge": "🍫 Ciocolată & Flandra",
+        "nights": 4,
+        "image": "https://images.unsplash.com/photo-1572979267156-f6eb071b7fcf?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Bedford Hotel & Congress Centre 4★",
+            "stars": 4,
+            "rating": 8.5,
+            "reviewsCount": 4200,
+            "distance": "La 450m de Grand Place și statuia Manneken Pis",
+            "amenities": ["Locație istorică ultracentrală", "Mic dejun tip bufet", "Wi-Fi de mare viteză"],
+            "pricePerNightPerPerson": 28,
+            "searchQuery": "Grand+Place+Brussels"
+        },
+        "description": "Descoperă inima Europei din Cluj-Napoca! Grand Place aurită, canalele medievale din Bruges și castelele din Gent cu zbor direct din Transilvania.",
+        "discountPercent": 54
+    },
+    {
+        "destCode": "CRL",
+        "destination": "Bruxelles & Flandra (din Iași)",
+        "country": "Belgia",
+        "flag": "🇧🇪",
+        "originCity": "Iași",
+        "originCode": "IAS",
+        "category": "City Break",
+        "badge": "🏰 Arhitectură & Ciocolată",
+        "nights": 4,
+        "image": "https://images.unsplash.com/photo-1572979267156-f6eb071b7fcf?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Bedford Hotel & Congress Centre 4★",
+            "stars": 4,
+            "rating": 8.5,
+            "reviewsCount": 4200,
+            "distance": "La 450m de Grand Place și Manneken Pis",
+            "amenities": ["Locație ultracentrală", "Mic dejun generos", "Wi-Fi rapid"],
+            "pricePerNightPerPerson": 28,
+            "searchQuery": "Grand+Place+Brussels"
+        },
+        "description": "Zbor direct din Moldova spre Bruxelles! Explorează muzeele de artă, ciocolateriile celebre și orășelele pitorești ale Flandrei la prețuri de nerefuzat.",
+        "discountPercent": 53
     }
 ]
 

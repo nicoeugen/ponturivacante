@@ -1,5 +1,557 @@
 [
   {
+    "id": "deal-2042",
+    "slug": "city-break-bruxelles-din-bucuresti-163-euro",
+    "title": "City Break în Bruxelles, Bruges & Gent: 4 nopți la hotel 4★ central + Zbor direct",
+    "destination": "Bruxelles, Bruges & Gent",
+    "country": "Belgia",
+    "flag": "🇧🇪",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "CRL",
+    "dates": "11 – 15 Martie 2027",
+    "departureDate": "2027-03-11",
+    "returnDate": "2027-03-15",
+    "nights": 4,
+    "category": "City Break",
+    "badge": "🍫 Ciocolată & Grand Place",
+    "image": "https://images.unsplash.com/photo-1572979267156-f6eb071b7fcf?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 163,
+    "discountPercent": 52,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – CRL (Direct)",
+      "price": 51,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-11&dateIn=2027-03-15&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=CRL&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-11&dateIn=2027-03-15&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=CRL&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20CRL%20on%202027-03-11%20returning%202027-03-15&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/crl/270311/270315/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-CRL/2027-03-11/2027-03-15/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=CRL&departure=2027-03-11&return=2027-03-15&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Bedford Hotel & Congress Centre 4★",
+      "provider": "Booking.com",
+      "stars": 4,
+      "rating": 8.5,
+      "reviewsCount": 4200,
+      "distance": "La 450m de Grand Place și statuia Manneken Pis",
+      "amenities": [
+        "Locație istorică ultracentrală",
+        "Mic dejun tip bufet",
+        "Wi-Fi de mare viteză",
+        "Restaurant gourmet"
+      ],
+      "priceTotal": 224,
+      "pricePerPerson": 112,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Grand+Place+Brussels&checkin=2027-03-11&checkout=2027-03-15&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Bedford Hotel & Congress Centre 4★",
+        "rating": 8.5,
+        "priceTotal": 224,
+        "pricePerPerson": 112,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Grand+Place+Brussels&checkin=2027-03-11&checkout=2027-03-15&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bruxelles, Bruges & Gent",
+        "rating": 8.6,
+        "priceTotal": 224,
+        "pricePerPerson": 112,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/brussels-be.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "19 – 22 Martie 2027",
+        "price": 152,
+        "departureDate": "2027-03-19",
+        "returnDate": "2027-03-22",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-19&dateIn=2027-03-22&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=CRL&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/crl/270319/270322/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20CRL%20on%202027-03-19%20returning%202027-03-22&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Inima Europei te așteaptă! Descoperă superba Grand Place aurită, ciocolată belgiană artizanală, bere trapistă și o excursie de o zi cu trenul spre orașele de poveste Bruges și Gent.",
+    "featured": true,
+    "publishedAt": "2026-11-12T17:34:46.566203+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34"
+  },
+  {
+    "id": "deal-2043",
+    "slug": "city-break-dublin-din-bucuresti-201-euro",
+    "title": "City Break în Dublin & Temple Bar: 4 nopți la hotel 4★ + Zbor direct",
+    "destination": "Dublin & Temple Bar",
+    "country": "Irlanda",
+    "flag": "🇮🇪",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "DUB",
+    "dates": "5 – 9 Martie 2027",
+    "departureDate": "2027-03-05",
+    "returnDate": "2027-03-09",
+    "nights": 4,
+    "category": "City Break",
+    "badge": "🍀 Pub-uri Tradiționale & Istorie",
+    "image": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 201,
+    "discountPercent": 48,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – DUB (Direct)",
+      "price": 85,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-05&dateIn=2027-03-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=DUB&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-05&dateIn=2027-03-09&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=DUB&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20DUB%20on%202027-03-05%20returning%202027-03-09&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/dub/270305/270309/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-DUB/2027-03-05/2027-03-09/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=DUB&departure=2027-03-05&return=2027-03-09&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Maldron Hotel Parnell Square 4★",
+      "provider": "Booking.com",
+      "stars": 4,
+      "rating": 8.6,
+      "reviewsCount": 5100,
+      "distance": "În centrul Dublinului, la 12 minute de mers pe jos de Temple Bar și râul Liffey",
+      "amenities": [
+        "Design modern",
+        "Restaurant & Bar irlandez",
+        "Wi-Fi rapid gratuit",
+        "Recepție 24/7"
+      ],
+      "priceTotal": 232,
+      "pricePerPerson": 116,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-05&checkout=2027-03-09&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Maldron Hotel Parnell Square 4★",
+        "rating": 8.6,
+        "priceTotal": 232,
+        "pricePerPerson": 116,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-05&checkout=2027-03-09&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Dublin & Temple Bar",
+        "rating": 8.7,
+        "priceTotal": 232,
+        "pricePerPerson": 116,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/dublin-ie.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "18 – 21 Martie 2027",
+        "price": 185,
+        "departureDate": "2027-03-18",
+        "returnDate": "2027-03-21",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-18&dateIn=2027-03-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=DUB&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/dub/270318/270321/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20DUB%20on%202027-03-18%20returning%202027-03-21&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Atmosferă efervescentă în capitala Irlandei! Muzică live tradițională în Temple Bar, vizită la Trinity College și biblioteca Book of Kells, Guinness Storehouse și castele medievale de-a lungul coastei Howth.",
+    "featured": true,
+    "publishedAt": "2026-11-12T17:34:46.566203+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34"
+  },
+  {
+    "id": "deal-2044",
+    "slug": "city-break-venetia-din-bucuresti-177-euro",
+    "title": "City Break în Veneția & Canal Grande: 5 nopți la hotel 4★ + Zbor direct",
+    "destination": "Veneția & Canal Grande",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "TSF",
+    "dates": "26 – 31 Decembrie 2026",
+    "departureDate": "2026-12-26",
+    "returnDate": "2026-12-31",
+    "nights": 5,
+    "category": "City Break",
+    "badge": "🎭 Gondole & Palate Bizantine",
+    "image": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 177,
+    "discountPercent": 55,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – TSF (Direct)",
+      "price": 37,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-26&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=TSF&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-26&dateIn=2026-12-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=TSF&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20TSF%20on%202026-12-26%20returning%202026-12-31&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/tsf/261226/261231/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-TSF/2026-12-26/2026-12-31/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=TSF&departure=2026-12-26&return=2026-12-31&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Plaza Venice 4★",
+      "provider": "Booking.com",
+      "stars": 4,
+      "rating": 8.6,
+      "reviewsCount": 6500,
+      "distance": "Direct vizavi de gară, trenuri la fiecare 10 min spre Piața San Marco (10 minute drum)",
+      "amenities": [
+        "Camere elegante renovate",
+        "2 restaurante italiene",
+        "Mic dejun generos",
+        "Wi-Fi rapid gratuit"
+      ],
+      "priceTotal": 280,
+      "pricePerPerson": 140,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Venice+Mestre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Hotel Plaza Venice 4★",
+        "rating": 8.6,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Venice+Mestre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Veneția & Canal Grande",
+        "rating": 8.7,
+        "priceTotal": 280,
+        "pricePerPerson": 140,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/venice-it.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "16 – 19 Ianuarie 2027",
+        "price": 125,
+        "departureDate": "2027-01-16",
+        "returnDate": "2027-01-19",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-19&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=TSF&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/tsf/270116/270119/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20TSF%20on%202027-01-16%20returning%202027-01-19&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Magia pură a orașului plutitor! Plimbări cu gondola pe Canal Grande, Podul Rialto, Palatul Dogilor și insulele colorate Murano și Burano într-o vacanță de iarnă feerică.",
+    "featured": true,
+    "publishedAt": "2026-11-12T17:34:46.566203+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34"
+  },
+  {
+    "id": "deal-2045",
+    "slug": "city-break-londra-din-cluj-napoca-109-euro",
+    "title": "City Break în Londra & Palatul Westminster (din Cluj): 2 nopți la hotel central + Zbor direct",
+    "destination": "Londra & Palatul Westminster (din Cluj)",
+    "country": "Marea Britanie",
+    "flag": "🇬🇧",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "STN",
+    "dates": "29 – 31 Ianuarie 2027",
+    "departureDate": "2027-01-29",
+    "returnDate": "2027-01-31",
+    "nights": 2,
+    "category": "City Break",
+    "badge": "🇬🇧 Big Ben & Muzee Gratuite",
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 109,
+    "discountPercent": 52,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "CLJ – STN (Direct)",
+      "price": 41,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-29&dateIn=2027-01-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=STN&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-29&dateIn=2027-01-31&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=STN&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20STN%20on%202027-01-29%20returning%202027-01-31&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/stn/270129/270131/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-STN/2027-01-29/2027-01-31/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=STN&departure=2027-01-29&return=2027-01-31&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Point A Hotel London Kings Cross 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 4800,
+      "distance": "La 5 minute de gara Kings Cross și St Pancras, metrou direct spre toate atracțiile",
+      "amenities": [
+        "Design compact modern",
+        "Wi-Fi gratuit",
+        "Recepție 24h",
+        "Izolare fonică excelentă"
+      ],
+      "priceTotal": 136,
+      "pricePerPerson": 68,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Point A Hotel London Kings Cross 3★",
+        "rating": 8.5,
+        "priceTotal": 136,
+        "pricePerPerson": 68,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Londra & Palatul Westminster (din Cluj)",
+        "rating": 8.6,
+        "priceTotal": 136,
+        "pricePerPerson": 68,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/london-gb.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "5 – 7 Februarie 2027",
+        "price": 115,
+        "departureDate": "2027-02-05",
+        "returnDate": "2027-02-07",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-05&dateIn=2027-02-07&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=STN&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/stn/270205/270207/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20STN%20on%202027-02-05%20returning%202027-02-07&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "City break ideal de weekend din Transilvania! Big Ben, London Eye, British Museum (intrare gratuită), plimbări pe malul Tamisei și shopping pe Oxford Street la tarife record din Cluj-Napoca.",
+    "featured": true,
+    "publishedAt": "2026-11-12T17:34:46.566203+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34"
+  },
+  {
+    "id": "deal-2046",
+    "slug": "vacanta-mare-soare-malaga-din-bucuresti-170-euro",
+    "title": "Vacanță la Mare & Soare în Malaga & Costa del Sol: 4 nopți la hotel 4★ + Zbor direct",
+    "destination": "Malaga & Costa del Sol (Spania)",
+    "country": "Spania",
+    "flag": "🇪🇸",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "AGP",
+    "dates": "3 – 7 Februarie 2027",
+    "departureDate": "2027-02-03",
+    "returnDate": "2027-02-07",
+    "nights": 4,
+    "category": "Mare & Soare",
+    "badge": "☀️ Soare 20°C & Tapas pe Plajă",
+    "image": "https://images.unsplash.com/photo-1579282240050-352db0a14c21?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 170,
+    "discountPercent": 54,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – AGP (Direct)",
+      "price": 62,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-03&dateIn=2027-02-07&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AGP&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-03&dateIn=2027-02-07&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AGP&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AGP%20on%202027-02-03%20returning%202027-02-07&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/agp/270203/270207/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-AGP/2027-02-03/2027-02-07/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=AGP&departure=2027-02-03&return=2027-02-07&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Soho Boutique Bahía Málaga 4★",
+      "provider": "Booking.com",
+      "stars": 4,
+      "rating": 8.7,
+      "reviewsCount": 3800,
+      "distance": "În cartierul Soho, la 300m de portul Muelle Uno și plaja Malagueta",
+      "amenities": [
+        "Terasă panoramică pe acoperiș",
+        "Mic dejun andaluz inclus",
+        "Bar de tapas",
+        "Wi-Fi gratuit"
+      ],
+      "priceTotal": 216,
+      "pricePerPerson": 108,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga+Centro&checkin=2027-02-03&checkout=2027-02-07&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Hotel Soho Boutique Bahía Málaga 4★",
+        "rating": 8.7,
+        "priceTotal": 216,
+        "pricePerPerson": 108,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga+Centro&checkin=2027-02-03&checkout=2027-02-07&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Malaga & Costa del Sol (Spania)",
+        "rating": 8.8,
+        "priceTotal": 216,
+        "pricePerPerson": 108,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/malaga-es.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "15 – 17 Februarie 2027",
+        "price": 129,
+        "departureDate": "2027-02-15",
+        "returnDate": "2027-02-17",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-15&dateIn=2027-02-17&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=AGP&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/agp/270215/270217/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AGP%20on%202027-02-15%20returning%202027-02-17&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Evadează la soare și temperaturi de 20°C pe Coasta Soarelui! Plimbări la apus pe faleza Muelle Uno, Muzeul Picasso, fortăreața maură Alcazaba și tapas savuroase la malul mării Mediterane.",
+    "featured": true,
+    "publishedAt": "2026-11-12T17:34:46.566203+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34"
+  },
+  {
+    "id": "deal-ski-014",
+    "slug": "vacanta-schi-zakopane-muntii-tatra-hotel-spa-152-euro",
+    "title": "Vacanță la Schi în Zakopane & Munții Tatra (Polonia): 4 nopți la Hotel & Resort Spa 5★",
+    "destination": "Zakopane & Munții Tatra (Polonia)",
+    "country": "Polonia",
+    "flag": "🇵🇱",
+    "originCity": "București",
+    "originCode": "AUTO",
+    "destinationCode": "ZAKOPANE",
+    "dates": "12 – 16 Februarie 2027",
+    "departureDate": "2027-02-12",
+    "returnDate": "2027-02-16",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🎿 Schi & Ape Termale în Tatra",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 152,
+    "discountPercent": 46,
+    "flight": {
+      "airline": "Transport propriu",
+      "airlineCode": "CAR",
+      "route": "Transport propriu (mașină personală)",
+      "price": 0,
+      "baggageInfo": "Fără limită de bagaje cu mașina personală",
+      "link": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+      "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+      "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+      "momondoLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+      "kiwiLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Aries Hotel & SPA Zakopane 5★",
+      "provider": "Booking.com",
+      "stars": 5,
+      "rating": 9.2,
+      "reviewsCount": 3100,
+      "distance": "În inima Zakopane, la 250m de strada pietonală Krupówki și skibus spre Kasprowy Wierch",
+      "amenities": [
+        "Zonă wellness & spa de lux",
+        "Piscină interioară încălzită",
+        "2 jacuzzi în aer liber",
+        "Mic dejun gourmet inclus"
+      ],
+      "priceTotal": 304,
+      "pricePerPerson": 152,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Aries Hotel & SPA Zakopane 5★",
+        "rating": 9.2,
+        "priceTotal": 304,
+        "pricePerPerson": 152,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Zakopane & Munții Tatra (Polonia)",
+        "rating": 9.3,
+        "priceTotal": 304,
+        "pricePerPerson": 152,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/zakopane-pl.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "20 – 24 Februarie 2027",
+        "price": 164,
+        "departureDate": "2027-02-20",
+        "returnDate": "2027-02-24",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-20&checkout=2027-02-24&group_adults=2&no_rooms=1",
+        "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
+        "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland"
+      }
+    ],
+    "description": "Capitala de iarnă a Poloniei! Schi pe pantele impresionante din Munții Tatra Mare, băi termale calde în aer liber la Chochołowska Baths, arhitectură montană din lemn și gastronomie poloneză delicioasă.",
+    "featured": true,
+    "publishedAt": "2026-11-12T17:34:46.566203+00:00",
+    "transportType": "self",
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34"
+  },
+  {
     "id": "deal-2041",
     "slug": "city-break-manchester-din-bucuresti-179-euro",
     "title": "City Break în Manchester & Liverpool: 4 nopți la hotel verificat + Zbor direct",

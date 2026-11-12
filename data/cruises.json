@@ -1,5 +1,58 @@
 [
   {
+    "id": "cruise-007",
+    "slug": "croaziera-mediterana-de-est-insulele-grecesti-celestyal-journey-din-atena-549-euro",
+    "title": "Croazieră de 8 Zile în Insulele Grecești & Marea Egee: Atena, Mykonos, Santorini, Creta & Rodos",
+    "destination": "Insulele Grecești & Marea Egee",
+    "category": "Croazieră de Vis",
+    "cruiseLine": "Celestyal Cruises",
+    "shipName": "Celestyal Journey ★★★★",
+    "dates": "17 – 24 Aprilie 2027",
+    "departureDate": "2027-04-17",
+    "returnDate": "2027-04-24",
+    "nights": 7,
+    "badge": "⚓ 5 Insule Grecești & All-Inclusive",
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 549,
+    "discountPercent": 42,
+    "itinerary": [
+      "Ziua 1: Atena (Piraeus) – Îmbarcare și plecare la ora 17:00",
+      "Ziua 2: Mykonos – Morile de vânt și Mica Veneție (până noaptea târziu)",
+      "Ziua 3: Kusadasi (Efes, Turcia) – Orașul antic Efes & Casa Fecioarei Maria",
+      "Ziua 4: Patmos – Mănăstirea Sf. Ioan & Peștera Apocalipsei",
+      "Ziua 5: Rodos – Cetatea Cavalerilor Ioaniți & Lindos",
+      "Ziua 6: Creta (Heraklion) – Palatul minoic din Knossos",
+      "Ziua 7: Santorini – Apus legendar în Oia și stâncile vulcanice Fira",
+      "Ziua 8: Atena (Piraeus) – Dezasociere și retur"
+    ],
+    "included": [
+      "Cazare 7 nopți în cabină elegantă pe nava Celestyal Journey",
+      "Toate mesele incluse (Pensiune Completă + gustări gourmet între mese)",
+      "Pachet de băuturi selectate gratuit în timpul meselor",
+      "Divertisment live în fiecare seară (spectacole muzicale, dans tradițional)",
+      "Taxe portuare și de securitate incluse",
+      "Excursie inclusă la situl arheologic din Efes"
+    ],
+    "lastVerifiedAt": "2026-11-12T17:34:46.566203+00:00",
+    "lastVerifiedFormatted": "12 November 2026, 19:34",
+    "boardingPort": "Atena (Piraeus), Grecia",
+    "originCity": "București",
+    "originCode": "OTP",
+    "flightPrice": 45,
+    "cruisePrice": 504,
+    "flight": {
+      "airline": "Ryanair / Wizz Air",
+      "route": "OTP – ATH (Direct)",
+      "price": 45,
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-04-17&dateIn=2027-04-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=ATH&tpAdults=2"
+    },
+    "cruiseDetails": {
+      "cabinType": "Cabină elegantă Celestyal Journey",
+      "mealPlan": "All-Inclusive (Toate mesele & băuturi selectate în timpul meselor)",
+      "link": "https://www.celestyal.com/en-eu"
+    }
+  },
+  {
     "id": "cruise-001",
     "slug": "croaziera-mediterana-de-vest-msc-world-europa-din-barcelona-499-euro",
     "title": "Croazieră de Vis în Mediterana de Vest: 7 nopți pe nava de lux MSC World Europa + Zbor",

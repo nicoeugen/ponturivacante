@@ -1,5 +1,38 @@
 [
   {
+    "id": "ro-deal-017",
+    "slug": "treehouse-casuta-in-copac-ciubar-porumbacu-fagaras",
+    "title": "Treehouse de Lux & Ciubăr Panoramic la Poalele Făgărașului (Porumbacu de Sus)",
+    "location": "Porumbacu de Sus, Sibiu (Transilvania)",
+    "destination": "Munții Făgăraș & Castelul de Lut",
+    "county": "Sibiu",
+    "region": "Transilvania",
+    "category": "Căsuțe în Copac & Ciubăr",
+    "badge": "🏡 Căsuță în Copac & Râu de Munte",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+    "rating": 9.8,
+    "reviewsCount": 290,
+    "priceTotalPerPerson": 80,
+    "priceRoomTotal": 320,
+    "minNights": 2,
+    "capacity": "2 persoane",
+    "voucherAccepted": true,
+    "dates": "Weekenduri & Sezon Iarnă-Primăvară 2026/2027",
+    "amenities": [
+      "Căsuță unică suspendată în coronamentul copacilor",
+      "Ciubăr privat din fibră încălzit cu lemne",
+      "Șemineu electric & terasă panoramică spre Munții Făgăraș",
+      "Zgomotul relaxant al râului de munte chiar sub terasă",
+      "La 5 minute de Castelul de Lut Valea Zânelor și Povestea Calendarului"
+    ],
+    "description": "Trăiește un vis din copilărie într-un treehouse spectaculos! Ascunsă printre arbori seculari la poalele Munților Făgăraș, căsuța oferă tot confortul modern: pat king-size, ciubăr privat cu apă fierbinte, priveliște panoramică și liniște deplină în mijlocul naturii.",
+    "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Porumbacu+de+Sus&aid=304142",
+    "featured": true,
+    "publishedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedFormatted": "16 November 2026, 18:41"
+  },
+  {
     "id": "ro-deal-016",
     "slug": "conac-boieresc-domeniu-istoric-piscina-interioara-maramures",
     "title": "Conac Boieresc & Domeniu Istoric în Maramureș: Piscină Interioară Încălzită & Cină Tradițională",

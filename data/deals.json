@@ -1,5 +1,465 @@
 [
   {
+    "id": "deal-2049",
+    "slug": "city-break-viena-din-bucuresti-117-euro",
+    "title": "City Break în Viena & Palatul Schönbrunn: 2 nopți la hotel 4★ + Zbor direct",
+    "destination": "Viena & Palatul Schönbrunn",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "VIE",
+    "dates": "11 – 13 Martie 2027",
+    "departureDate": "2027-03-11",
+    "returnDate": "2027-03-13",
+    "nights": 2,
+    "category": "City Break",
+    "badge": "👑 Palate Imperiale & Cafea Vieneză",
+    "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 117,
+    "discountPercent": 50,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – VIE (Direct)",
+      "price": 53,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-11&dateIn=2027-03-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-11&dateIn=2027-03-13&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20VIE%20on%202027-03-11%20returning%202027-03-13&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/vie/270311/270313/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-VIE/2027-03-11/2027-03-13/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=VIE&departure=2027-03-11&return=2027-03-13&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Schani Wien 4★",
+      "provider": "Booking.com",
+      "stars": 4,
+      "rating": 8.8,
+      "reviewsCount": 4600,
+      "distance": "La 200m de Gara Centrală din Viena, tramvai direct spre Stephansdom și Ringstraße",
+      "amenities": [
+        "Design ecologic inovator",
+        "Grădină interioară verde",
+        "Cafenea vieneză tradițională",
+        "Wi-Fi rapid gratuit"
+      ],
+      "priceTotal": 128,
+      "pricePerPerson": 64,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof&checkin=2027-03-11&checkout=2027-03-13&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Hotel Schani Wien 4★",
+        "rating": 8.8,
+        "priceTotal": 128,
+        "pricePerPerson": 64,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof&checkin=2027-03-11&checkout=2027-03-13&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Viena & Palatul Schönbrunn",
+        "rating": 8.9,
+        "priceTotal": 128,
+        "pricePerPerson": 64,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/vienna-at.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "22 – 25 Martie 2027",
+        "price": 150,
+        "departureDate": "2027-03-22",
+        "returnDate": "2027-03-25",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-22&dateIn=2027-03-25&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=VIE&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/vie/270322/270325/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20VIE%20on%202027-03-22%20returning%202027-03-25&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Eleganță imperială și cultură vieneză! Palatul Schönbrunn, Galeria Belvedere cu capodopera Sărutul de Klimt, Opera de Stat și o felie autentică de tort Sachertorte cu zbor direct din București.",
+    "featured": true,
+    "publishedAt": "2026-11-16T16:41:44.774303+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedFormatted": "16 November 2026, 18:41"
+  },
+  {
+    "id": "deal-2050",
+    "slug": "city-break-milano-lacul-como-din-cluj-160-euro",
+    "title": "City Break în Milano & Lacul Como (din Cluj): 5 nopți la hotel 4★ + Zbor direct",
+    "destination": "Milano & Lacul Como (din Cluj)",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "Cluj-Napoca",
+    "originCode": "CLJ",
+    "destinationCode": "BGY",
+    "dates": "5 – 10 Decembrie 2026",
+    "departureDate": "2026-12-05",
+    "returnDate": "2026-12-10",
+    "nights": 5,
+    "category": "City Break",
+    "badge": "✨ Domul din Milano & Lacul Como",
+    "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 160,
+    "discountPercent": 55,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "CLJ – BGY (Direct)",
+      "price": 30,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-10&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2026-12-05&dateIn=2026-12-10&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BGY%20on%202026-12-05%20returning%202026-12-10&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bgy/261205/261210/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/CLJ-BGY/2026-12-05/2026-12-10/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=CLJ&to=BGY&departure=2026-12-05&return=2026-12-10&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Hotel Da Vinci Milano 4★",
+      "provider": "Booking.com",
+      "stars": 4,
+      "rating": 8.6,
+      "reviewsCount": 7800,
+      "distance": "Lângă gara Bruzzano cu tren direct la Domul din Milano și legătură spre Como",
+      "amenities": [
+        "Parc privat verde",
+        "Restaurant italian gourmet",
+        "Mic dejun generos inclus",
+        "Wi-Fi rapid"
+      ],
+      "priceTotal": 260,
+      "pricePerPerson": 130,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+Centro&checkin=2026-12-05&checkout=2026-12-10&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Hotel Da Vinci Milano 4★",
+        "rating": 8.6,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+Centro&checkin=2026-12-05&checkout=2026-12-10&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Milano & Lacul Como (din Cluj)",
+        "rating": 8.7,
+        "priceTotal": 260,
+        "pricePerPerson": 130,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/milan-it.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "4 – 7 Februarie 2027",
+        "price": 117,
+        "departureDate": "2027-02-04",
+        "returnDate": "2027-02-07",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-04&dateIn=2027-02-07&isConnectedFlight=false&isReturn=true&discount=0&originIata=CLJ&destinationIata=BGY&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/clj/bgy/270204/270207/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20CLJ%20to%20BGY%20on%202027-02-04%20returning%202027-02-07&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Capitala modei italiene și peisajele de basm de la Lacul Como! Domul maiestuos, Galleria Vittorio Emanuele II, cartierul boem Navigli și o excursie cu trenul spre Bellagio și Varenna la tarife incredibile din Cluj-Napoca.",
+    "featured": true,
+    "publishedAt": "2026-11-16T16:41:44.774303+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedFormatted": "16 November 2026, 18:41"
+  },
+  {
+    "id": "deal-2051",
+    "slug": "vacanta-mare-soare-paphos-cipru-106-euro",
+    "title": "Vacanță la Mare & Soare în Paphos (Cipru): 3 nopți la resort 3★ + Zbor direct",
+    "destination": "Paphos & Coasta Mediteranei (Cipru)",
+    "country": "Cipru",
+    "flag": "🇨🇾",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "PFO",
+    "dates": "29 Ianuarie – 1 Februarie 2027",
+    "departureDate": "2027-01-29",
+    "returnDate": "2027-02-01",
+    "nights": 3,
+    "category": "Mare & Soare",
+    "badge": "☀️ Soare 22°C & Plaja Afroditei",
+    "image": "https://images.unsplash.com/photo-1580837119756-563d608dd119?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 106,
+    "discountPercent": 56,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – PFO (Direct)",
+      "price": 40,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-29&dateIn=2027-02-01&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PFO&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-29&dateIn=2027-02-01&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PFO&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PFO%20on%202027-01-29%20returning%202027-02-01&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/pfo/270129/270201/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-PFO/2027-01-29/2027-02-01/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=PFO&departure=2027-01-29&return=2027-02-01&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Kefalos Damon Hotel Apartments 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.6,
+      "reviewsCount": 2100,
+      "distance": "La 400m de plaja Kefalos și faleza turistică cu palmieri",
+      "amenities": [
+        "2 piscine exterioare",
+        "Balcon privat însorit",
+        "Chicinetă utilată",
+        "Restaurant mediteranean"
+      ],
+      "priceTotal": 132,
+      "pricePerPerson": 66,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus&checkin=2027-01-29&checkout=2027-02-01&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Kefalos Damon Hotel Apartments 3★",
+        "rating": 8.6,
+        "priceTotal": 132,
+        "pricePerPerson": 66,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus&checkin=2027-01-29&checkout=2027-02-01&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Paphos & Coasta Mediteranei (Cipru)",
+        "rating": 8.7,
+        "priceTotal": 132,
+        "pricePerPerson": 66,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/paphos-cy.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "5 – 8 Martie 2027",
+        "price": 124,
+        "departureDate": "2027-03-05",
+        "returnDate": "2027-03-08",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-03-05&dateIn=2027-03-08&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=PFO&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/pfo/270305/270308/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20PFO%20on%202027-03-05%20returning%202027-03-08&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Evadare la soare în inima Mediteranei de Est! Stânca Afroditei, mozaicurile romane din parcul arheologic UNESCO, plaje cu ape cristaline și temperaturi primăvăratice de 22°C.",
+    "featured": true,
+    "publishedAt": "2026-11-16T16:41:44.774303+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedFormatted": "16 November 2026, 18:41"
+  },
+  {
+    "id": "deal-2052",
+    "slug": "vacanta-mare-soare-malta-sliema-91-euro",
+    "title": "Vacanță la Mare & Soare în Malta & Sliema: 2 nopți la hotel 3★ pe faleză + Zbor direct",
+    "destination": "Malta & Faleza Sliema",
+    "country": "Malta",
+    "flag": "🇲🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "MLA",
+    "dates": "16 – 18 Ianuarie 2027",
+    "departureDate": "2027-01-16",
+    "returnDate": "2027-01-18",
+    "nights": 2,
+    "category": "Mare & Soare",
+    "badge": "🏰 Cetăți Medievale & Apus la Faleză",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 91,
+    "discountPercent": 58,
+    "flight": {
+      "airline": "Ryanair",
+      "airlineCode": "FR",
+      "route": "OTP – MLA (Direct)",
+      "price": 43,
+      "baggageInfo": "Rucsac gratuit 40×20×25 cm inclus sub scaun",
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MLA&tpAdults=2",
+      "directAirlineLink": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-01-16&dateIn=2027-01-18&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MLA&tpAdults=2",
+      "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MLA%20on%202027-01-16%20returning%202027-01-18&curr=EUR&hl=ro",
+      "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mla/270116/270118/?adultsv2=2",
+      "momondoLink": "https://www.momondo.ro/flight-search/OTP-MLA/2027-01-16/2027-01-18/2adults",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=MLA&departure=2027-01-16&return=2027-01-18&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Sliema Marina Hotel 3★",
+      "provider": "Booking.com",
+      "stars": 3,
+      "rating": 8.5,
+      "reviewsCount": 3400,
+      "distance": "Pe faleza pietonală Sliema, la 3 minute de ferry spre Valletta",
+      "amenities": [
+        "Terasă panoramică pe acoperiș",
+        "Vedere spre portul Marsamxett",
+        "Mic dejun generos",
+        "Wi-Fi rapid"
+      ],
+      "priceTotal": 96,
+      "pricePerPerson": 48,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta&checkin=2027-01-16&checkout=2027-01-18&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Sliema Marina Hotel 3★",
+        "rating": 8.5,
+        "priceTotal": 96,
+        "pricePerPerson": 48,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta&checkin=2027-01-16&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Malta & Faleza Sliema",
+        "rating": 8.6,
+        "priceTotal": 96,
+        "pricePerPerson": 48,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/malta-island-mt.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "13 – 15 Februarie 2027",
+        "price": 94,
+        "departureDate": "2027-02-13",
+        "returnDate": "2027-02-15",
+        "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-02-13&dateIn=2027-02-15&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=MLA&tpAdults=2",
+        "skyscannerLink": "https://www.skyscanner.ro/transport/zboruri/otp/mla/270213/270215/?adultsv2=2",
+        "googleFlightsLink": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20MLA%20on%202027-02-13%20returning%202027-02-15&curr=EUR&hl=ro"
+      }
+    ],
+    "description": "Arhitectură cavalerească de miere, apă turcoaz în Laguna Albastră și apusuri spectaculoase pe faleză! O evadare mediteraneană perfectă la un preț minim garantat sub 100€ de persoană cu tot cu zbor și hotel.",
+    "featured": true,
+    "publishedAt": "2026-11-16T16:41:44.774303+00:00",
+    "transportType": "flight",
+    "lastVerifiedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedFormatted": "16 November 2026, 18:41"
+  },
+  {
+    "id": "deal-ski-015",
+    "slug": "vacanta-schi-bansko-luxury-spa-pirin-156-euro",
+    "title": "Vacanță la Schi în Bansko & Munții Pirin: 4 nopți la Resort 5★ cu Spa Termal",
+    "destination": "Bansko & Munții Pirin (Bulgaria)",
+    "country": "Bulgaria",
+    "flag": "🇧🇬",
+    "originCity": "București",
+    "originCode": "AUTO",
+    "destinationCode": "BANSKO",
+    "dates": "19 – 23 Februarie 2027",
+    "departureDate": "2027-02-19",
+    "returnDate": "2027-02-23",
+    "nights": 4,
+    "category": "Schi & Sporturi de Iarnă",
+    "badge": "🎿 Pârtii Alpin & Ape Termale",
+    "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 156,
+    "discountPercent": 48,
+    "flight": {
+      "airline": "Transport propriu",
+      "airlineCode": "CAR",
+      "route": "Transport propriu (mașină personală)",
+      "price": 0,
+      "baggageInfo": "Echipament de schi inclus fără cost suplimentar în mașină",
+      "link": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+      "directAirlineLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+      "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+      "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+      "momondoLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+      "kiwiLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+      "isConnecting": false
+    },
+    "hotel": {
+      "name": "Regnum Bansko Ski Hotel & SPA 5★",
+      "provider": "Booking.com",
+      "stars": 5,
+      "rating": 9.1,
+      "reviewsCount": 4100,
+      "distance": "La 400m de telegondola principală din Bansko (shuttle privat gratuit la fiecare 15 minute)",
+      "amenities": [
+        "Piscină termală exterioară încălzită",
+        "Centru Spa & Wellness de lux",
+        "Mic dejun gourmet inclus",
+        "Depozit gratuit echipament schi"
+      ],
+      "priceTotal": 312,
+      "pricePerPerson": 156,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "badge": "★ Recomandat (Direct la hotel)",
+        "name": "Regnum Bansko Ski Hotel & SPA 5★",
+        "rating": 9.1,
+        "priceTotal": 312,
+        "pricePerPerson": 156,
+        "type": "Disponibilitate confirmată • Pagina hotelului",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Alte opțiuni & tarife în Bansko & Munții Pirin",
+        "rating": 9.2,
+        "priceTotal": 312,
+        "pricePerPerson": 156,
+        "type": "Compară prețuri • Oferte de sezon pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/bansko-bg.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "26 Februarie – 2 Martie 2027",
+        "price": 165,
+        "departureDate": "2027-02-26",
+        "returnDate": "2027-03-02",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-26&checkout=2027-03-02&group_adults=2&no_rooms=1",
+        "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
+        "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria"
+      }
+    ],
+    "description": "Cel mai modern domeniu schiabil din Balcani! Peste 75 km de pârtii excelente la altitudini de până la 2.600m, piscină termală în aer liber cu apă caldă, mehanale tradiționale bulgărești și răsfăț de 5 stele.",
+    "featured": true,
+    "publishedAt": "2026-11-16T16:41:44.774303+00:00",
+    "transportType": "self",
+    "lastVerifiedAt": "2026-11-16T16:41:44.774303+00:00",
+    "lastVerifiedFormatted": "16 November 2026, 18:41"
+  },
+  {
     "id": "deal-2047",
     "slug": "city-break-londra-din-bucuresti-210-euro",
     "title": "City Break în Londra & Palatul Buckingham: 5 nopți la hotel verificat + Zbor direct",

@@ -1032,6 +1032,54 @@ CANDIDATE_BLUEPRINTS = [
         },
         "description": "Zbor direct din Moldova spre Bruxelles! Explorează muzeele de artă, ciocolateriile celebre și orășelele pitorești ale Flandrei la prețuri de nerefuzat.",
         "discountPercent": 53
+    },
+    {
+        "destCode": "BGY",
+        "destination": "Milano & Lacul Como (din Cluj)",
+        "country": "Italia",
+        "flag": "🇮🇹",
+        "originCity": "Cluj-Napoca",
+        "originCode": "CLJ",
+        "category": "City Break",
+        "badge": "✨ Domul & Lacul Como",
+        "nights": 4,
+        "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Hotel Da Vinci Milano 4★",
+            "stars": 4,
+            "rating": 8.6,
+            "reviewsCount": 7800,
+            "distance": "Lângă gară, tren direct la Domul din Milano",
+            "amenities": ["Parc privat verde", "Restaurant italian", "Mic dejun generos"],
+            "pricePerNightPerPerson": 26,
+            "searchQuery": "Milano+Centro"
+        },
+        "description": "Domul din Milano, cartierul Navigli și peisajele de basm de la Lacul Como cu zbor direct din Cluj-Napoca.",
+        "discountPercent": 55
+    },
+    {
+        "destCode": "CTA",
+        "destination": "Catania & Sicilia Orientală (din București)",
+        "country": "Italia",
+        "flag": "🇮🇹",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🌋 Etna & Taormina",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1528114039593-4366cc08227d?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Il Principe Hotel Catania 4★",
+            "stars": 4,
+            "rating": 8.7,
+            "reviewsCount": 2100,
+            "distance": "În centrul istoric baroc din Catania",
+            "amenities": ["Clădire istorică", "Mic dejun sicilian", "Wi-Fi gratuit"],
+            "pricePerNightPerPerson": 24,
+            "searchQuery": "Catania+Centro"
+        },
+        "description": "Farmec baroc la poalele vulcanului Etna, cannoli autentici și străduțe medievale în Taormina.",
+        "discountPercent": 54
     }
 ]
 

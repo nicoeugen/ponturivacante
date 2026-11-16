@@ -1370,15 +1370,15 @@ def discover_new_deals(existing_deals, ryanair_fares=None, max_new=5):
         kiwi_url = f"https://www.kiwi.com/deep?from={bp['originCode']}&to={dest_code}&departure={departure_date}&return={return_date}&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
         ryanair_url = f"https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut={departure_date}&dateIn={return_date}&isConnectedFlight=false&isReturn=true&discount=0&originIata={bp['originCode']}&destinationIata={dest_code}&tpAdults=2"
 
-        # Linkuri oficiale cazare
+        # Linkuri oficiale cazare cu aid Booking garantat
         if bp['hotel'].get('directSlug'):
-            hotel_booking_url = f"{bp['hotel']['directSlug']}?checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
+            hotel_booking_url = f"{bp['hotel']['directSlug']}?checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1&aid=304142"
         else:
-            hotel_booking_url = f"https://www.booking.com/searchresults.ro.html?ss={bp['hotel']['searchQuery']}&checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1"
+            hotel_booking_url = f"https://www.booking.com/searchresults.ro.html?ss={bp['hotel']['searchQuery']}&checkin={departure_date}&checkout={return_date}&group_adults=2&no_rooms=1&aid=304142"
 
         # Link oficial Agoda de oras verificat
         agoda_city_slugs = {
-            'NAP': 'naples-it', 'MLA': 'malta-island-mt', 'PFO': 'paphos-cy',
+            'NAP': 'naples-it', 'MLA': 'valletta-mt', 'PFO': 'paphos-cy',
             'CTA': 'catania-it', 'SKG': 'thessaloniki-gr', 'TIA': 'tirana-al',
             'GDN': 'gdansk-pl', 'TSF': 'venice-it', 'PSA': 'pisa-it',
             'MAD': 'madrid-es', 'BVA': 'paris-fr', 'DUB': 'dublin-ie',

@@ -47,7 +47,7 @@
       ],
       "priceTotal": 228,
       "pricePerPerson": 114,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+City+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+City+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -59,7 +59,7 @@
         "priceTotal": 228,
         "pricePerPerson": 114,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+City+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+City+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -139,7 +139,7 @@
       ],
       "priceTotal": 186,
       "pricePerPerson": 93,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Budapest+City+Centre&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Budapest+City+Centre&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -151,7 +151,7 @@
         "priceTotal": 186,
         "pricePerPerson": 93,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Budapest+City+Centre&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Budapest+City+Centre&checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -231,7 +231,7 @@
       ],
       "priceTotal": 204,
       "pricePerPerson": 102,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Nuremberg+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Nuremberg+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -243,7 +243,7 @@
         "priceTotal": 204,
         "pricePerPerson": 102,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Nuremberg+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Nuremberg+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -323,7 +323,7 @@
       ],
       "priceTotal": 210,
       "pricePerPerson": 105,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Sibiu+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Sibiu+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -335,7 +335,7 @@
         "priceTotal": 210,
         "pricePerPerson": 105,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Sibiu+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sibiu+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -355,7 +355,7 @@
         "price": 115,
         "departureDate": "2026-12-11",
         "returnDate": "2026-12-14",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Sibiu+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sibiu+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142",
         "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Sibiu",
         "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Sibiu"
       }
@@ -415,7 +415,7 @@
       ],
       "priceTotal": 550,
       "pricePerPerson": 275,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Breuil-Cervinia+Italy&checkin=2027-02-11&checkout=2027-02-16&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Breuil-Cervinia+Italy&checkin=2027-02-11&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -427,7 +427,7 @@
         "priceTotal": 550,
         "pricePerPerson": 275,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Breuil-Cervinia+Italy&checkin=2027-02-11&checkout=2027-02-16&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Breuil-Cervinia+Italy&checkin=2027-02-11&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -507,7 +507,7 @@
       ],
       "priceTotal": 352,
       "pricePerPerson": 176,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Kopaonik+Serbia&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Kopaonik+Serbia&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -519,7 +519,7 @@
         "priceTotal": 352,
         "pricePerPerson": 176,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Kopaonik+Serbia&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kopaonik+Serbia&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -539,7 +539,7 @@
         "price": 185,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-23",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Kopaonik+Serbia&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kopaonik+Serbia&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142",
         "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Kopaonik,+Serbia",
         "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Kopaonik,+Serbia"
       }
@@ -599,7 +599,7 @@
       ],
       "priceTotal": 580,
       "pricePerPerson": 290,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Chamonix-Mont-Blanc&checkin=2027-01-21&checkout=2027-01-26&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Chamonix-Mont-Blanc&checkin=2027-01-21&checkout=2027-01-26&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -611,7 +611,7 @@
         "priceTotal": 580,
         "pricePerPerson": 290,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Chamonix-Mont-Blanc&checkin=2027-01-21&checkout=2027-01-26&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Chamonix-Mont-Blanc&checkin=2027-01-21&checkout=2027-01-26&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -691,7 +691,7 @@
       ],
       "priceTotal": 680,
       "pricePerPerson": 340,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Solden+Oetztal&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Solden+Oetztal&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -703,7 +703,7 @@
         "priceTotal": 680,
         "pricePerPerson": 340,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Solden+Oetztal&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Solden+Oetztal&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -714,7 +714,7 @@
         "priceTotal": 680,
         "pricePerPerson": 340,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
-        "link": "https://www.agoda.com/ro-ro/city/soelden-at.html?cid=1980047"
+        "link": "https://www.agoda.com/ro-ro/search?text=Solden&cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -723,7 +723,7 @@
         "price": 360,
         "departureDate": "2027-02-04",
         "returnDate": "2027-02-09",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Solden+Oetztal&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Solden+Oetztal&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142",
         "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/S%C3%B6lden,+Austria",
         "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/S%C3%B6lden,+Austria"
       }
@@ -783,7 +783,7 @@
       ],
       "priceTotal": 128,
       "pricePerPerson": 64,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof&checkin=2027-03-11&checkout=2027-03-13&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof&checkin=2027-03-11&checkout=2027-03-13&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -795,7 +795,7 @@
         "priceTotal": 128,
         "pricePerPerson": 64,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof&checkin=2027-03-11&checkout=2027-03-13&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Vienna+Hauptbahnhof&checkin=2027-03-11&checkout=2027-03-13&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -875,7 +875,7 @@
       ],
       "priceTotal": 260,
       "pricePerPerson": 130,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+Centro&checkin=2026-12-05&checkout=2026-12-10&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+Centro&checkin=2026-12-05&checkout=2026-12-10&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -887,7 +887,7 @@
         "priceTotal": 260,
         "pricePerPerson": 130,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+Centro&checkin=2026-12-05&checkout=2026-12-10&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Milano+Centro&checkin=2026-12-05&checkout=2026-12-10&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -967,7 +967,7 @@
       ],
       "priceTotal": 132,
       "pricePerPerson": 66,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus&checkin=2027-01-29&checkout=2027-02-01&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus&checkin=2027-01-29&checkout=2027-02-01&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -979,7 +979,7 @@
         "priceTotal": 132,
         "pricePerPerson": 66,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus&checkin=2027-01-29&checkout=2027-02-01&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paphos+Cyprus&checkin=2027-01-29&checkout=2027-02-01&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1059,7 +1059,7 @@
       ],
       "priceTotal": 96,
       "pricePerPerson": 48,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta&checkin=2027-01-16&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta&checkin=2027-01-16&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1071,7 +1071,7 @@
         "priceTotal": 96,
         "pricePerPerson": 48,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta&checkin=2027-01-16&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Sliema+Malta&checkin=2027-01-16&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1082,7 +1082,7 @@
         "priceTotal": 96,
         "pricePerPerson": 48,
         "type": "Compară prețuri • Oferte de sezon pe Agoda",
-        "link": "https://www.agoda.com/ro-ro/city/malta-island-mt.html?cid=1980047"
+        "link": "https://www.agoda.com/ro-ro/city/valletta-mt.html?cid=1980047"
       }
     ],
     "alternativeDates": [
@@ -1151,7 +1151,7 @@
       ],
       "priceTotal": 312,
       "pricePerPerson": 156,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1163,7 +1163,7 @@
         "priceTotal": 312,
         "pricePerPerson": 156,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1183,7 +1183,7 @@
         "price": 165,
         "departureDate": "2027-02-26",
         "returnDate": "2027-03-02",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-26&checkout=2027-03-02&group_adults=2&no_rooms=1",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bansko+Bulgaria&checkin=2027-02-26&checkout=2027-03-02&group_adults=2&no_rooms=1&aid=304142",
         "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria",
         "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Bansko,+Bulgaria"
       }
@@ -1243,7 +1243,7 @@
       ],
       "priceTotal": 320,
       "pricePerPerson": 160,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1255,7 +1255,7 @@
         "priceTotal": 320,
         "pricePerPerson": 160,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1335,7 +1335,7 @@
       ],
       "priceTotal": 116,
       "pricePerPerson": 58,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Opera&checkin=2027-01-19&checkout=2027-01-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Opera&checkin=2027-01-19&checkout=2027-01-21&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1347,7 +1347,7 @@
         "priceTotal": 116,
         "pricePerPerson": 58,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Opera&checkin=2027-01-19&checkout=2027-01-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Roma+Opera&checkin=2027-01-19&checkout=2027-01-21&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1427,7 +1427,7 @@
       ],
       "priceTotal": 224,
       "pricePerPerson": 112,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Grand+Place+Brussels&checkin=2027-03-11&checkout=2027-03-15&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Grand+Place+Brussels&checkin=2027-03-11&checkout=2027-03-15&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1439,7 +1439,7 @@
         "priceTotal": 224,
         "pricePerPerson": 112,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Grand+Place+Brussels&checkin=2027-03-11&checkout=2027-03-15&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Grand+Place+Brussels&checkin=2027-03-11&checkout=2027-03-15&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1519,7 +1519,7 @@
       ],
       "priceTotal": 232,
       "pricePerPerson": 116,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-05&checkout=2027-03-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-05&checkout=2027-03-09&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1531,7 +1531,7 @@
         "priceTotal": 232,
         "pricePerPerson": 116,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-05&checkout=2027-03-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-05&checkout=2027-03-09&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1611,7 +1611,7 @@
       ],
       "priceTotal": 280,
       "pricePerPerson": 140,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Venice+Mestre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Venice+Mestre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1623,7 +1623,7 @@
         "priceTotal": 280,
         "pricePerPerson": 140,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Venice+Mestre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Venice+Mestre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1703,7 +1703,7 @@
       ],
       "priceTotal": 136,
       "pricePerPerson": 68,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1715,7 +1715,7 @@
         "priceTotal": 136,
         "pricePerPerson": 68,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Kings+Cross+London&checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1795,7 +1795,7 @@
       ],
       "priceTotal": 216,
       "pricePerPerson": 108,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga+Centro&checkin=2027-02-03&checkout=2027-02-07&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga+Centro&checkin=2027-02-03&checkout=2027-02-07&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1807,7 +1807,7 @@
         "priceTotal": 216,
         "pricePerPerson": 108,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga+Centro&checkin=2027-02-03&checkout=2027-02-07&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Malaga+Centro&checkin=2027-02-03&checkout=2027-02-07&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1887,7 +1887,7 @@
       ],
       "priceTotal": 304,
       "pricePerPerson": 152,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1899,7 +1899,7 @@
         "priceTotal": 304,
         "pricePerPerson": 152,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -1919,7 +1919,7 @@
         "price": 164,
         "departureDate": "2027-02-20",
         "returnDate": "2027-02-24",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-20&checkout=2027-02-24&group_adults=2&no_rooms=1",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zakopane&checkin=2027-02-20&checkout=2027-02-24&group_adults=2&no_rooms=1&aid=304142",
         "skyscannerLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland",
         "googleFlightsLink": "https://www.google.com/maps/dir/Bucure%C8%99ti/Zakopane,+Poland"
       }
@@ -1979,7 +1979,7 @@
       ],
       "priceTotal": 224,
       "pricePerPerson": 112,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Manchester+Piccadilly&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Manchester+Piccadilly&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -1991,7 +1991,7 @@
         "priceTotal": 224,
         "pricePerPerson": 112,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Manchester+Piccadilly&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Manchester+Piccadilly&checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2071,7 +2071,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2027-01-23&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2027-01-23&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2083,7 +2083,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2027-01-23&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Berlin+Alexanderplatz&checkin=2027-01-23&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2163,7 +2163,7 @@
       ],
       "priceTotal": 186,
       "pricePerPerson": 93,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2027-01-18&checkout=2027-01-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2027-01-18&checkout=2027-01-21&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2175,7 +2175,7 @@
         "priceTotal": 186,
         "pricePerPerson": 93,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2027-01-18&checkout=2027-01-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Edinburgh+New+Town&checkin=2027-01-18&checkout=2027-01-21&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2255,7 +2255,7 @@
       ],
       "priceTotal": 116,
       "pricePerPerson": 58,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2267,7 +2267,7 @@
         "priceTotal": 116,
         "pricePerPerson": 58,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Marseille+Vieux+Port&checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2347,7 +2347,7 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Centro&checkin=2027-01-30&checkout=2027-02-01&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Centro&checkin=2027-01-30&checkout=2027-02-01&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2359,7 +2359,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Centro&checkin=2027-01-30&checkout=2027-02-01&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bologna+Centro&checkin=2027-01-30&checkout=2027-02-01&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2439,7 +2439,7 @@
       ],
       "priceTotal": 290,
       "pricePerPerson": 145,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2451,7 +2451,7 @@
         "priceTotal": 290,
         "pricePerPerson": 145,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Bristol+City+Centre&checkin=2026-12-26&checkout=2026-12-31&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2531,7 +2531,7 @@
       ],
       "priceTotal": 96,
       "pricePerPerson": 48,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2027-02-06&checkout=2027-02-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2027-02-06&checkout=2027-02-08&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2543,7 +2543,7 @@
         "priceTotal": 96,
         "pricePerPerson": 48,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2027-02-06&checkout=2027-02-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pescara+Centro&checkin=2027-02-06&checkout=2027-02-08&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2623,7 +2623,7 @@
       ],
       "priceTotal": 138,
       "pricePerPerson": 69,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme&checkin=2027-01-21&checkout=2027-01-24&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme&checkin=2027-01-21&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2635,7 +2635,7 @@
         "priceTotal": 138,
         "pricePerPerson": 69,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme&checkin=2027-01-21&checkout=2027-01-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Lamezia+Terme&checkin=2027-01-21&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2715,7 +2715,7 @@
       ],
       "priceTotal": 156,
       "pricePerPerson": 78,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Pisa+Centro&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Pisa+Centro&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2727,7 +2727,7 @@
         "priceTotal": 156,
         "pricePerPerson": 78,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Pisa+Centro&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pisa+Centro&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2816,7 +2816,7 @@
       ],
       "priceTotal": 340,
       "pricePerPerson": 170,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2828,7 +2828,7 @@
         "priceTotal": 340,
         "pricePerPerson": 170,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Madrid+Centro&checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -2908,7 +2908,7 @@
       ],
       "priceTotal": 270,
       "pricePerPerson": 135,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Centre&checkin=2027-01-16&checkout=2027-01-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Centre&checkin=2027-01-16&checkout=2027-01-21&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -2920,7 +2920,7 @@
         "priceTotal": 270,
         "pricePerPerson": 135,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Centre&checkin=2027-01-16&checkout=2027-01-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Centre&checkin=2027-01-16&checkout=2027-01-21&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -3000,7 +3000,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-04&checkout=2027-03-06&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-04&checkout=2027-03-06&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -3012,7 +3012,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-04&checkout=2027-03-06&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Dublin+City+Center&checkin=2027-03-04&checkout=2027-03-06&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -3092,7 +3092,7 @@
       ],
       "priceTotal": 162,
       "pricePerPerson": 81,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Montmartre&checkin=2027-02-02&checkout=2027-02-05&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Montmartre&checkin=2027-02-02&checkout=2027-02-05&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -3104,7 +3104,7 @@
         "priceTotal": 162,
         "pricePerPerson": 81,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Montmartre&checkin=2027-02-02&checkout=2027-02-05&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Paris+Montmartre&checkin=2027-02-02&checkout=2027-02-05&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -3184,7 +3184,7 @@
       ],
       "priceTotal": 150,
       "pricePerPerson": 75,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Gdansk+Stare+Miasto&checkin=2026-12-19&checkout=2026-12-22&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Gdansk+Stare+Miasto&checkin=2026-12-19&checkout=2026-12-22&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -3196,7 +3196,7 @@
         "priceTotal": 150,
         "pricePerPerson": 75,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Gdansk+Stare+Miasto&checkin=2026-12-19&checkout=2026-12-22&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Gdansk+Stare+Miasto&checkin=2026-12-19&checkout=2026-12-22&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -3314,7 +3314,7 @@
         "priceTotal": 270,
         "pricePerPerson": 135,
         "type": "Hotel 4★",
-        "link": "https://www.booking.com/searchresults.html?ss=Sliema&checkin=2026-12-30&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Sliema&checkin=2026-12-30&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3407,7 +3407,7 @@
         "priceTotal": 260,
         "pricePerPerson": 130,
         "type": "Hotel 5★",
-        "link": "https://www.booking.com/searchresults.html?ss=Paphos&checkin=2026-12-30&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Paphos&checkin=2026-12-30&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3500,7 +3500,7 @@
         "priceTotal": 290,
         "pricePerPerson": 145,
         "type": "Hotel 4★ Boutique",
-        "link": "https://www.booking.com/searchresults.html?ss=Malaga&checkin=2026-12-30&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Malaga&checkin=2026-12-30&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3593,7 +3593,7 @@
         "priceTotal": 470,
         "pricePerPerson": 235,
         "type": "Hotel 3★ Superior",
-        "link": "https://www.booking.com/searchresults.html?ss=Funchal&checkin=2026-12-29&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Funchal&checkin=2026-12-29&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3686,7 +3686,7 @@
         "priceTotal": 480,
         "pricePerPerson": 240,
         "type": "Resort 5★ All Inclusive",
-        "link": "https://www.booking.com/searchresults.html?ss=Hurghada&checkin=2026-12-30&checkout=2027-01-04"
+        "link": "https://www.booking.com/searchresults.html?ss=Hurghada&checkin=2026-12-30&checkout=2027-01-04&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3779,7 +3779,7 @@
         "priceTotal": 510,
         "pricePerPerson": 255,
         "type": "Resort 4★",
-        "link": "https://www.booking.com/searchresults.html?ss=Playa+de+las+Americas&checkin=2026-12-29&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Playa+de+las+Americas&checkin=2026-12-29&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3872,7 +3872,7 @@
         "priceTotal": 610,
         "pricePerPerson": 305,
         "type": "Hotel 4★",
-        "link": "https://www.booking.com/searchresults.html?ss=Dubai+Marina&checkin=2026-12-29&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Dubai+Marina&checkin=2026-12-29&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -3965,7 +3965,7 @@
         "priceTotal": 410,
         "pricePerPerson": 205,
         "type": "Hotel 4★",
-        "link": "https://www.booking.com/searchresults.html?ss=Bansko&checkin=2026-12-30&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Bansko&checkin=2026-12-30&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4058,7 +4058,7 @@
         "priceTotal": 260,
         "pricePerPerson": 130,
         "type": "Hotel 3★",
-        "link": "https://www.booking.com/searchresults.html?ss=Athens&checkin=2026-12-30&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Athens&checkin=2026-12-30&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4151,7 +4151,7 @@
         "priceTotal": 310,
         "pricePerPerson": 155,
         "type": "Hotel 4★",
-        "link": "https://www.booking.com/searchresults.html?ss=Istanbul&checkin=2026-12-30&checkout=2027-01-03"
+        "link": "https://www.booking.com/searchresults.html?ss=Istanbul&checkin=2026-12-30&checkout=2027-01-03&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4244,7 +4244,7 @@
         "priceTotal": 220,
         "pricePerPerson": 110,
         "type": "Hotel 3★",
-        "link": "https://www.booking.com/searchresults.html?ss=Colmar&checkin=2026-12-05&checkout=2026-12-08"
+        "link": "https://www.booking.com/searchresults.html?ss=Colmar&checkin=2026-12-05&checkout=2026-12-08&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4337,7 +4337,7 @@
         "priceTotal": 180,
         "pricePerPerson": 90,
         "type": "Hotel 3★",
-        "link": "https://www.booking.com/searchresults.html?ss=Prague&checkin=2026-12-04&checkout=2026-12-07"
+        "link": "https://www.booking.com/searchresults.html?ss=Prague&checkin=2026-12-04&checkout=2026-12-07&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4430,7 +4430,7 @@
         "priceTotal": 190,
         "pricePerPerson": 95,
         "type": "Hotel 3★",
-        "link": "https://www.booking.com/searchresults.html?ss=Rome&checkin=2026-11-28&checkout=2026-12-01"
+        "link": "https://www.booking.com/searchresults.html?ss=Rome&checkin=2026-11-28&checkout=2026-12-01&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4523,7 +4523,7 @@
         "priceTotal": 150,
         "pricePerPerson": 75,
         "type": "Hotel 3★",
-        "link": "https://www.booking.com/searchresults.html?ss=Budapest&checkin=2026-11-28&checkout=2026-12-01"
+        "link": "https://www.booking.com/searchresults.html?ss=Budapest&checkin=2026-11-28&checkout=2026-12-01&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4616,7 +4616,7 @@
         "priceTotal": 170,
         "pricePerPerson": 85,
         "type": "Hotel 3★",
-        "link": "https://www.booking.com/searchresults.html?ss=Vienna&checkin=2026-11-28&checkout=2026-12-01"
+        "link": "https://www.booking.com/searchresults.html?ss=Vienna&checkin=2026-11-28&checkout=2026-12-01&aid=304142"
       }
     ],
     "alternativeDates": [
@@ -4680,7 +4680,7 @@
       ],
       "priceTotal": 132,
       "pricePerPerson": 66,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Tirana+Blloku&checkin=2026-11-21&checkout=2026-11-24&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Tirana+Blloku&checkin=2026-11-21&checkout=2026-11-24&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -4692,7 +4692,7 @@
         "priceTotal": 132,
         "pricePerPerson": 66,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Tirana+Blloku&checkin=2026-11-21&checkout=2026-11-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Tirana+Blloku&checkin=2026-11-21&checkout=2026-11-24&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -4781,7 +4781,7 @@
       ],
       "priceTotal": 150,
       "pricePerPerson": 75,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Thessaloniki+Center&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Thessaloniki+Center&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -4793,7 +4793,7 @@
         "priceTotal": 150,
         "pricePerPerson": 75,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Thessaloniki+Center&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Thessaloniki+Center&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -4882,7 +4882,7 @@
       ],
       "priceTotal": 192,
       "pricePerPerson": 96,
-      "link": "https://www.booking.com/searchresults.ro.html?ss=Catania+Centro&checkin=2026-12-04&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Catania+Centro&checkin=2026-12-04&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -4894,7 +4894,7 @@
         "priceTotal": 192,
         "pricePerPerson": 96,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/searchresults.ro.html?ss=Catania+Centro&checkin=2026-12-04&checkout=2026-12-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Catania+Centro&checkin=2026-12-04&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -4983,7 +4983,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -4995,7 +4995,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/cy/damon-apartments.ro.html?checkin=2027-01-21&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5064,7 +5064,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5076,7 +5076,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/mt/the-marina.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5145,7 +5145,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5157,7 +5157,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5226,7 +5226,7 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5238,7 +5238,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/prizeotel-vienna-city.ro.html?checkin=2027-01-16&checkout=2027-01-19&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5307,7 +5307,7 @@
       ],
       "priceTotal": 128,
       "pricePerPerson": 64,
-      "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5319,7 +5319,7 @@
         "priceTotal": 128,
         "pricePerPerson": 64,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-20&checkout=2027-01-23&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5388,7 +5388,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5400,7 +5400,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5469,7 +5469,7 @@
       ],
       "priceTotal": 130,
       "pricePerPerson": 65,
-      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5481,7 +5481,7 @@
         "priceTotal": 130,
         "pricePerPerson": 65,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5550,7 +5550,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5562,7 +5562,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-14&checkout=2026-12-17&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5631,7 +5631,7 @@
       ],
       "priceTotal": 168,
       "pricePerPerson": 84,
-      "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5643,7 +5643,7 @@
         "priceTotal": 168,
         "pricePerPerson": 84,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/ie/point-a-dublin.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5712,7 +5712,7 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5724,7 +5724,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2026-12-16&checkout=2026-12-19&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5793,7 +5793,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5805,7 +5805,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5874,7 +5874,7 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5886,7 +5886,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/ibis-styles-charleroi-airport-aero-44.ro.html?checkin=2027-01-22&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -5955,7 +5955,7 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -5967,7 +5967,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/laurentia-roma.ro.html?checkin=2027-01-19&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6036,7 +6036,7 @@
       ],
       "priceTotal": 98,
       "pricePerPerson": 49,
-      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6048,7 +6048,7 @@
         "priceTotal": 98,
         "pricePerPerson": 49,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2027-01-12&checkout=2027-01-15&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6115,7 +6115,7 @@
       ],
       "priceTotal": 184,
       "pricePerPerson": 92,
-      "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6127,7 +6127,7 @@
         "priceTotal": 184,
         "pricePerPerson": 92,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/piazza-bellini.ro.html?checkin=2026-12-05&checkout=2026-12-09&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6201,7 +6201,7 @@
       ],
       "priceTotal": 280,
       "pricePerPerson": 140,
-      "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6213,7 +6213,7 @@
         "priceTotal": 280,
         "pricePerPerson": 140,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/es/apartamentos-los-cardones.ro.html?checkin=2027-01-15&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6307,7 +6307,7 @@
       ],
       "priceTotal": 220,
       "pricePerPerson": 110,
-      "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6319,7 +6319,7 @@
         "priceTotal": 220,
         "pricePerPerson": 110,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/ae/premier-inn-abu-dhabi-capital-centre.ro.html?checkin=2026-12-10&checkout=2026-12-15&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6413,7 +6413,7 @@
       ],
       "priceTotal": 150,
       "pricePerPerson": 75,
-      "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6425,7 +6425,7 @@
         "priceTotal": 150,
         "pricePerPerson": 75,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/jo/my-by-trend.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6512,7 +6512,7 @@
       ],
       "priceTotal": 280,
       "pricePerPerson": 140,
-      "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6524,7 +6524,7 @@
         "priceTotal": 280,
         "pricePerPerson": 140,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-12&checkout=2027-02-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6602,7 +6602,7 @@
       ],
       "priceTotal": 110,
       "pricePerPerson": 55,
-      "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6614,7 +6614,7 @@
         "priceTotal": 110,
         "pricePerPerson": 55,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/ma/dar-fangui.ro.html?checkin=2027-01-14&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6692,7 +6692,7 @@
       ],
       "priceTotal": 200,
       "pricePerPerson": 100,
-      "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6704,7 +6704,7 @@
         "priceTotal": 200,
         "pricePerPerson": 100,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/pt/orquidea.ro.html?checkin=2027-01-19&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6782,7 +6782,7 @@
       ],
       "priceTotal": 260,
       "pricePerPerson": 130,
-      "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6794,7 +6794,7 @@
         "priceTotal": 260,
         "pricePerPerson": 130,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/es/bungalows-vista-flor.ro.html?checkin=2027-01-23&checkout=2027-01-30&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6885,7 +6885,7 @@
       ],
       "priceTotal": 120,
       "pricePerPerson": 60,
-      "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6897,7 +6897,7 @@
         "priceTotal": 120,
         "pricePerPerson": 60,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/san-giovanni-roma.ro.html?checkin=2026-11-20&checkout=2026-11-23&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -6975,7 +6975,7 @@
       ],
       "priceTotal": 92,
       "pricePerPerson": 46,
-      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -6987,7 +6987,7 @@
         "priceTotal": 92,
         "pricePerPerson": 46,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/b-amp-b-bergamo.ro.html?checkin=2026-11-27&checkout=2026-11-30&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7054,7 +7054,7 @@
       ],
       "priceTotal": 140,
       "pricePerPerson": 70,
-      "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7066,7 +7066,7 @@
         "priceTotal": 140,
         "pricePerPerson": 70,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/es/soho-boutique-malaga.ro.html?checkin=2026-12-03&checkout=2026-12-06&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7132,7 +7132,7 @@
       ],
       "priceTotal": 108,
       "pricePerPerson": 54,
-      "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7144,7 +7144,7 @@
         "priceTotal": 108,
         "pricePerPerson": 54,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/ibis-wien-hauptbahnhof.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7210,7 +7210,7 @@
       ],
       "priceTotal": 100,
       "pricePerPerson": 50,
-      "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7222,7 +7222,7 @@
         "priceTotal": 100,
         "pricePerPerson": 50,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/best-western-san-donato.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7289,7 +7289,7 @@
       ],
       "priceTotal": 112,
       "pricePerPerson": 56,
-      "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7301,7 +7301,7 @@
         "priceTotal": 112,
         "pricePerPerson": 56,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/be/meininger-bra1-4ssel-city-center.ro.html?checkin=2026-12-05&checkout=2026-12-08&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7368,7 +7368,7 @@
       ],
       "priceTotal": 140,
       "pricePerPerson": 70,
-      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7380,7 +7380,7 @@
         "priceTotal": 140,
         "pricePerPerson": 70,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/gb/pont-a-hotel-london-kings-cross.ro.html?checkin=2026-12-12&checkout=2026-12-15&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7447,7 +7447,7 @@
       ],
       "priceTotal": 148,
       "pricePerPerson": 74,
-      "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7459,7 +7459,7 @@
         "priceTotal": 148,
         "pricePerPerson": 74,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/fr/ibis-paris-ornano-montmartre-nord-18eme.ro.html?checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7524,7 +7524,7 @@
       ],
       "priceTotal": 220,
       "pricePerPerson": 110,
-      "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7536,7 +7536,7 @@
         "priceTotal": 220,
         "pricePerPerson": 110,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7556,14 +7556,14 @@
         "price": 105,
         "departureDate": "2027-01-22",
         "returnDate": "2027-01-26",
-        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-01-22&checkout=2027-01-26&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-01-22&checkout=2027-01-26&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "dates": "12 – 16 Februarie 2027",
         "price": 119,
         "departureDate": "2027-02-12",
         "returnDate": "2027-02-16",
-        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/paradiso-verde.ro.html?checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Cea mai populară și avantajoasă stațiune de schi din Balcani! Peste 75 km de pârtii amenajate pe versantul muntelui Todorka (2.600m), telegondolă modernă și relaxare la centrul spa cu piscine încălzite al resortului 4★ Green Life. Fără bătăi de cap cu zborul: vii direct cu mașina și echipamentul în portbagaj.",
@@ -7616,7 +7616,7 @@
       ],
       "priceTotal": 270,
       "pricePerPerson": 135,
-      "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7628,7 +7628,7 @@
         "priceTotal": 270,
         "pricePerPerson": 135,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-29&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7648,14 +7648,14 @@
         "price": 129,
         "departureDate": "2027-01-15",
         "returnDate": "2027-01-19",
-        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "dates": "19 – 23 Februarie 2027",
         "price": 139,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-23",
-        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/rila-borovets.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Ieși din hotel direct pe schiuri! Hotelul Rila 4★ este amplasat legendar la baza pârtiei Martinovi Baraki din Borovets. Domeniul oferă 58 km de pârtii printre pădurile maiestuoase de pini ale munților Rila, nocturnă spectaculoasă și o piscină semiolimpică de 25m cu vedere la zăpadă.",
@@ -7708,7 +7708,7 @@
       ],
       "priceTotal": 196,
       "pricePerPerson": 98,
-      "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7720,7 +7720,7 @@
         "priceTotal": 196,
         "pricePerPerson": 98,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-19&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7740,7 +7740,7 @@
         "price": 95,
         "departureDate": "2027-02-05",
         "returnDate": "2027-02-09",
-        "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/bg/grand-monastery-private-apartments.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Cea mai însorită stațiune montană din Europa, faimoasă pentru cele peste 120 de zile cu soare și pârtii largi excelente pentru familii și începători. Apartamentele Grand Monastery sunt dotate cu șemineu pe lemne și oferă acces direct la telescaunul Studenets.",
@@ -7793,7 +7793,7 @@
       ],
       "priceTotal": 520,
       "pricePerPerson": 260,
-      "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7805,7 +7805,7 @@
         "priceTotal": 520,
         "pricePerPerson": 260,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7825,14 +7825,14 @@
         "price": 270,
         "departureDate": "2027-02-04",
         "returnDate": "2027-02-09",
-        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-02-04&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "dates": "18 – 23 Februarie 2027",
         "price": 280,
         "departureDate": "2027-02-18",
         "returnDate": "2027-02-23",
-        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-02-18&checkout=2027-02-23&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/hotel-maximilian.ro.html?checkin=2027-02-18&checkout=2027-02-23&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Capitala mondială a sporturilor de iarnă! Innsbruck îmbină eleganța unui oraș imperial tirolez cu accesul la 13 domenii schiabile prin Olympia SkiWorld și zăpada impecabilă de pe ghețarul Stubai (3.210m). Telegondola futuristă Nordkette pleacă chiar din inima orașului.",
@@ -7885,7 +7885,7 @@
       ],
       "priceTotal": 570,
       "pricePerPerson": 285,
-      "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7897,7 +7897,7 @@
         "priceTotal": 570,
         "pricePerPerson": 285,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -7917,7 +7917,7 @@
         "price": 295,
         "departureDate": "2027-01-27",
         "returnDate": "2027-02-01",
-        "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-27&checkout=2027-02-01&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/grand-hotel-zell-am-see.ro.html?checkin=2027-01-27&checkout=2027-02-01&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Una din cele mai spectaculoase panorame din Alpii Austrieci! Lacul Zell înghețat și ghețarul Kitzsteinhorn (3.029m) garantează zăpadă 100% din toamnă până în primăvară târzie. Domeniul reunește 138 km de pârtii impecabile și conexiune modernă 3K K-onnection.",
@@ -7970,7 +7970,7 @@
       ],
       "priceTotal": 590,
       "pricePerPerson": 295,
-      "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -7982,7 +7982,7 @@
         "priceTotal": 590,
         "pricePerPerson": 295,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8002,7 +8002,7 @@
         "price": 310,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-24",
-        "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-19&checkout=2027-02-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/q-hotel-maria-theresia.ro.html?checkin=2027-02-19&checkout=2027-02-24&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Legenda mondială a schiului alpin! Aici se desfășoară cea mai faimoasă cursă de coborâre din lume pe pârtia Streif. Domeniul KitzSki pune la dispoziție 233 km de pârtii excelente, 57 de instalații pe cablu ultra-moderne și o atmosferă après-ski de neegalat.",
@@ -8055,7 +8055,7 @@
       ],
       "priceTotal": 480,
       "pricePerPerson": 240,
-      "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8067,7 +8067,7 @@
         "priceTotal": 480,
         "pricePerPerson": 240,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-15&checkout=2027-01-19&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8087,7 +8087,7 @@
         "price": 249,
         "departureDate": "2027-01-22",
         "returnDate": "2027-01-26",
-        "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-22&checkout=2027-01-26&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/at/tui-blue-schladming.ro.html?checkin=2027-01-22&checkout=2027-01-26&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Cea mai accesibilă destinație austriacă din România! Schladming leagă 4 munți într-un singur leagăn de schi cu peste 230 km de pârtii. Hotelul TUI BLUE este amplasat chiar lângă telegondola Planai și oferă o saună panoramică pe acoperiș.",
@@ -8151,7 +8151,7 @@
       ],
       "priceTotal": 480,
       "pricePerPerson": 240,
-      "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8163,7 +8163,7 @@
         "priceTotal": 480,
         "pricePerPerson": 240,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/il-caminetto-sport-canazei.ro.html?checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8240,7 +8240,7 @@
       ],
       "priceTotal": 520,
       "pricePerPerson": 260,
-      "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8252,7 +8252,7 @@
         "priceTotal": 520,
         "pricePerPerson": 260,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/piccolo-tibet.ro.html?checkin=2027-01-20&checkout=2027-01-25&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8329,7 +8329,7 @@
       ],
       "priceTotal": 550,
       "pricePerPerson": 275,
-      "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8341,7 +8341,7 @@
         "priceTotal": 550,
         "pricePerPerson": 275,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/it/oasi-cortina-d-ampezzo.ro.html?checkin=2027-01-26&checkout=2027-01-31&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8414,7 +8414,7 @@
       ],
       "priceTotal": 390,
       "pricePerPerson": 195,
-      "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8426,7 +8426,7 @@
         "priceTotal": 390,
         "pricePerPerson": 195,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8446,7 +8446,7 @@
         "price": 205,
         "departureDate": "2027-02-19",
         "returnDate": "2027-02-24",
-        "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-19&checkout=2027-02-24&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/sk/hotel-jasna.ro.html?checkin=2027-02-19&checkout=2027-02-24&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Cea mai modernă stațiune de schi din Europa Centrală! 50 km de pârtii impecabile deservite de telegondole ultra-rapide Doppelmayr Funitel pe ambii versanți ai muntelui Chopok. După schi, te relaxezi la celebrele bazine termale exterioare de la Tatralandia sau Bešeňová.",
@@ -8499,7 +8499,7 @@
       ],
       "priceTotal": 360,
       "pricePerPerson": 180,
-      "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8511,7 +8511,7 @@
         "priceTotal": 360,
         "pricePerPerson": 180,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-05&checkout=2027-02-09&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8531,7 +8531,7 @@
         "price": 189,
         "departureDate": "2027-02-12",
         "returnDate": "2027-02-16",
-        "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/sk/horizont-resort.ro.html?checkin=2027-02-12&checkout=2027-02-16&group_adults=2&no_rooms=1&aid=304142"
       }
     ],
     "description": "Aici se află pârtia cu cea mai abruptă cădere și cea mai mare diferență de nivel din Carpați: 1.300 metri de la șaua Lomnické sedlo (2.190m) până în vale! Horizont Resort oferă un centru spa spectaculos construit din lemn de cedru și vedere la crestele alpine.",
@@ -8588,7 +8588,7 @@
       ],
       "priceTotal": 570,
       "pricePerPerson": 285,
-      "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8600,7 +8600,7 @@
         "priceTotal": 570,
         "pricePerPerson": 285,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/fr/residence-le-chamois-d-or-val-thorens.ro.html?checkin=2027-01-13&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8676,7 +8676,7 @@
       ],
       "priceTotal": 440,
       "pricePerPerson": 220,
-      "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8688,7 +8688,7 @@
         "priceTotal": 440,
         "pricePerPerson": 220,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/eg/parrotel-beach-resort.ro.html?checkin=2027-03-08&checkout=2027-03-14&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8771,7 +8771,7 @@
       ],
       "priceTotal": 440,
       "pricePerPerson": 220,
-      "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8783,7 +8783,7 @@
         "priceTotal": 440,
         "pricePerPerson": 220,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/eg/seagull-beach-resort.ro.html?checkin=2027-02-15&checkout=2027-02-21&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",
@@ -8859,7 +8859,7 @@
       ],
       "priceTotal": 220,
       "pricePerPerson": 110,
-      "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+      "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
     },
     "accommodationOptions": [
       {
@@ -8871,7 +8871,7 @@
         "priceTotal": 220,
         "pricePerPerson": 110,
         "type": "Disponibilitate confirmată • Pagina hotelului",
-        "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1"
+        "link": "https://www.booking.com/hotel/eg/great-pyramid-inn.ro.html?checkin=2027-01-18&checkout=2027-01-22&group_adults=2&no_rooms=1&aid=304142"
       },
       {
         "provider": "Agoda",

@@ -117,13 +117,13 @@ const categoryTags = (() => {
       <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
 
       <!-- Top Badges -->
-      <div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+      <div class={`absolute top-3 left-3 ${deal.discountPercent ? 'right-16' : 'right-3'} flex flex-wrap gap-1.5 z-10`}>
         {deal.transportType === 'car' ? (
-          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1">
+          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1 shrink-0">
             <span>🚗</span> Cu Mașina
           </span>
         ) : (
-          <span class="px-2.5 py-1 rounded-full bg-sky-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1">
+          <span class="px-2.5 py-1 rounded-full bg-sky-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1 shrink-0">
             <span>✈️</span> Cu Avion
           </span>
         )}
@@ -136,7 +136,7 @@ const categoryTags = (() => {
       </div>
 
       {deal.discountPercent && (
-        <div class="absolute top-3 right-3 px-2 py-0.5 rounded-md bg-amber-400 text-slate-950 text-xs font-black shadow">
+        <div class="absolute top-3 right-3 z-20 px-2 py-0.5 rounded-md bg-amber-400 text-slate-950 text-xs font-black shadow pointer-events-none">
           -{deal.discountPercent}%
         </div>
       )}

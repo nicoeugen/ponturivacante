@@ -1,5 +1,593 @@
 [
   {
+    "id": "deal-exotic-aqaba-2027",
+    "slug": "vacanta-soare-aqaba-marea-rosie-resort-5-stele-iordania-255-euro",
+    "title": "Soare la Marea Roșie în Aqaba: Zbor Direct + 5 Nopți Resort 5★ (255€)",
+    "destination": "Aqaba & Tala Bay (Marea Roșie)",
+    "country": "Iordania",
+    "flag": "🇯🇴",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "AQJ",
+    "dates": "21 – 26 Ianuarie 2027",
+    "departureDate": "2027-01-21",
+    "returnDate": "2027-01-26",
+    "nights": 5,
+    "category": "Exotice",
+    "badge": "☀️ Plajă & Recif de Corali la 24°C",
+    "image": "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 255,
+    "discountPercent": 55,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Ryanair",
+      "departure": "București (OTP)",
+      "arrival": "Aqaba King Hussein (AQJ)",
+      "departureDate": "2027-01-21",
+      "returnDate": "2027-01-26",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 75,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AQJ%20on%202027-01-21%20returning%202027-01-26&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20AQJ%20on%202027-01-21%20returning%202027-01-26&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/aqj/270121/270126/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=AQJ&departure=2027-01-21&return=2027-01-26&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Grand Tala Bay Resort 5★ Aqaba (Pe Plajă)",
+      "stars": 5,
+      "rating": 8.7,
+      "reviewsCount": 2490,
+      "pricePerNight": 72,
+      "priceTotal": 360,
+      "pricePerPerson": 180,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Aqaba+Tala+Bay&checkin=2027-01-21&checkout=2027-01-26&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Grand Tala Bay Resort 5★ (Acces Plajă Privată)",
+        "rating": 8.7,
+        "pricePerNight": 72,
+        "pricePerPerson": 180,
+        "type": "5 piscine, plajă privată cu corali, sporturi acvatice și mic dejun inclus",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Aqaba+Tala+Bay&checkin=2027-01-21&checkout=2027-01-26&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Resorturi de Lux la Marea Roșie Aqaba",
+        "rating": 8.8,
+        "pricePerNight": 69,
+        "pricePerPerson": 172,
+        "type": "Tarife preferențiale Agoda Iordania",
+        "link": "https://www.agoda.com/ro-ro/city/aqaba-jo.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "14 – 19 Ianuarie 2027",
+        "price": 249,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Aqaba+Tala+Bay&checkin=2027-01-14&checkout=2027-01-19&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "28 Ianuarie – 2 Februarie 2027",
+        "price": 265,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Aqaba+Tala+Bay&checkin=2027-01-28&checkout=2027-02-02&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Aqaba este paradisul exotic al Iordaniei la Marea Roșie! În plină lună ianuarie te relaxezi pe șezlong la 24°C, faci snorkeling printre peștii multicolori și recifele de corali neatinse, iar în plus ești la doar 2 ore de mers cu mașina de legendara cetate roz sculptată în stâncă de la Petra și de dunele roșii din deșertul Wadi Rum.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
+    "id": "deal-exotic-marrakech-2027",
+    "slug": "vacanta-exotica-marrakech-riad-medina-maroc-234-euro",
+    "title": "Vacanță Exotică Marrakech: Zbor Direct + 5 Nopți în Riad cu Piscină (234€)",
+    "destination": "Marrakech & Medina Veche",
+    "country": "Maroc",
+    "flag": "🇲🇦",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "RAK",
+    "dates": "18 – 23 Ianuarie 2027",
+    "departureDate": "2027-01-18",
+    "returnDate": "2027-01-23",
+    "nights": 5,
+    "category": "Exotice",
+    "badge": "🌴 O mie și una de nopți la 22°C",
+    "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 234,
+    "discountPercent": 52,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "departure": "București (OTP)",
+      "arrival": "Marrakech (RAK)",
+      "departureDate": "2027-01-18",
+      "returnDate": "2027-01-23",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 89,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20RAK%20on%202027-01-18%20returning%202027-01-23&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20RAK%20on%202027-01-18%20returning%202027-01-23&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/rak/270118/270123/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=RAK&departure=2027-01-18&return=2027-01-23&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Riad Palais des Princesses & Spa (Medina)",
+      "stars": 4,
+      "rating": 9.2,
+      "reviewsCount": 2180,
+      "pricePerNight": 58,
+      "priceTotal": 290,
+      "pricePerPerson": 145,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Marrakech+Medina&checkin=2027-01-18&checkout=2027-01-23&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Riad Tradițional de Lux în Medina",
+        "rating": 9.2,
+        "pricePerNight": 58,
+        "pricePerPerson": 145,
+        "type": "Curte interioară cu piscină, terasă pe acoperiș și mic dejun marocan inclus",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Marrakech+Medina&checkin=2027-01-18&checkout=2027-01-23&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Riaduri & Palate Istorice Marrakech",
+        "rating": 9.1,
+        "pricePerNight": 55,
+        "pricePerPerson": 138,
+        "type": "Tarife verificate Agoda Maroc",
+        "link": "https://www.agoda.com/ro-ro/city/marrakech-ma.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "11 – 16 Ianuarie 2027",
+        "price": 229,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Marrakech+Medina&checkin=2027-01-11&checkout=2027-01-16&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "25 – 30 Ianuarie 2027",
+        "price": 249,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Marrakech+Medina&checkin=2027-01-25&checkout=2027-01-30&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Lasă-te purtat în atmosfera de poveste din 'O mie și una de nopți'! Te cazezi într-un Riad autentic cu mozaicuri zellij, fântâni arteziene și piscină interioară în inima Medinei din Marrakech. Explorează piața vibrantă Jemaa el-Fnaa, grădinile exotice Majorelle ale lui Yves Saint Laurent și fă o excursie de o zi la apus pe cămile în deșertul stâncos Agafay.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
+    "id": "deal-revelion-atena-2027",
+    "slug": "revelion-atena-acropole-plaka-artificii-245-euro",
+    "title": "Revelion 2027 la Atena: Zbor Direct + 4 Nopți Hotel 4★ sub Acropole (245€)",
+    "destination": "Atena & Cartierul Istoric Plaka",
+    "country": "Grecia",
+    "flag": "🇬🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "ATH",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🥂 Revelion sub Lumina Parthenonului",
+    "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 245,
+    "discountPercent": 48,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "departure": "București (OTP)",
+      "arrival": "Atena (ATH)",
+      "departureDate": "2026-12-30",
+      "returnDate": "2027-01-03",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 95,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20ATH%20on%202026-12-30%20returning%202027-01-03&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20ATH%20on%202026-12-30%20returning%202027-01-03&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/ath/261230/270103/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=ATH&departure=2026-12-30&return=2027-01-03&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Acropolis Select Hotel 4★ (Plaka)",
+      "stars": 4,
+      "rating": 8.8,
+      "reviewsCount": 2680,
+      "pricePerNight": 75,
+      "priceTotal": 300,
+      "pricePerPerson": 150,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Athens+Plaka&checkin=2026-12-30&checkout=2027-01-03&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Acropolis Select Hotel 4★ (La 3 min de Muzeul Acropolei)",
+        "rating": 8.8,
+        "pricePerNight": 75,
+        "pricePerPerson": 150,
+        "type": "Terasă cu vedere la Acropole, la câțiva pași de tavernele din Plaka",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Athens+Plaka&checkin=2026-12-30&checkout=2027-01-03&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Hoteluri & Suite Centrale Atena",
+        "rating": 8.7,
+        "pricePerNight": 72,
+        "pricePerPerson": 144,
+        "type": "Tarife preferențiale Agoda Grecia",
+        "link": "https://www.agoda.com/ro-ro/city/athens-gr.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "price": 239,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Athens+Plaka&checkin=2026-12-29&checkout=2027-01-02&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "price": 255,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Athens+Plaka&checkin=2026-12-31&checkout=2027-01-04&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Sărbătorește trecerea în 2027 în leagănul civilizației europene, admirând focurile spectaculoase de artificii ce luminează Parthenonul și Piața Syntagma! Te bucuri de o atmosferă caldă de sărbătoare (15-17°C în miezul iernii), muzică live în tavernele cochete din cartierul boem Plaka și o experiență de neuitat la jumătate din tariful unei vacanțe pe Valea Prahovei.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
+    "id": "deal-revelion-istanbul-2027",
+    "slug": "revelion-istanbul-croaziera-bosfor-artificii-280-euro",
+    "title": "Revelion 2027 la Istanbul: Zbor Direct + 4 Nopți Hotel 4★ & Bosfor (280€)",
+    "destination": "Istanbul & Strâmtoarea Bosfor",
+    "country": "Turcia",
+    "flag": "🇹🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "SAW",
+    "dates": "30 Decembrie 2026 – 3 Ianuarie 2027",
+    "departureDate": "2026-12-30",
+    "returnDate": "2027-01-03",
+    "nights": 4,
+    "category": "Revelion",
+    "badge": "🥂 Artificii Peste Două Continente",
+    "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 280,
+    "discountPercent": 45,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Pegasus / Wizz Air",
+      "departure": "București (OTP)",
+      "arrival": "Istanbul (SAW/IST)",
+      "departureDate": "2026-12-30",
+      "returnDate": "2027-01-03",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 115,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SAW%20on%202026-12-30%20returning%202027-01-03&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20SAW%20on%202026-12-30%20returning%202027-01-03&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/saw/261230/270103/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=SAW&departure=2026-12-30&return=2027-01-03&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Yasmak Sultan Hotel 4★ (Sultanahmet)",
+      "stars": 4,
+      "rating": 8.9,
+      "reviewsCount": 3120,
+      "pricePerNight": 82,
+      "priceTotal": 330,
+      "pricePerPerson": 165,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Istanbul+Sultanahmet&checkin=2026-12-30&checkout=2027-01-03&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Yasmak Sultan Hotel 4★ (Centrul Istoric)",
+        "rating": 8.9,
+        "pricePerNight": 82,
+        "pricePerPerson": 165,
+        "type": "La 5 minute de Sfânta Sofia, piscină interioară și mic dejun bogat inclus",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Istanbul+Sultanahmet&checkin=2026-12-30&checkout=2027-01-03&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Hoteluri cu vedere la Bosfor Istanbul",
+        "rating": 8.8,
+        "pricePerNight": 79,
+        "pricePerPerson": 158,
+        "type": "Compară tarifele speciale de Revelion pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/istanbul-tr.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "29 Decembrie 2026 – 2 Ianuarie 2027",
+        "price": 289,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Istanbul+Sultanahmet&checkin=2026-12-29&checkout=2027-01-02&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "31 Decembrie 2026 – 4 Ianuarie 2027",
+        "price": 295,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Istanbul+Sultanahmet&checkin=2026-12-31&checkout=2027-01-04&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Treci în Noul An navigând între două continente pe apele luminate ale Bosforului! Noaptea de Revelion la Istanbul este magică, cu spectacole grandioase de artificii deasupra podurilor suspendate, croaziere festive cu dansuri tradiționale și cină orientală, bazaruri pline de viață și temperaturi blânde de 12-14°C.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
+    "id": "deal-targ-zagreb-2026",
+    "slug": "targ-de-craciun-zagreb-piata-ban-jelacic-croatia-143-euro",
+    "title": "Târg de Crăciun Zagreb: Zbor Direct + 3 Nopți Hotel 4★ Central (143€)",
+    "destination": "Zagreb & Piața Ban Jelačić",
+    "country": "Croația",
+    "flag": "🇭🇷",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "ZAG",
+    "dates": "11 – 14 Decembrie 2026",
+    "departureDate": "2026-12-11",
+    "returnDate": "2026-12-14",
+    "nights": 3,
+    "category": "Târguri de Crăciun",
+    "badge": "🎄 Votat de 3x Cel Mai Frumos din Europa",
+    "image": "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 143,
+    "discountPercent": 51,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Ryanair",
+      "departure": "București (OTP)",
+      "arrival": "Zagreb (ZAG)",
+      "departureDate": "2026-12-11",
+      "returnDate": "2026-12-14",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 45,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20ZAG%20on%202026-12-11%20returning%202026-12-14&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20ZAG%20on%202026-12-11%20returning%202026-12-14&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/zag/261211/261214/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=ZAG&departure=2026-12-11&return=2026-12-14&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Hotel Dubrovnik 4★ (Chiar în Piața Ban Jelačić)",
+      "stars": 4,
+      "rating": 8.9,
+      "reviewsCount": 3890,
+      "pricePerNight": 65,
+      "priceTotal": 196,
+      "pricePerPerson": 98,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Zagreb+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Hotel Dubrovnik 4★ (KM 0 Zagreb)",
+        "rating": 8.9,
+        "pricePerNight": 65,
+        "pricePerPerson": 98,
+        "type": "Pășești din hotel direct în mijlocul târgului de Crăciun",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zagreb+Center&checkin=2026-12-11&checkout=2026-12-14&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Hoteluri & Apartamente Centrul Istoric Zagreb",
+        "rating": 8.8,
+        "pricePerNight": 62,
+        "pricePerPerson": 93,
+        "type": "Reduceri exclusive pe Agoda",
+        "link": "https://www.agoda.com/ro-ro/city/zagreb-hr.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "4 – 7 Decembrie 2026",
+        "price": 139,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zagreb+Center&checkin=2026-12-04&checkout=2026-12-07&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "18 – 21 Decembrie 2026",
+        "price": 149,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Zagreb+Center&checkin=2026-12-18&checkout=2026-12-21&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Adventul din Zagreb a fost votat de trei ori la rând drept cel mai spectaculos târg de Crăciun din Europa de către European Best Destinations! Tot orașul este o scenă feerică: patinoarul uriaș în aer liber din parcul Regele Tomislav, felinarele cu gaz din Orașul de Sus (Gornji Grad), muzica live de jazz și delicioasele fritule calde cu ciocolată.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
+    "id": "deal-ski-021",
+    "slug": "vacanta-schi-mayrhofen-zillertal-tirol-austria-329-euro",
+    "title": "Schi în Tirol la Mayrhofen & Ghețarul Hintertux: Zbor + 5 Nopți (329€)",
+    "destination": "Mayrhofen & Valea Zillertal (Tirol)",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "FMM",
+    "dates": "5 – 10 Februarie 2027",
+    "departureDate": "2027-02-05",
+    "returnDate": "2027-02-10",
+    "nights": 5,
+    "category": "Schi",
+    "badge": "⛷️ Pârtia Harakiri & Ghețar 365 Zile",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 329,
+    "discountPercent": 48,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Wizz Air",
+      "departure": "București (OTP)",
+      "arrival": "Memmingen / München Vest (FMM)",
+      "departureDate": "2027-02-05",
+      "returnDate": "2027-02-10",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 49,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20FMM%20on%202027-02-05%20returning%202027-02-10&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20FMM%20on%202027-02-05%20returning%202027-02-10&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/fmm/270205/270210/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=FMM&departure=2027-02-05&return=2027-02-10&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Gasthof Zillertal 3★ (Mayrhofen)",
+      "stars": 3,
+      "rating": 8.9,
+      "reviewsCount": 1420,
+      "pricePerNight": 112,
+      "priceTotal": 560,
+      "pricePerPerson": 280,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Mayrhofen+Zillertal&checkin=2027-02-05&checkout=2027-02-10&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Gasthof Zillertal 3★ (Shuttle Pârtie la Ușă)",
+        "rating": 8.9,
+        "pricePerNight": 112,
+        "pricePerPerson": 280,
+        "type": "Ski-bus gratuit către Penkenbahn și Ahornbahn, restaurant tirolez",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Mayrhofen+Zillertal&checkin=2027-02-05&checkout=2027-02-10&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Pensiuni & Chalet-uri Valea Zillertal",
+        "rating": 8.8,
+        "pricePerNight": 108,
+        "pricePerPerson": 270,
+        "type": "Oferte verificate Agoda Austria",
+        "link": "https://www.agoda.com/ro-ro/city/innsbruck-at.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "12 – 17 Februarie 2027",
+        "price": 345,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Mayrhofen+Zillertal&checkin=2027-02-12&checkout=2027-02-17&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "26 Februarie – 3 Martie 2027",
+        "price": 339,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Mayrhofen+Zillertal&checkin=2027-02-26&checkout=2027-03-03&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Valea Zillertal din Tirol este inima schiului austriac, cu 542 km de pârtii și zăpadă 100% garantată datorită ghețarului Hintertux la 3.250m altitudine. Schiorii experimentați pot testa celebra coborâre 'Harakiri' cu înclinație de 78%, iar începătorii și familiile se bucură de pârtiile largi de pe muntele Ahorn și atmosfera legendară de après-ski.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
+    "id": "deal-ski-020",
+    "slug": "vacanta-schi-madonna-di-campiglio-dolomiti-italia-307-euro",
+    "title": "Schi în Dolomiții Brenta la Madonna di Campiglio: Zbor + 5 Nopți (307€)",
+    "destination": "Madonna di Campiglio & Val Rendena (Dolomiți)",
+    "country": "Italia",
+    "flag": "🇮🇹",
+    "originCity": "București",
+    "originCode": "OTP",
+    "destinationCode": "BGY",
+    "dates": "22 – 27 Ianuarie 2027",
+    "departureDate": "2027-01-22",
+    "returnDate": "2027-01-27",
+    "nights": 5,
+    "category": "Schi",
+    "badge": "⛷️ Perla Dolomiților di Brenta",
+    "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80",
+    "priceTotalPerPerson": 307,
+    "discountPercent": 50,
+    "transportType": "flight",
+    "flight": {
+      "airline": "Ryanair",
+      "departure": "București (OTP)",
+      "arrival": "Milano Bergamo (BGY)",
+      "departureDate": "2027-01-22",
+      "returnDate": "2027-01-27",
+      "type": "Direct dus-întors",
+      "pricePerPerson": 42,
+      "link": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BGY%20on%202027-01-22%20returning%202027-01-27&curr=EUR&hl=ro",
+      "googleFlights": "https://www.google.com/travel/flights?q=Round%20trip%20flights%20from%20OTP%20to%20BGY%20on%202027-01-22%20returning%202027-01-27&curr=EUR&hl=ro",
+      "skyscanner": "https://www.skyscanner.ro/transport/zboruri/otp/bgy/270122/270127/?adultsv2=2",
+      "kiwiLink": "https://www.kiwi.com/deep?from=OTP&to=BGY&departure=2027-01-22&return=2027-01-27&passengers=2&lang=ro&currency=EUR&affilid=travelpayouts&marker=801687"
+    },
+    "hotel": {
+      "name": "Albergo Garni San Lorenzo 3★ Superior (Pinzolo / Campiglio)",
+      "stars": 3,
+      "rating": 9.1,
+      "reviewsCount": 1650,
+      "pricePerNight": 106,
+      "priceTotal": 530,
+      "pricePerPerson": 265,
+      "link": "https://www.booking.com/searchresults.ro.html?ss=Pinzolo+Campiglio&checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1&aid=304142"
+    },
+    "accommodationOptions": [
+      {
+        "provider": "Booking.com",
+        "providerId": "booking",
+        "name": "Albergo Garni San Lorenzo 3★S (Aproape de Telegondolă)",
+        "rating": 9.1,
+        "pricePerNight": 106,
+        "pricePerPerson": 265,
+        "type": "La 350m de telegondola Pinzolo-Campiglio Express, mic dejun tirolez inclus",
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pinzolo+Campiglio&checkin=2027-01-22&checkout=2027-01-27&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "provider": "Agoda",
+        "providerId": "agoda",
+        "badge": "Alternativă Agoda (Partener Oficial)",
+        "name": "Hoteluri & Chalet-uri Madonna di Campiglio",
+        "rating": 9.0,
+        "pricePerNight": 102,
+        "pricePerPerson": 255,
+        "type": "Verifică tarifele promoționale Agoda Dolomiți",
+        "link": "https://www.agoda.com/ro-ro/city/trento-it.html?cid=1980047"
+      }
+    ],
+    "alternativeDates": [
+      {
+        "dates": "15 – 20 Ianuarie 2027",
+        "price": 315,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pinzolo+Campiglio&checkin=2027-01-15&checkout=2027-01-20&group_adults=2&no_rooms=1&aid=304142"
+      },
+      {
+        "dates": "29 Ianuarie – 3 Februarie 2027",
+        "price": 329,
+        "link": "https://www.booking.com/searchresults.ro.html?ss=Pinzolo+Campiglio&checkin=2027-01-29&checkout=2027-02-03&group_adults=2&no_rooms=1&aid=304142"
+      }
+    ],
+    "description": "Madonna di Campiglio este cea mai elegantă stațiune de schi din Alpii Italieni, oferind 156 km de pârtii impecabile conectate direct cu Pinzolo și Folgarida-Marilleva. Schiezi înconjurat de coloanele maiestuoase ale Dolomiților de Brenta (patrimoniu UNESCO), iar zborul direct la Bergamo și transferul rapid fac această escapadă extrem de accesibilă.",
+    "featured": true,
+    "publishedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+  },
+  {
     "id": "deal-city-thessaloniki-2027",
     "slug": "city-break-salonic-faleza-marii-egee-din-bucuresti-108-euro",
     "title": "City Break Salonic: Zbor Direct + 3 Nopți Hotel pe Faleză (108€)",

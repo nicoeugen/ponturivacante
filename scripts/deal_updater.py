@@ -1080,6 +1080,102 @@ CANDIDATE_BLUEPRINTS = [
         },
         "description": "Farmec baroc la poalele vulcanului Etna, cannoli autentici și străduțe medievale în Taormina.",
         "discountPercent": 54
+    },
+    {
+        "destCode": "VLC",
+        "destination": "Valencia & Orașul Artelor",
+        "country": "Spania",
+        "flag": "🇪🇸",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🥘 Paella & Soare Mediteranean",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Senator Parque Central Hotel 4★",
+            "stars": 4,
+            "rating": 8.6,
+            "reviewsCount": 2900,
+            "distance": "La 15 minute de mers pe jos de Orașul Artelor",
+            "amenities": ["Saună & Sală fitness", "Bar elegant", "Camere spațioase"],
+            "pricePerNightPerPerson": 29,
+            "searchQuery": "Valencia+Centro"
+        },
+        "description": "Orașul Artelor și Științelor, parcul spectaculos din albia râului Turia și cea mai autentică paella spaniolă.",
+        "discountPercent": 50
+    },
+    {
+        "destCode": "NCE",
+        "destination": "Nisa & Coasta de Azur",
+        "country": "Franța",
+        "flag": "🇫🇷",
+        "originCity": "București",
+        "originCode": "OTP",
+        "category": "City Break",
+        "badge": "🌊 Promenade des Anglais",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Hôtel Univers Nice 3★",
+            "stars": 3,
+            "rating": 8.7,
+            "reviewsCount": 2100,
+            "distance": "La 2 minute de Place Masséna și plajă",
+            "amenities": ["Localizare excelentă", "Mic dejun continental", "Terasă panoramică"],
+            "pricePerNightPerPerson": 32,
+            "searchQuery": "Nice+Center"
+        },
+        "description": "Plimbări elegante pe faimoasa Promenade des Anglais, priveliști azurii de pe Colina Castelului și farmecul Rivierei Franceze.",
+        "discountPercent": 48
+    },
+    {
+        "destCode": "BRI",
+        "destination": "Bari & Coasta Puglia",
+        "country": "Italia",
+        "flag": "🇮🇹",
+        "originCity": "Timișoara",
+        "originCode": "TSR",
+        "category": "City Break",
+        "badge": "🏰 Trulli & Faleză Adriatică",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Hotel Boston Bari 4★",
+            "stars": 4,
+            "rating": 8.6,
+            "reviewsCount": 2400,
+            "distance": "În inima orașului, aproape de Bari Vecchia",
+            "amenities": ["Localizare centrală", "Mic dejun inclus", "Wi-Fi rapid"],
+            "pricePerNightPerPerson": 27,
+            "searchQuery": "Bari+Centro"
+        },
+        "description": "Străduțele înguste din Bari Vecchia unde bunicile fac orecchiette proaspete și excursii de o zi la Polignano a Mare și Alberobello.",
+        "discountPercent": 52
+    },
+    {
+        "destCode": "FCO",
+        "destination": "Roma & Colosseum din Craiova",
+        "country": "Italia",
+        "flag": "🇮🇹",
+        "originCity": "Craiova",
+        "originCode": "CRA",
+        "category": "City Break",
+        "badge": "🏛️ Cetatea Eternă Direct",
+        "nights": 3,
+        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+        "hotel": {
+            "name": "Hotel Artis Roma 4★",
+            "stars": 4,
+            "rating": 8.5,
+            "reviewsCount": 3100,
+            "distance": "Aproape de stația de metrou Mirti, acces direct",
+            "amenities": ["Mic dejun italian", "Parcare privată", "Camere moderne"],
+            "pricePerNightPerPerson": 26,
+            "searchQuery": "Rome+Center"
+        },
+        "description": "Acces facil și direct din Oltenia la marile comori ale Romei: Colosseum, Fontana di Trevi și Muzeele Vaticanului.",
+        "discountPercent": 50
     }
 ]
 

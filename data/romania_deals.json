@@ -1,5 +1,69 @@
 [
   {
+    "id": "ro-deal-019",
+    "slug": "weekend-schi-poiana-brasov-hotel-alpin-spa-145-euro",
+    "title": "Schi & Spa la Poiana Brașov: 3 Nopți la Hotel Alpin 4★ (145€)",
+    "destination": "Poiana Brașov & Masivul Postăvarul",
+    "county": "Brașov",
+    "region": "Transilvania",
+    "dates": "15 – 18 Ianuarie 2027",
+    "nights": 3,
+    "price": 145,
+    "oldPrice": 240,
+    "discountPercent": 40,
+    "badge": "🎿 Schi & Răsfăț Termal",
+    "category": "Schi",
+    "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80",
+    "unitName": "Alpin Resort Hotel 4★ & Vitarium Spa",
+    "rating": 8.9,
+    "reviewsCount": 4350,
+    "amenities": [
+      "Piscină Semi-Olimpică Încălzită",
+      "Saune & Jacuzzi",
+      "Shuttle Pârtie Gratuit",
+      "Depozit Clăpari Încălzit"
+    ],
+    "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Poiana+Brasov&checkin=2027-01-15&checkout=2027-01-18&group_adults=2&no_rooms=1&aid=304142",
+    "voucherAccepted": true,
+    "description": "Un weekend perfect de schi și relaxare totală în cea mai renumită stațiune montană a României. Pachetul de 3 nopți include acces nelimitat la centrul Vitarium Spa (piscină semi-olimpică încălzită, jacuzzi, saune), transport gratuit până la telegondola Postăvarul Expres și facilități complete de depozitare pentru echipament.",
+    "featured": true,
+    "publishedAt": "2026-11-17T15:29:25.000Z",
+    "lastVerifiedAt": "2026-11-17T15:29:25.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 17:25"
+  },
+  {
+    "id": "ro-deal-018",
+    "slug": "targ-de-craciun-brasov-piata-sfatului-hotel-boutique-95-euro",
+    "title": "Târg de Crăciun Brașov: 2 Nopți la Hotel Boutique 4★ în Piața Sfatului (95€)",
+    "destination": "Brașov & Centrul Vechi",
+    "county": "Brașov",
+    "region": "Transilvania",
+    "dates": "11 – 13 Decembrie 2026",
+    "nights": 2,
+    "price": 95,
+    "oldPrice": 165,
+    "discountPercent": 42,
+    "badge": "🎄 Târg de Poveste sub Tâmpa",
+    "category": "Târguri de Crăciun",
+    "image": "https://images.unsplash.com/photo-1549877452-9c387954fbc2?auto=format&fit=crop&w=1200&q=80",
+    "unitName": "Safrano Palace Boutique Hotel 4★",
+    "rating": 9.4,
+    "reviewsCount": 1820,
+    "amenities": [
+      "Localizare Piața Sfatului",
+      "Vedere Biserica Neagră",
+      "Mic Dejun Inclus",
+      "Clădire Istorică Restaurată"
+    ],
+    "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Brasov+Piata+Sfatului&checkin=2026-12-11&checkout=2026-12-13&group_adults=2&no_rooms=1&aid=304142",
+    "voucherAccepted": true,
+    "description": "Trăiește magia sărbătorilor de iarnă în inima Brașovului medieval! Te cazezi chiar în Piața Sfatului, la câțiva pași de bradul uriaș luminat, căsuțele cu vin fiert și Biserica Neagră. Micul dejun este inclus, iar atmosfera de poveste este completată de zăpada de pe muntele Tâmpa.",
+    "featured": true,
+    "publishedAt": "2026-11-17T15:29:25.000Z",
+    "lastVerifiedAt": "2026-11-17T15:29:25.000Z",
+    "lastVerifiedFormatted": "17 noiembrie 2026, 17:25"
+  },
+  {
     "id": "ro-deal-017",
     "slug": "treehouse-casuta-in-copac-ciubar-porumbacu-fagaras",
     "title": "Treehouse de Lux & Ciubăr Panoramic la Poalele Făgărașului (Porumbacu de Sus)",
@@ -29,8 +93,8 @@
     "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Porumbacu+de+Sus&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-16T16:41:44.774303+00:00",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-deal-016",
@@ -55,8 +119,8 @@
       "Aproape de Mănăstirea Bârsana și Memorialul Sighet"
     ],
     "description": "Pășește într-o oază de liniște și rafinament autentic maramureșean! Domeniul îmbină farmecul porților maramureșene sculptate cu confortul modern: piscină încălzită, spa, foc de tabără și bucate alese pregătite după rețete străvechi din Țara Maramureșului.",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19",
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24",
     "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Barsana+Maramures&aid=304142",
     "county": "Maramureș",
     "region": "Maramureș",
@@ -89,8 +153,8 @@
       "Priveliște spectaculoasă 360° spre Masivul Postăvaru și Bucegi"
     ],
     "description": "O experiență montană de neuitat! Relaxează-te în ciubărul cu apă fierbinte sub cerul înstelat, admirând crestele înzăpezite ale Bucegilor. Domul geodezic oferă confortul unui hotel de 5 stele în inima naturii, la doar 10 minute de Cetatea Râșnov și Castelul Bran.",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19",
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24",
     "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Rasnov+Brasov&aid=304142",
     "county": "Brașov",
     "region": "Transilvania",
@@ -127,8 +191,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/cabana-stil-a-frame.ro.html?checkin=2026-12-04&checkout=2026-12-06&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T15:00:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-002",
@@ -156,8 +220,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/lotus-therm-spa-amp-luxury-resort.ro.html?checkin=2026-12-11&checkout=2026-12-13&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T14:30:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-003",
@@ -185,8 +249,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/the-machine-house.ro.html?checkin=2026-12-04&checkout=2026-12-06&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T14:00:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-004",
@@ -214,8 +278,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/casa-traditionala-breb.ro.html?checkin=2026-12-10&checkout=2026-12-13&group_adults=2&no_rooms=1&aid=304142",
     "featured": false,
     "publishedAt": "2026-11-06T13:30:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-005",
@@ -243,8 +307,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/hermanns-sibiu.ro.html?checkin=2026-11-28&checkout=2026-11-30&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T13:00:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-006",
@@ -272,8 +336,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/green-village.ro.html?checkin=2027-05-14&checkout=2027-05-17&group_adults=2&no_rooms=1&aid=304142",
     "featured": false,
     "publishedAt": "2026-11-06T12:00:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-007",
@@ -301,8 +365,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/aparthotel-alpin.ro.html?checkin=2027-01-15&checkout=2027-01-17&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T18:00:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-008",
@@ -330,8 +394,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/rina-cerbul.ro.html?checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T17:45:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-009",
@@ -359,8 +423,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/vila-alpin.ro.html?checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-06T17:30:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-010",
@@ -388,8 +452,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/cindrel.html?checkin=2027-02-05&checkout=2027-02-07&group_adults=2&no_rooms=1&aid=304142",
     "featured": false,
     "publishedAt": "2026-11-06T17:15:00Z",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-011",
@@ -417,8 +481,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/carmen-predeal.ro.html?checkin=2027-01-22&checkout=2027-01-24&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-08T08:15:58.531820+00:00",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-012",
@@ -446,8 +510,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/pensiunea-zan.ro.html?checkin=2027-01-29&checkout=2027-01-31&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-08T08:15:58.531820+00:00",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-013",
@@ -475,8 +539,8 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/complex-turistic-suior.ro.html?checkin=2027-02-05&checkout=2027-02-07&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-08T08:15:58.531820+00:00",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   },
   {
     "id": "ro-014",
@@ -504,7 +568,7 @@
     "bookingUrl": "https://www.booking.com/hotel/ro/hotel-roman-borsa.ro.html?checkin=2027-02-12&checkout=2027-02-14&group_adults=2&no_rooms=1&aid=304142",
     "featured": true,
     "publishedAt": "2026-11-08T08:15:58.531820+00:00",
-    "lastVerifiedAt": "2026-11-17T00:19:24.053141+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 00:19"
+    "lastVerifiedAt": "2026-11-17T15:24:06.128020+00:00",
+    "lastVerifiedFormatted": "17 November 2026, 17:24"
   }
 ]

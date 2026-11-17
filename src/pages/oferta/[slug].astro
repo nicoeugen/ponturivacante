@@ -179,9 +179,10 @@ const relatedArticle = blogArticles.find(a => {
 
 });
 
-
-
-
+const isCar = deal.transportType === 'car' || 
+              deal.transportType === 'self' || 
+              (deal.flight && deal.flight.price === 0) || 
+              (deal.flight && deal.flight.airline && deal.flight.airline.toLowerCase().includes('propriu'));
 
 const soloPrice = deal.flight.price + deal.hotel.priceTotal;
 const agencyEstimatedPrice = Math.round((deal.priceTotalPerPerson * 1.85) + 35);
@@ -564,15 +565,9 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-            <div class="text-xs text-slate-500 mb-0.5">{deal.transportType === 'car' ? '1. Transport' : '1. Bilet Avion Dus-Întors'}</div>
-
-
-
-            <div class="text-lg font-black text-slate-900">{deal.flight.price === 0 ? 'Transport Propriu' : `${deal.flight.price} €`} {deal.flight.price > 0 && <span class="text-xs font-normal text-slate-500">/pers</span>}</div>
-
-
-
-            <div class="text-[11px] text-slate-500 font-semibold">{deal.transportType === 'car' ? 'Mașină personală / Fără avion' : deal.flight.airline}</div>
+            <div class="text-xs text-slate-500 mb-0.5">{isCar ? '1. Transport' : '1. Bilet Avion Dus-Întors'}</div>
+            <div class="text-lg font-black text-slate-900">{isCar ? 'Transport Propriu' : `${deal.flight.price} €`} {!isCar && <span class="text-xs font-normal text-slate-500">/pers</span>}</div>
+            <div class="text-[11px] text-slate-500 font-semibold">{isCar ? 'Mașină personală / Fără avion' : deal.flight.airline}</div>
 
 
 
@@ -612,7 +607,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-            <div id="summary-total-sub" class="text-[11px] text-rose-100">{deal.transportType === 'car' ? 'cazare de top / pers' : 'zbor + cazare / pers'}</div>
+            <div id="summary-total-sub" class="text-[11px] text-rose-100">{isCar ? 'cazare de top / pers' : 'zbor + cazare / pers'}</div>
 
 
 
@@ -710,7 +705,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-      {deal.transportType === 'car' && (
+      {isCar && (
 
 
 
@@ -878,7 +873,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-      {deal.transportType !== 'car' && (
+      {!isCar && (
 
 
 
@@ -1063,157 +1058,89 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-
           <a 
-
-            href={`/go/flight/?url=${encodeURIComponent(deal.flight.link)}&deal=${deal.id}&airline=${deal.flight.airline.toLowerCase()}`}
-
+            href={`/go/flight/?url=${encodeURIComponent(deal.flight.link)}&deal=${deal.id}&airline=${encodeURIComponent(deal.flight.airline || '')}`}
             target="_blank"
-
             rel="noopener noreferrer"
-
             class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-rose-600 hover:bg-rose-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-rose-600/30 text-center"
-
           >
-
-            <span>✈️ {deal.flight.isConnecting ? `Rezervă Zbor (${deal.flight.airline} · ${deal.flight.price} € / pers)` : `Site Oficial ${deal.flight.airline} (${deal.flight.price} € / pers)`}</span>
-
+            <span>✈️ {deal.flight.link.includes('kiwi.com') ? `Rezervă Zbor (${deal.flight.airline} · ${deal.flight.price} € / pers)` : (deal.flight.isConnecting ? `Rezervă Zbor (${deal.flight.airline} · ${deal.flight.price} € / pers)` : `Site Oficial ${deal.flight.airline} (${deal.flight.price} € / pers)`)}</span>
             <span>&rarr;</span>
-
           </a>
 
-
-
-          {deal.flight.skyscannerLink && (
-
+          {deal.flight.kiwiLink && !deal.flight.link.includes('kiwi.com') ? (
             <a 
-
-              href={`/go/flight/?url=${encodeURIComponent(deal.flight.skyscannerLink)}&deal=${deal.id}&provider=skyscanner`}
-
+              href={`/go/flight/?url=${encodeURIComponent(deal.flight.kiwiLink)}&deal=${deal.id}&provider=kiwi`}
               target="_blank"
-
               rel="noopener noreferrer"
-
-              class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-sky-600 hover:bg-sky-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-sky-600/30 text-center"
-
+              class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-emerald-600/30 text-center"
             >
-
-              <span>🔍 Compară & Rezervă pe Skyscanner</span>
-
+              <span>🥝 Verifică pe Kiwi.com (Garanție zboruri)</span>
               <span>&rarr;</span>
-
             </a>
-
-          )}
-
+          ) : deal.flight.skyscannerLink ? (
+            <a 
+              href={`/go/flight/?url=${encodeURIComponent(deal.flight.skyscannerLink)}&deal=${deal.id}&provider=skyscanner`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-sky-600 hover:bg-sky-700 text-white font-extrabold text-sm transition-all shadow-md hover:shadow-sky-600/30 text-center"
+            >
+              <span>🔍 Compară & Rezervă pe Skyscanner</span>
+              <span>&rarr;</span>
+            </a>
+          ) : null}
         </div>
-
-
 
         <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
-
           <span class="flex items-center gap-1.5 font-medium text-emerald-700">
-
             <span class="font-bold">✓</span> {deal.flight.isConnecting ? "Cel mai mic tarif verificat pe zboruri cu escală" : "Preț oficial direct la compania aeriană (fără adaos)"}
-
           </span>
 
-
-
           <div class="flex flex-wrap items-center gap-2">
-
             <span class="text-slate-400">Compară tarife:</span>
-
-            {deal.flight.kiwiLink && (
-
+            {deal.flight.skyscannerLink && (
               <a 
-
-                href={`/go/flight/?url=${encodeURIComponent(deal.flight.kiwiLink)}&deal=${deal.id}&provider=kiwi`}
-
+                href={`/go/flight/?url=${encodeURIComponent(deal.flight.skyscannerLink)}&deal=${deal.id}&provider=skyscanner`}
                 target="_blank"
-
                 rel="noopener noreferrer"
-
-                class="px-2.5 py-1 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-bold border border-emerald-300 transition-colors inline-flex items-center gap-1 shadow-sm"
-
+                class="px-2.5 py-1 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-800 font-bold border border-sky-300 transition-colors inline-flex items-center gap-1 shadow-sm"
               >
-
-                <span>🥝 Kiwi.com</span>
-
+                <span>🔍 Skyscanner</span>
               </a>
-
             )}
-
-            {deal.destinationCode && (
-
-              <a 
-
-                href={`/go/flight/?url=${encodeURIComponent(`https://www.aviasales.com/?marker=801687&origin_iata=${deal.originCode}&destination_iata=${deal.destinationCode}&depart_date=${deal.departureDate || ''}&return_date=${deal.returnDate || ''}&adults=2`)}&deal=${deal.id}&provider=aviasales`}
-
-                target="_blank"
-
-                rel="noopener noreferrer"
-
-                class="px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-800 font-bold border border-blue-300 transition-colors inline-flex items-center gap-1 shadow-sm"
-
-              >
-
-                <span>✈️ Aviasales</span>
-
-              </a>
-
-            )}
-
             {deal.flight.googleFlightsLink && (
-
               <a 
-
                 href={`/go/flight/?url=${encodeURIComponent(deal.flight.googleFlightsLink)}&deal=${deal.id}&provider=google`}
-
                 target="_blank"
-
                 rel="noopener noreferrer"
-
-                class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold border border-slate-200 transition-colors"
-
+                class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold border border-slate-200 transition-colors inline-flex items-center gap-1"
               >
-
-                Google Flights
-
+                <span>🌐 Google Flights</span>
               </a>
-
             )}
-
-            {deal.flight.momondoLink && (
-
+            {deal.destinationCode && (
               <a 
-
-                href={`/go/flight/?url=${encodeURIComponent(deal.flight.momondoLink)}&deal=${deal.id}&provider=momondo`}
-
+                href={`/go/flight/?url=${encodeURIComponent(`https://www.aviasales.com/?marker=801687&origin_iata=${deal.originCode}&destination_iata=${deal.destinationCode}&depart_date=${deal.departureDate || ''}&return_date=${deal.returnDate || ''}&adults=2`)}&deal=${deal.id}&provider=aviasales`}
                 target="_blank"
-
                 rel="noopener noreferrer"
-
-                class="px-2.5 py-1 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-800 font-bold border border-amber-200 transition-colors"
-
+                class="px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-800 font-bold border border-blue-300 transition-colors inline-flex items-center gap-1 shadow-sm"
               >
-
-                Momondo
-
+                <span>✈️ Aviasales</span>
               </a>
-
             )}
-
+            {deal.flight.momondoLink && (
+              <a 
+                href={`/go/flight/?url=${encodeURIComponent(deal.flight.momondoLink)}&deal=${deal.id}&provider=momondo`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold border border-slate-200 transition-colors"
+              >
+                <span>⚡ Momondo</span>
+              </a>
+            )}
           </div>
-
         </div>
-
-
-
       </div>
-
-
-
       )}
 
 
@@ -1434,7 +1361,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
                   🎯 Personalizează cheltuielile estimative:
                 </span>
 
-                {deal.transportType !== 'car' && (
+                {!isCar && (
                   <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
                     <div class="flex items-center gap-3">
                       <input type="checkbox" id="calc-baggage" class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
@@ -1458,7 +1385,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
                   <span class="text-xs font-bold text-amber-300">+{deal.nights * 30} € / pers</span>
                 </label>
 
-                {deal.transportType !== 'car' ? (
+                {!isCar ? (
                   <label class="flex items-center justify-between p-2.5 rounded-xl bg-slate-900/60 hover:bg-slate-900 cursor-pointer border border-slate-700/50 transition-colors">
                     <div class="flex items-center gap-3">
                       <input type="checkbox" id="calc-transfer" checked class="w-4 h-4 text-rose-600 rounded border-slate-600 focus:ring-rose-500 cursor-pointer" />
@@ -1514,7 +1441,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
                 <!-- Detaliu costuri -->
                 <div class="space-y-1.5 text-xs text-slate-300 pt-3 border-t border-slate-700 mb-6">
                   <div class="flex justify-between">
-                    <span>{deal.transportType === 'car' ? '🚗 Transport Propriu:' : '✈️ Zbor dus-întors:'}</span>
+                    <span>{isCar ? '🚗 Transport Propriu:' : '✈️ Zbor dus-întors:'}</span>
                     <strong id="calc-row-flight">-- €</strong>
                   </div>
                   <div class="flex justify-between">
@@ -1567,7 +1494,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
         )}
 
         <!-- Card Despăgubire Zbor Compensair (doar pentru oferte cu avion) -->
-        {deal.transportType !== 'car' && (
+        {!isCar && (
           <div class="bg-sky-50/80 rounded-3xl p-5 border border-sky-200 flex flex-col justify-between shadow-sm">
             <div>
               <div class="text-[11px] font-black text-sky-900 uppercase tracking-wider mb-1 flex items-center justify-between">
@@ -1639,7 +1566,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-      {deal.transportType !== 'car' && <BaggageGuide />}
+      {!isCar && <BaggageGuide />}
 
 
 
@@ -1685,7 +1612,6 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
             {deal.alternativeDates.map(alt => {
 
-              const isCar = deal.transportType === 'car';
 
               const baseHotelUrl = deal.hotel?.link ? deal.hotel.link.split('?')[0] : '';
 
@@ -1833,7 +1759,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
         <h4 class="font-bold text-slate-800 text-base mb-1">📌 Sfaturi importante înainte de rezervare:</h4>
 
-        {deal.transportType === 'car' ? (
+        {isCar ? (
 
           <>
 
@@ -1885,7 +1811,7 @@ const currentAirline = airlines.find(a => a.name.toLowerCase() === deal.flight.a
 
 
 
-  <script is:inline define:vars={{ duoPrice: deal.priceTotalPerPerson, soloPrice, duoHotel: deal.hotel.pricePerPerson, soloHotel: deal.hotel.priceTotal, dealFlightPrice: (deal.transportType === 'car' ? 0 : deal.flight.price), dealHotelTotal: deal.hotel.priceTotal, dealNights: deal.nights }}>
+  <script is:inline define:vars={{ duoPrice: deal.priceTotalPerPerson, soloPrice, duoHotel: deal.hotel.pricePerPerson, soloHotel: deal.hotel.priceTotal, dealFlightPrice: (isCar ? 0 : deal.flight.price), dealHotelTotal: deal.hotel.priceTotal, dealNights: deal.nights }}>
 
 
 

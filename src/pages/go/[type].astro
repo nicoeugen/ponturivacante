@@ -58,16 +58,26 @@ export function getStaticPaths() {
           }
 
           if (isFlight) {
+            // Curățăm orice parametru parazit din linkurile companiilor aeriene
+            if (host.includes('ryanair.com')) {
+              u.searchParams.delete('tpAdults');
+            }
+
             const isAirline = host.includes('wizzair.com') || 
                               host.includes('ryanair.com') || 
                               host.includes('austrian.com') || 
                               host.includes('hisky.aero') || 
                               host.includes('lufthansa.com') || 
+                              host.includes('flypgs.com') ||
                               host.includes('tarom.ro');
 
-            // Nu injectăm parametri străini în routerul SPA al companiilor aeriene (Wizz, Ryanair etc.)
-            // deoarece parametrii necunoscuți determină routerul să redirecționeze pe homepage.
-            if (!isAirline) {
+            const isSearchEngine = host.includes('google.com') || 
+                                   host.includes('skyscanner') ||
+                                   host.includes('momondo');
+
+            // Nu injectăm parametri de tracking pe companiile aeriene sau motoare de căutare
+            // pentru a evita resetarea formularelor SPA sau declanșarea bot checks (PerimeterX).
+            if (!isAirline && !isSearchEngine) {
               if (CONFIG.TRAVELPAYOUTS_MARKER) {
                 u.searchParams.set('marker', CONFIG.TRAVELPAYOUTS_MARKER);
               }

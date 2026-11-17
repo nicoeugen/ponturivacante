@@ -29,7 +29,11 @@
     "featured": true,
     "publishedAt": "2026-11-17T16:41:23.000Z",
     "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
-    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35",
+    "priceTotalPerPerson": 85,
+    "priceRoomTotal": 170,
+    "minNights": 2,
+    "capacity": "2 adulți"
   },
   {
     "id": "ro-deal-021",
@@ -61,7 +65,11 @@
     "featured": true,
     "publishedAt": "2026-11-17T16:41:23.000Z",
     "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
-    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35",
+    "priceTotalPerPerson": 135,
+    "priceRoomTotal": 270,
+    "minNights": 3,
+    "capacity": "2 adulți"
   },
   {
     "id": "ro-deal-020",
@@ -93,7 +101,11 @@
     "featured": true,
     "publishedAt": "2026-11-17T16:41:23.000Z",
     "lastVerifiedAt": "2026-11-17T16:41:23.000Z",
-    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35"
+    "lastVerifiedFormatted": "17 noiembrie 2026, 18:35",
+    "priceTotalPerPerson": 175,
+    "priceRoomTotal": 350,
+    "minNights": 3,
+    "capacity": "2 adulți"
   },
   {
     "id": "ro-deal-019",
@@ -125,7 +137,11 @@
     "featured": true,
     "publishedAt": "2026-11-17T15:29:25.000Z",
     "lastVerifiedAt": "2026-11-17T16:15:23.012073+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 16:15"
+    "lastVerifiedFormatted": "17 November 2026, 16:15",
+    "priceTotalPerPerson": 145,
+    "priceRoomTotal": 290,
+    "minNights": 3,
+    "capacity": "2 adulți"
   },
   {
     "id": "ro-deal-018",
@@ -157,7 +173,11 @@
     "featured": true,
     "publishedAt": "2026-11-17T15:29:25.000Z",
     "lastVerifiedAt": "2026-11-17T16:15:23.012073+00:00",
-    "lastVerifiedFormatted": "17 November 2026, 16:15"
+    "lastVerifiedFormatted": "17 November 2026, 16:15",
+    "priceTotalPerPerson": 95,
+    "priceRoomTotal": 190,
+    "minNights": 2,
+    "capacity": "2 adulți"
   },
   {
     "id": "ro-deal-017",

@@ -95,6 +95,11 @@ const categoryTags = (() => {
 
   return Array.from(tags).join('__');
 })();
+
+const isCar = deal.transportType === 'car' || 
+              deal.transportType === 'self' || 
+              (deal.flight && deal.flight.price === 0) || 
+              (deal.flight && deal.flight.airline && deal.flight.airline.toLowerCase().includes('propriu'));
 ---
 
 <article 
@@ -103,7 +108,7 @@ const categoryTags = (() => {
   data-category={deal.category}
   data-categories={categoryTags}
   data-price={deal.priceTotalPerPerson}
-  data-transport={deal.transportType || 'flight'}
+  data-transport={isCar ? 'car' : (deal.transportType || 'flight')}
 >
   <div>
     <!-- Cover Image with Badges -->
@@ -116,35 +121,43 @@ const categoryTags = (() => {
       />
       <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
 
-      <!-- Top Badges -->
-      <div class={`absolute top-3 left-3 ${deal.discountPercent ? 'right-16' : 'right-3'} flex flex-wrap gap-1.5 z-10`}>
-        {deal.transportType === 'car' ? (
-          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1 shrink-0">
+      <!-- Top Badges Row 1: Transport Type (left) & Discount (right) - Never Collide -->
+      <div class="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 z-10 pointer-events-none">
+        {isCar ? (
+          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1 shrink-0 pointer-events-auto">
             <span>🚗</span> Cu Mașina
           </span>
         ) : (
-          <span class="px-2.5 py-1 rounded-full bg-sky-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1 shrink-0">
+          <span class="px-2.5 py-1 rounded-full bg-sky-600 text-white text-xs font-black tracking-wide shadow-md flex items-center gap-1 shrink-0 pointer-events-auto">
             <span>✈️</span> Cu Avion
           </span>
         )}
-        <span class="px-2.5 py-1 rounded-full bg-rose-600 text-white text-xs font-black tracking-wide shadow-md">
-          {deal.badge}
-        </span>
-        <span class="px-2.5 py-1 rounded-full bg-slate-900/80 backdrop-blur text-white text-xs font-semibold">
-          {deal.category}
-        </span>
+
+        {deal.discountPercent && (
+          <div class="px-2 py-0.5 rounded-md bg-amber-400 text-slate-950 text-xs font-black shadow shrink-0 pointer-events-auto">
+            -{deal.discountPercent}%
+          </div>
+        )}
       </div>
 
-      {deal.discountPercent && (
-        <div class="absolute top-3 right-3 z-20 px-2 py-0.5 rounded-md bg-amber-400 text-slate-950 text-xs font-black shadow pointer-events-none">
-          -{deal.discountPercent}%
-        </div>
-      )}
+      <!-- Top Badges Row 2: Promo Highlight & Category Tags (below row 1, full width available) -->
+      <div class="absolute top-11 left-3 right-3 flex flex-wrap gap-1.5 z-10 pointer-events-none">
+        {deal.badge && (
+          <span class="px-2.5 py-0.5 rounded-full bg-rose-600 text-white text-xs font-black tracking-wide shadow-md truncate max-w-full pointer-events-auto" title={deal.badge}>
+            {deal.badge}
+          </span>
+        )}
+        {deal.category && (
+          <span class="px-2.5 py-0.5 rounded-full bg-slate-900/80 backdrop-blur text-white text-xs font-semibold truncate max-w-full pointer-events-auto">
+            {deal.category}
+          </span>
+        )}
+      </div>
 
       <!-- Bottom Overlay: Origin and Destination -->
       <div class="absolute bottom-3 left-3 right-3 text-white">
         <div class="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
-          <span>{deal.transportType === 'car' ? `🚗 Transport Propriu (${deal.originCity})` : `Din ${deal.originCity} (${deal.originCode})`}</span>
+          <span>{isCar ? `🚗 Transport Propriu (${deal.originCity})` : `Din ${deal.originCity} (${deal.originCode})`}</span>
           <span>&bull;</span>
           <span>{deal.dates}</span>
         </div>

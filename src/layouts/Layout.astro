@@ -18,6 +18,17 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://ponturivacante.ro');
 
+// Imagine optimizată pentru Telegram, WhatsApp și rețele sociale
+// Pentru Unsplash folosim un singur parametru w=1200 (fără entități &amp;) pentru a menține dimensiunea sub 500 KB (Telegram respinge preview-uri > 5MB)
+const ogImage = (() => {
+  let img = image.startsWith('http') ? image : `https://ponturivacante.ro${image}`;
+  if (img.includes('images.unsplash.com')) {
+    const baseUrl = img.split('?')[0];
+    return `${baseUrl}?w=1200`;
+  }
+  return img;
+})();
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -54,20 +65,21 @@ const structuredData = {
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image.startsWith('http') ? image : `https://ponturivacante.ro${image}`} />
-    <meta property="og:image:secure_url" content={image.startsWith('http') ? image : `https://ponturivacante.ro${image}`} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:secure_url" content={ogImage} />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="PonturiVacanțe — Călătorește pe cont propriu la jumătate de preț" />
     <meta property="og:site_name" content="PonturiVacanțe" />
     <meta property="og:locale" content="ro_RO" />
-    <link rel="image_src" href={image.startsWith('http') ? image : `https://ponturivacante.ro${image}`} />
+    <link rel="image_src" href={ogImage} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={image.startsWith('http') ? image : `https://ponturivacante.ro${image}`} />
+    <meta name="twitter:image" content={ogImage} />
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />

@@ -1,5 +1,36 @@
 [
   {
+    "id": "ro-deal-025",
+    "slug": "resort-spa-ape-termale-baile-tusnad-harghita",
+    "title": "Răsfăț Termal la Băile Tușnad: 3 Nopți la Hotel Boutique 4★ cu Spa & Ciubăr (110€)",
+    "destination": "Băile Tușnad & Lacul Sfânta Ana (Harghita)",
+    "county": "Harghita",
+    "region": "Transilvania",
+    "category": "Resort & Spa Termal",
+    "badge": "🧖 Ape Minerale, Mofetă & Păduri de Conifere",
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "dates": "Weekenduri & Sezon Iarnă 2026/2027",
+    "minNights": 3,
+    "nights": 3,
+    "capacity": "2 adulți",
+    "priceTotalPerPerson": 110,
+    "priceRoomTotal": 220,
+    "voucherAccepted": true,
+    "amenities": [
+      "Centru spa rustic din lemn cu saună finlandeză & ciubăr exterior",
+      "Ape minerale tămăduitoare & mofetă naturală",
+      "Mic dejun bogat cu produse tradiționale secuiești",
+      "La 15 minute de Lacul vulcanic Sfânta Ana și Tinovul Mohos",
+      "Acceptă plata cu card de vacanță Edenred, Sodexo, Pluxee"
+    ],
+    "description": "Relaxează-te în cea mai mică stațiune balneară din România, renumită pentru aerul ozonat ca în Alpi și apele minerale tămăduitoare. Cazare la un hotel boutique de 4 stele cu spa rustic din lemn, saună finlandeză, ciubăr exterior și mic dejun bogat cu produse secuiești tradiționale. La 15 minute de singurul lac vulcanic din Europa Centrală și de Est, Lacul Sfânta Ana.",
+    "bookingUrl": "https://www.booking.com/searchresults.ro.html?ss=Baile+Tusnad&aid=304142",
+    "featured": true,
+    "publishedAt": "2026-11-21T12:15:55.627125+00:00",
+    "lastVerifiedAt": "2026-11-21T12:15:55.627125+00:00",
+    "lastVerifiedFormatted": "21 November 2026, 14:15"
+  },
+  {
     "id": "ro-deal-023",
     "slug": "conac-bucovinean-ciubar-mancare-traditionala-gura-humorului",
     "title": "Răsfăț Bucovinean la Gura Humorului: 3 Nopți la Conac 4★ cu Ciubăr Fierbinte, Spa & Cină Tradițională (125€)",

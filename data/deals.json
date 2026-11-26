@@ -872,7 +872,7 @@
     "nights": 3,
     "category": "Târguri de Crăciun",
     "badge": "🎄 Cel Mai Frumos Târg Medieval din Europa",
-    "image": "https://images.unsplash.com/photo-1548705085-1011738333ac?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=1200&q=80",
     "priceTotalPerPerson": 194,
     "discountPercent": 42,
     "transportType": "flight",
@@ -4644,7 +4644,7 @@
     "nights": 4,
     "category": "City Break",
     "badge": "🍫 Ciocolată & Grand Place",
-    "image": "https://images.unsplash.com/photo-1572979267156-f6eb071b7fcf?auto=format&fit=crop&w=1200&q=80",
+    "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1200&q=80",
     "priceTotalPerPerson": 163,
     "discountPercent": 52,
     "flight": {

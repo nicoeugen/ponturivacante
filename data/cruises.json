@@ -44,7 +44,7 @@
       "airline": "Ryanair / Wizz Air",
       "route": "OTP – ATH (Direct)",
       "price": 45,
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-04-17&dateIn=2027-04-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=ATH&tpAdults=2"
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-04-17&dateIn=2027-04-24&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=ATH"
     },
     "cruiseDetails": {
       "cabinType": "Cabină elegantă Celestyal Journey",
@@ -130,7 +130,7 @@
       "airline": "Ryanair",
       "route": "OTP – ATH (Direct)",
       "price": 49,
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-05-07&dateIn=2027-05-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=ATH&tpAdults=2"
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-05-07&dateIn=2027-05-14&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=ATH"
     },
     "cruiseDetails": {
       "cabinType": "Cabină dublă confort",
@@ -222,7 +222,7 @@
       "airline": "Ryanair / Wizz Air",
       "route": "OTP – HAM (Hamburg Direct)",
       "price": 75,
-      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-05-14&dateIn=2027-05-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=HAM&tpAdults=2"
+      "link": "https://www.ryanair.com/ro/ro/trip/flights/select?adults=2&teens=0&children=0&infants=0&dateOut=2027-05-14&dateIn=2027-05-21&isConnectedFlight=false&isReturn=true&discount=0&originIata=OTP&destinationIata=HAM"
     },
     "cruiseDetails": {
       "cabinType": "Cabină confortabilă",
